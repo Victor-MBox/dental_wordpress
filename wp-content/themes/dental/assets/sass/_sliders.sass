@@ -1,0 +1,455 @@
+/* Slick slider Главный экран на главной */
+.main-section
+    .slick-initialized .slick-slide
+        display: flex
+
+    .slick-list
+        overflow: inherit
+
+    .slick-dots
+        position: absolute
+        bottom: 118px
+        left: 0
+        display: flex
+        transition: .3s
+        &:hover
+            li
+                button
+                    background: #B3EBFC
+            li.slick-active
+                button
+                    background: #00BEFA
+        li
+            margin-right: 5px
+            button
+                transition: .3s
+                cursor: pointer
+                color: rgba(255, 255, 255, 0)
+                border-radius: 90px
+                border: none
+                width: 10px
+                height: 12px
+                background: #AEB4C3
+
+        li.slick-active
+            button
+                transition: .3s
+                width: 27px
+                height: 12px
+                background: $black-1
+                box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+
+    /* До после на главной */
+.portfolio-section
+    .slick-list
+        overflow: inherit
+
+/* Навигация слайдера */
+.before-after-arrows
+    position: absolute
+    right: 7px
+    bottom: -36px
+    z-index: 1
+    display: flex
+    &__left
+        width: 48px
+        height: 48px
+        background: #FFFFFF url(assets/img/icons/before-after/b-a-left.svg) center center/40% no-repeat
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: 15px
+        cursor: pointer
+        transition: .2s
+        border: none
+        &:hover
+            background: $lilac-bg url(assets/img/icons/before-after/b-a-left-w.svg) center center/40% no-repeat
+    &__right
+        width: 48px
+        height: 48px
+        background: #FFFFFF url(assets/img/icons/before-after/b-a-right.svg) center center/40% no-repeat
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 1px 15px 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        transition: .2s
+        border: none
+        &:hover
+            background: $lilac-bg url(assets/img/icons/before-after/b-a-right-w.svg) center center/40% no-repeat
+
+/* Сдайд 1 До После */
+
+.before-after, .before-after__gallery, .before-after__img
+    width: 793px
+    height: 485px
+    margin: 0
+    padding: 0
+    border-radius: 45px 5px 45px 5px
+
+.before-after
+    position: relative
+    p
+        font-size: 40px
+        position: absolute
+        bottom: -21px
+        left: 40%
+        z-index: 10
+    &__gallery
+        position: relative
+        display: flex
+        z-index: 1
+    &__img
+        max-width: initial
+        display: block
+        cursor: col-resize
+    &__gallery-after, .before-after__gallery-after::after
+        position: absolute
+        top: 0
+        cursor: col-resize
+    &__gallery-after
+        left: 0
+        width: 50%
+        overflow: hidden
+    &__gallery-after::after
+        content: ''
+        width: 4px
+        background: #fff
+        border-left: 1px solid #000
+        border-right: 1px solid #000
+        box-sizing: border-box
+        position: absolute
+        right: 0
+        height: 100%
+        z-index: 20
+
+    #before, #after
+        position: absolute
+        z-index: 100
+        border: none
+        padding: 10px 20px
+        top: 72px
+        transform: translateY(-50%)
+        cursor: pointer
+
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: #FFFFFF
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+        width: 72px
+        height: 72px
+
+    #before
+        left: 40px
+        background: $black-1
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+    #after
+        right: 40px
+        background: #01B5EE
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 1px 15px 15px
+
+    &__procedure
+        position: absolute
+        bottom: -68px
+        left: 5%
+        z-index: 20
+
+    .tr
+        transition: 0.3s
+
+/* Сдайд 2 До После */
+
+.before-after2, .before-after2__gallery, .before-after2__img
+    width: 793px
+    height: 485px
+    margin: 0
+    padding: 0
+    border-radius: 45px 5px 45px 5px
+
+.before-after2
+    position: relative
+    p
+        font-size: 40px
+        position: absolute
+        bottom: -21px
+        left: 40%
+        z-index: 10
+    &__gallery
+        position: relative
+        display: flex
+        z-index: 1
+    &__img
+        max-width: initial
+        display: block
+        cursor: col-resize
+    &__gallery-after, .before-after2__gallery-after::after
+        position: absolute
+        top: 0
+        cursor: col-resize
+    &__gallery-after
+        left: 0
+        width: 50%
+        overflow: hidden
+    &__gallery-after::after
+        content: ''
+        width: 4px
+        background: #fff
+        border-left: 1px solid #000
+        border-right: 1px solid #000
+        box-sizing: border-box
+        position: absolute
+        right: 0
+        height: 100%
+        z-index: 20
+
+    #before2, #after2
+        position: absolute
+        z-index: 100
+        border: none
+        padding: 10px 20px
+        top: 72px
+        transform: translateY(-50%)
+        cursor: pointer
+
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: #FFFFFF
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+        width: 72px
+        height: 72px
+
+    #before2
+        left: 40px
+        background: $black-1
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+    #after2
+        right: 40px
+        background: #01B5EE
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 1px 15px 15px
+
+    &__procedure
+        position: absolute
+        bottom: -68px
+        left: 5%
+        z-index: 20
+
+    .tr
+        transition: 0.3s
+
+/* Карточка с описанием процедуры */
+.procedure
+    background: #ffffffb5
+    padding: 16px
+    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+    border-radius: 15px 15px 15px 1px
+    transition: .3s all
+    &:hover
+        background: #fff
+    &__img
+        width: 48px
+        height: 48px
+        background: $black-1
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 90px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 18px
+        img
+            width: 12px
+            height: 12px
+    &__subtitle
+        font-weight: 400
+        font-size: 12px
+        line-height: 22px
+        letter-spacing: 0.08em
+        text-transform: uppercase
+        color: $gray-text
+        margin-bottom: 5px
+    &__title
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 5px
+    &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+        letter-spacing: 0.01em
+        color: $gray-text
+        opacity: 0.8
+        margin-bottom: 20px
+    &__prise
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+        letter-spacing: 0.01em
+        color: $gray-text
+        opacity: 0.8
+        margin-bottom: 15px
+        span
+            font-weight: 700
+            color: $black-1
+    .btn
+        width: 100%
+
+/* Карусель с докторами на главной странице */
+.carousel
+    text-align: center
+    display: flex
+    flex-wrap: wrap
+    &__wrapper
+        display: flex
+        flex-direction: column
+        margin-bottom: 39px
+        &:nth-child(2)
+            img
+                border-radius: 45px 45px 1px 45px
+        &:nth-child(3)
+            img
+                border-radius: 45px 45px 45px 1px
+        &:nth-child(4)
+            img
+                border-radius: 1px 45px 45px 45px
+    &__photo
+        position: relative
+        margin-bottom: 42px
+        width: 285px
+        height: 285px
+        img
+            border-radius: 45px 1px 45px 45px
+
+    &__label
+        width: 72px
+        height: 72px
+
+        position: absolute
+        top: 25px
+        left: 24px
+        z-index: 1
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        background: #01B5EE
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 1px 15px 15px
+
+        font-weight: 400
+        font-size: 12px
+        line-height: 12px
+        letter-spacing: 0.08em
+        text-transform: uppercase
+        color: #FFFFFF
+        p
+            margin-bottom: 5px
+        span
+            font-weight: 700
+            font-size: 16px
+            line-height: 22px
+        &_red
+            background: #FF5670
+            border-radius: 15px 15px 1px 15px
+            bottom: 25px
+            right: 22px
+            left: auto
+            top: auto
+        &_lilac
+            background: $lilac-bg
+            left: auto
+            right: 24px
+        &_yellow
+            background: #FDDB2C
+
+    &__name
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        text-align: center
+        letter-spacing: 0.01em
+        color: $black-1
+
+        margin-bottom: 15px
+        span
+            position: relative
+            z-index: 1
+            &::after
+                content: ''
+                position: absolute
+                bottom: 0px
+                left: 0px
+                display: block
+                width: 100%
+                height: 3px
+                border-radius: 0px 2px 2px 2px
+                background: $lilac-bg
+                z-index: -1
+
+    &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        text-align: center
+        letter-spacing: 0.01em
+        color: $gray-text
+
+        padding: 0 26px
+        margin-bottom: 10px
+
+    .btn_entry
+        width: 50%
+        margin: 0 auto
+    /* Навигация */
+    .slick-dots
+        margin: 0 auto
+        width: 312px
+        height: 20px
+        background: $lilac-bg
+        border-radius: 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        li
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-right: 7px
+            &:last-child
+                margin-right: 0
+            button
+                border: none
+                font-size: 0
+                width: 42px
+                height: 10px
+                border-radius: 10px
+                background: $lilac-bg
+                cursor: pointer
+
+        .slick-active
+            button
+                background: #FFFFFF
+                box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+                

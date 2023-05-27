@@ -1,0 +1,106 @@
+/* Footer */
+
+.footer
+    background: #E8F1FF
+    padding: 40px 0
+    &__wrapper
+        display: flex
+        margin-bottom: 45px
+    &__column
+        &:nth-child(1)
+            width: 235px
+            margin-right: 68px
+        &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5)
+            margin-top: 17px
+        &:nth-child(2),
+            width: 146px
+        &:nth-child(3)
+            width: 160px
+        &:nth-child(4)
+            width: 220px
+            margin-right: 84px
+        &:nth-child(5)
+            width: 280px
+            p
+                font-weight: 400
+                font-size: 11px
+                line-height: 13px
+                letter-spacing: 0.01em
+                color: $gray-text
+
+    &__logo
+        margin-bottom: 25px
+        img
+            height: 48px
+            max-width: 178.4px
+
+    &__description
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $gray-text
+        margin-bottom: 28px
+    &__social
+
+    &__title
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 32px
+    &__nav-list
+        li
+            margin-bottom: 10px
+            &:last-child
+                margin-bottom: 0
+            a
+                text-decoration: none
+                font-weight: 400
+                font-size: 14px
+                line-height: 14px
+                color: $gray-text
+    &__item
+        display: flex
+        align-items: center
+        margin-bottom: 15px
+        p
+            font-weight: 400
+            font-size: 14px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: $gray-text
+    &__img-phone, &__img-map, &__img-time
+        width: 32px
+        height: 32px
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 90px
+        margin-right: 10px
+        background: $black-1 url(assets/img/icons/footer-phone.svg) center center/50% no-repeat
+
+    &__img-map
+        background: $black-1 url(assets/img/icons/footer-map.svg) center center/40% no-repeat
+
+    &__img-time
+        background: $black-1 url(assets/img/icons/footer-time.svg) center center/40% no-repeat
+
+    &__form
+        margin-bottom: 35px
+    &__rating
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        margin-top: 8px
+    hr
+        margin-bottom: 15px
+    &__policy
+        display: flex
+        justify-content: space-between
+        p, a
+            font-weight: 400
+            font-size: 14px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: $gray-text
+            text-decoration: none

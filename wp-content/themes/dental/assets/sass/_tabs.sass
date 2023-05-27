@@ -1,0 +1,125 @@
+/* Home_tabs */
+.tabs
+    margin: 0 0px 0 20px
+    display: flex
+    justify-content: flex-end
+
+    &__nav
+        display: flex
+        flex-direction: column
+        align-items: center
+        z-index: 1
+        button
+            &:hover
+                border: 1px solid $lilac-bg
+                background: $lilac-bg
+                .tabs__nav-subtitle
+                    color: #fff
+    &__nav-btn
+        cursor: pointer
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 491px
+        height: 80px
+        background: #FFFFFF
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+        border: 1px solid #fff
+        margin-bottom: 1px
+        padding: 0
+
+    &__nav-column
+        border: none
+        text-align: left
+        height: 78px
+
+        &:nth-child(1)
+            padding: 17px 0 0 20px
+        &:nth-child(2)
+            overflow: hidden
+            position: relative
+            height: 100%
+            width: 81px
+            border-radius: 1px 15px 15px 15px
+            background: #fff
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+
+    &__nav-btn:hover
+        background-color: #ddd
+
+    &__nav-btn.active
+        border: 1px solid $lilac-bg
+        background: $lilac-bg
+        .tabs__nav-subtitle
+            color: #fff
+        .tabs__nav-decor
+            transform: rotate(-180deg)
+
+    &__nav-title
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 5px
+
+    &__nav-subtitle
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+        letter-spacing: 0.01em
+        color: $gray-text
+        opacity: 0.8
+
+    &__nav-decor
+        width: 45px
+        height: 45px
+        opacity: 0.3
+        border-radius: 200% 5px 5px 5px
+        transform: rotate(-90deg)
+        transition: .2s all
+        &_yellow
+            background: #FDDB2C
+        &_red
+            background: #FF5670
+        &_lilac
+            background: #EDE2FF
+            opacity: 1
+        &_blue
+            background: #B3EBFC
+            opacity: 1
+
+    &__nav-number
+        font-weight: 900
+        font-size: 42px
+        line-height: 41px
+        text-align: center
+        letter-spacing: -0.12em
+        color: $black-1
+        position: absolute
+        right: 6px
+        bottom: 0
+
+    &__content
+        padding-right: 16px
+        position: relative
+
+    &__item
+        display: none
+
+    &__item.active
+        display: block
+        img
+            border-radius: 45px 5px 5px 5px
+
+
+    &__btn-call
+        position: absolute
+        left: 44px
+        bottom: 45px
+
+    &__btn-calc
+        position: absolute
+        left: 44px
+        bottom: 45px

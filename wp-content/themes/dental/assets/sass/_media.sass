@@ -1,0 +1,318 @@
+@media (max-width: 1200px)
+    /* Header */
+    .header
+        &__logo
+            margin-right: 4px
+            img
+                width: 140px
+        &__nav
+            margin-right: 10px
+            min-width: 454px
+        .btn
+            padding: 17px 0
+            width: 160px
+    .nav
+        ul
+            li
+                a
+                    font-size: 12px
+                    padding: 15px 8px
+
+    .btn-tel
+        width: 166px
+        font-size: 12px
+
+    /* Footer */
+    .footer
+        &__title
+            font-size: 14px
+        &__column
+            &:nth-child(1)
+                margin-right: 48px
+            &:nth-child(2)
+                margin-right: 10px
+            &:nth-child(3)
+                margin-right: 20px
+            &:nth-child(4)
+                margin-right: 34px
+
+    /* Главная страница */
+    /* Главный экран */
+    .main-section
+        &__container
+            margin-top: 44px
+        &__column
+            height: 540px
+        &__title
+            font-size: 38px
+            line-height: 44px
+        &__subtitle
+            padding-right: 80px
+            br
+                display: none
+        &__img
+            margin: -40px 0px 0px -80px
+            max-width: 100%
+        &__absolut-btn
+            left: auto
+            right: 2%
+
+        .slick-dots
+            bottom: 60px
+
+        .btn-calc
+            width: 232px
+            &__img
+                height: 44px
+                width: 86px
+            &__text
+                br
+                    display: none
+        .btn-call
+            width: 232px
+            &__img
+                height: 44px
+                width: 86px
+            &__text
+                br
+                    display: none
+
+    /* Наши услуги */
+    .services-section
+        &__tabs
+            justify-content: center
+    .tabs
+        &__content
+            display: flex
+            align-items: center
+            margin-top: -5%
+        &__nav-btn
+            width: 420px
+            height: auto
+        &__nav-column
+            &:nth-child(1)
+                padding: 10px 0 10px 20px
+                width: 339px
+        &__btn-calc
+            bottom: 35px
+        &__btn-call
+            bottom: 35px
+
+    /* О нашей клинике */
+    .title
+        font-size: 38px
+        line-height: 36px
+
+    .about-section
+        &__column
+            &:nth-child(1)
+                width: 41%
+            &:nth-child(2)
+                margin-right: 0
+            &:nth-child(3)
+                height: 476px
+                margin-top: 0
+                position: absolute
+                right: 0
+                z-index: -1
+
+        &__description
+            padding-right: 0
+        &__list
+            padding-right: 0
+        &__form
+            left: 470px
+        &__image
+            padding-left: 20px
+            margin-top: 0
+
+    /* Наши работы */
+    .portfolio-section
+        &__wrapper
+            justify-content: center
+        &__column
+            &:nth-child(1)
+                width: 660px
+            &:nth-child(2)
+                margin-right: 0
+                z-index: 1
+            &:nth-child(3)
+                position: absolute
+                right: 0
+
+    .before-after, .before-after__gallery, .before-after__img, .before-after2, .before-after2__gallery, .before-after2__img
+        width: 660px
+        height: 460px
+
+    .before-after-arrows
+        bottom: 0
+
+    /* Наши специалисты */
+    .carousel
+        &__photo
+            width: auto
+            height: auto
+        &__wrapper
+            margin: 0px 5px 25px
+
+    .specialists-section
+        &__carousel
+            margin-bottom: 90px
+
+    /* Наша лаборатория */
+    .laboratory-section
+        &__column
+            &:first-child
+                width: 45%
+        &__image
+            padding-left: 0
+            margin-top: 0
+        &__form
+            left: 690px
+        &__decor-yellow-lab
+            bottom: 6px
+            left: -92px
+        &__decor-red
+            right: -90px
+            top: 0px
+            z-index: -1
+        &__decor-yellow
+            right: -90px
+            bottom: 84px
+            z-index: -1
+
+    /* страница */
+    /* страница */
+    /* страница */
+    /* страница */
+
+@media (max-width: 1024px)
+    /* Header */
+    .header
+        &__container
+            position: relative
+        &__logo
+            img
+                width: 160px
+        &__nav
+            display: none
+        &__wrapper
+            margin-right: 70px
+        &__burger
+            display: block
+
+    /* Burger */
+    .burger
+        position: fixed
+        right: 20px
+        top: 50px
+        height: 48px
+        width: 48px
+        border-radius: 90px
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #fff
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        cursor: pointer
+        transition: .2s
+        z-index: 999
+        &__item
+            background: #01B5EE
+            width: 16px
+            height: 3px
+            border-radius: 90px
+            margin-bottom: 4px
+            &:nth-child(1)
+                width: 12px
+                height: 3px
+            &:nth-child(3)
+                margin-bottom: 0
+
+        &__active
+            background: $black-1
+            .burger
+                &__wrapper
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-end
+
+    .burger-nav
+        position: fixed
+        top: 0
+        right: -400px
+        height: 100vh
+        width: 400px
+        transition: .3s
+        z-index: 100
+        background: #E8F1FF
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 25px 0px 0px 25px
+        padding: 50px 20px
+        &__logo
+            margin-bottom: 50px
+        &__menu
+            margin-left: -5px
+            height: 300px
+            background: #000
+            overflow-y: scroll
+            .teeest
+                height: 600px
+
+        &__active
+            right: 0
+
+
+    /* Главная страница */
+    /* Главный экран */
+    .main-section
+        padding-top: 120px
+        margin-bottom: 56px
+        &__column
+            height: 462px
+        &__title
+            font-size: 30px
+            line-height: 36px
+        &__img
+            margin: -40px 0 10px 0
+        &__absolut-btn
+            bottom: 0
+            top: auto
+            display: flex
+        &__btn-calc
+            margin-right: 15px
+
+        .slick-dots
+            bottom: 30px
+
+        .btn-calc, .btn-call
+            width: 194px
+            height: 60px
+            padding: 10px
+            &__text
+                font-size: 12px
+                line-height: 14px
+            &__img
+                height: 28px
+                width: 58px
+
+    /* Наши Преимущества */
+
+    .title
+        font-size: 30px
+        line-height: 26px
+    .subtitle
+        font-size: 12px
+        line-height: 18px
+
+    .second-section
+        &__title
+            margin-bottom: 25px
+        &__item
+            flex-wrap: wrap
+        &__column
+            width: 50%
+            padding: 0 7%
+            margin-bottom: 26px
+            &:nth-child(3), &:nth-child(4)
+                margin-bottom: 0

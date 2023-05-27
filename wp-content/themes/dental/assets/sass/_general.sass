@@ -1,0 +1,448 @@
+*
+    box-sizing: border-box
+
+h1
+    margin: 0
+
+html
+    font-family: 'HelveticaNeueCyr'
+
+img
+    display: block
+    max-width: 100%
+    height: auto
+
+.container
+    max-width: 1228px
+    margin: 0 auto
+    padding: 0 15px
+
+.page
+    display: flex
+    flex-direction: column
+    min-height: 100vh
+    overflow: hidden
+    padding-top: 148px
+    margin-top: -148px
+
+/* Home__Главный экран */
+.main-section
+    background-image: linear-gradient(to right, #E8F1FF 56.39%, #FFF 43.61%)
+    margin-bottom: 76px
+    padding-top: 148px
+    margin-top: -148px
+    position: relative
+    z-index: 1
+
+    &__container
+        margin-top: 69px
+    &__slide
+        display: flex
+    &__column
+        position: relative
+        height: 582px
+        &:first-child
+            width: 56.39%
+        &:last-child
+            width: 43.61%
+    &__social
+
+    &__title
+        font-weight: 500
+        font-size: 42px
+        line-height: 50px
+        color: $black-1
+        margin-bottom: 11px
+        span
+            text-transform: uppercase
+            font-weight: 700
+    &__subtitle
+        color: $gray-text
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        margin-bottom: 50px
+        letter-spacing: 0.01em
+    &__img
+        margin: -73px 0px 0px -140px
+        max-width: 120%
+    &__buttons
+        display: flex
+        .btn
+            margin-right: 15px
+    &__btn-calc
+        margin-bottom: 15px
+    &__absolut-btn
+        position: absolute
+        top: 208px
+        left: 76%
+
+.social
+    display: flex
+    margin-bottom: 25px
+    transition: .3s
+    a
+        margin-right: 10px
+        width: 24px
+        height: 24px
+        background: #fff
+        border-radius: 90px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid #fff
+
+        transition: .3s
+        img
+            height: 10px
+            width: 12px
+        &:hover
+            background: none
+            border: 1px solid #B4B9C8
+
+/* Home__Вторая секция */
+.second-section
+    &__container
+        margin-bottom: 100px
+    &__name
+        text-align: center
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 55px
+    &__item
+        display: flex
+    &__column
+        text-align: center
+        padding: 15px
+        img
+            margin: 0 auto 15px
+        &-title
+            font-weight: 700
+            font-size: 16px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: $black-1
+            margin-bottom: 15px
+            span
+                position: relative
+                z-index: 1
+                &::after
+                    content: ''
+                    position: absolute
+                    bottom: 0px
+                    left: 0px
+                    display: block
+                    width: 100%
+                    height: 3px
+                    border-radius: 0px 2px 2px 2px
+                    background: $lilac-bg
+                    z-index: -1
+        &-text
+            font-weight: 400
+            font-size: 14px
+            line-height: 20px
+            letter-spacing: 0.01em
+            color: $gray-text
+            padding: 0 7px
+
+.subtitle
+    font-weight: 400
+    font-size: 14px
+    line-height: 22px
+    letter-spacing: 0.08em
+    text-transform: uppercase
+    color: $gray-text
+
+.title
+    font-weight: 900
+    font-size: 42px
+    line-height: 41px
+    color: $black-1
+
+/* Home__about Третья секция */
+.about-section
+    &__container
+        display: flex
+        position: relative
+        min-height: 566px
+        margin-bottom: 84px
+    &__column
+        &:nth-child(1)
+            width: 35%
+        &:nth-child(2)
+            display: flex
+            margin-right: 19px
+        &:nth-child(3)
+            position: relative
+            display: flex
+            flex-direction: column
+            height: 485px
+            justify-content: space-between
+            margin-top: -14px
+
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 35px
+    &__description
+        margin-bottom: 26px
+        padding-right: 55px
+    &__list
+        margin-bottom: 55px
+        padding-right: 85px
+    &__image
+        padding-left: 88px
+        margin-top: -14px
+    &__form
+        position: absolute
+        bottom: 33px
+        left: 402px
+    &__decor-red
+
+    &__decor-yellow
+
+.description
+    font-weight: 400
+    font-size: 14px
+    line-height: 22px
+    letter-spacing: 0.01em
+    color: $gray-text
+
+.list
+    li
+        display: flex
+        margin-bottom: 15px
+        &:last-child
+            margin-bottom: 0
+        &::before
+            display: block
+            content: ''
+            width: 12px
+            height: 12px
+            border-radius: 90px
+            background: #01B5EE
+            margin-right: 10px
+            margin-top: 2px
+    a
+        font-weight: 700
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        text-decoration: none
+        color: $black-1
+
+.decor-red
+    width: 82px
+    height: 82px
+    background: #FF5670
+    opacity: 0.3
+    border-radius: 200% 5px 5px 5px
+    transform: matrix(-1, 0, 0, 1, 0, 0)
+
+.decor-yellow
+    width: 82px
+    height: 82px
+    background: #FDDB2C
+    opacity: 0.3
+    border-radius: 200% 5px 5px 5px
+    transform: rotate(-180deg)
+    &_0deg
+        transform: rotate(0deg)
+    &_90deg
+        transform: rotate(-90deg)
+
+.decor-lilac
+    width: 82px
+    height: 82px
+    background: #EDE2FF
+    border-radius: 200% 5px 5px 5px
+    transform: rotate(-90deg)
+
+/* Home__services / Четвертая секция */
+.services-section
+    &__container
+        min-height: 710px
+        margin-bottom: 90px
+    &__name
+        text-align: center
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 55px
+    &__tabs
+        display: flex
+        justify-content: flex-end
+        position: relative
+    &__decor
+        position: absolute
+        left: 0
+        top: -75px
+        height: 652px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+/* Home__Rating / Пятая секция */
+.rating-section
+
+    &__container
+        text-align: center
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 45px
+    &__companies-rating
+        margin-bottom: 99px
+
+.companies-rating
+    display: flex
+    justify-content: center
+    &__column
+        width: 183px
+        height: 170px
+        border-radius: 15px 15px 15px 1px
+        margin-right: 18px
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding: 10px 15px
+        &:nth-child(1)
+            background: #FEF4C0
+        &:nth-child(2)
+            background: #FFCCD4
+        &:nth-child(3)
+            background: #EDE2FF
+        &:nth-child(4)
+            background: #B3EBFC
+            margin-right: 0px
+
+        img
+            margin: 0 auto
+    &__number
+        font-weight: 900
+        font-size: 42px
+        line-height: 41px
+        text-align: center
+        letter-spacing: -0.06em
+        color: $black-1
+        span
+            font-weight: 700
+            font-size: 24px
+            line-height: 24px
+            color: $gray-text
+
+/* Home__portfolio / Шестая секция */
+
+.portfolio-section
+    margin-bottom: 136px
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 55px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__column
+        position: relative
+        &:nth-child(1)
+            width: 793px
+            min-height: 474px
+            margin-right: 20px
+        &:nth-child(2)
+            margin-right: 19px
+
+        &:nth-child(3)
+            position: relative
+            display: flex
+            flex-direction: column
+            height: 520px
+            justify-content: space-between
+
+/* Home__specialists / Седьмая секция */
+
+.specialists-section
+    &__name
+        text-align: center
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 38px
+    &__carousel
+        margin-bottom: 116px
+
+/* Home__laboratory / Восьмая секция */
+
+.laboratory-section
+    &__container
+        display: flex
+        position: relative
+        min-height: 566px
+        margin-bottom: 64px
+    &__column
+        position: relative
+        &:first-child
+            width: 36%
+        &:last-child
+            width: 64%
+            display: flex
+    &__subtitle
+        margin-bottom: 15px
+    &__title
+        margin-bottom: 35px
+    &__description
+        margin-bottom: 26px
+        padding-right: 55px
+    &__list
+        margin-bottom: 30px
+        padding-right: 100px
+    &__image
+        padding-left: 77px
+        margin-top: -13px
+    &__form
+        position: absolute
+        bottom: -26px
+        left: 786px
+    &__decor-red
+        position: absolute
+        right: -102px
+        top: -14px
+    &__decor-yellow
+        position: absolute
+        right: -102px
+        bottom: 93px
+    &__decor-yellow-lab
+        position: absolute
+        bottom: 14px
+        left: -27px
+
+.description
+    font-weight: 400
+    font-size: 14px
+    line-height: 22px
+    letter-spacing: 0.01em
+    color: $gray-text
+
+.list
+    li
+        display: flex
+        margin-bottom: 15px
+        &:last-child
+            margin-bottom: 0
+        &::before
+            display: block
+            content: ''
+            width: 12px
+            height: 12px
+            border-radius: 90px
+            background: #01B5EE
+            margin-right: 10px
+            margin-top: 2px
+    a
+        font-weight: 700
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        text-decoration: none
+        color: $black-1
