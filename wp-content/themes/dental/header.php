@@ -28,7 +28,7 @@
 
     <!-- Header -->
     <header class="header">
-    <div class="main-overlay" id="mainOverlay" onclick="removeClasses()"></div>
+        <div class="main-overlay" id="mainOverlay" onclick="removeClasses()"></div>
         <!-- Бургер -->
         <div class="header__burger">
 
@@ -46,8 +46,22 @@
                 </div>
                 <div class="burger-nav__menu">
 
-                    <div class="teeest">
+                     
 
+                </div>
+                <div class="burger-nav__btn">
+
+                    <div class="burger-nav__btn-tel">
+                        <a class="btn-tel btn-tel_burger" href="tel:<?php the_field('header_phone', 2); ?>">
+                            <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt=""></div>
+                            <?php the_field('header_phone', 2); ?>
+                        </a>
+                    </div>
+
+                    <div class="burger-nav__social social social_nav">
+                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/vk_icn-w.svg" alt=""></a>
+                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon-w.svg" alt=""></a>
+                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon-w.svg" alt=""></a>
                     </div>
 
                 </div>
