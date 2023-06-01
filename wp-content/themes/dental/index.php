@@ -8,6 +8,10 @@ get_header();
     <section class="main-section">
         <div class="container main-section__container">
 
+            <div id="loader">
+                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/ajax-loader.gif" alt="Loading..." />
+            </div>
+
             <div class="main-section__slick-slider" id="slickSlider">
 
                 <div class="main-section__slide">
@@ -528,8 +532,8 @@ get_header();
 
 
                         <div class="before-after">
-                            <span id="before" class="before__btn">до</span>
-                            <span id="after" class="after__btn">после</span>
+                            <span id="before" class="before__btn">ДО</span>
+                            <span id="after" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after__gallery">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
@@ -550,8 +554,8 @@ get_header();
                         </div>
 
                         <div class="before-after2">
-                            <span id="before2" class="before__btn">до</span>
-                            <span id="after2" class="after__btn">досле</span>
+                            <span id="before2" class="before__btn">ДО</span>
+                            <span id="after2" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after2__gallery">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">

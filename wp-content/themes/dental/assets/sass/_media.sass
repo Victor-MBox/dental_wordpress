@@ -39,6 +39,7 @@
     /* Главная страница */
     /* Главный экран */
     .main-section
+        min-height: 760px
         &__container
             margin-top: 44px
         &__column
@@ -129,20 +130,28 @@
     /* Наши работы */
     .portfolio-section
         &__wrapper
-            justify-content: center
+            justify-content: space-around
         &__column
             &:nth-child(1)
-                width: 660px
+                max-width: 700px
+                min-height: 508px
             &:nth-child(2)
                 margin-right: 0
                 z-index: 1
             &:nth-child(3)
                 position: absolute
                 right: 0
+        textarea
+            height: 128px
 
-    .before-after, .before-after__gallery, .before-after__img, .before-after2, .before-after2__gallery, .before-after2__img
-        width: 660px
-        height: 460px
+    .before-after, .before-after2
+        &__procedure
+            bottom: -24px
+
+    .before-after__gallery, .before-after__img,
+    .before-after2__gallery, .before-after2__img
+        width: 700px
+        height: 440px
 
     .before-after-arrows
         bottom: 0
@@ -228,14 +237,15 @@
                 height: 3px
             &:nth-child(3)
                 margin-bottom: 0
-
+        &__wrapper
+            display: flex
+            flex-direction: column
+            align-items: flex-end
         &__active
             background: $black-1
             .burger
                 &__wrapper
-                    display: flex
-                    flex-direction: column
-                    align-items: flex-end
+                    display: block
 
     .burger-nav
         position: fixed
@@ -248,15 +258,11 @@
         background: #E8F1FF
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
         border-radius: 25px 0px 0px 25px
-        padding: 50px 20px
+        padding: 50px 0 20px 20px
         &__logo
             margin-bottom: 50px
         &__menu
             margin-left: -5px
-            height: 78%
-            overflow-y: scroll
-            overflow-x: hidden
-
         &__btn
             position: absolute
             bottom: 0
@@ -275,11 +281,56 @@
         &__active
             right: 0
 
-    
+    .menu
+        height: 84%
+        overflow-x: hidden
+
+        scrollbar-width: thin
+        scrollbar-color: transparent transparent
+        &::-webkit-scrollbar
+            width: 0.01em
+        &::-webkit-scrollbar-thumb
+            background-color: transparent
+
+    /* Footer */
+
+    .footer
+        &__wrapper
+            flex-wrap: wrap
+            justify-content: space-around
+        &__column
+            &:nth-child(1)
+                width: 200px
+                margin-right: 20px
+            &:nth-child(2)
+                width: 120px
+                margin-right: 20px
+            &:nth-child(3)
+                width: 140px
+                margin-right: 20px
+            &:nth-child(4)
+                order: 1
+                display: flex
+                justify-content: space-around
+                width: auto
+                margin-right: 0
+                .footer__title
+                    display: none
+                .footer__item
+                    margin-right: 50px
+                    &:last-child
+                        margin-right: 0
+            &:nth-child(5)
+                width: auto
+        &__rating
+            display: block
+            img
+                margin-bottom: 5px
 
     /* Главная страница */
     /* Главный экран */
     .main-section
+        min-height: 650px
         padding-top: 120px
         margin-bottom: 56px
         &__column
@@ -330,3 +381,145 @@
             margin-bottom: 26px
             &:nth-child(3), &:nth-child(4)
                 margin-bottom: 0
+
+    /* О нашей клинике */
+
+    .about-section
+        &__container
+            min-height: 480px
+            margin-bottom: 64px
+        &__column
+            &:nth-child(1), &:nth-child(2)
+                width: 50%
+            &:nth-child(3)
+                display: none
+        &__form
+            left: 55%
+            bottom: 0px
+
+    /* Наши услуги */
+
+    .services-section
+        &__decor
+            display: none
+        &__container
+            margin-bottom: 60px
+
+        .tabs
+            margin: 0
+            &__nav-btn
+                width: 360px
+            &__nav-column:nth-child(1)
+                width: 80%
+            &__btn-call
+                bottom: 90px
+                left: 15px
+            &__btn-calc
+                bottom: 90px
+                left: 15px
+
+    /* Наши работы */
+
+    .portfolio-section
+        margin-bottom: 90px
+        &__column
+            &:nth-child(1)
+                width: 550px
+                height: 458px
+                min-height: auto
+            &:nth-child(2)
+
+            &:nth-child(3)
+                display: none
+        textarea
+            height: 80px
+
+    .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
+        max-width: 550px
+        max-height: 440px
+        width: auto
+        height: auto
+
+    .before-after__procedure, .before-after2__procedure
+        bottom: 26px
+
+    .procedure
+        &__img, &__text
+            display: none
+        &__title, &__subtitle
+            margin-bottom: 15px
+
+    /* Наши специалисты */
+
+    .carousel
+        &__label
+            &_red
+                right: auto
+                left: 55%
+            &_lilac
+                left: 55%
+                right: auto
+
+    /* Наша лаборатория */
+
+    .laboratory-section
+        &__container
+            min-height: 480px
+            margin-bottom: 64px
+        &__column
+            &:nth-child(1), &:nth-child(2)
+                width: 50%
+            &:nth-child(3)
+                display: none
+        &__form
+            left: 55%
+            bottom: 0px
+        &__decor-red, &__decor-yellow
+            display: none
+
+        .decor-yellow
+            width: 62px
+            height: 62px
+
+    /* До-после  880px*/
+@media (max-width: 880px)
+
+    .portfolio-section
+        &__column
+            &:nth-child(1)
+                width: 420px
+                height: 430px
+        textarea
+            height: 50px
+
+    .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
+        max-width: 420px
+
+    .before-after__procedure, .before-after2__procedure
+        bottom: 52px
+
+@media (max-width: 768px)
+
+    /* Header */
+    .burger
+        right: 14px
+        top: 14px
+
+    .burger-nav
+        right: -94%
+        width: 94%
+        &__active
+            right: 0
+
+    .header
+        &__container
+            flex-wrap: wrap
+        &__btn-search
+            display: none
+            &_mob
+                display: block
+                margin-right: 60px
+        &__btn-tel
+            margin-right: 0
+
+    /* Footer */

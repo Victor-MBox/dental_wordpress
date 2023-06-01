@@ -21,36 +21,127 @@ function removeClasses() {
   burgerNav.classList.remove("burger-nav__active");
 }
 
+/* ***************************************************
+Мобильное меню */
+("use strict");
+//==========================================
 
-/* Мобильное меню */
+const titles = document.querySelectorAll(".accordion__title");
+const contents = document.querySelectorAll(".accordion__content");
 
+titles.forEach((item) =>
+  item.addEventListener("click", () => {
+    const activeContent = document.querySelector("#" + item.dataset.tab);
 
+    if (activeContent.classList.contains("active")) {
+      activeContent.classList.remove("active");
+      item.classList.remove("active");
+      activeContent.style.maxHeight = 0;
+    } else {
+      contents.forEach((element) => {
+        element.classList.remove("active");
+        element.style.maxHeight = 0;
+      });
 
+      titles.forEach((element) => element.classList.remove("active"));
 
+      item.classList.add("active");
+      activeContent.classList.add("active");
+      activeContent.style.maxHeight = "1000px";
+    }
+  })
+);
 
+/* sub */
 
+const subtitles = document.querySelectorAll(".sub-accordion__title");
+const subcontents = document.querySelectorAll(".sub-accordion__content");
 
+subtitles.forEach((item) =>
+  item.addEventListener("click", () => {
+    const activeContent = document.querySelector("#" + item.dataset.tab);
 
+    if (activeContent.classList.contains("active")) {
+      activeContent.classList.remove("active");
+      item.classList.remove("active");
+      activeContent.style.maxHeight = 0;
+    } else {
+      subcontents.forEach((element) => {
+        element.classList.remove("active");
+        element.style.maxHeight = 0;
+      });
 
+      subtitles.forEach((element) => element.classList.remove("active"));
 
+      item.classList.add("active");
+      activeContent.classList.add("active");
+      activeContent.style.maxHeight = "1000px";
+    }
+  })
+);
+
+/* sub-2*/
+
+const sub2titles = document.querySelectorAll(".sub-2-accordion__title");
+const sub2contents = document.querySelectorAll(".sub-2-accordion__content");
+
+sub2titles.forEach((item) =>
+  item.addEventListener("click", () => {
+    const activeContent = document.querySelector("#" + item.dataset.tab);
+
+    if (activeContent.classList.contains("active")) {
+      activeContent.classList.remove("active");
+      item.classList.remove("active");
+      activeContent.style.maxHeight = 0;
+    } else {
+      sub2contents.forEach((element) => {
+        element.classList.remove("active");
+        element.style.maxHeight = 0;
+      });
+
+      sub2titles.forEach((element) => element.classList.remove("active"));
+
+      item.classList.add("active");
+      activeContent.classList.add("active");
+      activeContent.style.maxHeight = activeContent.scrollHeight + "px";
+    }
+  })
+);
+
+/* Отменяем открытие аккордиона при клике на ссылку */
+// Получаем все ссылки внутри аккордеона
+const links = document.querySelectorAll(".menu a");
+
+// Добавляем обработчик события на каждую ссылку
+links.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    // Останавливаем всплытие события
+    event.stopPropagation();
+  });
+});
+
+/* Закрываем боковое меню при клике на ссылку */
 
 /* *************************************************
 Слайдер Slick на главной станице */
+$(document).ready(function () {
 
-let slickSlider = $("#slickSlider");
+  let slickSlider = $("#slickSlider");
 
-slickSlider.slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  dots: true,
-  speed: 500,
-  fade: true,
-  autoplay: true,
-  autoplaySpeed: 5000,
+  slickSlider.slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    speed: 500,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
+  // Скрытие изображения загрузки
+  $('#loader').fadeOut(300);
 });
-
 /* *************************************************
 ТАб УСЛУГИ на главной странице */
 
@@ -173,8 +264,7 @@ $("#slickCarousel").slick({
   infinite: false,
   speed: 300,
   infinite: true,
-  autoplay: true,
-  autoplaySpeed: 4000,
+
   slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [

@@ -27,7 +27,9 @@ img
 
 /* Home__Главный экран */
 .main-section
-    background-image: linear-gradient(to right, #E8F1FF 56.39%, #FFF 43.61%)
+    min-height: 838px
+    background: linear-gradient(to right, #E8F1FF 56.39%, #FFF 43.61%)
+    position: relative
     margin-bottom: 76px
     padding-top: 148px
     margin-top: -148px
@@ -76,6 +78,20 @@ img
         position: absolute
         top: 208px
         left: 76%
+
+
+#loader
+    height: 70px
+    width: 70px
+    position: absolute
+    top: 45%
+    left: 50%
+    transform: translateX(-50%)
+    display: flex
+    align-items: center
+    justify-content: center
+    opacity: .7
+    z-index: 9
 
 .social
     display: flex

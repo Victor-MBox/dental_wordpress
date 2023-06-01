@@ -22,6 +22,8 @@
         align-items: center
     &__btn-search
         margin-right: 15px
+        &_mob
+            display: none
     &__btn-tel
         margin-right: 12px
 
@@ -84,6 +86,276 @@
             background: #01C9FA
             border-radius: 0px 2px 2px 2px
 
-
 /* Мобильное меню - аккордион */
 
+.menu__wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+.accordion
+    display: flex
+    flex-direction: column
+    width: 100%
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-weight: 400
+        font-size: 16px
+        line-height: 16px
+        padding: 10px 20px
+        cursor: pointer
+        height: 44px
+        a
+            color: $gray-text
+            text-decoration: none
+        span
+            display: inline-flex
+            position: relative
+            width: 40px
+            height: 40px
+            background-color: transparent
+            transform: rotate(0)
+            transition: transform 0.5s
+            &::before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 2px
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #a1a3a5
+            &::after
+                content: ""
+                position: absolute
+                width: 2px
+                height: 50%
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #a1a3a5
+
+        &.active
+            background: #fff
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+            border-radius: 10px 0px 0px 1px
+            a
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 16px
+                color: $black-1
+            span
+                transform: rotate(45deg)
+
+    &__content
+        overflow: hidden
+        max-height: 0
+        opacity: 0
+        visibility: hidden
+        transition: .7s
+        background: #fff
+        border-radius: 1px 0px 0px 15px
+        display: flex
+        flex-direction: column
+        a
+            display: flex
+            align-items: center
+            color: $gray-text
+            text-decoration: none
+            font-weight: 400
+            font-size: 16px
+            line-height: 16px
+            padding: 10px 20px
+            cursor: pointer
+            height: 44px
+        &.active
+            visibility: visible
+            opacity: 1
+            transition: .7s
+            padding: 10px 0
+            margin-top: 1px
+
+    
+.sub-accordion
+    display: flex
+    flex-direction: column
+    width: 100%
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-weight: 400
+        font-size: 16px
+        line-height: 16px
+        padding: 0 20px 0 0
+        cursor: pointer
+        height: 44px
+        transition: margin .5s
+
+        a
+            color: $gray-text
+            text-decoration: none
+        span
+            display: inline-flex
+            position: relative
+            width: 40px
+            height: 40px
+            background-color: transparent
+            transform: rotate(0)
+            transition: transform 0.5s
+            &::before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 2px
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #a1a3a5
+            &::after
+                content: ""
+                position: absolute
+                width: 2px
+                height: 50%
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #a1a3a5
+
+        &.active
+            background: $lilac-bg
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+            border-radius: 10px 0px 0px 1px
+            margin-left: 16px
+            a
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 16px
+                color: #fff
+            span
+                transform: rotate(45deg)
+                &::before, &::after
+                    background-color: #fff
+    &__content
+        overflow: hidden
+        max-height: 0
+        opacity: 0
+        visibility: hidden
+        transition: .5s
+        background: $lilac-bg
+        border-radius: 1px 0px 0px 15px;
+        display: flex
+        flex-direction: column
+
+        a
+            display: flex
+            align-items: center
+            color: #fff
+            text-decoration: none
+            font-weight: 400
+            font-size: 16px
+            line-height: 16px
+            padding: 10px 20px
+            cursor: pointer
+            height: 44px
+        &.active
+            margin-left: 16px
+
+            visibility: visible
+            opacity: 1
+            transition: .7s
+            padding: 10px 0
+            margin-top: 1px
+
+
+.sub-2-accordion
+    display: flex
+    flex-direction: column
+    width: 100%
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-weight: 400
+        font-size: 16px
+        line-height: 16px
+        padding: 0 20px 0 0
+        cursor: pointer
+        height: 44px
+        transition: margin .5s
+
+        a
+            color: $black-1
+            text-decoration: none
+        span
+            display: inline-flex
+            position: relative
+            width: 40px
+            height: 40px
+            background-color: transparent
+            transform: rotate(0)
+            transition: transform 0.5s
+            &::before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 2px
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: $black-1
+            &::after
+                content: ""
+                position: absolute
+                width: 2px
+                height: 50%
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: $black-1
+
+        &.active
+            background: $lilac-bg
+            a
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 16px
+            span
+                transform: rotate(45deg)
+                &::before, &::after
+                    background-color: #fff
+    &__content
+        overflow: hidden
+        max-height: 0
+        opacity: 0
+        visibility: hidden
+        transition: .5s
+        background: $lilac-bg
+        border-radius: 1px 0px 0px 15px;
+        display: flex
+        flex-direction: column
+
+        a
+            display: flex
+            align-items: center
+            color: #fff
+            text-decoration: none
+            font-weight: 400
+            font-size: 16px
+            line-height: 16px
+            padding: 10px 20px
+            cursor: pointer
+            height: 44px
+        &.active
+            margin-left: 16px
+
+            visibility: visible
+            opacity: 1
+            transition: .7s
+            margin-top: 1px
