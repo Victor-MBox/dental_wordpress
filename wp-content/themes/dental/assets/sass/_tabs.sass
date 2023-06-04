@@ -1,4 +1,4 @@
-/* Home_tabs */
+/* Home_tabs  таб "Наши услуги" на шлавной странице */
 .tabs
     margin: 0 0px 0 20px
     display: flex
@@ -113,7 +113,6 @@
         img
             border-radius: 45px 5px 5px 5px
 
-
     &__btn-call
         position: absolute
         left: 44px
@@ -123,3 +122,100 @@
         position: absolute
         left: 44px
         bottom: 45px
+
+/* Аккордион "Наши услуги" на шлавной странице МОБ ВЕРСИЯ*/
+.accordion-home-page
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+.accordion-home
+    display: flex
+    flex-direction: column
+    width: 100%
+    &__tab
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        height: 100px
+        padding: 10px 14px
+
+        cursor: pointer
+
+        background: #fff
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+
+        &.active
+            background: $lilac-bg
+            .accordion-home__nav-title
+                font-weight: 700
+                font-size: 18px
+                line-height: 22px
+                letter-spacing: 0.01em
+                color: $black-1
+                margin-bottom: 10px
+            .accordion-home__nav-subtitle
+                font-weight: 400
+                font-size: 16px
+                line-height: 22px
+                letter-spacing: 0.01em
+                color: #fff
+
+    &__nav-title
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 10px
+    &__nav-subtitle
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $gray-text
+
+    &__content
+        margin: 0 auto
+        position: relative
+        overflow: hidden
+        max-height: 0
+        opacity: 0
+        visibility: hidden
+        transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s
+        &.active
+            visibility: visible
+            opacity: 1
+            transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out, visibility 0.1s ease-out
+    &__btn-calc, &__btn-call
+        position: absolute
+        bottom: 60px
+        left: 12px
+    &__btn
+        position: absolute
+        bottom: 16px
+        left: 12px
+
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        text-decoration: none
+        color: $black-1
+
+.strip
+    width: 12px
+    height: 100%
+    border-radius: 12px
+    &_red
+        background: #FFCCD4
+    &_yellow
+        background: #FEF4C0
+    &_lilac
+        background: #EDE2FF
+    &_turquoise
+        background: #B3EBFC

@@ -27,7 +27,7 @@ img
 
 /* Home__Главный экран */
 .main-section
-    min-height: 838px
+    min-height: 798px
     background: linear-gradient(to right, #E8F1FF 56.39%, #FFF 43.61%)
     position: relative
     margin-bottom: 76px
@@ -78,7 +78,6 @@ img
         position: absolute
         top: 208px
         left: 76%
-
 
 #loader
     height: 70px
@@ -187,7 +186,6 @@ img
     &__container
         display: flex
         position: relative
-        min-height: 566px
         margin-bottom: 84px
     &__column
         &:nth-child(1)
@@ -215,14 +213,22 @@ img
         padding-right: 85px
     &__image
         padding-left: 88px
-        margin-top: -14px
+        z-index: 1
     &__form
         position: absolute
-        bottom: 33px
+        bottom: -46px
         left: 402px
+        z-index: 2
     &__decor-red
-
+        position: absolute
+        right: 14px
+        top: 0
+        z-index: 0
     &__decor-yellow
+        position: absolute
+        right: 14px
+        bottom: 0
+        z-index: 0
 
 .description
     font-weight: 400
@@ -281,6 +287,14 @@ img
     border-radius: 200% 5px 5px 5px
     transform: rotate(-90deg)
 
+.decor-blue
+    width: 82px
+    height: 82px
+    background: #01BAF5
+    opacity: 0.3
+    border-radius: 200% 5px 5px 5px
+    transform: rotate(-180deg)
+
 /* Home__services / Четвертая секция */
 .services-section
     &__container
@@ -304,6 +318,9 @@ img
         display: flex
         flex-direction: column
         justify-content: space-between
+
+.accordion-home-page
+    display: none
 
 /* Home__Rating / Пятая секция */
 .rating-section
@@ -373,14 +390,18 @@ img
             min-height: 474px
             margin-right: 20px
         &:nth-child(2)
+            display: none
+        &:nth-child(3)
             margin-right: 19px
 
-        &:nth-child(3)
+        &:nth-child(4)
             position: relative
             display: flex
             flex-direction: column
             height: 520px
             justify-content: space-between
+    &__column-mob
+        display: none
 
 /* Home__specialists / Седьмая секция */
 
@@ -393,6 +414,8 @@ img
         margin-bottom: 38px
     &__carousel
         margin-bottom: 116px
+    &__buttons
+        display: none
 
 /* Home__laboratory / Восьмая секция */
 

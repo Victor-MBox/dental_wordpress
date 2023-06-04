@@ -110,13 +110,6 @@
                 width: 41%
             &:nth-child(2)
                 margin-right: 0
-            &:nth-child(3)
-                height: 476px
-                margin-top: 0
-                position: absolute
-                right: 0
-                z-index: -1
-
         &__description
             padding-right: 0
         &__list
@@ -126,6 +119,8 @@
         &__image
             padding-left: 20px
             margin-top: 0
+        &__decor-red, &__decor-yellow
+            z-index: -1
 
     /* Наши работы */
     .portfolio-section
@@ -135,10 +130,10 @@
             &:nth-child(1)
                 max-width: 700px
                 min-height: 508px
-            &:nth-child(2)
+            &:nth-child(3)
                 margin-right: 0
                 z-index: 1
-            &:nth-child(3)
+            &:nth-child(4)
                 position: absolute
                 right: 0
         textarea
@@ -391,12 +386,13 @@
         &__column
             &:nth-child(1), &:nth-child(2)
                 width: 50%
-            &:nth-child(3)
-                display: none
         &__form
             left: 55%
             bottom: 0px
-
+        &__decor-red
+            display: none
+        &__decor-yellow
+            display: none
     /* Наши услуги */
 
     .services-section
@@ -427,9 +423,7 @@
                 width: 550px
                 height: 458px
                 min-height: auto
-            &:nth-child(2)
-
-            &:nth-child(3)
+            &:nth-child(4)
                 display: none
         textarea
             height: 80px
@@ -444,10 +438,12 @@
         bottom: 26px
 
     .procedure
-        &__img, &__text
+        &__img
             display: none
         &__title, &__subtitle
-            margin-bottom: 15px
+            margin-bottom: 5px
+        &__text
+            margin-bottom: 5px
 
     /* Наши специалисты */
 
@@ -469,8 +465,6 @@
         &__column
             &:nth-child(1), &:nth-child(2)
                 width: 50%
-            &:nth-child(3)
-                display: none
         &__form
             left: 55%
             bottom: 0px
@@ -502,24 +496,349 @@
 
     /* Header */
     .burger
-        right: 14px
-        top: 14px
+        right: 26px
+        top: 7px
 
     .burger-nav
         right: -94%
         width: 94%
+        padding: 6px 0 20px 20px
         &__active
             right: 0
 
     .header
         &__container
             flex-wrap: wrap
+            min-height: 126px
         &__btn-search
             display: none
             &_mob
                 display: block
-                margin-right: 60px
+                margin-right: 72px
         &__btn-tel
+            margin-right: 10px
+        &__wrapper
             margin-right: 0
+            width: 100%
+            justify-content: center
 
     /* Footer */
+    .footer
+        background: #E8F1FF
+        background-image: url(assets/img/bg/footer-decor.svg)
+        background-repeat: no-repeat
+        background-position: 100% 44%
+        background-size: 34%
+        &__wrapper
+            justify-content: flex-start
+        &__column
+            &:nth-child(1)
+                width: 100%
+                margin-right: 0
+
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+                align-items: center
+            &:nth-child(2)
+                width: 50%
+                margin-right: 0
+                margin-bottom: 45px
+                margin-top: 0
+            &:nth-child(3)
+                width: 50%
+                margin-right: 0
+                margin-bottom: 45px
+                margin-top: 0
+            &:nth-child(4)
+                order: 0
+                display: block
+                margin-top: 0
+                margin-bottom: 45px
+                .footer__title
+                    display: block
+            &:nth-child(5)
+                width: 100%
+        &__title
+            margin-bottom: 16px
+        &__logo
+            margin-bottom: 0
+        &__description
+            order: 1
+            width: 100%
+            margin-top: 16px
+        &__rating
+            display: flex
+            align-items: center
+        &__policy
+            display: block
+            text-align: center
+            p
+                margin-bottom: 8px
+
+    /* Главная страница */
+    .page
+        margin-top: -63px
+    /* Главный экран */
+    .main-section
+        background: #E8F1FF
+        background-image: url(assets/img/bg/main-section-bg-1.svg), url(assets/img/bg/main-section-bg-2.svg), url(assets/img/bg/main-section-bg-3.svg)
+        background-repeat: no-repeat, no-repeat, no-repeat
+        background-position: 10px 20px, 80% 40%, 50% 100%
+        padding-top: 54px
+        min-height: 630px
+        &__column
+            min-height: 400px
+            height: auto
+            &:first-child
+                width: 100%
+            &:last-child
+                display: none
+        &__title
+            font-size: 32px
+            line-height: 38px
+        &__subtitle
+            padding-right: 20%
+            margin-bottom: 30px
+        &__absolut-btn
+            left: 16px
+            bottom: 28px
+            display: block
+
+        &__btn-calc
+            margin-right: 0
+            margin-bottom: 4px
+        .slick-dots
+            display: none !important
+
+    /* Наши Преимущества */
+    .second-section
+        &__column
+            padding: 0 3%
+
+    /* О нашей клинике */
+
+    .title
+        font-size: 28px
+    .description
+        font-size: 16px
+    .list
+        a
+            font-size: 16px
+
+    .about-section
+        &__container
+            flex-wrap: wrap
+            margin-bottom: 84px
+        &__subtitle
+            margin-bottom: 10px
+        &__column
+            &:nth-child(1), &:nth-child(2)
+                width: 100%
+                margin-bottom: 24px
+
+        &__list
+            margin-bottom: 25px
+        &__image
+            position: relative
+            padding-left: 0
+            margin: 0 auto
+        &__form
+            position: relative
+            left: 0
+            width: 100%
+            z-index: 1
+        &__decor-red
+            display: block
+
+    .decor-red, .decor-yellow
+        width: 55px
+        height: 55px
+
+    .decor-red
+        top: -70px
+        right: 0
+    .decor-yellow
+        bottom: -70px
+        right: 0
+
+    .feedback-form
+        width: auto
+    .form-about
+        &__input
+            input
+                width: 100%
+
+    /* Наши услуги */
+    .tabs
+        display: none
+    .accordion-home-page
+        display: block
+
+    .services-section
+        &__title
+            margin-bottom: 24px
+        &__decor
+            display: block
+            height: auto
+            top: -146px
+
+        .decor-yellow
+            display: none
+
+        .decor-lilac
+            width: 55px
+            height: 55px
+            transform: rotate(-0deg)
+
+    /* Рейтинг независимых стоматологий */
+
+    .rating-section
+        &__title
+            margin-bottom: 25px
+
+    .companies-rating
+        flex-wrap: wrap
+        width: 100%
+        margin: 0 auto 80px
+        &__column
+            width: 170px
+            height: 158px
+            margin: 0 5px 10px 5px
+
+    /* Наши работы */
+
+    .portfolio-section
+        margin-bottom: 70px
+        &__name
+            text-align: center
+        &__title
+            margin-bottom: 16px
+        &__wrapper
+            flex-wrap: wrap
+        &__column
+            width: 100%
+            &:nth-child(1)
+                margin-right: 0
+                width: 460px
+                height: auto
+            &:nth-child(2)
+                display: flex
+                justify-content: space-between
+                align-items: flex-end
+                position: relative
+                width: 100%
+                margin-bottom: 24px
+                a
+                    font-weight: 500
+                    font-size: 14px
+                    line-height: 22px
+                    letter-spacing: 0.01em
+                    color: #01BBF6
+                    text-decoration: none
+
+        .decor-blue
+            width: 65px
+            height: 65px
+            position: absolute
+            right: 0
+            top: -50px
+
+        .before-after-arrows
+            display: none
+        .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
+            max-width: 460px
+            max-height: 440px
+        .slick-dots
+            bottom: 30px
+            left: 50%
+            transform: translateX(-50%)
+
+    .before-after, .before-after2
+        &__procedure
+            position: relative
+            left: 0
+            bottom: 0
+
+    .procedure
+        border-radius: 1px 15px 15px 15px
+        width: 100%
+        padding: 12px
+        &__prise
+            margin-bottom: 0
+        .btn
+            display: none
+
+    .feedback-form-portfolio
+        width: auto
+    .form-portfolio
+        &__input
+            input
+                width: 100%
+        &__textarea
+            textarea
+                resize: none
+                width: 100%
+
+    /* Наши специалисты */
+    .specialists-section
+        &__buttons
+            display: block
+            position: relative
+            margin-bottom: 70px
+            .decor-red
+                position: absolute
+                right: 0
+                top: 10px
+                width: 95px
+                height: 95px
+        &__carousel
+            margin-bottom: 24px
+    .carousel
+        &__text
+            padding: 0 10px
+        &__photo
+            img
+                margin: 0 auto
+        &__label
+            left: 16%
+            &_lilac
+                right: 16%
+                left: auto
+
+    /* Наша лаборатория */
+    .laboratory-section
+        &__container
+            min-height: auto
+            flex-wrap: wrap
+        &__column
+            &:nth-child(1), &:nth-child(2)
+                width: 100%
+                margin-bottom: 20px
+            &:nth-child(2)
+                display: flex
+        &__description, &__list
+            padding-right: 0
+        &__image
+            position: relative
+            padding-left: 0
+            margin: 0 auto
+        &__form
+            position: relative
+            left: 0
+            bottom: 0
+            width: 100%
+
+        &__decor-red
+            display: block
+        &__decor-footer
+            position: absolute
+            right: 0
+            bottom: -90px
+            z-index: -1
+
+        .feedback-form-laboratory
+            width: auto
+        .form-laboratory
+            input
+                width: 100%

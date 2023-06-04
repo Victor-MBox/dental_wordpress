@@ -233,13 +233,16 @@ get_header();
             </div>
 
             <div class="about-section__column">
-                <div class="about-section__image"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt=""></div>
+
+                <div class="about-section__image">
+                    <div class="about-section__decor-red decor-red"></div>
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                    <div class="about-section__decor-yellow decor-yellow"></div>
+                </div>
+
+
             </div>
 
-            <div class="about-section__column">
-                <div class="about-section__decor-red decor-red"></div>
-                <div class="about-section__decor-yellow decor-yellow"></div>
-            </div>
 
             <div class="about-section__form">
                 <div class="feedback-form">
@@ -473,6 +476,176 @@ get_header();
                     </div>
                 </div>
 
+                <div class="accordion-home-page">
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-1" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Диагностика</div>
+                                <div class="accordion-home__nav-subtitle">Консультация, выявление проблемы
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_yellow"></div>
+                        </div>
+                        <div id="home-tab-1" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+
+                            <div class="accordion-home__btn-calc">
+                                <a class="btn-calc" href="#">
+                                    <div class="btn-calc__img"></div>
+                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
+                                        <span>1
+                                            мин</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-2" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Протезирование</div>
+                                <div class="accordion-home__nav-subtitle">Съемное протезтирование
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_red"></div>
+                        </div>
+                        <div id="home-tab-2" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+
+                            <div class="accordion-home__btn-call">
+                                <a class="btn-call" href="#">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-3" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Имплантаця</div>
+                                <div class="accordion-home__nav-subtitle">Импланты, коронки, мосты
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_lilac"></div>
+                        </div>
+                        <div id="home-tab-3" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+
+                            <div class="accordion-home__btn-calc">
+                                <a class="btn-calc" href="#">
+                                    <div class="btn-calc__img"></div>
+                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
+                                        <span>1
+                                            мин</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-4" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Лечение зубов, терапия</div>
+                                <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_yellow"></div>
+                        </div>
+                        <div id="home-tab-4" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+
+                            <div class="accordion-home__btn-call">
+                                <a class="btn-call" href="#">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-5" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Хирургия</div>
+                                <div class="accordion-home__nav-subtitle">Любые хирургические операции
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_turquoise"></div>
+                        </div>
+                        <div id="home-tab-5" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+
+                            <div class="accordion-home__btn-calc">
+                                <a class="btn-calc" href="#">
+                                    <div class="btn-calc__img"></div>
+                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
+                                        <span>1
+                                            мин</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-6" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Ортодонтия</div>
+                                <div class="accordion-home__nav-subtitle">Любые хирургические операции
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_red"></div>
+                        </div>
+                        <div id="home-tab-6" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+
+                            <div class="accordion-home__btn-call">
+                                <a class="btn-call" href="#">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-7" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Гигиена</div>
+                                <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
+                                </div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_lilac"></div>
+                        </div>
+                        <div id="home-tab-7" class="accordion-home__content">
+
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+
+                            <div class="accordion-home__btn-calc">
+                                <a class="btn-calc" href="#">
+                                    <div class="btn-calc__img"></div>
+                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
+                                        <span>1
+                                            мин</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -575,11 +748,41 @@ get_header();
                             </div>
                         </div>
 
+                        <div class="before-after">
+                            <span id="before" class="before__btn">ДО</span>
+                            <span id="after" class="after__btn">ПОСЛЕ</span>
+
+                            <div class="before-after__gallery">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
+                                <div class="before-after__gallery-after">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after__img">
+                                </div>
+                            </div>
+                            <div class="before-after__procedure procedure">
+                                <div class="procedure__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                </div>
+                                <div class="procedure__subtitle">процедура</div>
+                                <div class="procedure__title">Ортодонтия</div>
+                                <div class="procedure__text">Были установлены 4 импланта.</div>
+                                <div class="procedure__prise">Стоимость: <span>75 000 ₽</span></div>
+                                <button class="btn btn_lilac">Больше работ</button>
+                            </div>
+                        </div>
+
                     </div>
+
+
                     <div class="before-after-arrows">
                         <button class="before-after-arrows__left" id="introSliderPrev" type="button"></button>
                         <button class="before-after-arrows__right" id="introSliderNext" type="button"></button>
                     </div>
+
+                </div>
+
+                <div class="portfolio-section__column">
+                    <a href="#">Больше работ</a>
+                    <div class="portfolio-section__decor-blue decor-blue"></div>
 
                 </div>
 
@@ -623,7 +826,7 @@ get_header();
 
                 <div class="portfolio-section__column">
                     <div class="portfolio-section__decor-red decor-red"></div>
-                    <div class="portfolio-section__decor-yellow decor-yellow"></div>
+                    <div class="portfolio-section__decor-blue decor-blue"></div>
                 </div>
             </div>
         </div>
@@ -719,6 +922,11 @@ get_header();
 
             </div>
 
+            <div class="specialists-section__buttons">
+                <a href="#" class="btn">Все спеиалисты</a>
+                <div class="specialists-section__decor-red decor-red"></div>
+            </div>
+
         </div>
     </section>
 
@@ -746,9 +954,12 @@ get_header();
             </div>
 
             <div class="laboratory-section__column">
-                <div class="laboratory-section__image"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt=""></div>
-                <div class="laboratory-section__decor-red decor-red"></div>
-                <div class="laboratory-section__decor-yellow decor-yellow"></div>
+                <div class="laboratory-section__image">
+                    <div class="laboratory-section__decor-red decor-red"></div>
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                    <div class="laboratory-section__decor-yellow decor-yellow"></div>
+
+                </div>
                 <div class="laboratory-section__decor-yellow-lab decor-yellow decor-yellow_90deg"></div>
             </div>
 
@@ -784,7 +995,7 @@ get_header();
                     </div>
                 </div>
             </div>
-
+            <div class="laboratory-section__decor-footer"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/bg/footer.svg" alt=""></div>
         </div>
     </section>
 </main>

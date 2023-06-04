@@ -173,6 +173,42 @@ function onTabClick(item) {
 
 document.querySelector(".tabs__nav-btn").click();
 
+
+/* ***************************************************
+Мобильное АККОРДИОН на главной странице */
+//==========================================
+const accTitles = document.querySelectorAll('.accordion-home__tab');
+const accContents = document.querySelectorAll('.accordion-home__content');
+
+// Добавляем класс "active" к первому табу и его соответствующему контенту
+accTitles[0].classList.add('active');
+accContents[0].classList.add('active');
+accContents[0].style.maxHeight = accContents[0].scrollHeight + 'px';
+
+accTitles.forEach(item => item.addEventListener('click', () => {
+    const activeContent = document.querySelector('#' + item.dataset.tab);
+
+    if (activeContent.classList.contains('active')) {
+        activeContent.classList.remove('active');
+        item.classList.remove('active');
+        activeContent.style.maxHeight = 0;
+    } else {
+        accContents.forEach(element => {
+            element.classList.remove('active');
+            element.style.maxHeight = 0;
+        });
+
+        accTitles.forEach(element => element.classList.remove('active'));
+
+        item.classList.add('active');
+        activeContent.classList.add('active');
+        activeContent.style.maxHeight = activeContent.scrollHeight + 'px';
+    }
+}));
+
+
+
+
 /* *************************************************
 До после - на главной странице 
 Slick Slider*/
@@ -190,6 +226,24 @@ beforeAfterSlider.slick({
   swipe: false,
   autoplay: true,
   autoplaySpeed: 5000,
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+      },
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 481,
+      settings: {
+      },
+    },
+  ],
 });
 
 /* Навигация слайдера */
@@ -264,7 +318,8 @@ $("#slickCarousel").slick({
   infinite: false,
   speed: 300,
   infinite: true,
-
+  autoplay: true,
+  autoplaySpeed: 5000,
   slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [
@@ -278,14 +333,14 @@ $("#slickCarousel").slick({
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 769,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 481,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
