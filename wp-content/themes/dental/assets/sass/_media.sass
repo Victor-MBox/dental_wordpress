@@ -475,7 +475,6 @@
             width: 62px
             height: 62px
 
-    /* До-после  880px*/
 @media (max-width: 880px)
 
     .portfolio-section
@@ -828,7 +827,8 @@
             left: 0
             bottom: 0
             width: 100%
-
+        &__decor-footer
+            display: block
         &__decor-red
             display: block
         &__decor-footer
@@ -842,3 +842,155 @@
         .form-laboratory
             input
                 width: 100%
+
+@media (max-width: 480px)
+    /* Header */
+    .header
+        &__logo
+            img
+                width: 70%
+        &__btn-search_mob
+            margin-right: 56px
+        &__btn, &__btn-tel
+            width: 50%
+        .btn-tel, .btn
+            width: 100%
+
+    .burger
+        height: 40px
+        width: 40px
+        top: 10px
+        right: 16px
+    .burger-nav
+        &__btn-tel
+            width: 170px
+        &__logo
+            margin-bottom: 40px
+            margin-top: 10px
+            img
+                width: 40%
+
+    .btn
+        font-size: 12px
+    .btn-tel
+        justify-content: space-evenly
+        &__img
+            width: 26px
+            height: 26px
+            margin-right: 0
+    /* Footer */
+
+    .footer
+        &__policy p, &__policy a
+            font-size: 12px
+            
+
+
+    /* Главная страница */
+        /* Главный экран */
+    .main-section
+        min-height: 600px
+        &__title
+            font-size: 26px
+            line-height: 30px
+            br
+                display: none
+        &__subtitle
+            padding-right: 0
+            br
+                display: none
+
+        /* Наши Преимущества */
+
+    .second-section
+        &__container
+            margin-bottom: 60px
+        &__column
+            width: 100%
+
+        /* Наши работы */
+    .portfolio-section
+        &__column:nth-child(1)
+            width: 360px
+            height: 450px
+        .slick-dots
+            bottom: 64px
+
+        #before, #after, #before2, #after2
+            font-size: 12px
+            line-height: 12px
+            width: 62px
+            height: 58px
+            top: 42px
+
+    .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
+        max-width: 360px
+
+@media (max-width: 380px)
+    /* Header */
+    .accordion, .sub-accordion, .sub-2-accordion
+        &__title
+            font-size: 14px
+        &__title.active a
+            font-size: 14px
+        &__content a
+            font-size: 14px
+
+    .burger-nav
+        &__btn-tel
+            width: 150px
+    /* Главная страница */
+        /* Главный экран */
+    .main-section
+        min-height: 630px
+        &__title
+            font-size: 24px
+            line-height: 26px
+        &__subtitle
+            line-height: 18px
+
+        /* Наши Преимущества */
+
+    .title
+        font-size: 22px
+        line-height: 22px
+    .subtitle
+        font-size: 10px
+        line-height: 10px
+    .description
+        font-size: 14px
+    .list a
+        font-size: 14px
+
+        /* Наши услуги */
+    .accordion-home
+        &__nav-title, &__nav-subtitle
+            font-size: 14px
+            line-height: 14px
+
+    .accordion-home__tab.active .accordion-home__nav-title, .accordion-home__tab.active .accordion-home__nav-subtitle
+        font-size: 14px
+        line-height: 14px
+
+    .btn-calc, .btn-call
+        width: auto
+        height: 60px
+        padding: 10px
+        &__img
+            height: 38px
+            width: 38px
+        &__text
+            font-size: 12px
+            line-height: 14px
+
+        /* Наши работы */
+    .portfolio-section
+        &__column:nth-child(1)
+            width: 300px
+            height: 400px
+        .slick-dots
+            bottom: 114px
+
+    .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
+        max-width: 300px
+

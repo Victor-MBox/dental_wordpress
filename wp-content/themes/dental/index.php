@@ -748,17 +748,17 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="before-after">
-                            <span id="before" class="before__btn">ДО</span>
-                            <span id="after" class="after__btn">ПОСЛЕ</span>
+                        <div class="before-after2">
+                            <span id="before2" class="before__btn">ДО</span>
+                            <span id="after2" class="after__btn">ПОСЛЕ</span>
 
-                            <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
-                                <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after__img">
+                            <div class="before-after2__gallery">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after2__img">
+                                <div class="before-after2__gallery-after">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">
                                 </div>
                             </div>
-                            <div class="before-after__procedure procedure">
+                            <div class="before-after2__procedure procedure">
                                 <div class="procedure__img">
                                     <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
                                 </div>

@@ -241,6 +241,7 @@ beforeAfterSlider.slick({
     {
       breakpoint: 481,
       settings: {
+        dots: true,
       },
     },
   ],
@@ -275,7 +276,7 @@ gallery.addEventListener("mouseleave", (event) => {
 
 before.onclick = () => {
   galleryResize.classList.add("tr");
-  galleryResize.style.width = 100 + "px";
+  galleryResize.style.width = 50 + "px";
 };
 after.onclick = () => {
   galleryResize.classList.add("tr");
@@ -302,9 +303,36 @@ gallery2.addEventListener("mouseleave", (event) => {
 
 before2.onclick = () => {
   galleryResize2.classList.add("tr");
-  galleryResize2.style.width = 100 + "px";
+  galleryResize2.style.width = 50 + "px";
 };
 after2.onclick = () => {
+  galleryResize2.classList.add("tr");
+  galleryResize2.style.width = 90 + "%";
+};
+
+/* До - после 3 */
+
+const gallery3 = document.querySelector(".before-after2__gallery");
+const galleryResize3 = document.querySelector(".before-after2__gallery-after");
+const before3 = document.querySelector("#before2");
+const after3 = document.querySelector("#after2");
+
+gallery3.addEventListener("mousemove", (event) => {
+  let x = event.offsetX;
+  galleryResize2.classList.remove("tr");
+  galleryResize2.style.width = x + "px";
+});
+
+gallery3.addEventListener("mouseleave", (event) => {
+  galleryResize2.style.width = 50 + "%";
+  galleryResize2.classList.add("tr");
+});
+
+before3.onclick = () => {
+  galleryResize2.classList.add("tr");
+  galleryResize2.style.width = 50 + "px";
+};
+after3.onclick = () => {
   galleryResize2.classList.add("tr");
   galleryResize2.style.width = 90 + "%";
 };
