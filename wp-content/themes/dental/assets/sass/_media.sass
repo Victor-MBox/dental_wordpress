@@ -883,8 +883,20 @@
     .footer
         &__policy p, &__policy a
             font-size: 12px
-            
 
+    /* Модальные окна */
+    .modal__close 
+        span
+            top: -14%
+            right: auto
+            left: 50%
+            transform: rotate(45deg) translateX(-50%)
+            &:hover
+                transform: rotate(45deg) translateX(-50%)
+
+    .thanks-modal
+        &__wrapper
+            width: 300px
 
     /* Главная страница */
         /* Главный экран */
@@ -993,4 +1005,3 @@
 
     .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
         max-width: 300px
-

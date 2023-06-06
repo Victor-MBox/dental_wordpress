@@ -50,7 +50,7 @@
                     <div class="footer__item">
                         <div class="footer__img-phone">
                         </div>
-                        <p><?php the_field('footer_phone', 2); ?></p> 
+                        <p><?php the_field('footer_phone', 2); ?></p>
                     </div>
 
                     <div class="footer__item">
@@ -62,7 +62,7 @@
                     <div class="footer__item">
                         <div class="footer__img-time">
                         </div>
-                        <p><?php the_field('footer_time', 2); ?></p> 
+                        <p><?php the_field('footer_time', 2); ?></p>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@
 
                     <div class="footer__form">
 
-                        <form action="#" class="form-footer" id="form-4">
+                        <form action="#" class="form-footer" id="form-footer"> 
 
                             <div class="form-footer__input email-input">
                                 <input type="email" name="email" placeholder="Email" class="input">
@@ -107,10 +107,67 @@
         </div>
     </footer>
 
-    <?php
-    wp_footer();
-    ?>
 
-    </body>
+    <!-- Модальные окна -->
+    <div class="modal">
+        <div class="modal__overlay">
 
-    </html>
+            <div class="modal-form" id="mainModal">
+
+                <div class="modal__close"><span></span></div>
+
+                <div class="modal-form__title">
+                    Записаться на консультацию
+                </div>
+                <div class="feedback-form__form">
+
+                        <form action="#" class="form-modal" id="form-modal">
+                            <div class="form-modal__input">
+                                <input type="text" name="name" placeholder="Имя" class="input">
+                            </div>
+                            <div class="form-modal__input email-input">
+                                <input type="email" name="email" placeholder="Email" class="input">
+                            </div>
+                            <div class="form-modal__input phone-input">
+                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                            </div>
+                            <div class="form-modal__item">
+                                <div class="checkbox">
+                                    <input id="checkboxModal" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="checkboxModal" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                </div>
+                            </div>
+                            <div class="form-modal__submit">
+                                <input class="btn btn_submit" type="submit" value="Узнать больше">
+                            </div>
+                        </form>
+                </div>
+            </div>
+
+            <div class="thanks-modal" id="thanksModal">
+
+                <div class="thanks-modal__wrapper">
+
+                    <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+
+                    <div class="thanks-modal__title">Благодарим за запись <br> на консультацию ;)</div>
+                    <div class="thanks-modal__subtitle">Наши специалисты свяжутся <br> с вами в самое ближайшее время</div>
+
+                    <div class="thanks-modal__btn">
+                        <button>Закрыть</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <?php
+        wp_footer();
+        ?>
+
+        </body>
+
+        </html>

@@ -261,12 +261,11 @@ get_header();
                             <div class="form-about__input phone-input">
                                 <input type="phone" name="phone" placeholder="Номер телефона" class="input">
                             </div>
-                            <div class="form-about__atten">
-                                <label for="form-about-section">
-                                    <input class="form-about__checkbox" type="checkbox" name="checkbox" id="form-about-section" checked>
-                                    <span class="form-about__fake"></span>
-                                    <span class="form-about__text">Согласие с обработкой персональных данных</span>
-                                </label>
+                            <div class="form-about__item">
+                                <div class="checkbox">
+                                    <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="checkbox" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                </div>
                             </div>
                             <div class="form-about__submit">
                                 <input class="btn btn_submit" type="submit" value="Узнать больше">
@@ -808,14 +807,13 @@ get_header();
                                     <textarea name="texterea" placeholder="Задать вопрос"></textarea>
                                 </div>
 
-                                <div class="form-portfolio__atten">
-                                    <label for="form-portfolio-about-section">
-                                        <input class="form-portfolio__checkbox" type="checkbox" name="form-portfolio-about-section" id="form-portfolio-about-section" checked>
-                                        <span class="form-portfolio__fake"></span>
-                                        <span class="form-portfolio__text">Согласие с обработкой персональных
-                                            данных</span>
-                                    </label>
+                                <div class="form-about__item">
+                                    <div class="checkbox">
+                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                        <label for="checkbox-2" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    </div>
                                 </div>
+
                                 <div class="form-portfolio__submit">
                                     <input class="btn btn_submit" type="submit" value="Узнать больше">
                                 </div>
@@ -980,14 +978,12 @@ get_header();
                             <div class="form-laboratory__input phone-input">
                                 <input type="phone" name="phone" placeholder="Номер телефона" class="input">
                             </div>
-                            <div class="form-laboratory__atten">
-                                <label for="form-laboratory-section">
-                                    <input class="form-laboratory__checkbox" type="checkbox" name="form-laboratory-section" id="form-laboratory-section" checked>
-                                    <span class="form-laboratory__fake"></span>
-                                    <span class="form-laboratory__text">Согласие с обработкой персональных
-                                        данных</span>
-                                </label>
-                            </div>
+                            <div class="form-about__item">
+                                    <div class="checkbox">
+                                        <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
+                                        <label for="checkbox-3"  class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    </div>
+                                </div>
                             <div class="form-laboratory__submit">
                                 <input class="btn btn_submit btn_white" type="submit" value="Узнать больше">
                             </div>

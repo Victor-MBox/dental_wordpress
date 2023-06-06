@@ -1,0 +1,159 @@
+/* Модальное окно */
+.modal
+    &__overlay
+        display: none
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        z-index: 50
+        background: #07003ba0
+    &__close
+        cursor: pointer
+        span
+            display: inline-flex
+            position: absolute
+            top: -10%
+            right: -12%
+            width: 32px
+            height: 32px
+            background: white
+            transform: rotate(45deg)
+            transition: transform 0.5s
+            z-index: 999
+            border-radius: 90px
+            &::before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 2px
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #ff0000
+            &::after
+                content: ""
+                position: absolute
+                width: 2px
+                height: 50%
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                background-color: #ff0000
+            &:hover
+                transform: rotate(135deg)
+
+/* Форма в модальном окне */
+.modal-form
+    display: none
+
+    position: relative
+    width: 285px
+    min-height: 359px
+    background: #FFFFFF
+    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+    border-radius: 15px
+    padding: 25px 24px 15px
+
+    position: absolute
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    top: 50%
+    z-index: 999
+
+    &__title
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        text-align: center
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 15px
+
+.form-modal
+    text-align: center
+    &__input
+        margin-bottom: 15px
+        input
+            width: 235px
+            height: 48px
+            background: #FFFFFF
+            border: 1px solid #B1B6C5
+            border-radius: 15px
+            padding: 13px 15px
+            color: $gray-text
+            font-weight: 400
+            font-size: 12px
+            line-height: 22px
+            &:active, &:focus
+                outline: 0
+                outline-offset: 0
+                color: $black-2
+                border: 1px solid #BE95FF
+    label.error
+        border: none
+        display: flex
+        margin-left: 12px
+        margin-bottom: -8px
+        font-weight: 400
+        font-size: 12px
+        line-height: 15px
+        color: #FF5670
+    .error
+        border: 1px solid #FF5670
+
+/* Спасибо модальное окно */
+.thanks-modal
+    display: none
+
+    position: absolute
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    top: 50%
+    z-index: 999
+    background: linear-gradient(180deg, #C39EFF 0%, #A670FF 100%)
+    border-radius: 25px
+    &__wrapper
+        display: flex
+        text-align: center
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        width: 343px
+        height: 363px
+    &__img
+        margin-bottom: 40px
+        img
+            animation: zoom-animation 2s infinite
+    &__title
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 16px
+    &__subtitle
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: #FFFFFF
+        margin-bottom: 82px
+    &__btn
+        button
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: #FFFFFF
+            border: none
+            background: none
+            cursor: pointer
+
+    @keyframes zoom-animation
+        0%, 100%
+            transform: scale(1)
+        50%
+            transform: scale(1.3)

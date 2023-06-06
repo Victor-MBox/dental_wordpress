@@ -895,7 +895,7 @@
                         <?php the_field('header_phone', 2); ?>
                     </a>
                 </div>
-                <div class="header__btn">
+                <div class="header__btn" data-modal="mainModal">
                     <button class="btn">Заказать звонок</button>
                 </div>
             </div>

@@ -125,217 +125,244 @@ links.forEach((link) => {
 /* *************************************************
 Слайдер Slick на главной станице */
 $(document).ready(function () {
-
   let slickSlider = $("#slickSlider");
 
-  slickSlider.slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    speed: 500,
-    fade: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-  });
+  if (slickSlider.length) {
+    slickSlider.slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      speed: 500,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+    });
+  }
   // Скрытие изображения загрузки
-  $('#loader').fadeOut(300);
+  $("#loader").fadeOut(300);
 });
+
 /* *************************************************
 ТАб УСЛУГИ на главной странице */
+$(document).ready(function () {
+  const tabsBtn = document.querySelectorAll(".tabs__nav-btn");
+  const tabsItems = document.querySelectorAll(".tabs__item");
 
-const tabsBtn = document.querySelectorAll(".tabs__nav-btn");
-const tabsItems = document.querySelectorAll(".tabs__item");
+  if (tabsBtn.length && tabsItems.length) {
+    tabsBtn.forEach(onTabClick);
 
-tabsBtn.forEach(onTabClick);
+    function onTabClick(item) {
+      item.addEventListener("click", function () {
+        let currentBtn = item;
+        let tabId = currentBtn.getAttribute("data-tab");
+        let currentTab = document.querySelector(tabId);
 
-function onTabClick(item) {
-  item.addEventListener("click", function () {
-    let currentBtn = item;
-    let tabId = currentBtn.getAttribute("data-tab");
-    let currentTab = document.querySelector(tabId);
+        if (!currentBtn.classList.contains("active")) {
+          tabsBtn.forEach(function (item) {
+            item.classList.remove("active");
+          });
 
-    if (!currentBtn.classList.contains("active")) {
-      tabsBtn.forEach(function (item) {
-        item.classList.remove("active");
+          tabsItems.forEach(function (item) {
+            item.classList.remove("active");
+          });
+
+          currentBtn.classList.add("active");
+          currentTab.classList.add("active");
+        }
       });
-
-      tabsItems.forEach(function (item) {
-        item.classList.remove("active");
-      });
-
-      currentBtn.classList.add("active");
-      currentTab.classList.add("active");
     }
-  });
-}
+  }
 
-document.querySelector(".tabs__nav-btn").click();
-
+  if (document.querySelector(".tabs__nav-btn")) {
+    document.querySelector(".tabs__nav-btn").click();
+  }
+});
 
 /* ***************************************************
 Мобильное АККОРДИОН на главной странице */
 //==========================================
-const accTitles = document.querySelectorAll('.accordion-home__tab');
-const accContents = document.querySelectorAll('.accordion-home__content');
+$(document).ready(function () {
+  const accTitles = document.querySelectorAll(".accordion-home__tab");
+  const accContents = document.querySelectorAll(".accordion-home__content");
 
-// Добавляем класс "active" к первому табу и его соответствующему контенту
-accTitles[0].classList.add('active');
-accContents[0].classList.add('active');
-accContents[0].style.maxHeight = accContents[0].scrollHeight + 'px';
+  if (accTitles.length && accContents.length) {
+    // Добавляем класс "active" к первому табу и его соответствующему контенту
+    accTitles[0].classList.add("active");
+    accContents[0].classList.add("active");
+    accContents[0].style.maxHeight = accContents[0].scrollHeight + "px";
 
-accTitles.forEach(item => item.addEventListener('click', () => {
-    const activeContent = document.querySelector('#' + item.dataset.tab);
+    accTitles.forEach((item) =>
+      item.addEventListener("click", () => {
+        const activeContent = document.querySelector("#" + item.dataset.tab);
 
-    if (activeContent.classList.contains('active')) {
-        activeContent.classList.remove('active');
-        item.classList.remove('active');
-        activeContent.style.maxHeight = 0;
-    } else {
-        accContents.forEach(element => {
-            element.classList.remove('active');
+        if (activeContent.classList.contains("active")) {
+          activeContent.classList.remove("active");
+          item.classList.remove("active");
+          activeContent.style.maxHeight = 0;
+        } else {
+          accContents.forEach((element) => {
+            element.classList.remove("active");
             element.style.maxHeight = 0;
-        });
+          });
 
-        accTitles.forEach(element => element.classList.remove('active'));
+          accTitles.forEach((element) => element.classList.remove("active"));
 
-        item.classList.add('active');
-        activeContent.classList.add('active');
-        activeContent.style.maxHeight = activeContent.scrollHeight + 'px';
-    }
-}));
-
-
-
+          item.classList.add("active");
+          activeContent.classList.add("active");
+          activeContent.style.maxHeight = activeContent.scrollHeight + "px";
+        }
+      })
+    );
+  }
+});
 
 /* *************************************************
 До после - на главной странице 
 Slick Slider*/
+$(document).ready(function () {
+  let beforeAfterSlider = $("#beforeAfterSlider");
 
-let beforeAfterSlider = $("#beforeAfterSlider");
+  if (beforeAfterSlider.length) {
+    beforeAfterSlider.slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      speed: 500,
+      fade: true,
+      swipe: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 1025,
+          settings: {},
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 481,
+          settings: {
+            dots: true,
+          },
+        },
+      ],
+    });
+  }
 
-beforeAfterSlider.slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  dots: false,
-  speed: 500,
-  fade: true,
-  swipe: false,
-  autoplay: true,
-  autoplaySpeed: 5000,
-  responsive: [
-    {
-      breakpoint: 1025,
-      settings: {
-      },
-    },
-    {
-      breakpoint: 769,
-      settings: {
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 481,
-      settings: {
-        dots: true,
-      },
-    },
-  ],
-});
+  /* Навигация слайдера */
+  $("#introSliderPrev").on("click", function () {
+    beforeAfterSlider.slick("slickPrev");
+  });
 
-/* Навигация слайдера */
-$("#introSliderPrev").on("click", function () {
-  beforeAfterSlider.slick("slickPrev");
-});
-
-$("#introSliderNext").on("click", function () {
-  beforeAfterSlider.slick("slickNext");
+  $("#introSliderNext").on("click", function () {
+    beforeAfterSlider.slick("slickNext");
+  });
 });
 
 /* До - после 1 */
+$(document).ready(function () {
+  const gallery = document.querySelector(".before-after__gallery");
+  const galleryResize = document.querySelector(".before-after__gallery-after");
+  const before = document.querySelector("#before");
+  const after = document.querySelector("#after");
 
-const gallery = document.querySelector(".before-after__gallery");
-const galleryResize = document.querySelector(".before-after__gallery-after");
-const before = document.querySelector("#before");
-const after = document.querySelector("#after");
+  if (gallery && galleryResize && before && after) {
+    gallery.addEventListener("mousemove", (event) => {
+      let x = event.offsetX;
+      galleryResize.classList.remove("tr");
+      galleryResize.style.width = x + "px";
+    });
 
-gallery.addEventListener("mousemove", (event) => {
-  let x = event.offsetX;
-  galleryResize.classList.remove("tr");
-  galleryResize.style.width = x + "px";
+    gallery.addEventListener("mouseleave", (event) => {
+      galleryResize.style.width = "50%";
+      galleryResize.classList.add("tr");
+    });
+
+    before.onclick = () => {
+      galleryResize.classList.add("tr");
+      galleryResize.style.width = "50px";
+    };
+
+    after.onclick = () => {
+      galleryResize.classList.add("tr");
+      galleryResize.style.width = "90%";
+    };
+  }
 });
-
-gallery.addEventListener("mouseleave", (event) => {
-  galleryResize.style.width = 50 + "%";
-  galleryResize.classList.add("tr");
-});
-
-before.onclick = () => {
-  galleryResize.classList.add("tr");
-  galleryResize.style.width = 50 + "px";
-};
-after.onclick = () => {
-  galleryResize.classList.add("tr");
-  galleryResize.style.width = 90 + "%";
-};
 
 /* До - после 2 */
+$(document).ready(function () {
+  const gallery2 = document.querySelector(".before-after2__gallery");
+  const galleryResize2 = document.querySelector(
+    ".before-after2__gallery-after"
+  );
+  const before2 = document.querySelector("#before2");
+  const after2 = document.querySelector("#after2");
 
-const gallery2 = document.querySelector(".before-after2__gallery");
-const galleryResize2 = document.querySelector(".before-after2__gallery-after");
-const before2 = document.querySelector("#before2");
-const after2 = document.querySelector("#after2");
+  if (gallery2 && galleryResize2 && before2 && after2) {
+    gallery2.addEventListener("mousemove", (event) => {
+      let x = event.offsetX;
+      galleryResize2.classList.remove("tr");
+      galleryResize2.style.width = x + "px";
+    });
 
-gallery2.addEventListener("mousemove", (event) => {
-  let x = event.offsetX;
-  galleryResize2.classList.remove("tr");
-  galleryResize2.style.width = x + "px";
+    gallery2.addEventListener("mouseleave", (event) => {
+      galleryResize2.style.width = "50%";
+      galleryResize2.classList.add("tr");
+    });
+
+    before2.onclick = () => {
+      galleryResize2.classList.add("tr");
+      galleryResize2.style.width = "50px";
+    };
+
+    after2.onclick = () => {
+      galleryResize2.classList.add("tr");
+      galleryResize2.style.width = "90%";
+    };
+  }
 });
-
-gallery2.addEventListener("mouseleave", (event) => {
-  galleryResize2.style.width = 50 + "%";
-  galleryResize2.classList.add("tr");
-});
-
-before2.onclick = () => {
-  galleryResize2.classList.add("tr");
-  galleryResize2.style.width = 50 + "px";
-};
-after2.onclick = () => {
-  galleryResize2.classList.add("tr");
-  galleryResize2.style.width = 90 + "%";
-};
 
 /* До - после 3 */
+$(document).ready(function () {
+  const gallery3 = document.querySelector(".before-after2__gallery");
+  const galleryResize3 = document.querySelector(
+    ".before-after2__gallery-after"
+  );
+  const before3 = document.querySelector("#before2");
+  const after3 = document.querySelector("#after2");
 
-const gallery3 = document.querySelector(".before-after2__gallery");
-const galleryResize3 = document.querySelector(".before-after2__gallery-after");
-const before3 = document.querySelector("#before2");
-const after3 = document.querySelector("#after2");
+  if (gallery3 && galleryResize3 && before3 && after3) {
+    gallery3.addEventListener("mousemove", (event) => {
+      let x = event.offsetX;
+      galleryResize3.classList.remove("tr");
+      galleryResize3.style.width = x + "px";
+    });
 
-gallery3.addEventListener("mousemove", (event) => {
-  let x = event.offsetX;
-  galleryResize2.classList.remove("tr");
-  galleryResize2.style.width = x + "px";
+    gallery3.addEventListener("mouseleave", (event) => {
+      galleryResize3.style.width = "50%";
+      galleryResize3.classList.add("tr");
+    });
+
+    before3.onclick = () => {
+      galleryResize3.classList.add("tr");
+      galleryResize3.style.width = "50px";
+    };
+
+    after3.onclick = () => {
+      galleryResize3.classList.add("tr");
+      galleryResize3.style.width = "90%";
+    };
+  }
 });
-
-gallery3.addEventListener("mouseleave", (event) => {
-  galleryResize2.style.width = 50 + "%";
-  galleryResize2.classList.add("tr");
-});
-
-before3.onclick = () => {
-  galleryResize2.classList.add("tr");
-  galleryResize2.style.width = 50 + "px";
-};
-after3.onclick = () => {
-  galleryResize2.classList.add("tr");
-  galleryResize2.style.width = 90 + "%";
-};
 
 /* *************************************************
 Карусель с докторами на главной странице */
@@ -379,113 +406,274 @@ $("#slickCarousel").slick({
 
 /* *************************************************
 Далидация форм. Использовал jquery.validate.min.js */
+$(document).ready(function () {
+  var isFormValid = false; // Флаг для отслеживания состояния валидации
 
-$("#form-1").validate({
-  rules: {
-    name: "required",
-    phone: "required",
-    checkbox: "required",
-    email: {
-      email: true,
+  $("#form-1").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        email: true,
+      },
+      checkbox: {
+        required: true, // Добавление обязательного заполнения чекбокса
+      },
     },
-  },
-  messages: {
-    name: "Введите имя",
-    phone: "Введите телефон",
-    email: {
-      email: "Неправильно введен email",
+    messages: {
+      name: "Введите имя",
+      phone: "Введите телефон",
+      email: {
+        email: "Неправильно введен email",
+      },
+      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
     },
-  },
-});
+    submitHandler: function (form) {
+      // Обработчик отправки формы
+      if ($("#checkbox").is(":checked")) {
+        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+      } else {
+        // Если чекбокс не выбран, выполняем необходимые действия
+        alert("Пожалуйста, дайте согласие на обработку персональных данных");
+        isFormValid = false; // Устанавливаем флаг в false
+      }
+    },
+  });
 
-$("#form-2").validate({
-  rules: {
-    name: "required",
-    phone: "required",
-    email: {
-      email: true,
+  //форма модального окна
+  $("#form-modal").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        email: true,
+      },
+      checkbox: {
+        required: true, // Добавление обязательного заполнения чекбокса
+      },
     },
-  },
-  messages: {
-    name: "Введите имя",
-    phone: "Введите телефон",
-    email: {
-      email: "Неправильно введен email",
+    messages: {
+      name: "Введите имя",
+      phone: "Введите телефон",
+      email: {
+        email: "Неправильно введен email",
+      },
+      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
     },
-  },
-});
+    submitHandler: function (form) {
+      // Обработчик отправки формы
+      if ($("#checkboxModal").is(":checked")) {
+        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+      } else {
+        // Если чекбокс не выбран, выполняем необходимые действия
+        alert("Пожалуйста, дайте согласие на обработку персональных данных");
+        isFormValid = false; // Устанавливаем флаг в false
+      }
+    },
+  });
 
-$("#form-3").validate({
-  rules: {
-    name: "required",
-    phone: "required",
-    email: {
-      email: true,
+  //форма на главной странице в разделе "Наши работы"
+  $("#form-2").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        email: true,
+      },
+      checkbox: {
+        required: true, // Добавление обязательного заполнения чекбокса
+      },
     },
-  },
-  messages: {
-    name: "Введите имя",
-    phone: "Введите телефон",
-    email: {
-      email: "Неправильно введен email",
+    messages: {
+      name: "Введите имя",
+      phone: "Введите телефон",
+      email: {
+        email: "Неправильно введен email",
+      },
+      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
     },
-  },
-});
+    submitHandler: function (form) {
+      // Обработчик отправки формы
+      if ($("#checkbox-2").is(":checked")) {
+        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+      } else {
+        // Если чекбокс не выбран, выполняем необходимые действия
+        alert("Пожалуйста, дайте согласие на обработку персональных данных");
+        isFormValid = false; // Устанавливаем флаг в false
+      }
+    },
+  });
 
-$("#form-4").validate({
-  rules: {
-    email: {
-      required: true,
-      email: true,
+  //форма на главной странице в разделе "Наши лаборатория"
+  $("#form-3").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        email: true,
+      },
+      checkbox: {
+        required: true, // Добавление обязательного заполнения чекбокса
+      },
     },
-  },
-  messages: {
-    email: {
-      required: "Введите email",
-      email: "Неправильно введен email",
+    messages: {
+      name: "Введите имя",
+      phone: "Введите телефон",
+      email: {
+        email: "Неправильно введен email",
+      },
+      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
     },
-  },
+    submitHandler: function (form) {
+      // Обработчик отправки формы
+      if ($("#checkbox-3").is(":checked")) {
+        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+      } else {
+        // Если чекбокс не выбран, выполняем необходимые действия
+        alert("Пожалуйста, дайте согласие на обработку персональных данных");
+        isFormValid = false; // Устанавливаем флаг в false
+      }
+    },
+  });
+
+  $("#form-footer").validate({
+    rules: {
+      email: {
+        required: true,
+        email: true,
+      },
+    },
+    messages: {
+      email: {
+        required: "Введите email",
+        email: "Неправильно введен email",
+      },
+    },
+  });
+
+  //общий скрипт отправки письма
+  if ($("form").length) {
+    $("form").submit(function (e) {
+      e.preventDefault();
+
+      var form = $(this);
+
+      if (!form.valid() || !isFormValid) {
+        return;
+      }
+
+      var submitButton = form.find(".btn_submit");
+      var originalButtonText = submitButton.val();
+
+      submitButton.val("Отправка...").prop("disabled", true);
+
+      $.ajax({
+        type: "POST",
+        url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+        //адрес нужно заменить после посадки на реальный хостинг
+        data: form.serialize(),
+      }).done(function () {
+        form.find("input").val("");
+        $("#mainModal").fadeOut();
+
+        $(".modal__overlay, #thanksModal").fadeIn();
+        form[0].reset(); // Сбросить значения всех остальных полей формы
+
+        submitButton.val(originalButtonText).prop("disabled", false);
+      });
+
+      return false;
+    });
+  }
 });
 
 /* Маска номера телефона */
 $("input[name=phone]").mask("+7 (999) 999-99-99");
 
+/* ===================================================
+Модальные окна */
+$("[data-modal=mainModal]").on("click", function () {
+  $(".modal__overlay, #mainModal").fadeIn();
+});
+
+$(".modal__close, .thanks-modal__btn").on("click", function () {
+  $(".modal__overlay, #mainModal, #thanksModal").fadeOut();
+});
+
+
+// Страница Услуги =============================================================================
+
+/* ***************************************************
+АККОРДИОН на странице УСЛУГИ*/
+//==========================================
+$(document).ready(function () {
+  const pageTitles = document.querySelectorAll(".accordion-page__tab");
+  const pageContents = document.querySelectorAll(".accordion-page__content");
+
+  if (pageTitles.length && pageContents.length) {
+    // Добавляем класс "active" к первому табу и его соответствующему контенту
+    pageTitles[0].classList.add("active");
+    pageContents[0].classList.add("active");
+    pageContents[0].style.maxHeight = pageContents[0].scrollHeight + "0px";
+
+    pageTitles.forEach((item) =>
+      item.addEventListener("click", () => {
+        const activeContent = document.querySelector("#" + item.dataset.tab);
+
+        if (activeContent.classList.contains("active")) {
+          activeContent.classList.remove("active");
+          item.classList.remove("active");
+          activeContent.style.maxHeight = 0;
+        } else {
+          pageContents.forEach((element) => {
+            element.classList.remove("active");
+            element.style.maxHeight = 0;
+          });
+
+          pageTitles.forEach((element) => element.classList.remove("active"));
+
+          item.classList.add("active");
+          activeContent.classList.add("active");
+          activeContent.style.maxHeight = activeContent.scrollHeight + "0px";
+        }
+      })
+    );
+  }
+});
+
+/* ТАБ В АККОРДИОНЕ на странице УСЛУГИ */
 /* *************************************************
-Отправка форм на почту */
+ТАб УСЛУГИ на главной странице */
+$(document).ready(function () {
+  const pageBtn = document.querySelectorAll(".page-tab__nav-btn");
+  const pageItems = document.querySelectorAll(".page-tab__item");
 
-$("form").submit(function (e) {
-  e.preventDefault();
+  if (pageBtn.length && pageItems.length) {
+    pageBtn.forEach(onTabClick);
 
-  if (!$(this).valid()) {
-    return;
+    function onTabClick(item) {
+      item.addEventListener("click", function () {
+        let currentBtn = item;
+        let tabId = currentBtn.getAttribute("data-tab");
+        let currentTab = document.querySelector(tabId);
+
+        if (!currentBtn.classList.contains("active")) {
+          pageBtn.forEach(function (item) {
+            item.classList.remove("active");
+          });
+
+          pageItems.forEach(function (item) {
+            item.classList.remove("active");
+          });
+
+          currentBtn.classList.add("active");
+          currentTab.classList.add("active");
+        }
+      });
+    }
   }
 
-  var checkbox = $("#form-about-section");
-  if (!checkbox.prop("checked")) {
-    alert("Пожалуйста, дайте согласие на обработку персональных данных");
-    return;
+  if (document.querySelector(".page-tab__nav-btn")) {
+    document.querySelector(".page-tab__nav-btn").click();
   }
-
-  var checkbox = $("#form-portfolio-about-section");
-  if (!checkbox.prop("checked")) {
-    alert("Пожалуйста, дайте согласие на обработку персональных данных");
-    return;
-  }
-
-  var checkbox = $("#form-laboratory-section");
-  if (!checkbox.prop("checked")) {
-    alert("Пожалуйста, дайте согласие на обработку персональных данных");
-    return;
-  }
-
-  $.ajax({
-    type: "POST",
-    url: "wp-content/themes/dental/assets/mailer/smart.php",
-    data: $(this).serialize(),
-  }).done(function () {
-    $(this).find("input").val("");
-    $("form").trigger("reset");
-  });
-
-  return false;
 });
