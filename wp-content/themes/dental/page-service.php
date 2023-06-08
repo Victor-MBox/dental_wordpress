@@ -102,21 +102,12 @@ get_header();
 
                         <div class="page-tab__nav">
 
-                            <button class="page-tab__nav-btn" type="button" data-tab="#page-tab-1-tab_1">
-                                Ортопантомография (ОПТГ)
-                            </button>
-
-                            <button class="page-tab__nav-btn" type="button" data-tab="#page-tab-1-tab_2">
-                                Прицельный снимок
-                            </button>
-
-                            <button class="page-tab__nav-btn" type="button" data-tab="#page-tab-1-tab_3">
-                                Аксиография
-                            </button>
-
-                            <button class="page-tab__nav-btn" type="button" data-tab="#page-tab-1-tab_4">
-                                Компьютерная томография (КТ)
-                            </button>
+                            <ul>
+                                <li><button class="link-page" href="content-optg/">Ортопантомография (ОПТГ)</button></li>
+                                <li><button class="link-page" href="contant-snapshot/">Прицельный снимок</button></li>
+                                <li><button class="link-page" href="content-optg/">Аксиография</button></li>
+                                <li><button class="link-page" href="contant-snapshot/">Компьютерная томография (КТ)</button></li>
+                            </ul>
 
                         </div>
                     </div>
@@ -136,7 +127,13 @@ get_header();
                         </div>
                         <div id="page-tab-2" class="accordion-page__content">
 
-                            123 <br> 123 <br> 123
+                            <ul>
+                                <li><button class="link-page" href="content-optg/">Услуга - 1</button></li>
+                                <li><button class="link-page" href="contant-snapshot/">Услуга - 2</button></li>
+                                <li><button class="link-page" href="content-optg/">Услуга - 3</button></li>
+                                <li><button class="link-page" href="contant-snapshot/">Услуга - 4</button></li>
+                            </ul>
+
                         </div>
                     </div>
                     <div class="accordion-page">
@@ -238,63 +235,29 @@ get_header();
 
             <div class="page-service-section__column">
 
-                <div class="page-tab__content">
-                    <div class="page-tab__item" id="page-tab-1-tab_1">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-                        <div class="page-tab__btn-calc">
-                            <a class="btn-calc" href="#">
-                                <div class="btn-calc__img"></div>
-                                <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                    <span>1
-                                        мин</span>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="page-tab__item" id="page-tab-1-tab_2">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
-
-                        <div class="page-tab__btn-call">
-                            <a class="btn-call" href="#">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="page-tab__item" id="page-tab-1-tab_3">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-
-                        <div class="page-tab__btn-calc">
-                            <a class="btn-calc" href="#">
-                                <div class="btn-calc__img"></div>
-                                <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                    <span>1
-                                        мин</span>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="page-tab__item" id="page-tab-1-tab_4">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
-                        <div class="page-tab__btn-call">
-                            <a class="btn-call" href="#">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </a>
-                        </div>
-
-                    </div>
+                <div id="loader-page"></div>
 
 
+                <div class="page-content" id="content-page">
+                    test --- Услуга 1
+                    <br>
+                    test test
+                    <br>
+                    test
+                    <br>
+                    test
+                    <br>
+                    test
+                    <br>
+                    test
                 </div>
             </div>
+
+
+
         </div>
-    </section>
+</div>
+</section>
 </div>
 
 <?php

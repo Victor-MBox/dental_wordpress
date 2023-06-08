@@ -61,9 +61,20 @@
     &__container
         display: flex
     &__column
+        position: relative
         &:nth-child(1)
-            width: 387px
+            width: 34%
             margin-right: 20px
         &:nth-child(2)
-            width: auto
+            width: 64%
 
+#loader-page
+    background: url(assets/img/ajax-loader.gif) no-repeat
+    background-size: cover
+    height: 50px
+    width: 50px
+    position: absolute
+    z-index: 5
+    top: 50%
+    left: 50%
+    display: none

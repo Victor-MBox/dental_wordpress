@@ -12,6 +12,7 @@ function dental_scripts() {
     wp_enqueue_script('dental_jquery-validate-mask', get_template_directory_uri(). '/assets/js/jquery.maskedinput.min.js' , array(), null, true);
     wp_enqueue_script('dental_slick', get_template_directory_uri(). '/assets/js/slick.min.js' , array(), null, true);
     wp_enqueue_script('dental_scripts', get_template_directory_uri(). '/assets/js/app.js' , array(), null, true);
+    wp_enqueue_script('dental_scripts-page', get_template_directory_uri(). '/assets/js/page-app.js' , array(), null, true);
 };
 
 

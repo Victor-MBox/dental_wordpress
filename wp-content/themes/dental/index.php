@@ -747,28 +747,6 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="before-after2">
-                            <span id="before2" class="before__btn">ДО</span>
-                            <span id="after2" class="after__btn">ПОСЛЕ</span>
-
-                            <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after2__img">
-                                <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">
-                                </div>
-                            </div>
-                            <div class="before-after2__procedure procedure">
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-                                <div class="procedure__subtitle">процедура</div>
-                                <div class="procedure__title">Ортодонтия</div>
-                                <div class="procedure__text">Были установлены 4 импланта.</div>
-                                <div class="procedure__prise">Стоимость: <span>75 000 ₽</span></div>
-                                <button class="btn btn_lilac">Больше работ</button>
-                            </div>
-                        </div>
-
                     </div>
 
 
