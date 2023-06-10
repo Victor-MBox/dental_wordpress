@@ -185,7 +185,61 @@
             bottom: 84px
             z-index: -1
 
-    /* страница */
+    /* СТРАНИЦА УСЛУГИ*/
+    .page-main-section
+        &__decor img:nth-child(2)
+            right: -4%
+
+    #loader-page
+        top: 24%
+    /* accordoin */
+    .accordion-page
+        &__tab, &__tab.active
+            height: auto
+            min-height: 80px
+            .accordion-page__nav-title
+                font-size: 14px
+                line-height: 15px
+        &__nav-subtitle, &__tab.active .accordion-page__nav-subtitle
+            font-size: 14px
+            line-height: 15px
+        &__content.active
+            padding: 20px 0 20px 50px
+
+    /* Содержимое ajax */
+
+    .page-service-section
+        &__decor-content:nth-child(1)
+            right: 0
+        &__decor-content:nth-child(2)
+            display: none
+
+    .page-content
+        &__column
+            &:nth-child(1)
+                width: 60%
+            &:nth-child(2)
+                width: 40%
+        &__chapter
+            .slick-slider
+                width: 650px
+                margin: 0 auto
+                img
+                    width: 650px
+            .before-after, .before-after2
+                height: 526px
+                &__procedure
+                    bottom: 16px
+            .before-after-arrows
+                bottom: 16px
+                right: 5%
+        &__title
+            font-size: 26px
+
+    .procedure
+        &__img
+            display: none
+
     /* страница */
     /* страница */
     /* страница */
@@ -475,6 +529,64 @@
             width: 62px
             height: 62px
 
+    /* СТРАНИЦА - УСЛУГИ */
+    .page-main-section
+        background: linear-gradient(to bottom, #E8F1FF 100%, rgba(255,255,255,0) 0%)
+        &__column
+            &:nth-child(1)
+                width: 60%
+            &:nth-child(2)
+                width: 40%
+        &__form
+            bottom: -2%
+            left: 50%
+        &__decor
+            img:nth-child(2)
+                bottom: -66px
+
+    .page-second-section
+        &__description
+            padding: 0px 10%
+
+    .page-service-section
+        &__decor-content:nth-child(1)
+            width: 62px
+            height: 62px
+            top: -68px
+
+    .page-content
+        &__banner
+            height: 300px
+        &__name
+            font-size: 26px
+            line-height: 26px
+        &__title
+            font-size: 20px
+            line-height: 22px
+        &__chapter .slick-slider
+            width: 550px
+            .before-after, .before-after2
+                height: 434px
+        &__carousel
+            flex-wrap: wrap
+            .carousel
+                &__wrapper
+                    margin-bottom: 10px
+                    padding-right: 0
+                    width: 48%
+                &__photo img
+                    max-width: 80%
+                    margin: auto
+        &__wrapper
+            flex-wrap: wrap
+    .review-page
+        width: 48%
+        margin-right: 10px
+        margin-bottom: 10px
+
+    .procedure__text
+        display: none
+
 @media (max-width: 880px)
 
     .portfolio-section
@@ -490,6 +602,67 @@
 
     .before-after__procedure, .before-after2__procedure
         bottom: 52px
+
+    /* СТРАНИЦА - УСЛУГИ */
+    .accordion-page__tab .accordion-page__nav-title, .accordion-page__tab.active .accordion-page__nav-title
+        font-size: 12px
+        line-height: 13px
+
+    .accordion-page__nav-subtitle, .accordion-page__tab.active .accordion-page__nav-subtitle
+        font-size: 12px
+        line-height: 13px
+
+    .accordion-page
+        &__content.active
+            padding: 20px 0 20px 20px
+        &__decor
+            width: 35px
+            height: 35px
+            margin-bottom: 10px
+        &__number
+            font-size: 32px
+            line-height: 32px
+
+    .page-tab
+        &__nav
+            ul
+                .link-page, .link-page.active-tab
+                    font-size: 12px
+                    line-height: 12px
+
+    .buttons-page-1__text, .buttons-page-2__text, .buttons-page-3__text
+        font-size: 12px
+        line-height: 14px
+
+    /* Содержимое ajax */
+    .page-content
+        &__banner
+            padding: 20px 22px
+            height: 260px
+        &__name
+            font-size: 24px
+            line-height: 24px
+        &__title
+            font-size: 18px
+            line-height: 20px
+        &__column-wrapper
+            flex-direction: column-reverse
+            flex-wrap: wrap
+        &__img
+            margin-bottom: 15px
+        &__column
+            &:nth-child(1), &:nth-child(2)
+                width: 100%
+        &__chapter
+            .slick-slider
+                width: 420px
+            .slick-slider .before-after, .slick-slider .before-after2
+                height: 363px
+        &__carousel
+            .carousel__wrapper
+                width: 46%
+    .review-page
+        width: 46%
 
 @media (max-width: 768px)
 
@@ -843,6 +1016,53 @@
             input
                 width: 100%
 
+    /* Страница УСЛУГИ */
+    .page-main-section
+        padding-top: 34px
+        margin-top: 76px
+        &__container
+            flex-wrap: wrap
+        &__column
+            &:nth-child(1)
+                width: 100%
+                margin-bottom: 32px
+            &:nth-child(2)
+                display: none
+        &__form
+            position: relative
+            bottom: 0
+            left: 0
+            width: 100%
+        &__description
+            margin-right: 0
+        &__decor
+            img
+                &:nth-child(1)
+                    left: 75%
+                    top: 50%
+                &:nth-child(2)
+                    bottom: -2%
+                    right: 78%
+                    transform: rotateZ(221deg)
+                &:nth-child(3)
+                    left: 36%
+                    bottom: 4%
+                    z-index: 1
+
+    .page-second-section
+        margin-bottom: 32px
+        &__description
+            padding: 0
+        
+    .page-service-section
+        &__column
+            display: none
+        &__column-mob
+            display: block
+            margin: 0 auto
+            width: 100%
+            margin-bottom: 80px
+
 @media (max-width: 480px)
     /* Header */
     .header
@@ -885,7 +1105,7 @@
             font-size: 12px
 
     /* Модальные окна */
-    .modal__close 
+    .modal__close
         span
             top: -14%
             right: auto
@@ -1005,3 +1225,7 @@
 
     .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
         max-width: 300px
+
+    /* СТРАНИЦА УСЛУГИ */
+    .page-main-section
+        margin-bottom: 50px

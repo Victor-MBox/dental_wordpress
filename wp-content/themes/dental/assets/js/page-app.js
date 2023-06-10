@@ -42,8 +42,10 @@ $(document).ready(function () {
 /* ************************************************* */
 
 $(document).ready(function () {
-  var slidersInitialized = false;
+  var slidersInitialized = false; // Переменная для отслеживания инициализации слайдеров
+  var activeButton = null; // Переменная для хранения ссылки на текущую активную кнопку
 
+  // Функция загрузки контента по AJAX-запросу
   function loadContent(info) {
     var contentPage = $("#content-page");
 
@@ -58,10 +60,12 @@ $(document).ready(function () {
     }
   }
 
+  // Функция скрытия загрузчика
   function hideLoader() {
     $("#loader-page").fadeOut("normal");
   }
 
+  // Функция инициализации слайдеров
   function initializeSliders() {
     var beforeAfterSlider = $("#beforeAfterSlider");
     if (
@@ -108,6 +112,7 @@ $(document).ready(function () {
     }
   }
 
+  // Функция инициализации слайдеров Before-After
   function initializeBeforeAfterSliders() {
     var gallery = document.querySelector(".before-after__gallery");
     var galleryResize = document.querySelector(".before-after__gallery-after");
@@ -168,16 +173,30 @@ $(document).ready(function () {
     }
   }
 
+  // Инициализация слайдеров после каждого AJAX-запроса
   $(document).ajaxComplete(function () {
     initializeSliders();
   });
 
+  // Обработчик клика на кнопку
   $(".link-page").click(function () {
     var info = $(this).attr("href") + " #content-page";
     $("#content-page").hide("fast", function () {
       loadContent(info);
     });
     $("#loader-page").fadeIn("normal");
+
+    // Проверяем, не является ли текущая кнопка уже активной
+    
+    if (!$(this).hasClass("active-tab")) {
+      // Удаление класса "active" у предыдущей активной кнопки
+      $(".link-page.active-tab").removeClass("active-tab");
+
+      // Добавление класса "active" к текущей кнопке
+      $(this).addClass("active-tab");
+      activeButton = $(this);
+    }
+
     return false;
   });
 

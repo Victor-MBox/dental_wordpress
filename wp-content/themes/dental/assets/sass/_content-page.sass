@@ -12,6 +12,7 @@
                 bottom: 12px
         .before-after-arrows
             bottom: 12px
+
     &__banner
         padding: 40px 52px
         position: relative
@@ -20,14 +21,14 @@
         border-radius: 5px 45px 45px 45px
         background: url(assets/img/page/page-banner.jpg) center top/cover no-repeat
 
-        display: flex 
+        display: flex
         flex-direction: column
         justify-content: flex-end
         margin-bottom: 35px
     &__name
         font-weight: 900
-        font-size: 42px
-        line-height: 41px
+        font-size: 36px
+        line-height: 36px
         color: #01BDF8
         margin-bottom: 15px
     &__label
@@ -73,6 +74,7 @@
     &__list
         margin-bottom: 25px
         display: flex
+        margin-right: 20px
         ul
             width: 100%
             li
@@ -95,7 +97,7 @@
                     border-radius: 90px
                     background: #01B5EE
                     margin-right: 10px
-                    
+
                     position: absolute
                     left: -18px
                     top: 2px
@@ -105,3 +107,156 @@
         display: flex
     &__column
         width: 50%
+    &__infobox
+        padding: 15px 25px 15px 94px
+        background: #B3EBFC
+        border-radius: 15px 15px 15px 1px
+
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+
+        display: flex
+        position: relative
+
+        &::before
+            content: ''
+            display: block
+            background: url(assets/img/icons/page/infobox.svg)
+            width: 64px
+            height: 64px
+
+            position: absolute
+            left: 12px
+            top: 50%
+            transform: translateY(-50%)
+    &__banner-video
+        background: #C39EFF
+        border-radius: 1px 15px 15px 15px
+        padding: 20px
+        position: relative
+        display: flex
+        justify-content: center
+        img
+            border-radius: 15px
+    &__rotate
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        cursor: pointer
+
+    &__table
+        display: flex
+    &__column-table
+        &:nth-child(1)
+            width: 76%
+        &:nth-child(2)
+            width: 24%
+            padding-left: 21px
+        img
+            margin-bottom: 15px
+        p
+            font-weight: 700
+            font-size: 16px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: $black-1
+            margin-bottom: 15px
+    &__carousel
+        display: flex
+        .carousel
+            &__wrapper
+                margin-bottom: 24px
+                padding-right: 8px
+                button
+                    margin: 0 auto
+                &:last-child
+                    padding-right: 0
+            &__photo
+                width: auto
+                height: auto
+            &__text
+                padding: 0 5px
+    &__wrapper
+        display: flex
+        margin-bottom: 35px
+
+.table-service
+    margin-bottom: 25px
+    tr
+        border: 2px solid $btn-lilac
+        border-left: none
+        border-right: none
+    &__name
+        display: flex
+        align-items: center
+        height: 90px
+        padding-right: 41px
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.01em
+        color: $gray-text
+        margin-bottom: 0
+        border-right: 2px solid $btn-lilac
+    &__price
+        width: 24%
+        padding-left: 41px
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.01em
+        color: $black-1
+
+    &__btn
+        display: flex
+        a
+            margin-right: 15px
+            &:last-child
+                margin-right: 0
+
+.review-page
+    width: 24%
+    padding: 16px 12px
+    margin-right: 18px
+    border-radius: 15px 15px 15px 1px
+    transition: .3s
+    &:nth-child(1)
+        background: #EDE2FF
+    &:nth-child(2)
+        background: #B3EBFC
+    &:nth-child(3)
+        background: #FEF4C0
+    &:nth-child(4)
+        background: #FFCCD4
+        margin-right: 0
+    &:hover
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+
+    img
+        border-radius: 15px 15px 15px 1px
+        margin-bottom: 10px
+    a
+        font-weight: 500
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        text-decoration: none
+    &__name
+        font-weight: 700
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 10px
+    &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.01em
+        color: $gray-text
+        margin-bottom: 10px

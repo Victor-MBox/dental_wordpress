@@ -199,3 +199,64 @@
         line-height: 16px
         color: #fff
         transition: .3s
+
+/* Кнопки на страницах (рассрочка, налоги и тд) */
+.buttons-page-1, .buttons-page-2, .buttons-page-3
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    text-decoration: none
+    height: 80px
+    border-radius: 15px 15px 15px 1px
+    padding-left: 15px
+    transition: .3s
+    &:hover
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        background: #fff
+        .buttons-page-1__text, .buttons-page-2__text, .buttons-page-3__text
+            color: $black-1
+
+        .buttons-page-1__img, .buttons-page-2__img, .buttons-page-3__img
+            background: $black-1
+
+    &__img
+        width: 48px
+        height: 48px
+        background: #fff
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 90px
+        cursor: pointer
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-right: 10px
+        transition: .5s
+
+    &__text
+        font-weight: 700
+        font-size: 16px
+        line-height: 22px
+        color: #fff
+        transition: .3s
+
+.buttons-page-1
+    background: $btn-blue
+    &__img
+        background: #FFFFFF url(assets/img/icons/page/buttons/btn1-hover.svg) center/40% no-repeat
+    &:hover
+        .buttons-page-1__img
+            background: $black-1 url(assets/img/icons/page/buttons/btn1.svg) center/40% no-repeat
+.buttons-page-2
+    background: $btn-lilac
+    &__img
+        background: #FFFFFF url(assets/img/icons/page/buttons/btn2-hover.svg) center/40% no-repeat
+    &:hover
+        .buttons-page-2__img
+            background: $black-1 url(assets/img/icons/page/buttons/btn2.svg) center/40% no-repeat
+.buttons-page-3
+    background: $btn-blue
+    &__img
+        background: #FFFFFF url(assets/img/icons/page/buttons/btn3-hover.svg) center/40% no-repeat
+    &:hover
+        .buttons-page-3__img
+            background: $black-1 url(assets/img/icons/page/buttons/btn3.svg) center/40% no-repeat

@@ -957,11 +957,11 @@ get_header();
                                 <input type="phone" name="phone" placeholder="Номер телефона" class="input">
                             </div>
                             <div class="form-about__item">
-                                    <div class="checkbox">
-                                        <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-3"  class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
-                                    </div>
+                                <div class="checkbox">
+                                    <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="checkbox-3" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
                                 </div>
+                            </div>
                             <div class="form-laboratory__submit">
                                 <input class="btn btn_submit btn_white" type="submit" value="Узнать больше">
                             </div>

@@ -1,6 +1,6 @@
 <?php
 /* 
-Template Name: Услуга Ортопантомография (ОПТГ)
+Template Name: Услуга Аксиография
 */
 ?>
 
@@ -16,8 +16,8 @@ get_header();
 
                 <div class="page-content__chapter">
                     <div class="page-content__banner">
-                        <div class="page-content__name">Ортопантомография <br>(ОПТГ)</div>
-                        <div class="page-content__label">от <span>2 000₽</span></div>
+                        <div class="page-content__name">Аксиография</div>
+                        <div class="page-content__label">от <span>3 000₽</span></div>
                         <div class="page-content__btn-call">
                             <a class="btn-call" href="#">
                                 <div class="btn-call__img"></div>

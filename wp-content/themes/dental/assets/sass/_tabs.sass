@@ -313,14 +313,30 @@
         width: 100%
         background: #C39EFF
         border-radius: 15px 15px 1px 15px
-        
+
         transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s
         &.active
             max-height: none
-            padding: 25px 0 25px 100px
+            padding: 20px 0 20px 80px
             visibility: visible
             opacity: 1
             transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out, visibility 0.1s ease-out
+    &__content-decor
+        width: 45px
+        height: 45px
+        background: #FDDB2C
+        border-radius: 200% 5px 0 5px
+
+        position: absolute
+        right: 0
+        bottom: 0
+        &_red
+            background: #FF5670
+            opacity: 0.5
+        &_lilac
+            background: #EDE2FF
+        &_blue
+            background: #B3EBFC
     &__btn-calc, &__btn-call
         position: absolute
         bottom: 60px
@@ -338,11 +354,128 @@
         text-decoration: none
         color: $black-1
 
-
 /* ТАБ В АККОРДИОНЕ на странице УСЛУГИ */
 .page-tab
-    &__item
-        display: none
-        &.active
-            display: block
-    
+    &__nav
+        ul
+            .link-page
+                cursor: pointer
+
+                position: relative
+                z-index: 1
+                background: none
+                border: none
+                height: 30px
+                width: 100%
+                text-align: left
+                padding-left: 15px
+                font-weight: 400
+                font-size: 14px
+                line-height: 14px
+                color: #FFFFFF
+                transition: .2s
+                &:hover
+                    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+                    border-radius: 1px 0px 0px 10px
+                &.active-tab
+                    height: 44px
+                    background: #fff
+                    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+                    border-radius: 10px 0px 0px 10px
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 14px
+                    color: $black-1
+
+/* Модификация Аккордиона с главной страницы на страницу УСЛУГИ МОБ ВЕРСИЯ */
+.accordion-service-page
+    .accordion-home
+        &__tab.active
+            z-index: 1
+        &__content.active
+            margin-top: -12px
+        &__img-wrapper
+            position: relative
+        &__btn-call
+            bottom: 22px
+        &__link
+            background: #C39EFF
+            border-radius: 15px 15px 1px 15px
+            padding: 16px 0 16px 14px
+
+            margin-top: -10px
+            z-index: 1
+            position: relative
+            li
+                height: 46px
+                display: flex
+                align-items: center
+                transition: .2s
+                &:active
+                    background: #fff
+                    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+                    border-radius: 1px 0px 0px 10px
+                    padding-left: 15px
+                    a
+                        color: $black-1
+                        font-weight: 700
+                a
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 16px
+                    color: #FFFFFF
+                    text-decoration: none
+        &__label
+            width: 72px
+            height: 72px
+
+            background: #FF5670
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+            border-radius: 1px 15px 15px 15px
+
+            position: absolute
+            top: 50px
+            left: 30px
+
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            color: #fff
+            font-weight: 400
+            font-size: 12px
+            line-height: 12px
+            letter-spacing: 0.08em
+            text-transform: uppercase
+            margin-bottom: 10px
+            span
+                font-weight: 700
+                font-size: 16px
+                line-height: 22px
+        &__link-decor
+            width: 45px
+            height: 45px
+            background: #FEF4C0
+
+            border-radius: 200% 5px 0 5px
+
+            position: absolute
+            right: 0
+            bottom: 0
+            z-index: -1
+            &_red
+                background: #FF5670
+                opacity: 0.5
+            &_lilac
+                background: #EDE2FF
+            &_blue
+                background: #B3EBFC
+
+        .btn-call
+            background: #fff
+            box-shadow: 0px 8px 15px rgba(7,0,59,0.1)
+            &__img
+                background: $black-1 url(assets/img/icons/edit.svg) center/40% no-repeat
+            &__text
+                color: $gray-text

@@ -1,6 +1,6 @@
 <?php
 /* 
-Template Name: Услуга 2
+Template Name: Услуга Прицельный снимок
 */
 ?>
 
@@ -157,6 +157,7 @@ get_header();
                     <div class="page-content__title">3D видео</div>
                     <div class="page-content__banner-video">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-video.jpg" alt="">
+                        <img class="page-content__rotate" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-rotate.svg" alt="">
                     </div>
                 </div>
 
@@ -165,8 +166,124 @@ get_header();
                     <div class="page-content__text">Рентгенологические снимки зубов помогают врачу распознать проблему, поставить диагноз и провести правильное лечение. В московском МЦДИ ROOTT пациенты могут пройти рентгенографию платно на современном оборудовании в любое удобное время. Цены на прицельный снимок зуба в нашей стоматологии указаны в нашем прайсе.</div>
                 </div>
 
+                <div class="page-content__chapter">
+                    <div class="page-content__title">Цены</div>
 
+                    <div class="page-content__table">
 
+                        <div class="page-content__column-table">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
+                            <p>Услуга</p>
+                        </div>
+
+                        <div class="page-content__column-table">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
+                            <p>Стоимость</p>
+                        </div>
+                    </div>
+
+                    <table class="table-service">
+                        <tr>
+                            <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
+                            <td class="table-service__price">1 000₽</td>
+                        </tr>
+                        <tr>
+                            <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
+                            <td class="table-service__price">1 000₽</td>
+                        </tr>
+                    </table>
+
+                    <div class="table-service__btn">
+                        <a href="#" class="btn">Прайс-лист</a>
+                        <a href="#" class="btn">Акции</a>
+                    </div>
+                </div>
+
+                <div class="page-content__chapter">
+                    <div class="page-content__title">Наши специалисты</div>
+
+                    <div class="page-content__carousel">
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                            </div>
+                            <div class="carousel__name">Мария <span>Петрова</span></div>
+                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
+                            <button class="btn btn_entry">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                            </div>
+                            <div class="carousel__name">Мария <span>Петрова</span></div>
+                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
+                            <button class="btn btn_entry">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img2.jpg" alt="">
+                            </div>
+                            <div class="carousel__name">Мария <span>Петрова</span></div>
+                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
+                            <button class="btn btn_entry">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                            </div>
+                            <div class="carousel__name">Мария <span>Петрова</span></div>
+                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
+                            <button class="btn btn_entry">Записаться</button>
+                        </div>
+
+                    </div>
+                    <a href="#" class="btn">Все специалисты</a>
+                </div>
+
+                <div class="page-content__chapter">
+                    <div class="page-content__title">Отзывы</div>
+                    <div class="page-content__wrapper">
+
+                        <div class="page-content__review-page review-page">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
+                            <div class="review-page__name">Мария Петрова</div>
+                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
+                            <a href="#">Проверить отзыв</a>
+
+                        </div>
+
+                        <div class="page-content__review-page review-page">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
+                            <div class="review-page__name">Мария Петрова</div>
+                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
+                            <a href="#">Проверить отзыв</a>
+
+                        </div>
+
+                        <div class="page-content__review-page review-page">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
+                            <div class="review-page__name">Мария Петрова</div>
+                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
+                            <a href="#">Проверить отзыв</a>
+
+                        </div>
+
+                        <div class="page-content__review-page review-page">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
+                            <div class="review-page__name">Мария Петрова</div>
+                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
+                            <a href="#">Проверить отзыв</a>
+
+                        </div>
+
+                    </div>
+                    <a href="#" class="btn">Все отзывы</a>
+
+                </div>
             </section>
 
         </div>

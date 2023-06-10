@@ -48,7 +48,7 @@
 /* Вторая секция */
 .page-second-section
     text-align: center
-    margin-bottom: 50px
+    margin-bottom: 70px
     &__subtitle
         margin-bottom: 15px
     &__title
@@ -57,24 +57,67 @@
         padding: 0 22%
 
 /* Секция с табом услуг */
+#loader-page
+    background: url(assets/img/ajax-loader.gif) no-repeat
+    background-size: cover
+    height: 60px
+    width: 60px
+    position: absolute
+    z-index: 5
+    top: 34%
+    left: 48%
+    display: none
+
 .page-service-section
     &__container
         display: flex
     &__column
         position: relative
-        &:nth-child(1)
-            width: 34%
-            margin-right: 20px
         &:nth-child(2)
-            width: 64%
+            width: 32%
+            margin-right: 20px
+            .page-content__title
+                margin-bottom: 15px
+        &:nth-child(3)
+            width: 66%
+    &__column-mob
+        display: none
+    &__buttons-page
+        margin-top: 25px
+        margin-bottom: 45px
+        a
+            margin-bottom: 10px
+    &__form
+        .feedback-form-laboratory
+            position: relative
+            width: auto
+            background: #ffffff
 
-#loader-page
-    background: url(assets/img/ajax-loader.gif) no-repeat
-    background-size: cover
-    height: 50px
-    width: 50px
-    position: absolute
-    z-index: 5
-    top: 50%
-    left: 50%
-    display: none
+        .form-laboratory
+            text-align: left
+            &__input input
+                width: 100%
+            .checkbox__label
+                color: $gray-text
+            &__submit
+                text-align: center
+    &__decor
+        z-index: -1
+        &:nth-child(1)
+            position: absolute
+            right: -16px
+            top: -60px
+        &:nth-child(2)
+            position: absolute
+            right: 0
+            bottom: -96px
+    &__decor-content
+        &:nth-child(1)
+            position: absolute
+            right: -16px
+            top: -85px
+        &:nth-child(2)
+            position: absolute
+            right: -90px
+            top: 390px
+            border-radius: 5px 5px 200% 5px
