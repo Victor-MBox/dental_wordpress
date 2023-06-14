@@ -21,26 +21,26 @@
                 <div class="footer__column">
                     <div class="footer__title">Информация</div>
                     <ul class="footer__nav-list">
-                        <li><a href="#">О клинике</a></li>
-                        <li><a href="#">Врачи</a></li>
-                        <li><a href="#">Цены</a></li>
+                        <li><a href="/Dental/o-klinike/">О клинике</a></li>
+                        <li><a href="/Dental/vrachi/">Врачи</a></li>
+                        <li><a href="/Dental/czeny/">Цены</a></li>
                         <li><a href="#">Акции</a></li>
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Галерея</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="/Dental/otzyvy/">Отзывы</a></li>
+                        <li><a href="/Dental/galereya/">Галерея</a></li>
+                        <li><a href="/Dental/kontakty/">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__column">
                     <div class="footer__title">Услуги</div>
                     <ul class="footer__nav-list">
-                        <li><a href="#">Диагностика</a></li>
-                        <li><a href="#">Протезирование</a></li>
-                        <li><a href="#">Имплантаця</a></li>
-                        <li><a href="#">Терапия</a></li>
-                        <li><a href="#">Хирургия</a></li>
-                        <li><a href="#">Ортодонтия</a></li>
-                        <li><a href="#">Гигиена</a></li>
+                        <li><a href="/Dental/uslugi/">Диагностика</a></li>
+                        <li><a href="/Dental/uslugi/">Протезирование</a></li>
+                        <li><a href="/Dental/uslugi/">Имплантаця</a></li>
+                        <li><a href="/Dental/uslugi/">Терапия</a></li>
+                        <li><a href="/Dental/uslugi/">Хирургия</a></li>
+                        <li><a href="/Dental/uslugi/">Ортодонтия</a></li>
+                        <li><a href="/Dental/uslugi/">Гигиена</a></li>
                     </ul>
                 </div>
 

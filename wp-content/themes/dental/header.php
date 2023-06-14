@@ -51,30 +51,30 @@
 
                         <div class="accordion">
                             <div data-tab="tab-1" class="accordion__title">
-                                <a href="#">О клинике</a>
+                                <a href="/Dental/o-klinike/">О клинике</a>
                                 <span></span>
                             </div>
 
                             <div id="tab-1" class="accordion__content">
 
-                                <a href="#">Зуботехническая лаборатория</a>
+                                <a href="/Dental/o-klinike/">Зуботехническая лаборатория</a>
 
-                                <a href="#">О лаборатории</a>
+                                <a href="/Dental/o-klinike/">О лаборатории</a>
 
-                                <a href="#">Наше оборудование</a>
+                                <a href="/Dental/o-klinike/">Наше оборудование</a>
 
-                                <a href="#">Технологии</a>
+                                <a href="/Dental/o-klinike/">Технологии</a>
 
-                                <a href="#">Этапы изготовления протеза</a>
+                                <a href="/Dental/o-klinike/">Этапы изготовления протеза</a>
 
-                                <a href="#">Почему важно?</a>
+                                <a href="/Dental/o-klinike/">Почему важно?</a>
 
                             </div>
                         </div>
 
                         <div class="accordion">
                             <div data-tab="tab-2" class="accordion__title">
-                                <a href="#">Услуги</a>
+                                <a href="/Dental/uslugi/">Услуги</a>
                                 <span></span>
                             </div>
 
@@ -91,49 +91,49 @@
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-1" class="sub-2-accordion__title">
-                                                <a href="#">Ортопантомография (ОПТГ)</a>
+                                                <a href="/Dental/uslugi/">Ортопантомография (ОПТГ)</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-1-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-2" class="sub-2-accordion__title">
-                                                <a href="#">Прицельный снимок</a>
+                                                <a href="/Dental/uslugi/">Прицельный снимок</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-1-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-3" class="sub-2-accordion__title">
-                                                <a href="#">Аксиография</a>
+                                                <a href="/Dental/uslugi/">Аксиография</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-1-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-4" class="sub-2-accordion__title">
-                                                <a href="#">Компьютерная томография (КТ)</a>
+                                                <a href="/Dental/uslugi/">Компьютерная томография (КТ)</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-1-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-2" class="sub-accordion__title">
-                                        <a href="#">Протезирование</a>
+                                        <a href="/Dental/uslugi/">Протезирование</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-2" class="sub-accordion__content">
@@ -152,45 +152,45 @@
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-2-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-2-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-2-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -200,56 +200,56 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-3" class="sub-accordion__title">
-                                        <a href="#">Имплантаця</a>
+                                        <a href="/Dental/uslugi/">Имплантаця</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-3" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-1" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 1</a>
+                                                <a href="/Dental/uslugi/">Услуга 1</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-3-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-3-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-3-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-3-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -259,56 +259,56 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-4" class="sub-accordion__title">
-                                        <a href="#">Лечение зубов, терапия</a>
+                                        <a href="/Dental/uslugi/">Лечение зубов, терапия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-4" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-1" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 1</a>
+                                                <a href="/Dental/uslugi/">Услуга 1</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -318,56 +318,56 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-5" class="sub-accordion__title">
-                                        <a href="#">Хирургия</a>
+                                        <a href="/Dental/uslugi/">Хирургия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-5" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-1" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 1</a>
+                                                <a href="/Dental/uslugi/">Услуга 1</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-5-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-5-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-5-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-5-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -377,56 +377,56 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-6" class="sub-accordion__title">
-                                        <a href="#">Ортодонтия</a>
+                                        <a href="/Dental/uslugi/">Ортодонтия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-6" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-1" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 1</a>
+                                                <a href="/Dental/uslugi/">Услуга 1</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-6-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-6-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-6-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-6-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -436,56 +436,56 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-7" class="sub-accordion__title">
-                                        <a href="#">Гигиена</a>
+                                        <a href="/Dental/uslugi/">Гигиена</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-7" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-7-1" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 1</a>
+                                                <a href="/Dental/uslugi/">Услуга 1</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-7-1" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-7-2" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 2</a>
+                                                <a href="/Dental/uslugi/">Услуга 2</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-7-2" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-7-3" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 3</a>
+                                                <a href="/Dental/uslugi/">Услуга 3</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-7-3" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-7-4" class="sub-2-accordion__title">
-                                                <a href="#">Услуга 4</a>
+                                                <a href="/Dental/uslugi/">Услуга 4</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-7-4" class="sub-2-accordion__content">
-                                                <a href="#">Ссылка 1</a>
-                                                <a href="#">Ссылка 2</a>
-                                                <a href="#">Ссылка 3</a>
+                                                <a href="/Dental/uslugi/">Ссылка 1</a>
+                                                <a href="/Dental/uslugi/">Ссылка 2</a>
+                                                <a href="/Dental/uslugi/">Ссылка 3</a>
                                             </div>
                                         </div>
 
@@ -498,7 +498,7 @@
 
                         <div class="accordion">
                             <div data-tab="tab-3" class="accordion__title">
-                                <a href="#">Врачи</a>
+                                <a href="/Dental/vrachi/">Врачи</a>
                                 <span></span>
                             </div>
 
@@ -508,32 +508,32 @@
                                 <div class="sub-accordion">
 
                                     <div data-tab="sub-tab-3-1" class="sub-accordion__title">
-                                        <a href="#">Терапевты</a>
+                                        <a href="/Dental/vrachi/">Терапевты</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-1" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
                                 </div>
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-2" class="sub-accordion__title">
-                                        <a href="#">Хирурги-имплантологи</a>
+                                        <a href="/Dental/vrachi/">Хирурги-имплантологи</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-2" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -541,16 +541,16 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-3" class="sub-accordion__title">
-                                        <a href="#">Ортопеды</a>
+                                        <a href="/Dental/vrachi/">Ортопеды</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-3" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -558,16 +558,16 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-4" class="sub-accordion__title">
-                                        <a href="#">Пародонтологи</a>
+                                        <a href="/Dental/vrachi/">Пародонтологи</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-4" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -575,16 +575,16 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-5" class="sub-accordion__title">
-                                        <a href="#">Гигиенисты</a>
+                                        <a href="/Dental/vrachi/">Гигиенисты</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-5" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -592,16 +592,16 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-6" class="sub-accordion__title">
-                                        <a href="#">Ортодонты</a>
+                                        <a href="/Dental/vrachi/">Ортодонты</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-6" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -609,16 +609,16 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-3-7" class="sub-accordion__title">
-                                        <a href="#">Анестезиологи</a>
+                                        <a href="/Dental/vrachi/">Анестезиологи</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-3-7" class="sub-accordion__content">
 
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
-                                        <a href="#">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
+                                        <a href="/Dental/vrachi/">Имя Отчество Фамилия</a>
 
                                     </div>
 
@@ -629,7 +629,7 @@
 
                         <div class="accordion">
                             <div data-tab="tab-4" class="accordion__title">
-                                <a href="#">Цены</a>
+                                <a href="/Dental/czeny/">Цены</a>
                                 <span></span>
                             </div>
 
@@ -639,36 +639,36 @@
                                 <div class="sub-accordion">
 
                                     <div data-tab="sub-tab-4-1" class="sub-accordion__title">
-                                        <a href="#">Консультация и диагностика</a>
+                                        <a href="/Dental/czeny/">Консультация и диагностика</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-1" class="sub-accordion__content">
 
-                                        <a href="#">Ортопантомография (ОПТГ)</a>
+                                        <a href="/Dental/czeny/">Ортопантомография (ОПТГ)</a>
 
-                                        <a href="#">Прицельный снимок</a>
+                                        <a href="/Dental/czeny/">Прицельный снимок</a>
 
-                                        <a href="#">Аксиография</a>
+                                        <a href="/Dental/czeny/">Аксиография</a>
 
-                                        <a href="#">Компьютерная томография (КТ)</a>
+                                        <a href="/Dental/czeny/">Компьютерная томография (КТ)</a>
 
                                     </div>
                                 </div>
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-4-2" class="sub-accordion__title">
-                                        <a href="#">Протезирование</a>
+                                        <a href="/Dental/czeny/">Протезирование</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-2" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -676,18 +676,18 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-4-3" class="sub-accordion__title">
-                                        <a href="#">Имплантаця</a>
+                                        <a href="/Dental/czeny/">Имплантаця</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-3" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -700,13 +700,13 @@
                                     </div>
                                     <div id="sub-tab-4-4" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -714,18 +714,18 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-4-5" class="sub-accordion__title">
-                                        <a href="#">Хирургия</a>
+                                        <a href="/Dental/czeny/">Хирургия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-5" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -733,18 +733,18 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-4-6" class="sub-accordion__title">
-                                        <a href="#">Ортодонтия</a>
+                                        <a href="/Dental/czeny/">Ортодонтия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-6" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -752,18 +752,18 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-4-7" class="sub-accordion__title">
-                                        <a href="#">Гигиена</a>
+                                        <a href="/Dental/czeny/">Гигиена</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-4-7" class="sub-accordion__content">
 
-                                        <a href="#">Услуга 1</a>
+                                        <a href="/Dental/czeny/">Услуга 1</a>
 
-                                        <a href="#">Услуга 2</a>
+                                        <a href="/Dental/czeny/">Услуга 2</a>
 
-                                        <a href="#">Услуга 3</a>
+                                        <a href="/Dental/czeny/">Услуга 3</a>
 
-                                        <a href="#">Услуга 4</a>
+                                        <a href="/Dental/czeny/">Услуга 4</a>
 
                                     </div>
 
@@ -774,46 +774,46 @@
 
                         <div class="accordion">
                             <div data-tab="tab-5" class="accordion__title">
-                                <a href="#">Отзывы</a>
+                                <a href="Dental/otzyvy/">Отзывы</a>
                                 <span></span>
                             </div>
 
                             <div id="tab-5" class="accordion__content">
 
-                                <a href="#">Имплантация</a>
+                                <a href="Dental/otzyvy/">Имплантация</a>
 
-                                <a href="#">Хирургия</a>
+                                <a href="Dental/otzyvy/">Хирургия</a>
 
-                                <a href="#">Виниры</a>
+                                <a href="Dental/otzyvy/">Виниры</a>
 
-                                <a href="#">Ортодонтия</a>
+                                <a href="Dental/otzyvy/">Ортодонтия</a>
 
-                                <a href="#">Гигиена и отбеливание зубов</a>
+                                <a href="Dental/otzyvy/">Гигиена и отбеливание зубов</a>
 
-                                <a href="#">Терапия</a>
+                                <a href="Dental/otzyvy/">Терапия</a>
 
                             </div>
                         </div>
 
                         <div class="accordion">
                             <div data-tab="tab-6" class="accordion__title">
-                                <a href="#">Галерея</a>
+                                <a href="/Dental/galereya/">Галерея</a>
                                 <span></span>
                             </div>
 
                             <div id="tab-6" class="accordion__content">
 
-                                <a href="#">Имплантация</a>
+                                <a href="/Dental/galereya/">Имплантация</a>
 
-                                <a href="#">Хирургия</a>
+                                <a href="/Dental/galereya/">Хирургия</a>
 
-                                <a href="#">Виниры</a>
+                                <a href="/Dental/galereya/">Виниры</a>
 
-                                <a href="#">Ортодонтия</a>
+                                <a href="/Dental/galereya/">Ортодонтия</a>
 
-                                <a href="#">Гигиена и отбеливание зубов</a>
+                                <a href="/Dental/galereya/">Гигиена и отбеливание зубов</a>
 
-                                <a href="#">Терапия</a>
+                                <a href="/Dental/galereya/">Терапия</a>
 
                             </div>
                         </div>
@@ -821,14 +821,14 @@
 
                         <div class="accordion">
                             <div data-tab="tab-7" class="accordion__title">
-                                <a href="#">Контакты</a>
+                                <a href="/Dental/kontakty/">Контакты</a>
                             </div>
 
                         </div>
 
                         <div class="accordion">
                             <div data-tab="tab-8" class="accordion__title">
-                                <a href="#">FAQ</a>
+                                <a href="/Dental/voprosy/">FAQ</a>
                             </div>
 
                         </div>
