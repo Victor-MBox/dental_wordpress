@@ -163,7 +163,34 @@
                 line-height: 22px
                 letter-spacing: 0.01em
                 color: #fff
+    &__label
+        width: 72px
+        height: 72px
 
+        background: #FF5670
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+
+        position: absolute
+        top: 50px
+        left: 30px
+
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        color: #fff
+        font-weight: 400
+        font-size: 12px
+        line-height: 12px
+        letter-spacing: 0.08em
+        text-transform: uppercase
+        span
+            font-weight: 700
+            font-size: 16px
+            line-height: 22px
+            margin-top: 3px
     &__nav-title
         font-weight: 700
         font-size: 18px
@@ -425,34 +452,7 @@
                     line-height: 16px
                     color: #FFFFFF
                     text-decoration: none
-        &__label
-            width: 72px
-            height: 72px
 
-            background: #FF5670
-            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
-            border-radius: 1px 15px 15px 15px
-
-            position: absolute
-            top: 50px
-            left: 30px
-
-            display: flex
-            flex-direction: column
-            align-items: center
-            justify-content: center
-
-            color: #fff
-            font-weight: 400
-            font-size: 12px
-            line-height: 12px
-            letter-spacing: 0.08em
-            text-transform: uppercase
-            margin-bottom: 10px
-            span
-                font-weight: 700
-                font-size: 16px
-                line-height: 22px
         &__link-decor
             width: 45px
             height: 45px
@@ -479,3 +479,128 @@
                 background: $black-1 url(assets/img/icons/edit.svg) center/40% no-repeat
             &__text
                 color: $gray-text
+
+/* Модификация Аккордиона с главной страницы на страницу ЦЕНЫ */
+.accordion-price-page
+    .accordion-home
+        &__decor-wrapper
+            display: flex
+            align-items: center
+            height: 100%
+        &__strip
+            display: none
+            height: 90%
+        &__tab
+            padding: 2px 2px 2px 70px
+            height: 80px
+            position: relative
+            transition: .3s
+            z-index: 1
+            margin-bottom: 2px
+            align-items: inherit
+            &.active
+                padding: 2px 2px 2px 25px
+                .accordion-home__arrow
+                    background: #FFFFFF url(assets/img/icons/page/up-accordion-price-grey.svg)center/26% no-repeat
+                .accordion-home__nav-title
+                    color: #FFFFFF
+                    font-size: 16px
+                    margin-bottom: 5px
+                .accordion-home__nav-subtitle
+                    font-size: 14px
+                .accordion-home__decor
+                    display: none
+        &__img-wrapper
+            border-radius: 0px 0px 15px 15px
+        &__content
+            &.active
+                margin-top: -12px
+        &__nav-column
+            display: flex
+            height: 100%
+            flex-direction: column
+            justify-content: center
+        &__nav-title
+            font-size: 16px
+            margin-bottom: 5px
+        &__nav-subtitle
+            font-size: 14px
+
+        &__arrow
+            width: 80px
+            height: 100%
+
+            background: #FFFFFF url(assets/img/icons/page/down-accordion-price-black.svg)center/26% no-repeat
+            border-radius: 1px 15px 15px 15px
+
+            transition: .2s
+        &__decor
+            width: 45px
+            height: 45px
+            background: #FDDB2C
+            opacity: 0.3
+            border-radius: 5px 5px 200% 5px
+            position: absolute
+            left: 0
+            top: 0
+            &_red
+                background: #FF5670
+                opacity: 0.3
+            &_lilac
+                background: #EDE2FF
+                opacity: 1
+            &_blue
+                background: #B3EBFC
+                opacity: 1
+        &__btn-call
+            position: absolute
+            bottom: auto
+            left: 30px
+            top: 230px
+        &__price
+            margin-top: 10px
+        &__price-item
+            height: 74px
+            display: flex
+            align-items: center
+            border-bottom: 2px solid $btn-lilac
+            justify-content: space-between
+            &:hover
+                border-bottom: 2px solid #01BBF6
+
+            &:last-child
+                border-bottom: none
+
+        &__price-name
+            width: 76%
+            font-weight: 400
+            font-size: 14px
+            line-height: 22px
+            letter-spacing: 0.01em
+            color: $black-1
+            span
+                font-weight: 700
+
+        &__price-link
+            margin-top: 20px
+            width: 12%
+            text-align: end
+            a
+                text-decoration: none
+                font-weight: 400
+                font-size: 14px
+                line-height: 22px
+                letter-spacing: 0.01em
+                color: $gray-text
+                &:hover
+                    color: #01BBF6
+        &__price-price
+            margin-top: 20px
+            width: 12%
+
+            font-weight: 700
+            font-size: 14px
+            line-height: 18px
+            letter-spacing: 0.01em
+            color: #07003B
+            text-align: end

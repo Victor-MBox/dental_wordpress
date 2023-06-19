@@ -1,4 +1,4 @@
-// Страница Услуги =============================================================================
+// Страница Услуги *****************************************************************
 
 /* ***************************************************
 АККОРДИОН на странице УСЛУГИ*/
@@ -11,7 +11,7 @@ $(document).ready(function () {
     // Добавляем класс "active" к первому табу и его соответствующему контенту
     pageTitles[0].classList.add("active");
     pageContents[0].classList.add("active");
-    pageContents[0].style.maxHeight = pageContents[0].scrollHeight + "0px";
+    pageContents[0].style.maxHeight = pageContents[0].scrollHeight + "00px";
 
     pageTitles.forEach((item) =>
       item.addEventListener("click", () => {
@@ -187,7 +187,7 @@ $(document).ready(function () {
     $("#loader-page").fadeIn("normal");
 
     // Проверяем, не является ли текущая кнопка уже активной
-    
+
     if (!$(this).hasClass("active-tab")) {
       // Удаление класса "active" у предыдущей активной кнопки
       $(".link-page.active-tab").removeClass("active-tab");
@@ -201,4 +201,70 @@ $(document).ready(function () {
   });
 
   initializeSliders(); // Инициализация слайдеров при загрузке страницы
+});
+
+//Страница - О КОМПАНИИ **************************************************
+
+//Слайдер О лаборатории
+$(document).ready(function () {
+  let aboutLaboratorySlider = $("#aboutLaboratorySlider");
+
+  if (aboutLaboratorySlider.length) {
+    aboutLaboratorySlider
+      .slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        appendDots: ".slider-counter",
+        customPaging: function (slider, i) {
+          return "<button>" + (i + 1) + "</button>";
+        },
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {},
+          },
+          {
+            breakpoint: 769,
+            settings: {
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 481,
+            settings: {
+              dots: true,
+            },
+          },
+        ],
+      });
+  }
+
+  // Скрытие изображения загрузки
+  $("#loader").fadeOut(300);
+
+  /* Навигация слайдера */
+  $("#aboutLaboratorySliderPrev").on("click", function () {
+    aboutLaboratorySlider.slick("slickPrev");
+  });
+
+  $("#aboutLaboratorySliderNext").on("click", function () {
+    aboutLaboratorySlider.slick("slickNext");
+  });
+
+  /* Счетчик слайдера */
+  var totalSlides = aboutLaboratorySlider.slick("getSlick").slideCount;
+  $(".total-slides").text(totalSlides);
+
+  aboutLaboratorySlider.on(
+    "afterChange",
+    function (event, slick, currentSlide) {
+      $(".current-slide").text(currentSlide + 1);
+    }
+  );
 });

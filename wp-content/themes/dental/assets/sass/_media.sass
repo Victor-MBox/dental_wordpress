@@ -240,7 +240,11 @@
         &__img
             display: none
 
-    /* страница */
+    /* Страница  ЦЕНЫ*/
+    .accordion-price-page
+        .accordion-home
+            &__btn-call
+                top: 26%
     /* страница */
     /* страница */
 
@@ -587,6 +591,17 @@
     .procedure__text
         display: none
 
+    /* Страница  ЦЕНЫ*/
+    .accordion-price-page
+        .accordion-home
+            &__btn-call
+                top: 22%
+            &__price-name
+                width: 68%
+            &__price-link, &__price-price
+                margin-top: 0
+                width: 16%
+
 @media (max-width: 880px)
 
     .portfolio-section
@@ -663,6 +678,10 @@
                 width: 46%
     .review-page
         width: 46%
+
+    /* Страница ЦЕНЫ */
+    .accordion-price-page .accordion-home__btn-call
+        top: 19%
 
 @media (max-width: 768px)
 
@@ -1147,6 +1166,43 @@
         .slick-dots
             display: none!important
 
+    /* Страница - ЦЕНЫ */
+    .page-price-section
+        &__container
+            flex-wrap: wrap
+        &__column
+            &:nth-child(1)
+                width: 100%
+                margin-right: 0
+                order: 1
+            &:nth-child(2)
+                width: 100%
+                margin-bottom: 24px
+        &__buttons-decor
+            display: block
+            position: absolute
+            bottom: -10%
+            left: 50%
+            transform: translateX(-50%)
+            z-index: -1
+            width: 94%
+        .page-service-section__form
+            display: none
+
+    .accordion-price-page
+        .accordion-home
+            &__strip
+                display: block
+            &__tab
+                padding: 2px 8px 2px 70px
+                &.active
+                    padding: 2px 8px 2px 25px
+                    .accordion-home__arrow
+                        background: url(assets/img/icons/page/up-accordion-price-white.svg)center/35% no-repeat
+            &__arrow
+                width: 60px
+                background: url(assets/img/icons/page/down-accordion-price-black.svg)center/35% no-repeat
+
 @media (max-width: 480px)
     /* Header */
     .header
@@ -1303,6 +1359,34 @@
                 display: flex
                 align-items: center
 
+    /* Страница - ЦЕНЫ */
+    .accordion-price-page
+        .accordion-home
+            &__tab
+                padding: 2px 8px 2px 50px
+                &.active
+                    .accordion-home__nav-title, .accordion-home__nav-subtitle
+                        font-size: 14px
+                        line-height: 15px
+            &__btn-call
+                display: none
+            &__price-item
+                flex-wrap: wrap
+                height: auto
+                padding: 12px 0
+            &__price-name
+                width: 100%
+                margin-bottom: 12px
+            &__price-link, &__price-price
+                width: 50%
+            &__price-link
+                text-align: left
+            &__price-price
+                text-align: end
+            &__nav-title, &__nav-subtitle
+                font-size: 14px
+                line-height: 15px
+
 @media (max-width: 380px)
     /* Header */
     .accordion, .sub-accordion, .sub-2-accordion
@@ -1405,3 +1489,11 @@
 
         .table-service tr
             margin-bottom: 14px
+
+    /* Страница - ЦЕНЫ */
+    .accordion-price-page
+        .accordion-home
+            &__tab
+                padding: 2px 8px 2px 8px
+            &__decor
+                display: none
