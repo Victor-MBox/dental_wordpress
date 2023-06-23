@@ -152,9 +152,12 @@
             background: #FDDB2C
             color: $black-1
     &__chapter
+        position: relative
         margin-bottom: 35px
         &:nth-child(3)
             margin-bottom: 118px
+        .slider-arrows
+            bottom: -10px
 
     &__text
         font-weight: 400
@@ -198,3 +201,144 @@
             border-radius: 5px 45px 45px 45px
     &__slider-wrapper.slick-initialized
         display: block
+    &__stages
+        display: flex
+    &__stages-item
+        width: 26%
+        padding: 10px
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 15px 15px 1px
+        &:nth-child(1)
+            background: #EDE2FF
+            span
+                color: $btn-lilac
+        &:nth-child(2)
+            background: #B3EBFC
+            z-index: 1
+            margin-left: -10px
+            span
+                color: #01B8F3
+        &:nth-child(3)
+            background: #FEF4C0
+            z-index: 2
+            margin-left: -10px
+            span
+                color: #FDDB2C
+        &:nth-child(4)
+            background: #FFCCD4
+            z-index: 3
+            margin-left: -10px
+            span
+                color: #FF5670
+        span
+            width: 60px
+            height: 60px
+            font-weight: 900
+            font-size: 42px
+            line-height: 41px
+            letter-spacing: -0.02em
+            background: #fff
+            border-radius: 15px 15px 15px 1px
+
+            padding-top: 7px
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-bottom: 12px
+    &__stages-title
+        font-weight: 700
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 10px
+        padding-right: 10%
+
+    &__stages-text
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.01em
+        color: $gray-text
+    &__quote
+        margin-top: 55px
+        margin-bottom: 120px
+        display: flex
+        position: relative
+        img
+            width: 181px
+            height: 181px
+            border-radius: 45px 45px 1px 45px
+            margin-right: 20px
+
+    &__quote-text
+        height: 181px
+        background: #EDE2FF
+        border-radius: 15px 15px 15px 1px
+
+        font-style: italic
+        font-weight: 500
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
+
+        display: flex
+        align-items: center
+        justify-content: center
+
+        padding: 25px 15px
+
+    &__quote-label
+        position: absolute
+        left: 100px
+        bottom: -80px
+
+        padding: 15px
+        background: #FF5670
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 1px 15px 15px 15px
+
+        color: #fff
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+        letter-spacing: 0.01em
+
+        display: flex
+        flex-direction: column
+        span
+            font-weight: 700
+            font-size: 16px
+            line-height: 22px
+            margin-bottom: 2px
+    &__advantages-wrapper
+        display: flex
+        flex-wrap: wrap
+    &__advantages
+        width: 33%
+        text-align: center
+        padding: 0 12px
+        margin-bottom: 24px
+
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.01em
+        color: $gray-text
+
+        img
+            margin: 0 auto
+            margin-bottom: 15px
+
+    .carousel
+        height: 424px
+        &__photo
+            width: auto
+            height: auto
+            img
+                margin: 0 auto
+        &__name
+            padding: 0 30px
+        &__text
+            padding: 0 12px

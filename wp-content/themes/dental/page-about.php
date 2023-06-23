@@ -27,7 +27,7 @@ get_header();
                         Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
                     </div>
                     <div class="main-section__buttons">
-                        <a href="#" class="btn">О клинике</a>
+                        <a href="#start-link" class="btn">О клинике</a>
                         <button class="btn-play"></button>
                     </div>
 
@@ -90,7 +90,7 @@ get_header();
 
                 <div class="page-about-section__btn-wrapper">
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#start-link">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor"></div>
                             <div class="btn-wrapper__number">01</div>
@@ -101,7 +101,7 @@ get_header();
                         </div>
                     </a>
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#o-laboratorii">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
                             <div class="btn-wrapper__number">02</div>
@@ -112,7 +112,7 @@ get_header();
                         </div>
                     </a>
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#oborudovaniye">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
                             <div class="btn-wrapper__number">03</div>
@@ -123,7 +123,7 @@ get_header();
                         </div>
                     </a>
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#tekhnologii">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor"></div>
                             <div class="btn-wrapper__number">04</div>
@@ -134,7 +134,7 @@ get_header();
                         </div>
                     </a>
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#etapy">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
                             <div class="btn-wrapper__number">05</div>
@@ -145,7 +145,7 @@ get_header();
                         </div>
                     </a>
 
-                    <a class="btn-wrapper" href="#">
+                    <a class="btn-wrapper" href="#pochemu-vazhno">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
                             <div class="btn-wrapper__number">06</div>
@@ -222,7 +222,7 @@ get_header();
                     <div class="page-service-section__decor-content decor-yellow"></div>
                 </div>
 
-                <div class="page-about-section__chapter">
+                <div class="page-about-section__chapter" id="start-link">
 
                     <div class="page-about-section__banner">
                         <div class="page-about-section__label"><span>30 + </span>Квалифицированных
@@ -236,7 +236,7 @@ get_header();
                     <div class="page-about-section__text">В 2021 году после модернизации оборудования и расширения производственных площадей наша зуботехническая лаборатория стала принимать заказы и обслуживать крупные стоматологические центры в Москве, Подмосковье и других городов России.</div>
                 </div>
 
-                <div class="page-about-section__chapter">
+                <div class="page-about-section__chapter" id="o-laboratorii">
                     <div class="page-about-section__title">О лаборатории</div>
                     <div class="page-about-section__text">В клинике «ROOTT» работает своя высокотехнологичная лаборатория полного цикла, оснащенная современным оборудованием, в том числе системами 3D-моделирования, и материалами европейского производства. Мы располагаем всем необходимым, чтобы создать ортопедическую конструкцию любой сложности: культевые вкладки, коронки, несъемные и съемные протезы, каркасы, мосты, виниры и многое другое. Наличие собственной лаборатории в разы ускоряет процесс лечения пациента, а также позволяет зубным техникам тесно взаимодействовать со стоматологами, чтобы спроектировать идеальный протез для каждого пациента. В компании работает более 30 высококвалифицированных зубных техников. Именно люди – неотъемлемая часть успешного конечного результата, поэтому большое внимание уделяется в клинике не только оснащению, но и повышению квалификации техников. Специалисты лаборатории постоянно повышают свою квалификацию, обучаясь последним технологиям, появляющимся в стоматологии.</div>
                     <div class="page-about-section__slider">
@@ -267,18 +267,150 @@ get_header();
 
                 </div>
 
-                <div class="page-about-section__chapter">
+                <div class="page-about-section__chapter" id="oborudovaniye">
                     <div class="page-about-section__title">Оборудование лаборатории</div>
                     <div class="page-about-section__text">Мы обновляем оборудование и следим за новинками в области стоматологии. Лаборатория оснащена всем необходимым для качественного изготовления ортопедических конструкций.</div>
-                    <div class="page-about-section__slider">
 
+                    <div class="page-about-section__carousel-wrapper">
+                        <div class="page-about-section__carousel carousel" id="slickCarouselEquipment">
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-01.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Оптический 3D сканер</div>
+                                <div class="carousel__text">Система сканирования с оптической головкой имеет 4 камеры и делает высокоточные снимки.</div>
+                            </div>
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-02.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Внутриротовой сканер</div>
+                                <div class="carousel__text">Создаёт 3D слепок зубов и отображает модель на компьютере.</div>
+                            </div>
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-03.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Автоклавы Tuttanauer</div>
+                                <div class="carousel__text">Приборы для стерилизации всего оборудования нашей клиники.</div>
+                            </div>
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-04.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Фрезерный аппарат Zicoc</div>
+                                <div class="carousel__text">Высокоточный аппарат для вырезания протезов.</div>
+                            </div>
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-01.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Оптический 3D сканер</div>
+                                <div class="carousel__text">Система сканирования с оптической головкой имеет 4 камеры и делает высокоточные снимки.</div>
+                            </div>
+
+                            <div class="carousel__wrapper">
+                                <div class="carousel__photo">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/carousel/about-carousel-02.jpg" alt="">
+                                </div>
+                                <div class="carousel__name">Внутриротовой сканер</div>
+                                <div class="carousel__text">Создаёт 3D слепок зубов и отображает модель на компьютере.</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slider-arrows">
+                        <button class="slider-arrows__left" id="slickCarouselEquipmentPrev" type="button"></button>
+                        <button class="slider-arrows__right" id="slickCarouselEquipmentNext" type="button"></button>
                     </div>
 
                 </div>
 
+                <div class="page-about-section__chapter" id="etapy">
+                    <div class="page-about-section__title">Этапы изготовления протеза</div>
+                    <div class="page-about-section__text">Мы обновляем оборудование и следим за новинками в области стоматологии. Лаборатория оснащена всем необходимым для качественного изготовления ортопедических конструкций.</div>
+                    <div class="page-about-section__stages">
+
+                        <div class="page-about-section__stages-item">
+                            <span>01</span>
+                            <div class="page-about-section__stages-title">Консультация и диагностика</div>
+                            <div class="page-about-section__stages-text">Проводятся необходимые обследования по снимкам и компьютерной томографии, выбирается метод лечения. <br> Составляется план лечения со сроками и стоимостью.</div>
+                        </div>
+
+                        <div class="page-about-section__stages-item">
+                            <span>02</span>
+                            <div class="page-about-section__stages-title">Подготовка, снятие слепков</div>
+                            <div class="page-about-section__stages-text">Вам устанавливается необходимое количество имплантов (возможно совместно с удалением). Далее доктор снимает слепки для изготовления каркаса и протеза в зуботехнической лаборатории.</div>
+                        </div>
+
+                        <div class="page-about-section__stages-item">
+                            <span>03</span>
+                            <div class="page-about-section__stages-title">Примерка каркаса и протеза</div>
+                            <div class="page-about-section__stages-text">После того как конструкции будут изготовлены в лаборатории, мы пригласим вас на примерку и корректировку по прикусу. Можно будет оценить удобство, функциональность и эстетику протеза, по желанию внести изменения.</div>
+                        </div>
+
+                        <div class="page-about-section__stages-item">
+                            <span>04</span>
+                            <div class="page-about-section__stages-title">Установка конструкции</div>
+                            <div class="page-about-section__stages-text">Финальная установка и закрепление протеза. Рекомендации доктора по уходу, необходимым лекарствам и режиму жизни. Определение плана послеоперационных консультаций и осмотров.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-about-section__chapter">
+                   
+                </div>
+
+                <div class="page-about-section__chapter" id="pochemu-vazhno">
+                    <div class="page-about-section__title">Почему так важно, чтобы лаборатория находилась в клинике?</div>
+                    <div class="page-about-section__text">Мы обновляем оборудование и следим за новинками в области стоматологии. Лаборатория оснащена всем необходимым для качественного изготовления ортопедических конструкций.</div>
+
+                    <div class="page-about-section__advantages-wrapper">
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-01.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-02.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-03.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-04.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-05.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+
+                        <div class="page-about-section__advantages">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-06.svg" alt="">
+                            <div class="page-about-section__advantages-text">Нет наценки на изделия и доставку, потому что мы производим их самостоятельно.</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
+
         </div>
-    </section>
+</div>
+</section>
 </div>
 
 <?php

@@ -85,17 +85,7 @@ $(document).ready(function () {
         autoplaySpeed: 5000,
         responsive: [
           {
-            breakpoint: 1025,
-            settings: {},
-          },
-          {
             breakpoint: 769,
-            settings: {
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 481,
             settings: {
               dots: true,
             },
@@ -210,39 +200,28 @@ $(document).ready(function () {
   let aboutLaboratorySlider = $("#aboutLaboratorySlider");
 
   if (aboutLaboratorySlider.length) {
-    aboutLaboratorySlider
-      .slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        speed: 500,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        appendDots: ".slider-counter",
-        customPaging: function (slider, i) {
-          return "<button>" + (i + 1) + "</button>";
+    aboutLaboratorySlider.slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      speed: 500,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 769,
+          settings: {
+            dots: true,
+          },
         },
-        responsive: [
-          {
-            breakpoint: 1025,
-            settings: {},
-          },
-          {
-            breakpoint: 769,
-            settings: {
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 481,
-            settings: {
-              dots: true,
-            },
-          },
-        ],
-      });
+      ],
+      appendDots: ".slider-counter",
+      customPaging: function (slider, i) {
+        return "<button>" + (i + 1) + "</button>";
+      },
+    });
   }
 
   // Скрытие изображения загрузки
@@ -267,4 +246,68 @@ $(document).ready(function () {
       $(".current-slide").text(currentSlide + 1);
     }
   );
+});
+
+/* *************************************************
+Карусель ОБОРУДОВАНИЕ на страницце О КОМПАНИИ */
+$(document).ready(function () {
+  let slickCarouselEquipment = $("#slickCarouselEquipment");
+
+  if (slickCarouselEquipment.length) {
+    slickCarouselEquipment.slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      speed: 300,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1201,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            dots: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 481,
+          settings: {
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  }
+
+  // Скрытие изображения загрузки
+  $("#loader").fadeOut(300);
+
+  /* Навигация слайдера */
+  $("#slickCarouselEquipmentPrev").on("click", function () {
+    slickCarouselEquipment.slick("slickPrev");
+  });
+
+  $("#slickCarouselEquipmentNext").on("click", function () {
+    slickCarouselEquipment.slick("slickNext");
+  });
 });

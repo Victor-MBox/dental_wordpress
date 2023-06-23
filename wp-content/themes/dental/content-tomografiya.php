@@ -140,9 +140,9 @@ get_header();
                     </div>
 
 
-                    <div class="before-after-arrows">
-                        <button class="before-after-arrows__left" id="introSliderPrev" type="button"></button>
-                        <button class="before-after-arrows__right" id="introSliderNext" type="button"></button>
+                    <div class="slider-arrows">
+                        <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
+                        <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
                     </div>
 
                 </div>

@@ -11,38 +11,38 @@
     .slick-list
         overflow: inherit
 
-    .slick-dots
-        position: absolute
-        bottom: 118px
-        left: 0
-        display: flex
-        transition: .3s
-        &:hover
-            li
-                button
-                    background: #B3EBFC
-            li.slick-active
-                button
-                    background: #00BEFA
+.slick-dots
+    position: absolute
+    bottom: 118px
+    left: 0
+    display: flex
+    transition: .3s
+    &:hover
         li
-            margin-right: 5px
             button
-                transition: .3s
-                cursor: pointer
-                color: rgba(255, 255, 255, 0)
-                border-radius: 90px
-                border: none
-                width: 10px
-                height: 12px
-                background: #AEB4C3
-
+                background: #B3EBFC
         li.slick-active
             button
-                transition: .3s
-                width: 27px
-                height: 12px
-                background: $black-1
-                box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+                background: #00BEFA
+    li
+        margin-right: 5px
+        button
+            transition: .3s
+            cursor: pointer
+            color: rgba(255, 255, 255, 0)
+            border-radius: 90px
+            border: none
+            width: 10px
+            height: 12px
+            background: #AEB4C3
+
+    li.slick-active
+        button
+            transition: .3s
+            width: 27px
+            height: 12px
+            background: $black-1
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
 
     /* До после на главной */
 .portfolio-section

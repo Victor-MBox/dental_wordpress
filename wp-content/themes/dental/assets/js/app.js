@@ -238,17 +238,7 @@ $(document).ready(function () {
       autoplaySpeed: 5000,
       responsive: [
         {
-          breakpoint: 1025,
-          settings: {},
-        },
-        {
           breakpoint: 769,
-          settings: {
-            dots: true,
-          },
-        },
-        {
-          breakpoint: 481,
           settings: {
             dots: true,
           },

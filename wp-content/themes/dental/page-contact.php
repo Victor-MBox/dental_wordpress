@@ -69,15 +69,41 @@ get_header();
         </div>
     </section>
 
-    <section class="page-second-section">
+    <section class="page-contact-second-section">
         <div class="container page-second-section__container">
-            <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">И подзаголовок тоже</div>
-                <div class="page-second-section__title title">Нужно придумать заголовок</div>
-                <div class="page-second-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением
+            <div class="page-about-section__quote">
+                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/accordion-img.jpg" alt="">
+                <div class="page-about-section__quote-text">“Каждый зубной техник проходит обучение на уровне хирурга-имплантолога. Без глубинных знаний, в том числе хирургии и строения кости, невозможно изготовить качественное изделие. <br> <br> Без людей станок сам по себе не заработает, поэтому квалифицированные зубные техники - это наша основа”
+                </div>
+                <div class="page-about-section__quote-label">
+                    <span>Меркушев <br> Юрий Вячеславович</span>
+                    Руководитель зуботехнической лаборатории
                 </div>
             </div>
+        </div>
     </section>
+
+    <section class="page-contact-third-section">
+        <section class="page-contact-third-section__container container">
+
+            <div class="page-contact-third-section__column">
+                <div class="page-contact-third-section__info">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/contacts/contact-info.svg" alt="">
+                </div>
+                <div class="page-contact-third-section__title">Контакты</div>
+                <div class="page-contact-third-section__phone">
+                    <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+                </div>
+                <div class="page-contact-third-section__map">Москва, 3-я Парковая ул, 41А</div>
+                <div class="page-contact-third-section__time">Пн-Сб 10:00-20:00</div>
+            </div>
+            <div class="page-contact-third-section__column">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
+
+                
+            </div>
+</div>
+</section>
 </div>
 
 <?php

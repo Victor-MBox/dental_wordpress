@@ -174,7 +174,7 @@ get_header();
                         </div>
                         <div id="home-tab-3" class="accordion-home__content">
 
-                        <div class="accordion-home__img-wrapper">
+                            <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
 
                                 <div class="accordion-home__label">
@@ -213,7 +213,7 @@ get_header();
                         </div>
                         <div id="home-tab-4" class="accordion-home__content">
 
-                        <div class="accordion-home__img-wrapper">
+                            <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
 
                                 <div class="accordion-home__label">
@@ -252,7 +252,7 @@ get_header();
                         </div>
                         <div id="home-tab-5" class="accordion-home__content">
 
-                        <div class="accordion-home__img-wrapper">
+                            <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
 
                                 <div class="accordion-home__label">
@@ -291,7 +291,7 @@ get_header();
                         </div>
                         <div id="home-tab-6" class="accordion-home__content">
 
-                        <div class="accordion-home__img-wrapper">
+                            <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
 
                                 <div class="accordion-home__label">
@@ -748,10 +748,12 @@ get_header();
                         </div>
 
 
-                        <div class="before-after-arrows">
-                            <button class="before-after-arrows__left" id="introSliderPrev" type="button"></button>
-                            <button class="before-after-arrows__right" id="introSliderNext" type="button"></button>
+                        <div class="slider-arrows">
+                            <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
+                            <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
                         </div>
+
+                        
 
                     </div>
 

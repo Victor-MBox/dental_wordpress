@@ -1,0 +1,79 @@
+.page-contact-second-section
+    .page-about-section
+        &__quote
+            max-width: 942px
+            margin: 0 auto 130px
+
+.page-contact-third-section
+    &__container
+        display: flex
+        margin-bottom: 75px
+    &__column
+        height: 342px
+        &:nth-child(1)
+            width: 387px
+
+            color: #fff
+
+            padding: 30px 25px
+            margin-right: 20px
+
+            border-radius: 45px 5px 45px 45px
+            background: #C39EFF
+            box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+
+            display: flex
+            flex-direction: column
+        &:nth-child(2)
+            width: 793px
+            position: relative
+            iframe
+                border-radius: 5px 45px 45px 45px
+    &__info
+        margin-bottom: 20px
+        width: 48px
+        height: 48px
+        border-radius: 90px
+        background: $black-1
+        display: flex
+        align-items: center
+        justify-content: center
+        img
+            width: 20px
+            height: 20px
+    &__title
+        font-size: 28px
+        line-height: 30px
+        font-weight: 900
+        margin-bottom: 35px
+    &__phone a, &__map, &__time
+        display: flex
+        align-items: center
+        margin-bottom: 15px
+
+        color: #fff
+        font-size: 16px
+        font-weight: 700
+        line-height: 22px
+        letter-spacing: 0.16px
+        text-decoration: none
+        &::before
+            content: ''
+            width: 32px
+            height: 32px
+            border-radius: 90px
+
+            display: flex
+            align-items: center
+            justify-content: center
+
+            margin-right: 10px
+    &__phone a
+        &::before
+            background: $black-1 url(assets/img/icons/page/contacts/contact-tel.svg) center/50% no-repeat
+    &__map
+        &::before
+            background: $black-1 url(assets/img/icons/page/contacts/contact-map.svg) center/40% no-repeat
+    &__time
+        &::before
+            background: $black-1 url(assets/img/icons/page/contacts/contact-time.svg) center/50% no-repeat

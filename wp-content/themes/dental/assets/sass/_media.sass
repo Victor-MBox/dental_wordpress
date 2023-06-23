@@ -148,7 +148,7 @@
         width: 700px
         height: 440px
 
-    .before-after-arrows
+    .slider-arrows
         bottom: 0
 
     /* Наши специалисты */
@@ -230,7 +230,7 @@
                 height: 526px
                 &__procedure
                     bottom: 16px
-            .before-after-arrows
+            .slider-arrows
                 bottom: 16px
                 right: 5%
         &__title
@@ -245,7 +245,32 @@
         .accordion-home
             &__btn-call
                 top: 26%
-    /* страница */
+
+    /* Страница О КОМПАНИИ*/
+    .page-about-section
+        &__slider
+            .slider-arrows
+                bottom: -50px
+        &__chapter
+            &:nth-child(3)
+                margin-bottom: 70px
+        .carousel
+            height: 400px
+            &__name
+                padding: 0 10px
+        .btn-wrapper
+            &__decor
+                width: 35px
+                height: 35px
+            &__number
+                font-size: 34px
+                line-height: 35px
+            &__title
+                font-size: 14px
+                line-height: 15px
+            &__column
+                &:nth-child(2)
+                    padding-left: 10px
     /* страница */
 
 @media (max-width: 1024px)
@@ -602,6 +627,39 @@
                 margin-top: 0
                 width: 16%
 
+    /* Страница О КОМПАНИИ */
+    .page-about-section
+        &__title
+            font-size: 24px
+            line-height: 25px
+        &__banner
+            height: 300px
+            padding-left: 20px
+        &__label
+            font-size: 13px
+            line-height: 15px
+            span
+                font-size: 28px
+                line-height: 29px
+        &__chapter
+            &:nth-child(3)
+                margin-bottom: 30px
+
+        &__slider
+            .slider-arrows
+                bottom: 0
+
+        &__stages
+            flex-wrap: wrap
+        &__stages-item
+            width: 50%
+            &:nth-child(3)
+                margin-left: 0
+        &__quote
+            align-items: center
+        &__quote-text
+            height: auto
+
 @media (max-width: 880px)
 
     .portfolio-section
@@ -682,6 +740,22 @@
     /* Страница ЦЕНЫ */
     .accordion-price-page .accordion-home__btn-call
         top: 19%
+
+    /* Страница О КОМПАНИИ */
+    .page-about-section
+        &__banner
+            height: 280px
+        &__label
+            font-size: 12px
+            line-height: 13px
+            span
+                font-size: 24px
+                line-height: 25px
+        &__slider
+            height: 300px
+            .slider-arrows
+        &__advantages
+            width: 50%
 
 @media (max-width: 768px)
 
@@ -935,7 +1009,7 @@
             right: 0
             top: -50px
 
-        .before-after-arrows
+        .slider-arrows
             display: none
         .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
             max-width: 460px
@@ -1086,6 +1160,8 @@
     .page-content
         &__container
             padding-top: 76px
+        &__before-after-link
+            display: block
         &__chapter
             &:first-child
                 .page-content
@@ -1115,14 +1191,17 @@
                     &__text
                         z-index: 1
                         position: relative
-            .before-after-arrows
-                bottom: -16%
-                right: auto
+            .slider-arrows
+                display: none
+            .slick-slider
+                margin-bottom: 50px
+                .before-after, .before-after2
+                    height: 386px
+            .slick-dots
+                bottom: -40px
                 left: 50%
                 transform: translateX(-50%)
-                margin: auto
-            .slick-slider
-                margin-bottom: 100px
+
         &__list
             flex-wrap: wrap
             ul
@@ -1163,8 +1242,6 @@
 
         .page-content__chapter .before-after__procedure, .page-content__chapter .before-after2__procedure
             bottom: 0
-        .slick-dots
-            display: none!important
 
     /* Страница - ЦЕНЫ */
     .page-price-section
@@ -1202,6 +1279,91 @@
             &__arrow
                 width: 60px
                 background: url(assets/img/icons/page/down-accordion-price-black.svg)center/35% no-repeat
+
+    /* Страница О КОМПАНИИ */
+    .page-about-section
+        &__column
+            &:nth-child(1)
+                display: none
+            &:nth-child(2)
+                width: 100%
+        &__banner
+            position: relative
+            height: 290px
+            margin-bottom: 80px
+        &__label
+            position: absolute
+            left: -12px
+            font-size: 14px
+            line-height: 18px
+            span
+                font-size: 34px
+                line-height: 33px
+            &:nth-child(1)
+                top: 24px
+            &:nth-child(2)
+                top: 132px
+            &:nth-child(3)
+                top: 240px
+        &__text
+            font-size: 16px
+            line-height: 22px
+        &__title
+            font-size: 24px
+            line-height: 28px
+        &__slider
+            height: auto
+        &__carousel-wrapper
+            .slick-dots
+                width: auto
+                background: none
+                transition: .3s
+                &:hover
+                    li
+                        button
+                            background: #B3EBFC
+                    li.slick-active
+                        button
+                            background: #00BEFA
+                li
+                    margin-right: 5px
+                    button
+                        transition: .3s
+                        cursor: pointer
+                        color: rgba(255, 255, 255, 0)
+                        border-radius: 90px
+                        border: none
+                        width: 10px
+                        height: 12px
+                        background: #AEB4C3
+
+                li.slick-active
+                    button
+                        transition: .3s
+                        width: 27px
+                        height: 12px
+                        background: $black-1
+                        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        .slider-arrows
+            display: none
+        .slick-dots
+            bottom: 0
+            left: auto
+            right: 10px
+        .carousel
+            height: 380px
+
+        .page-service-section
+            &__decor-content
+                &:nth-child(1)
+                    display: none
+                &:nth-child(2)
+                    display: block
+                    width: 82px
+                    height: 82px
+                    right: 0
+                    top: 300px
+                    border-radius: 200% 5px 5px 5px
 
 @media (max-width: 480px)
     /* Header */
@@ -1284,9 +1446,9 @@
     .portfolio-section
         &__column:nth-child(1)
             width: 360px
-            height: 450px
+            height: 396px
         .slick-dots
-            bottom: 64px
+            bottom: 114px
 
         #before, #after, #before2, #after2
             font-size: 12px
@@ -1386,6 +1548,44 @@
             &__nav-title, &__nav-subtitle
                 font-size: 14px
                 line-height: 15px
+
+    /* Страница О КОМПАНИИ */
+    .page-about-section
+        &__slider-wrapper
+            img
+                border-radius: 25px 1px 1px 1px
+        &__stages-item
+            width: 100%
+            &:nth-child(2), &:nth-child(4)
+                margin-left: 0
+        &__quote
+            flex-wrap: wrap
+            margin-bottom: 60px
+            img
+                width: 120px
+                height: 120px
+                order: 1
+                border-radius: 25px 25px 25px 1px
+                margin-top: -30px
+                margin-left: -6px
+        &__quote-text
+            width: 100%
+            padding: 25px 15px 50px
+        &__quote-label
+            font-size: 14px
+            line-height: 18px
+            letter-spacing: 0.14px
+            border-radius: 15px 15px 15px 1px
+
+            left: 110px
+            bottom: 0
+            span
+                font-size: 14px
+                line-height: 22px
+                br
+                    display: none
+        &__advantages
+            width: 100%
 
 @media (max-width: 380px)
     /* Header */
