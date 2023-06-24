@@ -212,11 +212,11 @@
         max-height: 0
         opacity: 0
         visibility: hidden
-        transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s
+        transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out 0.5s, visibility 1s ease-out 0.5s
         &.active
             visibility: visible
             opacity: 1
-            transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out, visibility 0.1s ease-out
+            transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out, visibility 0.1s ease-out
     &__btn-calc, &__btn-call
         position: absolute
         bottom: 60px
@@ -513,6 +513,7 @@
         &__img-wrapper
             border-radius: 0px 0px 15px 15px
         &__content
+            width: 100%
             &.active
                 margin-top: -12px
         &__nav-column
@@ -604,3 +605,62 @@
             letter-spacing: 0.01em
             color: #07003B
             text-align: end
+
+/* Аккордион на странице FAQ */
+.faq
+    &__tab
+        padding: 2px 2px 2px 96px
+        width: 100%
+        height: 72px
+
+        cursor: pointer
+
+        position: relative
+        transition: 1s
+        z-index: 0
+        margin-bottom: 2px
+        align-items: inherit
+
+        color: #FFF
+        font-size: 16px
+        font-weight: 700
+        line-height: 22px
+        letter-spacing: 0.16px
+
+        border-radius: 1px 15px 15px 15px
+        background: #C39EFF
+        box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+
+        display: flex
+        align-items: center
+
+        &.active
+            border-radius: 0
+            transition: 1s
+
+    &__content
+        max-height: 0
+        opacity: 0
+        transition: .5s, opacity .5s
+        padding: 0 95px
+
+        &.active
+            max-height: 100%
+            padding: 25px 95px
+
+            opacity: 1
+            transition: .5s, opacity 1s
+
+    &__content-title
+        color: $black-1
+        font-size: 16px
+        font-weight: 700
+        line-height: 22px
+        letter-spacing: 0.16px
+        margin-bottom: 25px
+
+    &__content-text
+        color: $gray-text
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.14px

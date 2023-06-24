@@ -311,3 +311,43 @@ $(document).ready(function () {
     slickCarouselEquipment.slick("slickNext");
   });
 });
+
+
+//==========================================
+//АККОРДИН В АККОРДИОНЕ НА СТРАНИЦЕ -  FAQ
+//==========================================
+
+$(document).ready(function () {
+  const faqTitles = document.querySelectorAll(".faq__tab");
+  const faqContents = document.querySelectorAll(".faq__content");
+
+  if (faqTitles.length && faqContents.length) {
+    // Добавляем класс "active" к первому табу и его соответствующему контенту
+    faqTitles[0].classList.add("active");
+    faqContents[0].classList.add("active");
+    faqContents[0].style.maxHeight = faqContents[0].scrollHeight + "0px";
+
+    faqTitles.forEach((item) =>
+      item.addEventListener("click", () => {
+        const activeContent = document.querySelector("#" + item.dataset.tab);
+
+        if (activeContent.classList.contains("active")) {
+          activeContent.classList.remove("active");
+          item.classList.remove("active");
+          activeContent.style.maxHeight = 0;
+        } else {
+          faqContents.forEach((element) => {
+            element.classList.remove("active");
+            element.style.maxHeight = 0;
+          });
+
+          faqTitles.forEach((element) => element.classList.remove("active"));
+
+          item.classList.add("active");
+          activeContent.classList.add("active");
+          activeContent.style.maxHeight = activeContent.scrollHeight + "0px";
+        }
+      })
+    );
+  }
+});

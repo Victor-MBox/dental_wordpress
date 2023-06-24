@@ -1365,6 +1365,51 @@
                     top: 300px
                     border-radius: 200% 5px 5px 5px
 
+    /* Страница КОНТАКТЫ */
+    .page-contact-second-section
+        .page-second-section
+            &__decor
+                display: block
+
+                position: absolute
+                left: 20%
+                bottom: -40%
+                transform: translateX(-20%)
+                z-index: -1
+                img
+                    max-width: none
+                    width: 150%
+    .page-contact-third-section
+        &__container
+            flex-wrap: wrap
+        &__column
+            &:nth-child(1)
+                width: 100%
+                order: 1
+                margin-right: 0
+                margin: -4% 4% 0
+                border-radius: 25px 1px 25px 25px
+                position: relative
+                z-index: 1
+            &:nth-child(2)
+                height: 526px
+                iframe
+                    height: 526px
+                    border-radius: 1px 25px 25px 25px
+        &__decor-content
+            display: none
+
+    .page-contact-fourth-section
+        &__container
+            .page-about-section__buttons-page
+                display: block
+
+                margin-bottom: 75px
+        &__title
+            text-align: left
+        &__description
+            display: none
+
 @media (max-width: 480px)
     /* Header */
     .header

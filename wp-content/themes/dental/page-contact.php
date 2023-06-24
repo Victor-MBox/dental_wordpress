@@ -80,11 +80,14 @@ get_header();
                     Руководитель зуботехнической лаборатории
                 </div>
             </div>
+            <div class="page-second-section__decor">
+                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-10.svg" alt="">
+            </div>
         </div>
     </section>
 
     <section class="page-contact-third-section">
-        <section class="page-contact-third-section__container container">
+        <div class="page-contact-third-section__container container">
 
             <div class="page-contact-third-section__column">
                 <div class="page-contact-third-section__info">
@@ -100,10 +103,80 @@ get_header();
             <div class="page-contact-third-section__column">
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
 
-                
+                <div class="page-contact-third-section__decor-content decor-lilac"></div>
+
             </div>
-</div>
-</section>
+        </div>
+    </section>
+
+
+    <section class="page-contact-fourth-section">
+        <div class="page-contact-fourth-section__container container">
+            <div class="page-contact-fourth-section__name">
+                <div class="page-contact-fourth-section__title title">Проверьте подлинность отзывов</div>
+                <div class="page-contact-fourth-section__description description">Мы всегда честны с нашими пациентами, поэтому не забудьте проверить рейтинг и отзывы о нашей клинике
+                </div>
+            </div>
+
+            <div class="page-contact-fourth-section__companies-rating companies-rating">
+                <div class="companies-rating__column">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-yandex.png" alt="">
+                    <div class="companies-rating__number">
+                        4,5 <span>/5</span>
+                    </div>
+                </div>
+
+                <div class="companies-rating__column">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-prodoctorov.png" alt="">
+                    <div class="companies-rating__number">
+                        4,5 <span>/5</span>
+                    </div>
+                </div>
+
+                <div class="companies-rating__column">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-zoon.png" alt="">
+                    <div class="companies-rating__number">
+                        4,5 <span>/5</span>
+                    </div>
+                </div>
+
+                <div class="companies-rating__column">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-2gis.png" alt="">
+                    <div class="companies-rating__number">
+                        4,5 <span>/5</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-about-section__buttons-page">
+                <div class="page-contact-fourth-section__title title">Узнайте возможности лечения ;)</div>
+                
+                <a class="buttons-page-1" href="#">
+                    <div class="buttons-page-1__img"></div>
+                    <div class="buttons-page-1__text">Лечение в рассрочку</div>
+                </a>
+
+                <a class="buttons-page-2" href="#">
+                    <div class="buttons-page-2__img"></div>
+                    <div class="buttons-page-2__text">Налоговый вычет</div>
+                </a>
+
+                <a class="buttons-page-3" href="#">
+                    <div class="buttons-page-3__img"></div>
+                    <div class="buttons-page-3__text">Гарантия на услуги</div>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="page-contact-fourth-section__decor">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="">
+        </div>
+
+
+    </section>
+
+
 </div>
 
 <?php

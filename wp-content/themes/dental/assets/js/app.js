@@ -191,7 +191,7 @@ $(document).ready(function () {
     // Добавляем класс "active" к первому табу и его соответствующему контенту
     accTitles[0].classList.add("active");
     accContents[0].classList.add("active");
-    accContents[0].style.maxHeight = accContents[0].scrollHeight + "px";
+    accContents[0].style.maxHeight = accContents[0].scrollHeight + "0px";
 
     accTitles.forEach((item) =>
       item.addEventListener("click", () => {
@@ -211,7 +211,7 @@ $(document).ready(function () {
 
           item.classList.add("active");
           activeContent.classList.add("active");
-          activeContent.style.maxHeight = activeContent.scrollHeight + "px";
+          activeContent.style.maxHeight = activeContent.scrollHeight + "0px";
         }
       })
     );
