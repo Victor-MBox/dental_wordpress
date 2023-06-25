@@ -271,7 +271,12 @@
             &__column
                 &:nth-child(2)
                     padding-left: 10px
-    /* страница */
+
+    /* страница  FAQ*/
+    .page-questions-section
+        &__column
+            &:nth-child(1)
+                min-width: 280px
 
 @media (max-width: 1024px)
     /* Header */
@@ -660,6 +665,13 @@
         &__quote-text
             height: auto
 
+    /* Страница FAQ */
+    .faq
+        &__content
+            padding: 0 35px
+            &.active
+                padding: 25px 35px
+
 @media (max-width: 880px)
 
     .portfolio-section
@@ -756,6 +768,13 @@
             .slider-arrows
         &__advantages
             width: 50%
+
+    /* страница  FAQ*/
+    .page-questions-section
+        &__column
+            &:nth-child(1)
+                min-width: 260px
+
 
 @media (max-width: 768px)
 
@@ -1410,6 +1429,32 @@
         &__description
             display: none
 
+    /* страница  FAQ*/
+    .page-questions-section
+        position: relative
+        .page-price-section__buttons-decor
+            width: 80%
+            bottom: 0
+        &__container
+            flex-wrap: wrap
+        &__column
+            .page-service-section__form
+                display: none
+            &:nth-child(1)
+                order: 1
+                min-width: 100%
+                min-width: none
+            &:nth-child(2)
+                margin-bottom: 24px
+
+    .faq
+        &__tab
+            padding: 10px
+        &__content
+            padding: 0 10px
+            &.active
+                padding: 25px 10px
+
 @media (max-width: 480px)
     /* Header */
     .header
@@ -1631,6 +1676,20 @@
                     display: none
         &__advantages
             width: 100%
+
+    /* страница  FAQ*/
+    .page-questions-section__column
+        .accordion-price-page
+            .accordion-home
+                &__tab
+                    padding: 10px
+                    &.active
+                        padding: 10px
+
+                &__nav-column
+                    &:nth-child(1)
+                        display: none
+                
 
 @media (max-width: 380px)
     /* Header */

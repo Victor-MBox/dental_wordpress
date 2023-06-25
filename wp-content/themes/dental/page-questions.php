@@ -100,8 +100,6 @@ get_header();
                         <div class="buttons-page-3__text">Гарантия на услуги</div>
                     </a>
 
-                    <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
-
                 </div>
 
                 <div class="page-service-section__form">
@@ -147,15 +145,21 @@ get_header();
                         <div data-tab="home-tab-1" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
 
-                                <div class="accordion-home__decor"></div>
+                                <div class="accordion-home__decor accordion-home__decor_lilac"></div>
+                                <div class="accordion-home__decor-number">01</div>
+
+                            </div>
+
+                            <div class="accordion-home__nav-column">
 
                                 <div class="accordion-home__nav-title">Общие вопросы</div>
                                 <div class="accordion-home__nav-subtitle">4 вопроса</div>
-                            </div>
 
-                            <div class="accordion-home__decor-wrapper">
-                                <div class="accordion-home__arrow"></div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_yellow"></div>
+                                </div>
                             </div>
                         </div>
                         <div id="home-tab-1" class="accordion-home__content">
@@ -220,15 +224,21 @@ get_header();
                         <div data-tab="home-tab-2" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
 
-                                <div class="accordion-home__decor"></div>
+                                <div class="accordion-home__decor accordion-home__decor_red"></div>
+                                <div class="accordion-home__decor-number">02</div>
 
-                                <div class="accordion-home__nav-title">Общие вопросы</div>
-                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
                             </div>
 
-                            <div class="accordion-home__decor-wrapper">
-                                <div class="accordion-home__arrow"></div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Протезирование</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_red"></div>
+                                </div>
                             </div>
                         </div>
                         <div id="home-tab-2" class="accordion-home__content">
@@ -293,15 +303,21 @@ get_header();
                         <div data-tab="home-tab-3" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
 
-                                <div class="accordion-home__decor"></div>
+                                <div class="accordion-home__decor accordion-home__decor_lilac"></div>
+                                <div class="accordion-home__decor-number">03</div>
 
-                                <div class="accordion-home__nav-title">Общие вопросы</div>
-                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
                             </div>
 
-                            <div class="accordion-home__decor-wrapper">
-                                <div class="accordion-home__arrow"></div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Имплантаця</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_lilac"></div>
+                                </div>
                             </div>
                         </div>
                         <div id="home-tab-3" class="accordion-home__content">
@@ -366,15 +382,21 @@ get_header();
                         <div data-tab="home-tab-4" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
 
-                                <div class="accordion-home__decor"></div>
+                                <div class="accordion-home__decor "></div>
+                                <div class="accordion-home__decor-number">04</div>
 
-                                <div class="accordion-home__nav-title">Общие вопросы</div>
-                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
                             </div>
 
-                            <div class="accordion-home__decor-wrapper">
-                                <div class="accordion-home__arrow"></div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Лечение зубов, терапия</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_yellow"></div>
+                                </div>
                             </div>
                         </div>
                         <div id="home-tab-4" class="accordion-home__content">
@@ -435,11 +457,248 @@ get_header();
 
                     </div>
 
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-5" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__decor accordion-home__decor_blue"></div>
+                                <div class="accordion-home__decor-number">05</div>
+
+                            </div>
+
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Хирургия</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_turquoise"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="home-tab-5" class="accordion-home__content">
+
+                            <div data-tab="tab5-faq-tab-1" class="faq__tab">Сопутствующие заболевания</div>
+
+                            <div id="tab5-faq-tab-1" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab5-faq-tab-2" class="faq__tab">Договор на лечени</div>
+
+                            <div id="tab5-faq-tab-2" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab5-faq-tab-3" class="faq__tab">Лечение иногородних</div>
+
+                            <div id="tab5-faq-tab-3" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab5-faq-tab-4" class="faq__tab">Опасен ли рентген?</div>
+
+                            <div id="tab5-faq-tab-4" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-6" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__decor accordion-home__decor_red"></div>
+                                <div class="accordion-home__decor-number">06</div>
+
+                            </div>
+
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Ортодонтия</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="home-tab-6" class="accordion-home__content">
+
+                            <div data-tab="tab6-faq-tab-1" class="faq__tab">Сопутствующие заболевания</div>
+
+                            <div id="tab6-faq-tab-1" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab6-faq-tab-2" class="faq__tab">Договор на лечени</div>
+
+                            <div id="tab6-faq-tab-2" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab6-faq-tab-3" class="faq__tab">Лечение иногородних</div>
+
+                            <div id="tab6-faq-tab-3" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab6-faq-tab-4" class="faq__tab">Опасен ли рентген?</div>
+
+                            <div id="tab6-faq-tab-4" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-7" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__decor accordion-home__decor_lilac"></div>
+                                <div class="accordion-home__decor-number">07</div>
+
+                            </div>
+
+                            <div class="accordion-home__nav-column">
+
+                                <div class="accordion-home__nav-title">Гигиена</div>
+                                <div class="accordion-home__nav-subtitle">4 вопроса</div>
+
+
+                                <div class="accordion-home__decor-wrapper">
+                                    <div class="accordion-home__arrow"></div>
+                                    <div class="accordion-home__strip strip strip_lilac"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="home-tab-7" class="accordion-home__content">
+
+                            <div data-tab="tab7-faq-tab-1" class="faq__tab">Сопутствующие заболевания</div>
+
+                            <div id="tab7-faq-tab-1" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab7-faq-tab-2" class="faq__tab">Договор на лечени</div>
+
+                            <div id="tab7-faq-tab-2" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab7-faq-tab-3" class="faq__tab">Лечение иногородних</div>
+
+                            <div id="tab7-faq-tab-3" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                            <div data-tab="tab7-faq-tab-4" class="faq__tab">Опасен ли рентген?</div>
+
+                            <div id="tab7-faq-tab-4" class="faq__content">
+                                <div class="faq__content-title">Могу ли я пройти лечение при наличии диабета, остеопороза, иммунных и других заболеваний?</div>
+                                <div class="faq__content-text">В каждом конкретном случае решение о безопасности лечения при наличии серьезных заболеваний принимает доктор непосредственно на консультации.
+                                    <br> <br>
+                                    В нашем центре проводятся уникальные операции по имплантации зубов по технологии “ReSmile” у пациентов со сложной клинической картиной и сопутствующими заболеваниями, поэтому, скорее всего, мы сможем вам помочь.
+                                    <br> <br>
+                                    Обязательно расскажите доктору на приеме о своих хронических заболеваниях - это очень важно.
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
 
                 </div>
             </div>
         </div>
-</div>
+        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
 </section>
 
 
