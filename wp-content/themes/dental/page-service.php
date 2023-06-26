@@ -753,7 +753,7 @@ get_header();
                             <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
                         </div>
 
-                        
+
 
                     </div>
 
@@ -900,9 +900,10 @@ get_header();
 
 
         </div>
+    </section>
+
 </div>
-</section>
-</div>
+
 
 <?php
 get_footer();

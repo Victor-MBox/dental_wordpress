@@ -775,6 +775,11 @@
             &:nth-child(1)
                 min-width: 260px
 
+    /* Страница - ДОКТОРА */
+    .page-doctors-content
+        .page-content__btn-call
+            .btn-call
+                bottom: 15px
 
 @media (max-width: 768px)
 
@@ -1455,6 +1460,17 @@
             &.active
                 padding: 25px 10px
 
+    /* Страница - ДОКТОРА */
+    .page-doctors-content
+        .page-content
+            &__chapter:first-child
+                .page-content__name
+                    color: $black-1
+            .btn-call
+                bottom: 65px
+                span
+                    color: $black-1
+
 @media (max-width: 480px)
     /* Header */
     .header
@@ -1689,8 +1705,15 @@
                 &__nav-column
                     &:nth-child(1)
                         display: none
-                
 
+    /* Страница - ДОКТОРА */
+    .page-doctors-content
+        .page-content
+            .btn-call
+                right: auto
+                left: 10px
+                bottom: -15px
+                
 @media (max-width: 380px)
     /* Header */
     .accordion, .sub-accordion, .sub-2-accordion

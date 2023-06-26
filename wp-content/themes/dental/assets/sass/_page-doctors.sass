@@ -1,0 +1,75 @@
+.page-doctors-content, .page-doctors-section
+    .page-content
+        &__banner
+            background: url(assets/img/page/doctors/doctor-01.jpg) center top/cover no-repeat
+            height: 342px
+            padding: 40px 30px
+        &__name
+            color: $black-1
+            font-size: 42px
+            line-height: 43px
+            font-weight: 900
+            margin-bottom: 20px
+        &__label
+            right: auto
+            left: 30px
+            top: 30px
+        &__label-prof
+            span
+                color: $gray-text
+                font-size: 16px
+                font-weight: 700
+                line-height: 22px
+                letter-spacing: 0.16px
+
+                padding: 5px 15px
+                height: 32px
+                display: inline-flex
+                justify-content: center
+                align-items: center
+
+                border-radius: 1px 10px 10px 10px
+                background: #FFF
+        &__btn-call
+            .btn-call
+                position: absolute
+                right: 25px
+                bottom: 65px
+                background: #FDDB2C
+                &:hover
+                    background: #fff
+                    .btn-call__img
+                        background: $black-1 url(assets/img/icons/edit-yellow.svg) center/40% no-repeat
+                &__img
+                    background: #FFFFFF url(assets/img/icons/edit-yellow.svg) center/40% no-repeat
+                &__text
+                    color: $black-1
+                    span
+                        font-weight: 700
+        &__certificates
+            display: flex
+            justify-content: space-between
+            margin-bottom: 28px
+        &__certificates-item
+            width: 23%
+            img
+                margin: 0 auto 25px
+        &__certificates-title
+            color: $black-1
+            text-align: center
+            font-size: 16px
+            font-weight: 700
+            line-height: 22px
+            letter-spacing: 0.16px
+            padding: 0 10%
+
+.page-doctors-section
+    .page-service-section__column-mob
+        .page-content
+            &__banner
+                border-radius: 15px 0px 0px 15px
+                margin-bottom: 0
+                .btn-uncover
+                    position: absolute
+                    right: 26px
+                    top: 84%

@@ -101,7 +101,7 @@ get_header();
                 <div class="page-contact-third-section__time">Пн-Сб 10:00-20:00</div>
             </div>
             <div class="page-contact-third-section__column">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
 
                 <div class="page-contact-third-section__decor-content decor-lilac"></div>
 

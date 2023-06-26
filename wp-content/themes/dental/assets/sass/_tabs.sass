@@ -716,3 +716,41 @@
         font-size: 14px
         line-height: 22px
         letter-spacing: 0.14px
+
+/* Мобильный аккордион на странице ДОКТОРА */
+.page-doctors-section
+    .accordion-home
+        &__content
+            z-index: 2
+
+            width: 100%
+            background: $btn-lilac
+            border-radius: 15px 15px 1px 15px
+        &__content.active
+            padding: 20px 0
+            margin-top: 0
+
+    .faq
+        &__tab
+            padding-left: 15px
+            height: 46px
+            box-shadow: none
+            background: none
+            margin-bottom: 0
+        &__tab
+            &.active
+                border-radius: 1px 0px 0px 10px
+                background: #FFF
+                box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+                z-index: 1
+                color: $black-1
+                margin-left: 14px
+
+        &__content
+            &.active
+                background: none
+                box-shadow: none
+                margin: 0 0 0 14px
+                padding: 0
+                border-radius: 15px 0px 0px 15px
+                
