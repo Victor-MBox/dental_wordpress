@@ -8,7 +8,7 @@
         min-height: 148px
     &__logo
         height: 48px
-        margin-right: 23px
+        margin-right: 20px
         display: flex
         align-items: center
         img
@@ -16,7 +16,7 @@
 
     &__nav
         margin-right: 20px
-        width: 544px
+        max-width: 544px
     &__wrapper
         display: flex
         align-items: center
@@ -51,26 +51,133 @@
         cursor: pointer
 
 .nav
-    ul
+    position: relative
+    a
+        text-decoration: none
+
+    &__list
         display: flex
-        justify-content: space-between
+        &>li
+            position: relative
+            padding: 15px 9px
+            border-radius: 10px 10px 10px 1px
+
+            transition: .3s
+
+    &__list>li:hover
+        background: #FFF
+        box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+        .nav__link
+            color: $black-1
+        .sub-nav__list
+            display: block
+    &__link
+        color: $gray-text
+        font-size: 14px
+        font-weight: 400
+        line-height: 15px
+        padding: 15px 0
+
+.sub-nav
+    &__list
+        display: none
+        position: absolute
+        top: 0
+        left: 0
+
+        border-radius: 1px 0px 0px 15px
+        background: #FFF
+        box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+
+        margin-top: 48px
+        padding: 15px 0 15px 15px
+        width: 200px
+        &_promotion
+            width: 420px
+        &_name
+            width: 320px
+
+    &__list>li:hover
+        .sub-sub-nav
+            &__list
+                display: block
+                &_column
+                    display: flex
+                    flex-wrap: wrap
+                    align-content: flex-start
+                    &>li
+                        width: 50%
+                        margin-bottom: 30px
+                    .sub-sub-nav__link
+                        color: $black-1
+                        font-weight: 500
+                        
+
+        .sub-nav__link
+            border-radius: 10px 1px 1px 10px
+            background: #C39EFF
+            box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+            color: #fff
+            padding: 18px 15px
+    &__link
+        color: $gray-text
+        font-size: 14px
+        font-weight: 400
+        line-height: 20px
+        padding: 12px 12px 12px 0
+
+        display: flex
+        justify-content: flex-start
         align-items: center
-        li
-            a
-                font-weight: 400
-                font-size: 14px
-                line-height: 14px
-                color: $gray-text
-                padding: 15px 9.2px
-                border-radius: 10px 10px 10px 1px
-                cursor: pointer
-                transition: .2s all
-                text-decoration: none
-                &:hover
-                    color: $black-1
-                    background: #FFFFFF
-                    box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
-                    border-radius: 10px 10px 10px 1px
+        transition: .2s
+
+.sub-sub-nav
+    &__list
+        display: none
+        position: absolute
+        top: 0
+        left: 100%
+
+        border-radius: 1px 15px 1px 1px
+        background: #C39EFF
+
+        padding: 35px 20px
+        height: 100%
+        min-width: 600px
+        z-index: 2
+
+    &__link
+        color: #fff
+        font-size: 14px
+        font-weight: 400
+        line-height: 15px
+        margin-bottom: 20px
+
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        transition: .2s
+    &__btn
+        position: absolute
+        right: 15px
+        bottom: 20px
+
+.sub-sub-sub-nav
+    &__link
+        color: #fff
+        font-size: 14px
+        font-weight: 400
+        line-height: 35px
+        
+        transition: .2s
+.sub4-nav
+    &__link
+        color: #fff
+        font-size: 14px
+        font-weight: 400
+        line-height: 15px
+        
+        transition: .2s
 
 .current_page_item
     a
@@ -181,7 +288,6 @@
             padding: 10px 0
             margin-top: 1px
 
-    
 .sub-accordion
     display: flex
     flex-direction: column
@@ -250,7 +356,7 @@
         visibility: hidden
         transition: .5s
         background: $lilac-bg
-        border-radius: 1px 0px 0px 15px;
+        border-radius: 1px 0px 0px 15px
         display: flex
         flex-direction: column
 
@@ -273,7 +379,6 @@
             transition: .7s
             padding: 10px 0
             margin-top: 1px
-
 
 .sub-2-accordion
     display: flex
@@ -339,7 +444,7 @@
         visibility: hidden
         transition: .5s
         background: $lilac-bg
-        border-radius: 1px 0px 0px 15px;
+        border-radius: 1px 0px 0px 15px
         display: flex
         flex-direction: column
 

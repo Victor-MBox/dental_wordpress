@@ -2,6 +2,17 @@
     <footer class="footer">
         <div class="container footer__container">
 
+            <div class="scroll-up ">
+                <svg class="scroll-up__svg" vievBox="-2 -2 52 52">
+                    <path class="scroll-up__svg-path" d="
+                            M25,1
+                            a24,24 0 0,1 0,48
+                            a24,24 0 0,1 0,-48
+                        " />
+                </svg>
+            </div>
+
+
             <div class="footer__wrapper">
 
                 <div class="footer__column">
@@ -12,9 +23,9 @@
                         на базе собственной лаборатории
                         и клиники Олега Бачулиса</div>
                     <div class="footer__social social">
-                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/vk_icn.svg" alt=""></a>
-                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                        <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
+                        <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                        <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
+                        <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                     </div>
                 </div>
 
@@ -24,7 +35,7 @@
                         <li><a href="/Dental/o-klinike/">О клинике</a></li>
                         <li><a href="/Dental/vrachi/">Врачи</a></li>
                         <li><a href="/Dental/czeny/">Цены</a></li>
-                        <li><a href="#">Акции</a></li>
+                        <li><a href="/Dental/akczii">Акции</a></li>
                         <li><a href="/Dental/otzyvy/">Отзывы</a></li>
                         <li><a href="/Dental/galereya/">Галерея</a></li>
                         <li><a href="/Dental/kontakty/">Контакты</a></li>
@@ -72,7 +83,7 @@
 
                     <div class="footer__form">
 
-                        <form action="#" class="form-footer" id="form-footer"> 
+                        <form action="#" class="form-footer" id="form-footer">
 
                             <div class="form-footer__input email-input">
                                 <input type="email" name="email" placeholder="Email" class="input">
@@ -121,26 +132,26 @@
                 </div>
                 <div class="feedback-form__form">
 
-                        <form action="#" class="form-modal" id="form-modal">
-                            <div class="form-modal__input">
-                                <input type="text" name="name" placeholder="Имя" class="input">
+                    <form action="#" class="form-modal" id="form-modal">
+                        <div class="form-modal__input">
+                            <input type="text" name="name" placeholder="Имя" class="input">
+                        </div>
+                        <div class="form-modal__input email-input">
+                            <input type="email" name="email" placeholder="Email" class="input">
+                        </div>
+                        <div class="form-modal__input phone-input">
+                            <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                        </div>
+                        <div class="form-modal__item">
+                            <div class="checkbox">
+                                <input id="checkboxModal" checked type="checkbox" name="agreement" class="checkbox__input">
+                                <label for="checkboxModal" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
                             </div>
-                            <div class="form-modal__input email-input">
-                                <input type="email" name="email" placeholder="Email" class="input">
-                            </div>
-                            <div class="form-modal__input phone-input">
-                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                            </div>
-                            <div class="form-modal__item">
-                                <div class="checkbox">
-                                    <input id="checkboxModal" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkboxModal" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
-                                </div>
-                            </div>
-                            <div class="form-modal__submit">
-                                <input class="btn btn_submit" type="submit" value="Узнать больше">
-                            </div>
-                        </form>
+                        </div>
+                        <div class="form-modal__submit">
+                            <input class="btn btn_submit" type="submit" value="Узнать больше">
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -158,6 +169,15 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="video-modal" id="videoModal">
+                
+                <div class="modal__close modal__close_video"><span></span></div>
+
+                <div class="video-modal__wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
 

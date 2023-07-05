@@ -556,3 +556,57 @@ $("[data-modal=mainModal]").on("click", function () {
 $(".modal__close, .thanks-modal__btn").on("click", function () {
   $(".modal__overlay, #mainModal, #thanksModal").fadeOut();
 });
+
+//Видео в модальном окне
+$("[data-modal=videoModal]").on("click", function () {
+  $(".modal__overlay, #videoModal").fadeIn();
+});
+
+$(".modal__close").on("click", function () {
+  $(".modal__overlay, #videoModal").fadeOut();
+  var videoPlayer = $("#videoModal").find("iframe").get(0);
+  var videoSrc = videoPlayer.src;
+  videoPlayer.src = ""; // Остановка воспроизведения
+  videoPlayer.src = videoSrc; // Восстановление исходного источника видео
+});
+
+/* ===================================================
+Кнопка НАВЕРХ */
+const offset = 100;
+const scrollUp = document.querySelector(".scroll-up");
+const scrollUpSvgPath = document.querySelector(".scroll-up__svg-path");
+const pathLength = scrollUpSvgPath.getTotalLength();
+
+scrollUpSvgPath.style.strokeDasharray = `${pathLength} ${pathLength}`;
+scrollUpSvgPath.style.transition = "stroke-deshoffset 20ms";
+
+const getTop = () => window.pageYOffset || document.documentElement.scrollTop;
+
+//updateDashoffset
+const updateDashoffset = () => {
+  const height = document.documentElement.scrollHeight - window.innerHeight;
+  const dashoffset = pathLength - (getTop() * pathLength) / height;
+
+  scrollUpSvgPath.style.strokeDashoffset = dashoffset;
+};
+
+//onScroll
+window.addEventListener("scroll", () => {
+  updateDashoffset();
+
+  if (getTop() > offset) {
+    scrollUp.classList.add("scroll-up--active");
+  } else {
+    scrollUp.classList.remove("scroll-up--active");
+  }
+});
+
+//click
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+updateDashoffset();

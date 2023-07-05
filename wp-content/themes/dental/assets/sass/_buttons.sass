@@ -273,3 +273,47 @@
     background: none
     cursor: pointer
     text-decoration: none
+
+/* Кнопка НАВЕРХ (находится в подвале) */
+.scroll-up
+    background: #fff
+    position: fixed
+    right: 50px
+    bottom: 50px
+    z-index: 10
+    width: 50px
+    height: 50px
+    border-radius: 90px
+    box-shadow: inset 0 0 0 3.5px #dcdcdc
+    visibility: hidden
+    opacity: 0
+    transition: .2s
+    transform: translateY(25px)
+    &::before
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        opacity: .6
+        content: ''
+        background: url(assets/img/icons/arrow-up_lilac.svg) center/30% no-repeat
+        transition: .2s
+        cursor: pointer
+
+    &:hover
+        &::before
+            opacity: 1
+
+    &--active
+        visibility: visible
+        opacity: 1
+        transform: translateY(0)
+    &__svg
+        overflow: inherit
+    &__svg-path
+        box-sizing: border-box
+        fill: none
+        stroke: $btn-lilac
+        stroke-width: 4px
+        transition: .2s
