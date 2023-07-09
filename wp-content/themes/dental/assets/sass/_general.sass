@@ -197,7 +197,7 @@ img
         margin-bottom: 84px
     &__column
         &:nth-child(1)
-            width: 35%
+            width: 36%
         &:nth-child(2)
             display: flex
             margin-right: 19px
@@ -224,7 +224,7 @@ img
         z-index: 1
     &__form
         position: absolute
-        bottom: -46px
+        top: 208px
         left: 402px
         z-index: 1
     &__decor-red
@@ -245,12 +245,44 @@ img
     letter-spacing: 0.01em
     color: $gray-text
 
+.text-hidden
+    max-height: 0
+    overflow: hidden
+    padding-right: 55px
+    transition: max-height 0.5s ease
+    p
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $gray-text
+
+.text-visible
+    max-height: 1000px
+    margin-bottom: 26px
+    padding-right: 55px
+
+    transition: max-height 0.5s ease
+    p
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $gray-text
+
 .list
     li
         display: flex
-        margin-bottom: 15px
-        &:last-child
-            margin-bottom: 0
+        font-weight: 700
+        font-size: 14px
+        line-height: 16px
+        letter-spacing: 0.01em
+        text-decoration: none
+        color: $black-1
+
+        position: relative
+        padding-left: 20px
+        margin-bottom: 6px
         &::before
             display: block
             content: ''
@@ -258,15 +290,11 @@ img
             height: 12px
             border-radius: 90px
             background: #01B5EE
-            margin-right: 10px
-            margin-top: 2px
-    a
-        font-weight: 700
-        font-size: 14px
-        line-height: 22px
-        letter-spacing: 0.01em
-        text-decoration: none
-        color: $black-1
+            
+            position: absolute
+            left: 0
+            top: 0
+
 
 .decor-red
     width: 82px
@@ -338,9 +366,11 @@ img
     &__subtitle
         margin-bottom: 15px
     &__title
-        margin-bottom: 45px
+        margin-bottom: 35px
     &__companies-rating
         margin-bottom: 99px
+    &__description
+        margin-bottom: 35px
 
 .companies-rating
     display: flex
@@ -429,7 +459,7 @@ img
         bottom: auto
         left: auto
         &:hover
-            
+
             li.slick-active
                 button
                     background: #fff
@@ -481,32 +511,19 @@ img
     &__decor-footer
         display: none
 
-.description
-    font-weight: 400
-    font-size: 14px
-    line-height: 22px
-    letter-spacing: 0.01em
-    color: $gray-text
-
-.list
-    li
-        display: flex
-        margin-bottom: 15px
-        &:last-child
-            margin-bottom: 0
-        &::before
-            display: block
-            content: ''
-            width: 12px
-            height: 12px
-            border-radius: 90px
-            background: #01B5EE
-            margin-right: 10px
-            margin-top: 2px
-    a
+/* Политика конфиденциальности */
+.page-politika
+    &__container
+        margin-top: 240px
+    &__title
+        text-align: center
+        font-size: 42px
+        line-height: 44px
         font-weight: 700
-        font-size: 14px
-        line-height: 22px
-        letter-spacing: 0.01em
-        text-decoration: none
+        margin-bottom: 30px
         color: $black-1
+    &__text
+        font-size: 18px
+        line-height: 22px
+        color: $gray-text
+        margin-bottom: 75px

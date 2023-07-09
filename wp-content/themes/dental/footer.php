@@ -32,26 +32,26 @@
                 <div class="footer__column">
                     <div class="footer__title">Информация</div>
                     <ul class="footer__nav-list">
-                        <li><a href="/Dental/o-klinike/">О клинике</a></li>
-                        <li><a href="/Dental/vrachi/">Врачи</a></li>
-                        <li><a href="/Dental/czeny/">Цены</a></li>
-                        <li><a href="/Dental/akczii">Акции</a></li>
-                        <li><a href="/Dental/otzyvy/">Отзывы</a></li>
-                        <li><a href="/Dental/galereya/">Галерея</a></li>
-                        <li><a href="/Dental/kontakty/">Контакты</a></li>
+                        <li><a href="/o-klinike/">О клинике</a></li>
+                        <li><a href="/vrachi/">Врачи</a></li>
+                        <li><a href="/czeny/">Цены</a></li>
+                        <li><a href="/akczii">Акции</a></li>
+                        <li><a href="/otzyvy/">Отзывы</a></li>
+                        <li><a href="/galereya/">Галерея</a></li>
+                        <li><a href="/kontakty/">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__column">
                     <div class="footer__title">Услуги</div>
                     <ul class="footer__nav-list">
-                        <li><a href="/Dental/uslugi/">Диагностика</a></li>
-                        <li><a href="/Dental/uslugi/">Протезирование</a></li>
-                        <li><a href="/Dental/uslugi/">Имплантаця</a></li>
-                        <li><a href="/Dental/uslugi/">Терапия</a></li>
-                        <li><a href="/Dental/uslugi/">Хирургия</a></li>
-                        <li><a href="/Dental/uslugi/">Ортодонтия</a></li>
-                        <li><a href="/Dental/uslugi/">Гигиена</a></li>
+                        <li><a href="/uslugi/">Диагностика</a></li>
+                        <li><a href="/uslugi/">Протезирование</a></li>
+                        <li><a href="/uslugi/">Имплантаця</a></li>
+                        <li><a href="/uslugi/">Терапия</a></li>
+                        <li><a href="/uslugi/">Хирургия</a></li>
+                        <li><a href="/uslugi/">Ортодонтия</a></li>
+                        <li><a href="/uslugi/">Гигиена</a></li>
                     </ul>
                 </div>
 
@@ -61,13 +61,13 @@
                     <div class="footer__item">
                         <div class="footer__img-phone">
                         </div>
-                        <p><?php the_field('footer_phone', 2); ?></p>
+                        <a href="tel:<?php the_field('footer_phone', 2); ?>"><?php the_field('footer_phone', 2); ?></a>
                     </div>
 
                     <div class="footer__item">
                         <div class="footer__img-map">
                         </div>
-                        <p><?php the_field('footer_adres', 2); ?></p>
+                        <a href="/kontakty/"><?php the_field('footer_adres', 2); ?></a>
                     </div>
 
                     <div class="footer__item">
@@ -90,7 +90,7 @@
                             </div>
 
                             <div class="form-footer__submit">
-                                <input class="btn" type="submit" value="Узнать больше">
+                                <input class="btn" type="submit" value="Подписаться">
                             </div>
                         </form>
 
@@ -99,7 +99,7 @@
                     <p>Рейтинг на yandex.ru</p>
                     <div class="footer__rating">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/stars.svg" alt="">
-                        <p>4 872 Оценок</p>
+                        <p>277 Оценок</p>
                     </div>
                 </div>
 
@@ -109,9 +109,9 @@
 
             <div class="footer__policy">
                 <p>© 2023 Все права защищены «Зубки Всем» </p>
+                <a href="<?php echo bloginfo('template_url'); ?>/assets/pdf/lic-01.pdf" target="blank">Лицензия № ЛО-77-01-020362 от 10 сентября 2020 г.</a>
                 <div class="footer__policy-link">
-                    <a href="#">Terms of Use</a> •
-                    <a href="#">Privacy Policy</a>
+                    <a href="/policy/">Политика обработки персональных данных</a>
                 </div>
             </div>
 
@@ -145,7 +145,7 @@
                         <div class="form-modal__item">
                             <div class="checkbox">
                                 <input id="checkboxModal" checked type="checkbox" name="agreement" class="checkbox__input">
-                                <label for="checkboxModal" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                <label for="checkboxModal" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                             </div>
                         </div>
                         <div class="form-modal__submit">
@@ -163,6 +163,22 @@
 
                     <div class="thanks-modal__title">Благодарим за запись <br> на консультацию ;)</div>
                     <div class="thanks-modal__subtitle">Наши специалисты свяжутся <br> с вами в самое ближайшее время</div>
+
+                    <div class="thanks-modal__btn">
+                        <button>Закрыть</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="thanks-modal" id="thanksModalEmail">
+
+                <div class="thanks-modal__wrapper">
+
+                    <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+
+                    <div class="thanks-modal__title">Благодарим за запись <br> на наши акции ;)</div>
+                    <div class="thanks-modal__subtitle">Теперь вы будете вкурсе новостей <br> клиники и проходящих акциях</div>
 
                     <div class="thanks-modal__btn">
                         <button>Закрыть</button>

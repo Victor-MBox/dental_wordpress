@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <div class="page">
-    <section class="page-main-section">
+    <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
@@ -22,13 +22,25 @@ get_header();
                 <div class="page-main-section__name">
                     <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
                     <div class="page-main-section__title title">Наша лаборатория</div>
-                    <div class="page-main-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением, клиника осуществляет все виды стоматологических услуг в области терапии, ортопедии, ортодонтии, хирургии и т.п.
+                    <div class="page-main-section__description description">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br> <br>
+                        О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.
                         <br> <br>
-                        Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
+                        Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.
+                    </div>
+
+                    <div id="textHidden" class="text-hidden">
+                        <p>Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.
+                            <br> <br>
+                            Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.
+                            <br> <br>
+                            Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.
+                            <br> <br>
+                            Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.
+                        </p>
                     </div>
                     <div class="main-section__buttons">
-                        <a href="#start-link" class="btn">О клинике</a>
-                        <button class="btn-play"></button>
+                        <button id="textHiddenBtn" class="btn">Подробнее</button>
+                        <button class="btn-play" data-modal="videoModal"></button>
                     </div>
 
 
@@ -41,7 +53,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="page-main-section__form">
+            <div class="page-main-section__form page-main-section_about__form">
                 <div class="feedback-form">
                     <div class="feedback-form__title">
                         Записаться на консультацию
@@ -61,7 +73,7 @@ get_header();
                             <div class="form-about__item">
                                 <div class="checkbox">
                                     <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                 </div>
                             </div>
                             <div class="form-about__submit">
@@ -203,7 +215,7 @@ get_header();
                                 <div class="form-about__item">
                                     <div class="checkbox">
                                         <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-3" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                        <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">

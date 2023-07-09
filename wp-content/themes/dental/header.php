@@ -65,7 +65,7 @@
 
                                 <a href="/o-klinike/">Наша лаборатория</a>
 
-                                <a href="/o-klinike/">Вопросы пациентов</a>
+                                <a href="/voprosy/">Вопросы пациентов</a>
 
                                 <a href="/o-klinike/">Статьи</a>
 
@@ -461,7 +461,7 @@
                                 <a class="sub-nav__link" href="#">Наша лаборатория</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Вопросы пациентов</a>
+                                <a class="sub-nav__link" href="/voprosy/">Вопросы пациентов</a>
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="#">Статьи</a>

@@ -75,6 +75,8 @@
     cursor: pointer
     transition: .3s
     text-decoration: none
+    z-index: 2
+    position: relative
     &:hover
         color: $black-1
         background: #fff
@@ -170,8 +172,10 @@
     width: 285px
     height: 80px
     background: $lilac-bg
+    border: none
     border-radius: 15px 15px 15px 1px
     padding-left: 15px
+    cursor: pointer
     transition: .3s
     &:hover
         background: #fff
@@ -198,6 +202,7 @@
         font-size: 14px
         line-height: 16px
         color: #fff
+        text-align: left
         transition: .3s
 
 /* Кнопки на страницах (рассрочка, налоги и тд) */

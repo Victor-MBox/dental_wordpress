@@ -56,7 +56,7 @@ get_header();
                             <div class="form-about__item">
                                 <div class="checkbox">
                                     <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                 </div>
                             </div>
                             <div class="form-about__submit">
@@ -595,7 +595,7 @@ get_header();
                                 <div class="form-about__item">
                                     <div class="checkbox">
                                         <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-3" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                        <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">

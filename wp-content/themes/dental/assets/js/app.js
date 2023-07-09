@@ -151,10 +151,10 @@ $(document).ready(function () {
   const tabsItems = document.querySelectorAll(".tabs__item");
 
   if (tabsBtn.length && tabsItems.length) {
-    tabsBtn.forEach(onTabClick);
+    tabsBtn.forEach(onTabHover);
 
-    function onTabClick(item) {
-      item.addEventListener("click", function () {
+    function onTabHover(item) {
+      item.addEventListener("mouseenter", function () {
         let currentBtn = item;
         let tabId = currentBtn.getAttribute("data-tab");
         let currentTab = document.querySelector(tabId);
@@ -176,7 +176,9 @@ $(document).ready(function () {
   }
 
   if (document.querySelector(".tabs__nav-btn")) {
-    document.querySelector(".tabs__nav-btn").click();
+    document
+      .querySelector(".tabs__nav-btn")
+      .dispatchEvent(new Event("mouseenter"));
   }
 });
 
@@ -361,8 +363,7 @@ $("#slickCarousel").slick({
   ],
 });
 
-/* *************************************************
-Далидация форм. Использовал jquery.validate.min.js */
+//Отправка формы
 $(document).ready(function () {
   var isFormValid = false; // Флаг для отслеживания состояния валидации
 
@@ -374,7 +375,7 @@ $(document).ready(function () {
         email: true,
       },
       checkbox: {
-        required: true, // Добавление обязательного заполнения чекбокса
+        required: true,
       },
     },
     messages: {
@@ -383,21 +384,18 @@ $(document).ready(function () {
       email: {
         email: "Неправильно введен email",
       },
-      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
+      checkbox: "Пожалуйста, отметьте этот чекбокс",
     },
     submitHandler: function (form) {
-      // Обработчик отправки формы
       if ($("#checkbox").is(":checked")) {
-        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+        isFormValid = true;
       } else {
-        // Если чекбокс не выбран, выполняем необходимые действия
         alert("Пожалуйста, дайте согласие на обработку персональных данных");
-        isFormValid = false; // Устанавливаем флаг в false
+        isFormValid = false;
       }
     },
   });
 
-  //форма модального окна
   $("#form-modal").validate({
     rules: {
       name: "required",
@@ -406,7 +404,7 @@ $(document).ready(function () {
         email: true,
       },
       checkbox: {
-        required: true, // Добавление обязательного заполнения чекбокса
+        required: true,
       },
     },
     messages: {
@@ -415,21 +413,18 @@ $(document).ready(function () {
       email: {
         email: "Неправильно введен email",
       },
-      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
+      checkbox: "Пожалуйста, отметьте этот чекбокс",
     },
     submitHandler: function (form) {
-      // Обработчик отправки формы
       if ($("#checkboxModal").is(":checked")) {
-        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+        isFormValid = true;
       } else {
-        // Если чекбокс не выбран, выполняем необходимые действия
         alert("Пожалуйста, дайте согласие на обработку персональных данных");
-        isFormValid = false; // Устанавливаем флаг в false
+        isFormValid = false;
       }
     },
   });
 
-  //форма на главной странице в разделе "Наши работы"
   $("#form-2").validate({
     rules: {
       name: "required",
@@ -438,7 +433,7 @@ $(document).ready(function () {
         email: true,
       },
       checkbox: {
-        required: true, // Добавление обязательного заполнения чекбокса
+        required: true,
       },
     },
     messages: {
@@ -447,21 +442,18 @@ $(document).ready(function () {
       email: {
         email: "Неправильно введен email",
       },
-      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
+      checkbox: "Пожалуйста, отметьте этот чекбокс",
     },
     submitHandler: function (form) {
-      // Обработчик отправки формы
       if ($("#checkbox-2").is(":checked")) {
-        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+        isFormValid = true;
       } else {
-        // Если чекбокс не выбран, выполняем необходимые действия
         alert("Пожалуйста, дайте согласие на обработку персональных данных");
-        isFormValid = false; // Устанавливаем флаг в false
+        isFormValid = false;
       }
     },
   });
 
-  //форма на главной странице в разделе "Наши лаборатория"
   $("#form-3").validate({
     rules: {
       name: "required",
@@ -470,7 +462,7 @@ $(document).ready(function () {
         email: true,
       },
       checkbox: {
-        required: true, // Добавление обязательного заполнения чекбокса
+        required: true,
       },
     },
     messages: {
@@ -479,38 +471,20 @@ $(document).ready(function () {
       email: {
         email: "Неправильно введен email",
       },
-      checkbox: "Пожалуйста, отметьте этот чекбокс", // Сообщение об ошибке для чекбокса
+      checkbox: "Пожалуйста, отметьте этот чекбокс",
     },
     submitHandler: function (form) {
-      // Обработчик отправки формы
       if ($("#checkbox-3").is(":checked")) {
-        isFormValid = true; // Устанавливаем флаг в true, если чекбокс выбран
+        isFormValid = true;
       } else {
-        // Если чекбокс не выбран, выполняем необходимые действия
         alert("Пожалуйста, дайте согласие на обработку персональных данных");
-        isFormValid = false; // Устанавливаем флаг в false
+        isFormValid = false;
       }
     },
   });
 
-  $("#form-footer").validate({
-    rules: {
-      email: {
-        required: true,
-        email: true,
-      },
-    },
-    messages: {
-      email: {
-        required: "Введите email",
-        email: "Неправильно введен email",
-      },
-    },
-  });
-
-  //общий скрипт отправки письма
-  if ($("form").length) {
-    $("form").submit(function (e) {
+  if ($("#form-1, #form-2, #form-3, #form-modal").length) {
+    $("#form-1, #form-2, #form-3, #form-modal").submit(function (e) {
       e.preventDefault();
 
       var form = $(this);
@@ -527,15 +501,12 @@ $(document).ready(function () {
       $.ajax({
         type: "POST",
         url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
-        //адрес нужно заменить после посадки на реальный хостинг
         data: form.serialize(),
       }).done(function () {
         form.find("input").val("");
         $("#mainModal").fadeOut();
-
         $(".modal__overlay, #thanksModal").fadeIn();
-        form[0].reset(); // Сбросить значения всех остальных полей формы
-
+        form[0].reset();
         submitButton.val(originalButtonText).prop("disabled", false);
       });
 
@@ -543,6 +514,55 @@ $(document).ready(function () {
     });
   }
 });
+
+
+$(document).ready(function() {
+  var formFooter = $("#form-footer"); // Сохраняем ссылку на форму в переменную
+
+  formFooter.validate({
+    rules: {
+      email: {
+        required: true,
+        email: true
+      }
+    },
+    messages: {
+      email: {
+        required: "Введите email",
+        email: "Неправильно введен email"
+      }
+    },
+    submitHandler: function(form) {
+      var $submitButton = $(form).find('input[type="submit"]');
+      var originalButtonText = $submitButton.val(); // Сохраняем оригинальный текст кнопки
+
+      $submitButton.val("Отправка...");
+
+      $.ajax({
+        type: "POST",
+        url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+        data: $(form).serialize(),
+        success: function(response) {
+          $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
+          $(form)[0].reset(); // Очищаем поля формы
+          $("#thanksModalEmail").show(); // Показываем модальное окно после успешной отправки формы
+
+        },
+        error: function() {
+          $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
+          // Обработка ошибки отправки формы
+        }
+      });
+    }
+  });
+
+  // Дополнительные операции с формой #form-footer
+  // ...
+});
+
+
+
+
 
 /* Маска номера телефона */
 $("input[name=phone]").mask("+7 (999) 999-99-99");
@@ -610,3 +630,24 @@ scrollUp.addEventListener("click", () => {
 });
 
 updateDashoffset();
+
+//Кнопка ПОДРОБНЕЕ - СКРЫТЬ
+//====================================
+var textHiddenBtn = document.getElementById("textHiddenBtn");
+var textHidden = document.getElementById("textHidden");
+
+if (textHiddenBtn && textHidden) {
+  textHiddenBtn.addEventListener("click", function () {
+    if (textHidden.classList.contains("text-hidden")) {
+      // Показываем скрытый элемент
+      textHidden.classList.remove("text-hidden");
+      textHidden.classList.add("text-visible");
+      textHiddenBtn.textContent = "Скрыть";
+    } else {
+      // Скрываем элемент
+      textHidden.classList.remove("text-visible");
+      textHidden.classList.add("text-hidden");
+      textHiddenBtn.textContent = "Подробнее";
+    }
+  });
+}

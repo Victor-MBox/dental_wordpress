@@ -20,7 +20,7 @@ get_header();
                         <div class="main-section__social social">
                             <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
                             <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg"  alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                         </div>
 
                         <div class="main-section__content">
@@ -45,9 +45,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                        <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
                             <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg"  alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                         </div>
 
                         <div class="main-section__content">
@@ -57,7 +57,7 @@ get_header();
 
                         <div class="main-section__buttons">
                             <a href="#" class="btn">Узнать больше</a>
-                            <button class="btn-play"></button>
+                            <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
 
@@ -72,9 +72,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                        <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
                             <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg"  alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                         </div>
 
                         <div class="main-section__content">
@@ -84,7 +84,7 @@ get_header();
 
                         <div class="main-section__buttons">
                             <a href="#" class="btn">Узнать больше</a>
-                            <button class="btn-play"></button>
+                            <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
 
@@ -99,9 +99,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                        <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
                             <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg"  alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                         </div>
 
                         <div class="main-section__content">
@@ -111,7 +111,7 @@ get_header();
 
                         <div class="main-section__buttons">
                             <a href="#" class="btn">Узнать больше</a>
-                            <button class="btn-play"></button>
+                            <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
 
@@ -126,9 +126,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                        <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
                             <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg"  alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
                         </div>
 
                         <div class="main-section__content">
@@ -138,7 +138,7 @@ get_header();
 
                         <div class="main-section__buttons">
                             <a href="#" class="btn">Узнать больше</a>
-                            <button class="btn-play"></button>
+                            <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
 
@@ -162,10 +162,10 @@ get_header();
                 </div>
 
                 <div class="main-section__btn-call">
-                    <a class="btn-call" href="#">
+                    <button class="btn-call" data-modal="mainModal">
                         <div class="btn-call__img"></div>
                         <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -175,36 +175,32 @@ get_header();
     <section class="second-section">
         <div class="container second-section__container">
             <div class="second-section__name">
-                <div class="second-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                <div class="second-section__subtitle subtitle">МЫ БОЛЬШЕ, ЧЕМ ПРОСТО СТОМАТОЛОГИЯ!</div>
                 <div class="second-section__title title">Наши Преимущества</div>
             </div>
             <div class="second-section__item">
                 <div class="second-section__column">
                     <div><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-property-1.svg" alt=""></div>
                     <div class="second-section__column-title">Своя <span>лаборатория</span></div>
-                    <div class="second-section__column-text">У нас собственное производство, которое оснащено
-                        современным оборудованием</div>
+                    <div class="second-section__column-text">Собственное производство, оснащенное современным оборудованием</div>
                 </div>
 
                 <div class="second-section__column">
                     <div><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-property-2.svg" alt=""></div>
                     <div class="second-section__column-title">Расширенная <span>гарантия</span></div>
-                    <div class="second-section__column-text">Мы контролируем производство
-                        и установку протезов, поэтому даем дополнительную гарантию</div>
+                    <div class="second-section__column-text">Мы контролируем производство и установку протезов, поэтому даем на них дополнительную гарантию</div>
                 </div>
 
                 <div class="second-section__column">
                     <div><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-property-3.svg" alt=""></div>
                     <div class="second-section__column-title">Фиксированная <span>цена</span></div>
-                    <div class="second-section__column-text">В нашей клинике нет скрытых платежей и услуг. Все
-                        просто и прозрачно</div>
+                    <div class="second-section__column-text">Никаких скрытых платежей и услуг. Все прозрачно</div>
                 </div>
 
                 <div class="second-section__column">
                     <div><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-property-4.svg" alt=""></div>
                     <div class="second-section__column-title">Опытные <span>врачи</span></div>
-                    <div class="second-section__column-text">Мы тщательно выбираем стоматологов и контролируем их на
-                        каждом этапе</div>
+                    <div class="second-section__column-text">Мы тщательно отбираем стоматологов и контролируем их на каждом этапе работы</div>
                 </div>
             </div>
         </div>
@@ -214,22 +210,24 @@ get_header();
     <section class="about-section">
         <div class="container about-section__container">
             <div class="about-section__column">
-                <div class="about-section__subtitle subtitle">Мы – больше чем стоматология!</div>
+                <div class="about-section__subtitle subtitle">СОВРЕМЕННОЕ ОБОРУДОВАНИЕ И ТЕХНОЛОГИИ</div>
                 <div class="about-section__title title">О нашей клинике</div>
-                <div class="about-section__description description">Первая программа доступной стоматологии под
-                    контролем зуботехнической лаборатории. Мы объединили лучших врачей и зубных техников
-                    <br>
-                    <br>
-                    Первая программа доступной стоматологии под контролем зуботехнической лаборатории. Мы объединили
-                    лучших
+                <div class="about-section__description description">Добро пожаловать в стоматологический центр «ЗубкиВсем» на Парковой! Наша клиника - это место, где каждый пациент может получить качественную и профессиональную помощь в уходе за своими зубами.
+                    <br> <br>
+                    Наша команда состоит из опытных и высококвалифицированных специалистов, которые используют современное методики и проверенные временем материалы. Мы предлагаем широкий спектр услуг, начиная от профилактики и лечения зубов, заканчивая имплантацией и ортодонтией.
                 </div>
                 <div class="about-section__list list">
                     <ul>
-                        <li><a href="#">Какой-то важный факт/ страница перехода</a></li>
-                        <li><a href="#">Какой-то важный факт / мб серт, лицзю smth else</a></li>
+                        <li>Собственная зуботехническая лаборатория</li>
+                        <li>Современные методики и проверенные временем материалы</li>
                     </ul>
                 </div>
-                <button class="btn">Узнать больше</button>
+
+                <div id="textHidden" class="text-hidden">
+                    <p>Руководство клиники осуществляет Бачулис Олег Евгеньевич (отец был стоматологом ортопедом), который является владельцем Зуботехнической лаборатории АЛВАДЕНТ, а также президентом Первой ассоциации зуботехнических лабораторий ПАЗЛ. Вместе с Генеральным директором Клиники и руководителем Мастерской улыбок АЛВАДЕНТ Замурой Юлией Игоревной, мы сделали полностью автономное место, где каждый пациент сможет получить качественную услугу по доступной цене. Стоматологический центр "ЗубкиВсем" на Парковой, работает под началом зуботехнической лаборатории Alvadent, которая успешно функционирует с 1999 года. На сайте alvadent.ru вы можете ознакомиться с подробной информацией о лаборатории. Мы гарантируем индивидуальный подход к каждому пациенту, высокое качество услуг и дружелюбную атмосферу в нашей клинике. Приходите к нам и убедитесь в этом сами! Наш слоган “Зубки Всем”, Мы больше чем стоматология!</p>
+                </div>
+
+                <button id="textHiddenBtn" class="btn">Подробнее</button>
             </div>
 
             <div class="about-section__column">
@@ -264,7 +262,7 @@ get_header();
                             <div class="form-about__item">
                                 <div class="checkbox">
                                     <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                 </div>
                             </div>
                             <div class="form-about__submit">
@@ -281,7 +279,7 @@ get_header();
     <section class="services-section">
         <div class="container services-section__container">
             <div class="services-section__name">
-                <div class="services-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                <div class="services-section__subtitle subtitle">ВСЁ ДЛЯ ЗДОРОВОЙ И КРАСИВОЙ УЛЫБКИ</div>
                 <div class="services-section__title title">Наши услуги</div>
             </div>
             <div class="services-section__tabs">
@@ -295,101 +293,176 @@ get_header();
 
                     <div class="tabs__content">
                         <div class="tabs__item" id="tab_1">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-                            <div class="tabs__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="">
+                            <div class="tabs__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                            <div class="tabs__list">
+                                <ul>
+                                    <li><a href="#" class="tabs__link">Ортопантомография (ОПТГ)</a></li>
+                                    <li><a href="#" class="tabs__link">Прицельный снимок</a></li>
+                                    <li><a href="#" class="tabs__link">Аксиография</a></li>
+                                    <li><a href="#" class="tabs__link">Компьютерная томография (КТ)</a></li>
+                                </ul>
                             </div>
 
                         </div>
 
                         <div class="tabs__item" id="tab_2">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="">
 
                             <div class="tabs__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
+                            </div>
+
+                            <div class="tabs__list">
+                                <div class="tabs__list-wrapper">
+                                    <ul>
+                                        <li><a href="#" class="tabs__link">Съемное протезирование</a>
+                                            <ul>
+                                                <li><a href="#" class="tabs__link-sub">Акриловые съемные протезы</a>
+                                                    <ul>
+                                                        <li><a href="#" class="tabs__link-sub-sub">• Полный съемный протез</a></li>
+                                                        <li><a href="#" class="tabs__link-sub-sub">• Частично съемный протез</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" class="tabs__link-sub">Бюгельные протезы</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tabs__list-wrapper">
+                                    <ul>
+                                        <li><a href="#" class="tabs__link">Несъемное протезирование</a>
+                                            <ul>
+                                                <li><a href="#" class="tabs__link-sub">Виниры</a></li>
+                                                <li><a href="#" class="tabs__link-sub">Коронки</a></li>
+                                                <li><a href="#" class="tabs__link-sub">Абатменты</a></li>
+                                                <li><a href="#" class="tabs__link-sub">Вкладки</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
                         <div class="tabs__item" id="tab_3">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="">
 
-                            <div class="tabs__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                            <div class="tabs__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
 
+                            <div class="tabs__list">
+                                <ul>
+                                    <li><a href="#" class="tabs__link">Световые пломбы</a></li>
+                                    <li><a href="#" class="tabs__link">Лечение зубных каналов</a></li>
+                                    <li><a href="#" class="tabs__link">Лечение кариеса</a></li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class="tabs__item" id="tab_4">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="">
                             <div class="tabs__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
                             </div>
 
+                            <div class="tabs__list">
+                                <div class="tabs__list-wrapper">
+                                    <ul>
+                                        <li><a href="#" class="tabs__link">Удаление зубов</a>
+                                            <ul>
+                                                <li><a href="#" class="tabs__link-sub">Простое удаление</a></li>
+                                                <li><a href="#" class="tabs__link-sub">Сложное удаление</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tabs__list-wrapper">
+                                    <ul>
+                                        <li><a href="#" class="tabs__link">Имплантация</a>
+                                            <ul>
+                                                <li><a href="#" class="tabs__link-sub">Одномоментная имплантация</a></li>
+                                                <li><a href="#" class="tabs__link-sub">Двухэтапная имплантация</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tabs__list-wrapper">
+                                    <ul>
+                                        <li><a href="#" class="tabs__link">Синус-лифтинг</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="tabs__item" id="tab_5">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="">
 
-                            <div class="tabs__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                            <div class="tabs__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
 
+                            <div class="tabs__list">
+                                <ul>
+                                    <li><a href="#" class="tabs__link">Лечение брекетами</a></li>
+                                    <li><a href="#" class="tabs__link">Лечение ортодонтическими аппаратами</a></li>
+                                    <li><a href="#" class="tabs__link">Лечение элайнерами</a></li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class="tabs__item" id="tab_6">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="">
 
                             <div class="tabs__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
+                            </div>
+
+                            <div class="tabs__list">
+                                <ul>
+                                    <li><a href="#" class="tabs__link">Профессиональная чистка AirFlow</a></li>
+                                    <li><a href="#" class="tabs__link">Отбеливание ZOOM</a></li>
+                                </ul>
                             </div>
                         </div>
 
                         <div class="tabs__item" id="tab_7">
                             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
 
-                            <div class="tabs__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                            <div class="tabs__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="tabs__nav">
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Диагностика</div>
                                 <div class="tabs__nav-subtitle">Предварительная консультация, выявление проблемы
@@ -401,11 +474,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Протезирование</div>
-                                <div class="tabs__nav-subtitle">Съемное протезтирование
-                                </div>
+                                <div class="tabs__nav-subtitle">Съемное и несъемное протезтирование</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_red"></div>
@@ -413,11 +485,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
-                                <div class="tabs__nav-title">Имплантаця</div>
-                                <div class="tabs__nav-subtitle">Импланты, коронки, мосты
-                                </div>
+                                <div class="tabs__nav-title">Терапия</div>
+                                <div class="tabs__nav-subtitle">Текст</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_lilac"></div>
@@ -425,11 +496,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
-                                <div class="tabs__nav-title">Лечение зубов, терапия</div>
-                                <div class="tabs__nav-subtitle">Любые виды лечения зубов
-                                </div>
+                                <div class="tabs__nav-title">Хирургия</div>
+                                <div class="tabs__nav-subtitle">Любые хирургические операции</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_yellow"></div>
@@ -437,11 +507,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
-                                <div class="tabs__nav-title">Хирургия</div>
-                                <div class="tabs__nav-subtitle">Любые хирургические операции
-                                </div>
+                                <div class="tabs__nav-title">Ортодонтия</div>
+                                <div class="tabs__nav-subtitle">Текст</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_blue"></div>
@@ -449,11 +518,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
-                                <div class="tabs__nav-title">Ортодонтия</div>
-                                <div class="tabs__nav-subtitle">Любые хирургические операции
-                                </div>
+                                <div class="tabs__nav-title">Гигиена и отбеливание зубов</div>
+                                <div class="tabs__nav-subtitle">Текст</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_red"></div>
@@ -461,11 +529,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7" onclick="window.location.href = 'dental/uslugi/';">
                             <div class="tabs__nav-column">
-                                <div class="tabs__nav-title">Гигиена</div>
-                                <div class="tabs__nav-subtitle">Любые хирургические операции
-                                </div>
+                                <div class="tabs__nav-title">Гнатология</div>
+                                <div class="tabs__nav-subtitle">Текст</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_lilac"></div>
@@ -653,38 +720,13 @@ get_header();
     <section class="rating-section">
         <div class="container rating-section__container">
             <div class="rating-section__name">
-                <div class="rating-section__subtitle subtitle">Мы – больше чем стоматология!</div>
-                <div class="rating-section__title title">Рейтинг независимых стоматологий</div>
+                <div class="rating-section__title title">Проверьте подлинность отзывов</div>
+                <div class="rating-section__description description">Мы всегда честны с нашими пациентами, поэтому не забудьте <br> проверить рейтинг и отзывы о нашей клинике</div>
             </div>
 
             <div class="rating-section__companies-rating companies-rating">
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-yandex.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-prodoctorov.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-zoon.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-2gis.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
+                <script src="https://res.smartwidgets.ru/app.js" defer></script>
+                <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
             </div>
         </div>
     </section>
@@ -693,7 +735,7 @@ get_header();
     <section class="portfolio-section">
         <div class="container portfolio-section__container">
             <div class="portfolio-section__name">
-                <div class="portfolio-section__subtitle subtitle">Мы – больше чем стоматология!</div>
+                <div class="portfolio-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
                 <div class="portfolio-section__title title">Наши работы</div>
             </div>
 
@@ -788,7 +830,7 @@ get_header();
                                 <div class="form-about__item">
                                     <div class="checkbox">
                                         <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-2" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                     </div>
                                 </div>
 
@@ -812,7 +854,7 @@ get_header();
     <section class="specialists-section">
         <div class="container specialists-section__container">
             <div class="specialists-section__name">
-                <div class="specialists-section__subtitle subtitle">Мы – больше обычная чем стоматология!</div>
+                <div class="specialists-section__subtitle subtitle">КАЧЕСТВЕННЫЙ СЕРВИС И ИНДИВИДУАЛЬНЫЙ ПОДХОД</div>
                 <div class="specialists-section__title title">Наши специалисты</div>
             </div>
 
@@ -822,12 +864,11 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
                         <div class="carousel__label">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>11 лет</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Борисенко</span> <br>Инна Владимировна</div>
+                    <div class="carousel__text">Врач стоматолог: <br>терапевт, хирург</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -835,12 +876,11 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
                         <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>9 лет</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Зейналов</span> <br>Зейнал Вилаяддинович</div>
+                    <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -848,12 +888,11 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img2.jpg" alt="">
                         <div class="carousel__label carousel__label_lilac">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>22 года</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Сарыбаев</span> <br>Анарбек Муктарбекович</div>
+                    <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -861,12 +900,11 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
                         <div class="carousel__label carousel__label_yellow">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>13 лет</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Игонин</span> <br>Василий Валентинович</div>
+                    <div class="carousel__text">Врач стоматолог: <br>ортопед, хирург</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -874,12 +912,11 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
                         <div class="carousel__label">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>7 лет</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Хандогин</span> <br>Антон Олегович</div>
+                    <div class="carousel__text">Врач стоматолог: <br>ортопед</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -887,12 +924,47 @@ get_header();
                     <div class="carousel__photo">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
                         <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>15 лет</span>
+                            <p>Опыт</p> <span>12 лет</span>
                         </div>
                     </div>
-                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании. Имеет большой
-                        опыт работы в лучших клиниках мира.</div>
+                    <div class="carousel__name"><span>Журов</span> <br>Илья Владимирович</div>
+                    <div class="carousel__text">Врач стоматолог: <br>хирург имплантолог</div>
+                    <button class="btn btn_entry">Записаться</button>
+                </div>
+
+                <div class="carousel__wrapper">
+                    <div class="carousel__photo">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                        <div class="carousel__label carousel__label_red">
+                            <p>Опыт</p> <span>2 года</span>
+                        </div>
+                    </div>
+                    <div class="carousel__name"><span>Бачулис</span> <br>Марина Александровна</div>
+                    <div class="carousel__text">Врач стоматолог: <br>ортодонт, гигиенист</div>
+                    <button class="btn btn_entry">Записаться</button>
+                </div>
+
+                <div class="carousel__wrapper">
+                    <div class="carousel__photo">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                        <div class="carousel__label carousel__label_red">
+                            <p>Опыт</p> <span>8 лет</span>
+                        </div>
+                    </div>
+                    <div class="carousel__name"><span>Джахбарова</span> <br>Рабият Магомедгаджиевна</div>
+                    <div class="carousel__text">Гигиенист, <br>ассистент стоматолога</div>
+                    <button class="btn btn_entry">Записаться</button>
+                </div>
+
+                <div class="carousel__wrapper">
+                    <div class="carousel__photo">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                        <div class="carousel__label carousel__label_red">
+                            <p>Опыт</p> <span>3 года</span>
+                        </div>
+                    </div>
+                    <div class="carousel__name"><span>Байкулова</span> <br>Асият Хамитовна</div>
+                    <div class="carousel__text">Врач стоматолог: <br>гигиенист</div>
                     <button class="btn btn_entry">Записаться</button>
                 </div>
 
@@ -906,27 +978,20 @@ get_header();
         </div>
     </section>
 
-
     <!-- Наша лаборатория -->
     <section class="laboratory-section">
         <div class="container laboratory-section__container">
             <div class="laboratory-section__column">
-                <div class="laboratory-section__subtitle subtitle">Мы – больше чем стоматология!</div>
+                <div class="laboratory-section__subtitle subtitle">СОБСТВЕННАЯ ЗУБОТЕХНИЧЕСКАЯ ЛАБОРАТОРИЯ</div>
                 <div class="laboratory-section__title title">Наша лаборатория</div>
-                <div class="laboratory-section__description description">Первая программа доступной стоматологии под
-                    контролем зуботехнической лаборатории. Мы объединили лучших врачей и зубных техников
-                    <br>
-                    <br>
-                    Первая программа доступной стоматологии под контролем зуботехнической лаборатории. Мы объединили
-                    лучших
+                <div class="laboratory-section__description description">Зуботехническая лаборатория Мастерская улыбок АЛВАДЕНТ создана в 1999 году, входит в топ 10 лабораторий Москвы. Нет текучки. Лаборатория полного цикла. Контроль качества на каждом участке осуществляют старшие техники отделения. Специалисты из всех областей зубного протезирования (съемное отделение, несъемное отделение, ортодонтическое отделение, Cad/cam и 3D отделение, литейное отделение с применением драг сплавов)
                 </div>
                 <div class="laboratory-section__list list">
                     <ul>
-                        <li><a href="#">Какой-то важный факт/ страница перехода</a></li>
-                        <li><a href="#">Какой-то важный факт / мб серт, лицзю smth else</a></li>
+                        <li>Основана в 1999 году</li>
+                        <li>Контроль качества на каждом участке</li>
                     </ul>
                 </div>
-                <button class="btn">Узнать больше</button>
             </div>
 
             <div class="laboratory-section__column">
@@ -959,7 +1024,7 @@ get_header();
                             <div class="form-about__item">
                                 <div class="checkbox">
                                     <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox-3" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    <label for="checkbox-3" class="checkbox__label checkbox__label_white"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                 </div>
                             </div>
                             <div class="form-laboratory__submit">

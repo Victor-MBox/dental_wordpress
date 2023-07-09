@@ -56,7 +56,7 @@ get_header();
                             <div class="form-about__item">
                                 <div class="checkbox">
                                     <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласие с обработкой персональных данных</span></label>
+                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                 </div>
                             </div>
                             <div class="form-about__submit">
@@ -101,7 +101,7 @@ get_header();
                 <div class="page-contact-third-section__time">Пн-Сб 10:00-20:00</div>
             </div>
             <div class="page-contact-third-section__column">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
 
                 <div class="page-contact-third-section__decor-content decor-lilac"></div>
 
@@ -119,38 +119,13 @@ get_header();
             </div>
 
             <div class="page-contact-fourth-section__companies-rating companies-rating">
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-yandex.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-prodoctorov.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-zoon.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
-
-                <div class="companies-rating__column">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/rating-2gis.png" alt="">
-                    <div class="companies-rating__number">
-                        4,5 <span>/5</span>
-                    </div>
-                </div>
+                <script src="https://res.smartwidgets.ru/app.js" defer></script>
+                <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
             </div>
 
             <div class="page-about-section__buttons-page">
                 <div class="page-contact-fourth-section__title title">Узнайте возможности лечения ;)</div>
-                
+
                 <a class="buttons-page-1" href="#">
                     <div class="buttons-page-1__img"></div>
                     <div class="buttons-page-1__text">Лечение в рассрочку</div>

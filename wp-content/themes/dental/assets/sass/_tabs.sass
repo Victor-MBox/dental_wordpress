@@ -107,6 +107,24 @@
 
     &__item
         display: none
+        &:nth-child(2)
+            .tabs__btn-call
+                bottom: 155px
+        &:nth-child(3)
+            .tabs__btn-call
+                bottom: 125px
+        &:nth-child(4)
+            .tabs__btn-call
+                bottom: 148px
+        &:nth-child(5)
+            .tabs__btn-call
+                bottom: 125px
+        &:nth-child(6)
+            .tabs__btn-call
+                bottom: 102px
+        &:nth-child(7)
+            .tabs__btn-call
+                bottom: 35px
 
     &__item.active
         display: block
@@ -115,13 +133,59 @@
 
     &__btn-call
         position: absolute
-        left: 44px
-        bottom: 45px
+        left: 30px
+        bottom: 145px
 
-    &__btn-calc
+    &__list
+        width: 90%
         position: absolute
-        left: 44px
-        bottom: 45px
+        bottom: 10px
+        left: 30px
+
+        padding: 20px
+        border-radius: 15px 15px 15px 1px
+        background: #FFF
+        box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.10)
+
+        display: flex
+        flex-wrap: wrap
+    &__list-wrapper
+        width: 50%
+        margin-bottom: 10px
+        &:last-child
+            margin-bottom: 0
+        &:first-child
+            margin-bottom: 0
+
+        .tabs__link
+            font-weight: 500
+
+    &__link
+        text-decoration: none
+        font-size: 14px
+        font-weight: 400
+        line-height: 22px
+        color: $black-1
+        &:hover
+            color: $btn-lilac
+    &__link-sub
+        text-decoration: none
+        font-size: 14px
+        font-weight: 400
+        line-height: 15px
+        color: $black-1
+        padding-left: 5px
+        &:hover
+            color: $btn-lilac
+    &__link-sub-sub
+        text-decoration: none
+        font-size: 12px
+        font-weight: 400
+        line-height: 13px
+        color: $black-1
+        padding-left: 10px
+        &:hover
+            color: $btn-lilac
 
 /* Аккордион "Наши услуги" на главной странице МОБ ВЕРСИЯ*/
 .accordion-home-page
@@ -512,8 +576,10 @@
                     display: none
         &__img-wrapper
             border-radius: 0px 0px 15px 15px
+            margin-bottom: 20px
         &__content
             width: 100%
+            overflow: visible
             &.active
                 margin-top: -12px
         &__nav-column
@@ -559,9 +625,10 @@
             left: 30px
             top: 230px
         &__price
-            margin-top: 10px
+            margin-bottom: 20px
+            position: relative
         &__price-item
-            height: 74px
+            padding: 10px 0
             display: flex
             align-items: center
             border-bottom: 2px solid $btn-lilac
@@ -588,13 +655,18 @@
             text-align: end
             a
                 text-decoration: none
+                cursor: pointer
+                padding: 10px 0
                 font-weight: 400
                 font-size: 14px
                 line-height: 22px
                 letter-spacing: 0.01em
                 color: $gray-text
+
+                position: relative
                 &:hover
                     color: #01BBF6
+
         &__price-price
             margin-top: 20px
             width: 12%
@@ -605,6 +677,14 @@
             letter-spacing: 0.01em
             color: #07003B
             text-align: end
+
+        &__price-title
+            color: $btn-lilac
+            font-size: 16px
+            font-weight: 700
+            line-height: 22px
+            letter-spacing: 0.16px
+            padding: 10px 
 
 /* Аккордион на странице FAQ */
 .page-questions-section
@@ -753,4 +833,3 @@
                 margin: 0 0 0 14px
                 padding: 0
                 border-radius: 15px 0px 0px 15px
-                
