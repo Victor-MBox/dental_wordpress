@@ -4,6 +4,8 @@
             background: url(assets/img/page/doctors/doctor-01.jpg) center top/cover no-repeat
             height: 342px
             padding: 40px 30px
+            &_borisenko
+                background: url(assets/img/page/doctors/doctor-02.jpg) center top/cover no-repeat 
         &__name
             color: $black-1
             font-size: 42px
@@ -34,7 +36,7 @@
             .btn-call
                 position: absolute
                 right: 25px
-                bottom: 65px
+                bottom: 75px
                 background: #FDDB2C
                 &:hover
                     background: #fff
@@ -42,6 +44,21 @@
                         background: $black-1 url(assets/img/icons/edit-yellow.svg) center/40% no-repeat
                 &__img
                     background: #FFFFFF url(assets/img/icons/edit-yellow.svg) center/40% no-repeat
+                &__text
+                    color: $black-1
+                    span
+                        font-weight: 700
+        &__btn-question
+            .btn-call
+                position: absolute
+                right: 25px
+                bottom: -15px
+                &:hover
+                    background: #fff
+                    .btn-call__img
+                        background: $black-1 url(assets/img/icons/voice_lilac.svg) center/40% no-repeat
+                &__img
+                    background: #FFFFFF url(assets/img/icons/voice.svg) center/40% no-repeat
                 &__text
                     color: $black-1
                     span

@@ -19,10 +19,10 @@ get_header();
                         <div class="page-content__name">Компьютерная <br> томография (КТ)</div>
                         <div class="page-content__label">от <span>4 000₽</span></div>
                         <div class="page-content__btn-call">
-                            <a class="btn-call" href="#">
+                            <button class="btn-call" data-modal="mainModal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </a>
+                            </button>
                         </div>
                     </div>
                     <div class="page-content__text">Рентген зубов является очень популярным, безболезненным и часто проводимым обследованием в стоматологии. Особенностью диагностики зубочелюстной системы является тот факт, что значительная часть зуба находится вне зоны визуальной доступности, то есть – скрыта под десной и в челюстной кости. Для визуализации этих участков, а также внутренних тканей зуба необходима современная рентгенография. <br> <br>

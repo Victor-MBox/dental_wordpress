@@ -220,6 +220,7 @@ $(document).ready(function () {
   }
 });
 
+
 /* *************************************************
 До после - на главной странице 
 Slick Slider*/
@@ -569,13 +570,14 @@ $("input[name=phone]").mask("+7 (999) 999-99-99");
 
 /* ===================================================
 Модальные окна */
-$("[data-modal=mainModal]").on("click", function () {
+$(document).on("click", "[data-modal=mainModal]", function () {
   $(".modal__overlay, #mainModal").fadeIn();
 });
 
-$(".modal__close, .thanks-modal__btn").on("click", function () {
+$(document).on("click", ".modal__close, .thanks-modal__btn", function () {
   $(".modal__overlay, #mainModal, #thanksModal").fadeOut();
 });
+
 
 //Видео в модальном окне
 $("[data-modal=videoModal]").on("click", function () {
@@ -651,3 +653,5 @@ if (textHiddenBtn && textHidden) {
     }
   });
 }
+
+

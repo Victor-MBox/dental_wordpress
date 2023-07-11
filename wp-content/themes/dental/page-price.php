@@ -701,36 +701,7 @@ get_header();
                                     </div>
                                 </div>
 
-                                <p class="accordion-home__price-title">Имплантация</p>
 
-                                <div class="accordion-home__price">
-                                    <div class="accordion-home__price-item">
-                                        <div class="accordion-home__price-name">
-                                            <span>№1</span> <br>
-                                            Внутрикостная дентальная имплантация “Neo Dent” (Швейцария)
-                                        </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
-                                        <div class="accordion-home__price-price">3 500 ₽</div>
-                                    </div>
-
-                                    <div class="accordion-home__price-item">
-                                        <div class="accordion-home__price-name">
-                                            <span>№2</span> <br>
-                                            Внутрикостная дентальная имплантация “Osstem” (Корея)
-                                        </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
-                                        <div class="accordion-home__price-price">30 000 ₽</div>
-                                    </div>
-
-                                    <div class="accordion-home__price-item">
-                                        <div class="accordion-home__price-name">
-                                            <span>№3</span> <br>
-                                            Внутрикостная дентальная имплантация “Astra” (Швеция)
-                                        </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
-                                        <div class="accordion-home__price-price">₽</div>
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="accordion-home">
@@ -1238,6 +1209,37 @@ get_header();
                                             </div>
                                             <div class="accordion-home__price-link"><a href="#">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
+                                        </div>
+                                    </div>
+
+                                    <p class="accordion-home__price-title">Имплантация</p>
+
+                                    <div class="accordion-home__price">
+                                        <div class="accordion-home__price-item">
+                                            <div class="accordion-home__price-name">
+                                                <span>№1</span> <br>
+                                                Внутрикостная дентальная имплантация “Neo Dent” (Швейцария)
+                                            </div>
+                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-price">3 500 ₽</div>
+                                        </div>
+
+                                        <div class="accordion-home__price-item">
+                                            <div class="accordion-home__price-name">
+                                                <span>№2</span> <br>
+                                                Внутрикостная дентальная имплантация “Osstem” (Корея)
+                                            </div>
+                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-price">30 000 ₽</div>
+                                        </div>
+
+                                        <div class="accordion-home__price-item">
+                                            <div class="accordion-home__price-name">
+                                                <span>№3</span> <br>
+                                                Внутрикостная дентальная имплантация “Astra” (Швеция)
+                                            </div>
+                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-price">₽</div>
                                         </div>
                                     </div>
 

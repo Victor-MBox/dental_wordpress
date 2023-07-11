@@ -1,6 +1,6 @@
 <?php
 /* 
-Template Name: Доктор - Виктор Петрович Иванов
+Template Name: Доктор - Борисенко Инна Владимировна
 */
 ?>
 
@@ -16,184 +16,51 @@ get_header();
                 <section class="page-contetn__wrapper" id="content-page">
 
                     <div class="page-content__chapter">
-                        <div class="page-content__banner">
-                            <div class="page-content__name">Виктор <br> Петрович <br> Иванов</div>
-                            <div class="page-content__label">стаж <span>16 лет</span></div>
-                            <div class="page-content__label-prof"><span>Терапевт</span></div>
+                        <div class="page-content__banner page-content__banner_borisenko">
+                            <div class="page-content__name">Борисенко <br> Инна <br> Владимировна</div>
+                            <div class="page-content__label">стаж <span>11 лет</span></div>
+                            <div class="page-content__label-prof"><span>Терапевт, хирург</span></div>
                             <div class="page-content__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
-                                    <div class="btn-call__text">Записаться на прием <br> к <span>Виктору Иванову</span></div>
-                                </a>
+                                    <div class="btn-call__text">Записаться на прием <br> к <span>Инне Владимировне</span></div>
+                                </button>
                             </div>
+
+                            
                         </div>
                         <div class="page-content__first-decor">
                             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
                         </div>
 
-                        <div class="page-content__text">Рентген зубов является очень популярным, безболезненным и часто проводимым обследованием в стоматологии. Особенностью диагностики зубочелюстной системы является тот факт, что значительная часть зуба находится вне зоны визуальной доступности, то есть – скрыта под десной и в челюстной кости.</div>
-
-                        <div class="page-content__list">
-                            <ul>
-                                <li>Терапевтическим лечением</li>
-                                <li>Удалением</li>
-                            </ul>
-                            <ul>
-                                <li>Эндодонтическим лечением</li>
-                                <li>Для диагностики кариеса, пульпита и других заболеваний</li>
-                            </ul>
-                        </div>
-
                         <div class="page-content__chapter">
-                            <div class="page-content__title">Образование</div>
-                            <div class="page-content__text">Окончил УГМА По специальности Стоматология в 2004г., присвоена квалификация «Врач-стоматолог». Диплом – ВСВ №0553943.
-
-                                <br><br>• Прошел подготовку в клинической ординатуре при УГМА и закончил полный курс по специальности «Стоматология терапевтическая» в 2007 г. Удостоверение №117.
-
-                                <br><br>• Получил сертификат А №3187222 по специальности Стоматология терапевтическая в 2007 г. (Действителен до 2022г.)
-
-                                <br><br>• Получил сертификат А №3944961 по специальности Стоматология детская в 2010 г. (Действителен до декабря 2025 г.)
-
-                                <br><br>• Решением диссертационного совета при УГМА присуждена ученая степень Кандидата медицинских наук. 28.08.2013г. Решением аттестационной комиссии при Министерстве Здравоохранения Свердловской области присвоена первая категория по специальности Стоматология терапевтическая.
+                            <div class="page-content__title">Опыт, обрабование</div>
+                            <div class="page-content__text">ФГБОУВО "Пензенский государственный университет" 2013-2019 Первичная аккредитация "Стоматология общей практики" профессиональный стандарт врач-стоматолог 2019г. <br> <br>
+                                ГБОУ СПОРО" Ростовский базовый медицинский колледж" диплом с отличием квалификация Зубной врач 2008-2012
                             </div>
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__title">Сертификаты</div>
-
-                            <div class="page-content__certificates">
-                                <div class="page-content__certificates-item">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/certificate-01.jpg" alt="">
-                                    <div class="page-content__certificates-title">Институт стоматологии</div>
-                                </div>
-
-                                <div class="page-content__certificates-item">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/certificate-02.jpg" alt="">
-                                    <div class="page-content__certificates-title">Пикассо</div>
-                                </div>
-
-                                <div class="page-content__certificates-item">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/certificate-03.jpg" alt="">
-                                    <div class="page-content__certificates-title">IAPD Regional Moscow</div>
-                                </div>
-
-                                <div class="page-content__certificates-item">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/certificate-04.jpg" alt="">
-                                    <div class="page-content__certificates-title">Институт стоматологии</div>
-                                </div>
+                            <div class="page-content__title">Повышение квалификации</div>
+                            <div class="page-content__text">2010 г. «Просто об эстетике» 3мESPE, доктор Карлос Фернандес Вилларес<br> <br>
+                                2012 г. «Принципы профилактики переимплантита с использованием современных технологий» Swiss Dental Academy EMS, Дмитриева А.С.<br> <br>
+                                2012 г. «Эффективное применение ультразвука в эндодонтии» Swiss Dental Academy EMS Дмитриева А.С.<br> <br>
+                                2014 г. «Мир высокой эстетики в стоматологии» Tokugawa Dental -Proteco<br> <br>
+                                2015 г. «Icon-Infiltration Concept» DMG Валлекс М , Скатова Е.А.<br> <br>
+                                2017 г. « Восстановление безнадежных Зубов» Dentsly Sirona, Алиев Р.О.<br> <br>
+                                2018 г. "Эстетико-функциональные реставрации, простые решения на каждый день. Композиты IDS» Dental Academy Павлов А.А. Ростов-на-Дону<br> <br>
+                                2018 г. «Система имплантат SKY Fast&Fixed. Имплантация с немедленной нагрузкой» Bredent medical Эдуард Бреленко и Роланд Бенц Ростов-на-Дону<br> <br>
+                                2019 г. «Orthodontic Congress» HiOHI-S , Daniela Storino, Andre Horn, Birte Melsen, Giorgio Fiorelli, Jeong-IL Kim, Paris<br> <br>
+                                2019 г. «Временные и постоянные дискомфорты. От простого к сложному» KavoKerr Москва<br> <br>
+                                2019 г. «Анализ ошибок и осложнений 2 класса по Блэку. Инновации в решении проблем» KavoKerr Воробьева Ю.Б.<br> <br>
+                                2019 г. «Цифровая окклюзия и Сплинт-терапия» HiOHI-S Кочкаров П.Г. Москва<br> <br>
+                                2020 г. «Диагностика, лечение, профилактика новой коронавирусной инфекции в первичной медико-санитарной помощи на дому» Москва ПМ и ФО МзРФ<br> <br>
+                                2020 г. «Организация медицинской помощи при новой коронавирусной инфекции» Москва<br> <br>
+                                2020 г. «Рентгенологические признаки некоторых патологических процессов по типу рарефикации в зубочелюстной системе» KavoKerr Фролов С. Москва<br> <br>
+                                2021 г. «Современные концепции профилактики кариеса у детей и взрослых» Dental Academy Ванин А.В. Москва<br> <br>
+                                2021 г. «Post & Core. 16 шагов идеальной post-эндодонтии. Ортопедический протокол для терапевтов. Подрезала А.М. Москва.
                             </div>
-                            <button class="btn-uncover">Показать все</button>
-
                         </div>
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Примеры работ Виктора Петровича Иванова</div>
-                            <div class="page-content__text">Рентген зубов является очень популярным, безболезненным и часто проводимым обследованием в стоматологии. Особенностью диагностики зубочелюстной системы является тот факт, что значительная часть зуба находится вне зоны визуальной доступности, то есть – скрыта под десной и в челюстной кости.</div>
-
-                            <div class="page-content__before-after" id="beforeAfterSlider">
-
-
-                                <div class="before-after">
-                                    <span id="before" class="before__btn">ДО</span>
-                                    <span id="after" class="after__btn">ПОСЛЕ</span>
-
-                                    <div class="before-after__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
-                                        <div class="before-after__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after__img">
-                                        </div>
-                                    </div>
-                                    <div class="before-after__procedure procedure">
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-                                        <div class="procedure__subtitle">процедура</div>
-                                        <div class="procedure__title">Протезирование</div>
-                                        <div class="procedure__text">Были установлены 4 импланта.</div>
-                                        <div class="procedure__prise">Стоимость: <span>150 000 ₽</span></div>
-                                        <button class="btn btn_lilac">Больше работ</button>
-                                    </div>
-                                </div>
-
-                                <div class="before-after2">
-                                    <span id="before2" class="before__btn">ДО</span>
-                                    <span id="after2" class="after__btn">ПОСЛЕ</span>
-
-                                    <div class="before-after2__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">
-                                        <div class="before-after2__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after2__img">
-                                        </div>
-                                    </div>
-                                    <div class="before-after2__procedure procedure">
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-                                        <div class="procedure__subtitle">процедура</div>
-                                        <div class="procedure__title">Имплантаця</div>
-                                        <div class="procedure__text">Были установлены 4 импланта.</div>
-                                        <div class="procedure__prise">Стоимость: <span>100 000 ₽</span></div>
-                                        <button class="btn btn_lilac">Больше работ</button>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="slider-arrows">
-                                <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
-                                <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
-                            </div>
-
-                            <button class="btn-uncover">Показать все</button>
-
-                        </div>
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Отзывы о работе доктора</div>
-
-                            <div class="page-content__wrapper">
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                            </div>
-
-                            <button class="btn-uncover">Показать все</button>
-
-                        </div>
-
-
-
-
 
                 </section>
             </div>

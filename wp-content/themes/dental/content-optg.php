@@ -19,10 +19,10 @@ get_header();
                         <div class="page-content__name">Ортопантомография <br>(ОПТГ)</div>
                         <div class="page-content__label">от <span>2 000₽</span></div>
                         <div class="page-content__btn-call">
-                            <a class="btn-call" href="#">
+                            <button class="btn-call" data-modal="mainModal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </a>
+                            </button>
                         </div>
                     </div>
                     <div class="page-content__first-decor">
