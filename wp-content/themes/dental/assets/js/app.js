@@ -120,7 +120,18 @@ links.forEach((link) => {
   });
 });
 
-/* Закрываем боковое меню при клике на ссылку */
+// Задаем меню класс активности
+const navLinks = document.getElementsByClassName('nav__link');
+
+// Переберите ссылки и добавьте класс "nav__active" к активной ссылке
+for (let i = 0; i < navLinks.length; i++) {
+  if (navLinks[i].href === window.location.href) {
+    navLinks[i].classList.add('nav__active');
+  }
+}
+
+
+
 
 /* *************************************************
 Слайдер Slick на главной станице */

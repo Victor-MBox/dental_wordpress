@@ -55,6 +55,8 @@ $(document).ready(function () {
           hideLoader();
           initializeSliders();
           initializeBeforeAfterSliders();
+          setupAccordion(); // Добавление инициализации аккордеона
+          bindFormSubmit(); // Назначение обработчика отправки формы
         });
       });
     }
@@ -65,6 +67,77 @@ $(document).ready(function () {
     $("#loader-page").fadeOut("normal");
   }
 
+  // Функция назначения обработчика отправки формы
+  function bindFormSubmit() {
+    $(document).off("submit", ".form-portfolio"); // Удаление предыдущих обработчиков отправки формы
+    $(document).on("submit", ".form-portfolio", function (e) {
+      e.preventDefault();
+
+      var isFormValid = false;
+      var form = $(this);
+
+      $("#form-2").validate({
+        rules: {
+          name: "required",
+          phone: "required",
+          email: {
+            email: true,
+          },
+          checkbox: {
+            required: true,
+          },
+        },
+        messages: {
+          name: "Введите имя",
+          phone: "Введите телефон",
+          email: {
+            email: "Неправильно введен email",
+          },
+          checkbox: "Пожалуйста, отметьте этот чекбокс",
+        },
+        submitHandler: function (form) {
+          if ($("#checkbox-2").is(":checked")) {
+            isFormValid = true;
+          } else {
+            alert(
+              "Пожалуйста, дайте согласие на обработку персональных данных"
+            );
+            isFormValid = false;
+          }
+        },
+      });
+
+      form.submit(function (e) {
+        e.preventDefault();
+
+        if (!form.valid() || !isFormValid) {
+          return;
+        }
+
+        var submitButton = form.find(".btn_submit");
+        var originalButtonText = submitButton.val();
+
+        submitButton.val("Отправка...").prop("disabled", true);
+
+        $.ajax({
+          type: "POST",
+          url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+          data: form.serialize(),
+        }).done(function () {
+          form.find("input").val("");
+          $("#mainModal").fadeOut();
+          $(".modal__overlay, #thanksModal").fadeIn();
+          form[0].reset();
+          submitButton.val(originalButtonText).prop("disabled", false);
+        });
+
+        return false;
+      });
+    });
+  }
+
+  /* Маска номера телефона */
+  $("input[name=phone]").mask("+7 (999) 999-99-99");
   // Функция инициализации слайдеров
   function initializeSliders() {
     var beforeAfterSlider = $("#beforeAfterSlider");
@@ -312,7 +385,6 @@ $(document).ready(function () {
   });
 });
 
-
 //==========================================
 //АККОРДИН В АККОРДИОНЕ НА СТРАНИЦЕ -  FAQ
 //==========================================
@@ -352,6 +424,36 @@ $(document).ready(function () {
   }
 });
 
+//Страница АКЦИИ / btn-accordion
+document.addEventListener("DOMContentLoaded", function () {
+  var accordionItems = document.querySelectorAll(".accordion-item");
 
+  accordionItems.forEach(function (item) {
+    var header = item.querySelector(".btn-accordion__header");
+    var content = item.querySelector(".btn-accordion__content");
 
-//Страница АКЦИИ
+    header.addEventListener("click", function () {
+      if (content.style.display === "none") {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
+      }
+    });
+  });
+});
+
+//Страница ДОКТОРА. Кнопка "ЗАДАТЬ ВОПРОС"
+function setupAccordion() {
+  var accordionItem = $(".btn-accordion");
+  var header = accordionItem.find(".btn-accordion__header");
+  var content = accordionItem.find(".btn-accordion__content");
+
+  header.on("click", function () {
+    content.slideToggle();
+  });
+}
+
+// Вызов функции для настройки аккордеона при загрузке страницы
+$(document).ready(function () {
+  setupAccordion();
+});

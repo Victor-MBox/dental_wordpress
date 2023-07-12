@@ -8,14 +8,16 @@
                 background: url(assets/img/page/doctors/doctor-02.jpg) center top/cover no-repeat 
         &__name
             color: $black-1
-            font-size: 42px
-            line-height: 43px
+            font-size: 34px
+            line-height: 36px
             font-weight: 900
             margin-bottom: 20px
         &__label
             right: auto
             left: 30px
             top: 30px
+
+            width: 80px
         &__label-prof
             span
                 color: $gray-text
@@ -48,21 +50,11 @@
                     color: $black-1
                     span
                         font-weight: 700
-        &__btn-question
-            .btn-call
-                position: absolute
-                right: 25px
-                bottom: -15px
-                &:hover
-                    background: #fff
-                    .btn-call__img
-                        background: $black-1 url(assets/img/icons/voice_lilac.svg) center/40% no-repeat
-                &__img
-                    background: #FFFFFF url(assets/img/icons/voice.svg) center/40% no-repeat
-                &__text
-                    color: $black-1
-                    span
-                        font-weight: 700
+        &__btn-accordion
+            position: absolute
+            right: 25px
+            top: 80%
+                
         &__certificates
             display: flex
             justify-content: space-between
@@ -90,3 +82,6 @@
                     position: absolute
                     right: 26px
                     top: 84%
+
+.page-reviews-section
+    margin: 90px 0 75px

@@ -284,23 +284,25 @@
 
                             <div id="tab-3" class="accordion__content">
 
-                                <a href="/vrachi/">Борисенко Инна Владимировна</a>
+                                <a href="/vrachi/borisenko-inna-vladimirovna/">Борисенко Инна Владимировна</a>
 
-                                <a href="/vrachi/">Зейналов Зейнал Вилаяддинович</a>
+                                <a href="/vrachi/zejnalov-zejnal-vilayaddinovich/">Зейналов Зейнал Вилаяддинович</a>
 
-                                <a href="/vrachi/">Сарыбаев Анарбек Муктарбекович</a>
+                                <a href="/vrachi/sarybaev-anarbek-muktarbekovich/">Сарыбаев Анарбек Муктарбекович</a>
 
-                                <a href="/vrachi/">Игонин Василий Валентинович</a>
+                                <a href="/vrachi/antonovskij-anton-anatolevich/">Антоновский Антон Анатольевич</a>
 
-                                <a href="/vrachi/">Хандогин Антон Олегович</a>
+                                <a href="/vrachi/igonin-vasilij-valentinovich/">Игонин Василий Валентинович</a>
 
-                                <a href="/vrachi/">Журов Илья Владимирович</a>
+                                <a href="/vrachi/handogin-anton-olegovich/">Хандогин Антон Олегович</a>
 
-                                <a href="/vrachi/">Бачулис Марина Александровна</a>
+                                <a href="/vrachi/zhurov-ilya-vladimirovich/">Журов Илья Владимирович</a>
 
-                                <a href="/vrachi/">Джахбарова Рабият Магомедгаджиевна</a>
+                                <a href="/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/">Джахбарова Рабият Магомедгаджиевна</a>
 
-                                <a href="/vrachi/">Байкулова Асият Хамитовна</a>
+                                <a href="/vrachi/bajkulova-asiyat-hamitovna/">Байкулова Асият Хамитовна</a>
+
+                                <a href="/vrachi/bachulis-marina-aleksandrovna/">Бачулис Марина Александровна</a>
 
                             </div>
                         </div>
@@ -636,6 +638,9 @@
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="#">Сарыбаев Анарбек Муктарбекович</a>
+                            </li>
+                            <li>
+                                <a class="sub-nav__link" href="#">Антоновский Антон Анатольевич</a>
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="#">Игонин Василий Валентинович</a>

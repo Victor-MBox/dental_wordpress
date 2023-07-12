@@ -17,52 +17,60 @@ get_header();
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-3.svg" alt="">
         </div>
 
-        <div class="container page-main-section__container">
-            <div class="page-main-section__column">
-                <div class="page-main-section__name">
-                    <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
-                    <div class="page-main-section__title title">Наши цены</div>
-                    <div class="page-main-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением, клиника осуществляет все виды стоматологических услуг в области терапии, ортопедии, ортодонтии, хирургии и т.п.
-                        <br> <br>
-                        Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
-                    </div>
-                    <button class="btn">Узнать о нашем производстве</button>
-                </div>
+        <div class="container">
+
+            <div class="breadcrumbs">
+                <?php custom_breadcrumbs(); ?>
             </div>
 
-            <div class="page-main-section__column">
-                <div class="page-main-section__img">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
-                </div>
-            </div>
+            <div class="page-main-section__container">
 
-            <div class="page-main-section__form">
-                <div class="feedback-form">
-                    <div class="feedback-form__title">
-                        Записаться на консультацию
+                <div class="page-main-section__column">
+                    <div class="page-main-section__name">
+                        <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                        <div class="page-main-section__title title">Наши цены</div>
+                        <div class="page-main-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением, клиника осуществляет все виды стоматологических услуг в области терапии, ортопедии, ортодонтии, хирургии и т.п.
+                            <br> <br>
+                            Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
+                        </div>
+                        <button class="btn">Узнать о нашем производстве</button>
                     </div>
-                    <div class="feedback-form__form">
+                </div>
 
-                        <form action="#" class="form-about" id="form-1">
-                            <div class="form-about__input">
-                                <input type="text" name="name" placeholder="Имя" class="input">
-                            </div>
-                            <div class="form-about__input email-input">
-                                <input type="email" name="email" placeholder="Email" class="input">
-                            </div>
-                            <div class="form-about__input phone-input">
-                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                            </div>
-                            <div class="form-about__item">
-                                <div class="checkbox">
-                                    <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                <div class="page-main-section__column">
+                    <div class="page-main-section__img">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="page-main-section__form">
+                    <div class="feedback-form">
+                        <div class="feedback-form__title">
+                            Записаться на консультацию
+                        </div>
+                        <div class="feedback-form__form">
+
+                            <form action="#" class="form-about" id="form-1">
+                                <div class="form-about__input">
+                                    <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
-                            </div>
-                            <div class="form-about__submit">
-                                <input class="btn btn_submit" type="submit" value="Узнать больше">
-                            </div>
-                        </form>
+                                <div class="form-about__input email-input">
+                                    <input type="email" name="email" placeholder="Email" class="input">
+                                </div>
+                                <div class="form-about__input phone-input">
+                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                </div>
+                                <div class="form-about__item">
+                                    <div class="checkbox">
+                                        <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
+                                        <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                    </div>
+                                </div>
+                                <div class="form-about__submit">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,7 +171,7 @@ get_header();
                         <div id="home-tab-1" class="accordion-home__content">
 
                             <div class="accordion-home__img-wrapper">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
 
                                 <div class="accordion-home__label">
                                     от <span>0₽</span>
@@ -245,7 +253,7 @@ get_header();
                             <div id="home-tab-2" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-02.jpg" alt="">
 
                                     <div class="accordion-home__label">
                                         от <span>1 500₽</span>
@@ -701,7 +709,6 @@ get_header();
                                     </div>
                                 </div>
 
-
                             </div>
 
                             <div class="accordion-home">
@@ -721,7 +728,7 @@ get_header();
                                 <div id="home-tab-3" class="accordion-home__content">
 
                                     <div class="accordion-home__img-wrapper">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-03.jpg" alt="">
 
                                         <div class="accordion-home__label">
                                             от <span>400₽</span>
@@ -953,6 +960,7 @@ get_header();
 
                                 </div>
                             </div>
+
                             <div class="accordion-home">
                                 <div data-tab="home-tab-4" class="accordion-home__tab">
                                     <div class="accordion-home__nav-column">
@@ -970,10 +978,10 @@ get_header();
                                 <div id="home-tab-4" class="accordion-home__content">
 
                                     <div class="accordion-home__img-wrapper">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
 
                                         <div class="accordion-home__label">
-                                            от <span>0₽</span>
+                                            от <span>2000₽</span>
                                         </div>
 
 
@@ -1212,7 +1220,38 @@ get_header();
                                         </div>
                                     </div>
 
-                                    <p class="accordion-home__price-title">Имплантация</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-home">
+                                <div data-tab="home-tab-5" class="accordion-home__tab">
+                                    <div class="accordion-home__nav-column">
+                                        <div class="accordion-home__decor accordion-home__decor_lilac"></div>
+
+                                        <div class="accordion-home__nav-title">Имплантация</div>
+                                        <div class="accordion-home__nav-subtitle">Любые импланты</div>
+                                    </div>
+                                    <div class="accordion-home__decor-wrapper">
+                                        <div class="accordion-home__arrow"></div>
+                                        <div class="accordion-home__strip strip strip_lilac"></div>
+                                    </div>
+                                </div>
+                                <div id="home-tab-5" class="accordion-home__content">
+
+                                    <div class="accordion-home__img-wrapper">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-05.jpg" alt="">
+
+                                        <div class="accordion-home__label">
+                                            от <span>3500₽</span>
+                                        </div>
+
+                                        <div class="accordion-home__btn-call">
+                                            <button class="btn-call" data-modal="mainModal">
+                                                <div class="btn-call__img"></div>
+                                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                            </button>
+                                        </div>
+                                    </div>
 
                                     <div class="accordion-home__price">
                                         <div class="accordion-home__price-item">
@@ -1245,27 +1284,27 @@ get_header();
 
                                 </div>
                             </div>
+
                             <div class="accordion-home">
-                                <div data-tab="home-tab-5" class="accordion-home__tab">
+                                <div data-tab="home-tab-6" class="accordion-home__tab">
                                     <div class="accordion-home__nav-column">
                                         <div class="accordion-home__decor accordion-home__decor_red"></div>
 
                                         <div class="accordion-home__nav-title">Ортодонтия</div>
-                                        <div class="accordion-home__nav-subtitle">Текст
-                                        </div>
+                                        <div class="accordion-home__nav-subtitle">Исправление прикуса</div>
                                     </div>
                                     <div class="accordion-home__decor-wrapper">
                                         <div class="accordion-home__arrow"></div>
                                         <div class="accordion-home__strip strip strip_red"></div>
                                     </div>
                                 </div>
-                                <div id="home-tab-5" class="accordion-home__content">
+                                <div id="home-tab-6" class="accordion-home__content">
 
                                     <div class="accordion-home__img-wrapper">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="">
 
                                         <div class="accordion-home__label">
-                                            от <span>0₽</span>
+                                            от <span>1500₽</span>
                                         </div>
 
 
@@ -1344,24 +1383,24 @@ get_header();
                                     </div>
                                 </div>
                             </div>
+
                             <div class="accordion-home">
-                                <div data-tab="home-tab-6" class="accordion-home__tab">
+                                <div data-tab="home-tab-7" class="accordion-home__tab">
                                     <div class="accordion-home__nav-column">
                                         <div class="accordion-home__decor accordion-home__decor_lilac"></div>
 
                                         <div class="accordion-home__nav-title">Гигиена</div>
-                                        <div class="accordion-home__nav-subtitle">Текст
-                                        </div>
+                                        <div class="accordion-home__nav-subtitle">Сохранить крепкость и здоровье зубов</div>
                                     </div>
                                     <div class="accordion-home__decor-wrapper">
                                         <div class="accordion-home__arrow"></div>
                                         <div class="accordion-home__strip strip strip_lilac"></div>
                                     </div>
                                 </div>
-                                <div id="home-tab-6" class="accordion-home__content">
+                                <div id="home-tab-7" class="accordion-home__content">
 
                                     <div class="accordion-home__img-wrapper">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/price-page-img.jpg" alt="">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-07.jpg" alt="">
 
                                         <div class="accordion-home__label">
                                             от <span>6 000₽</span>

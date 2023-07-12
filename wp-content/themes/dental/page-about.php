@@ -17,69 +17,76 @@ get_header();
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="">
         </div>
 
-        <div class="container page-main-section__container">
-            <div class="page-main-section__column">
-                <div class="page-main-section__name">
-                    <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
-                    <div class="page-main-section__title title">Наша лаборатория</div>
-                    <div class="page-main-section__description description">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br> <br>
-                        О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.
-                        <br> <br>
-                        Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.
-                    </div>
+        <div class="container">
 
-                    <div id="textHidden" class="text-hidden">
-                        <p>Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.
-                            <br> <br>
-                            Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.
-                            <br> <br>
-                            Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.
-                            <br> <br>
-                            Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.
-                        </p>
-                    </div>
-                    <div class="main-section__buttons">
-                        <button id="textHiddenBtn" class="btn">Подробнее</button>
-                        <button class="btn-play" data-modal="videoModal"></button>
-                    </div>
-
-
-                </div>
+            <div class="breadcrumbs">
+                <?php custom_breadcrumbs(); ?>
             </div>
 
-            <div class="page-main-section__column">
-                <div class="page-main-section__img">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
-                </div>
-            </div>
+            <div class="page-main-section__container">
+                <div class="page-main-section__column">
+                    <div class="page-main-section__name">
+                        <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                        <div class="page-main-section__title title">Наша лаборатория</div>
+                        <div class="page-main-section__description description">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br> <br>
+                            О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.
+                            <br> <br>
+                            Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.
+                        </div>
 
-            <div class="page-main-section__form page-main-section_about__form">
-                <div class="feedback-form">
-                    <div class="feedback-form__title">
-                        Записаться на консультацию
+                        <div id="textHidden" class="text-hidden">
+                            <p>Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.
+                                <br> <br>
+                                Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.
+                                <br> <br>
+                                Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.
+                                <br> <br>
+                                Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.
+                            </p>
+                        </div>
+                        <div class="main-section__buttons">
+                            <button id="textHiddenBtn" class="btn">Подробнее</button>
+                            <button class="btn-play" data-modal="videoModal"></button>
+                        </div>
+
+
                     </div>
-                    <div class="feedback-form__form">
+                </div>
 
-                        <form action="#" class="form-about" id="form-1">
-                            <div class="form-about__input">
-                                <input type="text" name="name" placeholder="Имя" class="input">
-                            </div>
-                            <div class="form-about__input email-input">
-                                <input type="email" name="email" placeholder="Email" class="input">
-                            </div>
-                            <div class="form-about__input phone-input">
-                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                            </div>
-                            <div class="form-about__item">
-                                <div class="checkbox">
-                                    <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                    <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                <div class="page-main-section__column">
+                    <div class="page-main-section__img">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="page-main-section__form page-main-section_about__form">
+                    <div class="feedback-form">
+                        <div class="feedback-form__title">
+                            Записаться на консультацию
+                        </div>
+                        <div class="feedback-form__form">
+
+                            <form action="#" class="form-about" id="form-1">
+                                <div class="form-about__input">
+                                    <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
-                            </div>
-                            <div class="form-about__submit">
-                                <input class="btn btn_submit" type="submit" value="Узнать больше">
-                            </div>
-                        </form>
+                                <div class="form-about__input email-input">
+                                    <input type="email" name="email" placeholder="Email" class="input">
+                                </div>
+                                <div class="form-about__input phone-input">
+                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                </div>
+                                <div class="form-about__item">
+                                    <div class="checkbox">
+                                        <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
+                                        <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                    </div>
+                                </div>
+                                <div class="form-about__submit">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
