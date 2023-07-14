@@ -56,7 +56,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="#" class="btn">Узнать больше</a>
+                            <a href="/uslugi/" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="#" class="btn">Узнать больше</a>
+                            <a href="/uslugi/" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="#" class="btn">Узнать больше</a>
+                            <a href="/uslugi/" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="#" class="btn">Узнать больше</a>
+                            <a href="/uslugi/" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -462,7 +462,7 @@ get_header();
 
                     <div class="tabs__nav">
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Диагностика</div>
                                 <div class="tabs__nav-subtitle">Предварительная консультация, выявление проблемы
@@ -474,7 +474,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Протезирование</div>
                                 <div class="tabs__nav-subtitle">Съемное и несъемное протезтирование</div>
@@ -485,10 +485,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Терапия</div>
-                                <div class="tabs__nav-subtitle">Текст</div>
+                                <div class="tabs__nav-subtitle">Любые виды лечения зубов</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_lilac"></div>
@@ -496,7 +496,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Хирургия</div>
                                 <div class="tabs__nav-subtitle">Любые хирургические операции</div>
@@ -507,10 +507,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Ортодонтия</div>
-                                <div class="tabs__nav-subtitle">Текст</div>
+                                <div class="tabs__nav-subtitle">Исправление прикуса</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_blue"></div>
@@ -518,10 +518,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Гигиена и отбеливание зубов</div>
-                                <div class="tabs__nav-subtitle">Текст</div>
+                                <div class="tabs__nav-subtitle">Сохранить крепость и здоровье зубов</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_red"></div>
@@ -529,10 +529,10 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7" onclick="window.location.href = 'dental/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7" onclick="window.location.href = '/uslugi/';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Гнатология</div>
-                                <div class="tabs__nav-subtitle">Текст</div>
+                                <div class="tabs__nav-subtitle">Лечение элементов зубочелюстной системы</div>
                             </div>
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-decor tabs__nav-decor_lilac"></div>
@@ -548,149 +548,135 @@ get_header();
                         <div data-tab="home-tab-1" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
                                 <div class="accordion-home__nav-title">Диагностика</div>
-                                <div class="accordion-home__nav-subtitle">Консультация, выявление проблемы
+                                <div class="accordion-home__nav-subtitle">Предварительная консультация, выявление проблемы
                                 </div>
                             </div>
                             <div class="accordion-home__strip strip strip_yellow"></div>
                         </div>
                         <div id="home-tab-1" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="">
 
                             <div class="accordion-home__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-2" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
                                 <div class="accordion-home__nav-title">Протезирование</div>
-                                <div class="accordion-home__nav-subtitle">Съемное протезтирование
+                                <div class="accordion-home__nav-subtitle">Съемное и несъемное протезтирование
                                 </div>
                             </div>
                             <div class="accordion-home__strip strip strip_red"></div>
                         </div>
                         <div id="home-tab-2" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="">
 
                             <div class="accordion-home__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-3" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
-                                <div class="accordion-home__nav-title">Имплантаця</div>
-                                <div class="accordion-home__nav-subtitle">Импланты, коронки, мосты
-                                </div>
+                                <div class="accordion-home__nav-title">Терапия</div>
+                                <div class="accordion-home__nav-subtitle">Любые виды лечения зубов</div>
                             </div>
                             <div class="accordion-home__strip strip strip_lilac"></div>
                         </div>
                         <div id="home-tab-3" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="">
 
                             <div class="accordion-home__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-4" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
-                                <div class="accordion-home__nav-title">Лечение зубов, терапия</div>
-                                <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
-                                </div>
+                                <div class="accordion-home__nav-title">Хирургия</div>
+                                <div class="accordion-home__nav-subtitle">Любые хирургические операции</div>
                             </div>
                             <div class="accordion-home__strip strip strip_yellow"></div>
                         </div>
                         <div id="home-tab-4" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="">
 
                             <div class="accordion-home__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-5" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
-                                <div class="accordion-home__nav-title">Хирургия</div>
-                                <div class="accordion-home__nav-subtitle">Любые хирургические операции
-                                </div>
+                                <div class="accordion-home__nav-title">Ортодонтия</div>
+                                <div class="accordion-home__nav-subtitle">Исправление прикуса</div>
                             </div>
                             <div class="accordion-home__strip strip strip_turquoise"></div>
                         </div>
                         <div id="home-tab-5" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="">
 
                             <div class="accordion-home__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-6" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
-                                <div class="accordion-home__nav-title">Ортодонтия</div>
-                                <div class="accordion-home__nav-subtitle">Любые хирургические операции
-                                </div>
+                                <div class="accordion-home__nav-title">Гигиена и отбеливание зубов</div>
+                                <div class="accordion-home__nav-subtitle">Сохранить крепость и здоровье зубов</div>
                             </div>
                             <div class="accordion-home__strip strip strip_red"></div>
                         </div>
                         <div id="home-tab-6" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="">
 
                             <div class="accordion-home__btn-call">
-                                <a class="btn-call" href="#">
+                                <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                </a>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                     <div class="accordion-home">
                         <div data-tab="home-tab-7" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
-                                <div class="accordion-home__nav-title">Гигиена</div>
-                                <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
-                                </div>
+                                <div class="accordion-home__nav-title">Гнатология</div>
+                                <div class="accordion-home__nav-subtitle">Лечение элементов зубочелюстной системы</div>
                             </div>
                             <div class="accordion-home__strip strip strip_lilac"></div>
                         </div>
@@ -699,15 +685,12 @@ get_header();
                             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
 
                             <div class="accordion-home__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать<br>предварительную стоимость<br>за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-                            <a class="accordion-home__btn" href="#">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
                         </div>
                     </div>
                 </div>
@@ -862,110 +845,110 @@ get_header();
 
                 <div class="carousel__wrapper">
                     <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="">
                         <div class="carousel__label">
                             <p>Опыт</p> <span>11 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Борисенко</span> <br>Инна Владимировна</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт, хирург</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                    <div class="carousel__photo carousel__photo_01">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-09.jpg" alt="">
                         <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>9 лет</span>
+                            <p>Опыт</p> <span>12 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Зейналов</span> <br>Зейнал Вилаяддинович</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img2.jpg" alt="">
+                    <div class="carousel__photo carousel__photo_02">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-04.jpg" alt="">
                         <div class="carousel__label carousel__label_lilac">
-                            <p>Опыт</p> <span>22 года</span>
+                            <p>Опыт</p> <span>12 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Сарыбаев</span> <br>Анарбек Муктарбекович</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                    <div class="carousel__photo carousel__photo_03">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="">
                         <div class="carousel__label carousel__label_yellow">
                             <p>Опыт</p> <span>13 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Игонин</span> <br>Василий Валентинович</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортопед, хирург</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
                     <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-01.jpg" alt="">
                         <div class="carousel__label">
                             <p>Опыт</p> <span>7 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Хандогин</span> <br>Антон Олегович</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортопед</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                    <div class="carousel__photo carousel__photo_01">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-03.jpg" alt="">
                         <div class="carousel__label carousel__label_red">
                             <p>Опыт</p> <span>12 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Журов</span> <br>Илья Владимирович</div>
                     <div class="carousel__text">Врач стоматолог: <br>хирург имплантолог</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                        <div class="carousel__label carousel__label_red">
+                    <div class="carousel__photo carousel__photo_02">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-05.jpg" alt="">
+                        <div class="carousel__label">
                             <p>Опыт</p> <span>2 года</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Бачулис</span> <br>Марина Александровна</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортодонт, гигиенист</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                        <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>8 лет</span>
+                    <div class="carousel__photo carousel__photo_03">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt=""> 
+                        <div class="carousel__label carousel__label_yellow">
+                            <p>Опыт</p> <span>18 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Джахбарова</span> <br>Рабият Магомедгаджиевна</div>
                     <div class="carousel__text">Гигиенист, <br>ассистент стоматолога</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
                     <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                        <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>3 года</span>
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-02.jpg" alt="">
+                        <div class="carousel__label carousel__label_lilac">
+                            <p>Опыт</p> <span>10 лет</span>
                         </div>
                     </div>
                     <div class="carousel__name"><span>Байкулова</span> <br>Асият Хамитовна</div>
                     <div class="carousel__text">Врач стоматолог: <br>гигиенист</div>
-                    <button class="btn btn_entry">Записаться</button>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                 </div>
 
             </div>

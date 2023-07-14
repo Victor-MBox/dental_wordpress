@@ -211,6 +211,7 @@
         background: #fff
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
         border-radius: 1px 15px 15px 15px
+        z-index: 1
 
         &.active
             background: $lilac-bg
@@ -270,13 +271,15 @@
         color: $gray-text
 
     &__content
-        margin: 0 auto
+        margin: -10px auto 0
         position: relative
         overflow: hidden
         max-height: 0
         opacity: 0
         visibility: hidden
         transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out 0.5s, visibility 1s ease-out 0.5s
+        img
+            border-radius: 25px 1px 1px 1px
         &.active
             visibility: visible
             opacity: 1

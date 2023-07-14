@@ -27,7 +27,7 @@ function custom_breadcrumbs() {
     echo '<a class="breadcrumbs__home" href="';
     echo home_url();
     echo '">';
-    echo '<img src="/dental/wp-content/themes/dental/assets/img/icons/home-icon.svg" alt="">';
+    echo '<img src="/wp-content/themes/dental/assets/img/icons/home-icon.svg" alt="">';
     echo '</a>';
 
     if (is_category() || is_single()) {

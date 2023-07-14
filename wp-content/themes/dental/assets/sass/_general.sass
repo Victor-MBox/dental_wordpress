@@ -77,12 +77,14 @@ img
         span
             text-transform: uppercase
             font-weight: 700
+    &__title-span
+        text-decoration: line-through
     &__subtitle
         color: $gray-text
         font-weight: 400
         font-size: 14px
         line-height: 22px
-        margin-bottom: 50px
+        margin: 0 120px 50px 0
         letter-spacing: 0.01em
     &__img
         margin: -73px 0px 0px -140px
@@ -262,18 +264,25 @@ img
     line-height: 22px
     letter-spacing: 0.01em
     color: $gray-text
+    a
+        text-decoration: none
+        ont-weight: 400
+        font-size: 14px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: $black-1
 
 .text-hidden
     max-height: 0
     overflow: hidden
     padding-right: 55px
     transition: max-height 0.5s ease
-    p
-        font-weight: 400
-        font-size: 14px
-        line-height: 22px
-        letter-spacing: 0.01em
-        color: $gray-text
+
+    font-weight: 400
+    font-size: 14px
+    line-height: 22px
+    letter-spacing: 0.01em
+    color: $gray-text
 
 .text-visible
     max-height: 1000px
@@ -281,12 +290,12 @@ img
     padding-right: 55px
 
     transition: max-height 0.5s ease
-    p
-        font-weight: 400
-        font-size: 14px
-        line-height: 22px
-        letter-spacing: 0.01em
-        color: $gray-text
+
+    font-weight: 400
+    font-size: 14px
+    line-height: 22px
+    letter-spacing: 0.01em
+    color: $gray-text
 
 .list
     li
@@ -308,11 +317,10 @@ img
             height: 12px
             border-radius: 90px
             background: #01B5EE
-            
+
             position: absolute
             left: 0
             top: 0
-
 
 .decor-red
     width: 82px

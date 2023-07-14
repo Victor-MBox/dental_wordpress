@@ -26,14 +26,18 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
                         <div class="page-main-section__title title">Наши акции</div>
-                        <div class="page-main-section__description description">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br> <br>
-                            О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.
+                        <div class="page-main-section__description description">Мы рады предложить вам уникальную возможность воспользоваться нашими ежемесячными акциями, которые предусматривают специальные условия и скидки на различные виды стоматологических услуг. Это отличная возможность не только сохранить здоровье и красоту вашей улыбки, но и существенно сэкономить.
                             <br> <br>
-                            Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.
+                            Наша клиника "Зубки всем" стремится сделать высококачественные стоматологические услуги доступными для каждого. Мы предлагаем разумные цены, которые позволяют широким слоям населения получить профессиональную помощь и уход за своим здоровьем. Никаких скрытых платежей или неожиданных дополнительных расходов - все условия прозрачны и понятны.
                         </div>
-
+                        <div id="textHidden" class="text-hidden">
+                            Важно отметить, что мы предоставляем гарантию на все проведенные нами работы. Это подтверждает нашу ответственность и стремление к безупречному качеству предоставляемых услуг. Обращаясь в клинику "Зубки всем", вы можете быть уверены в профессионализме наших специалистов и высоком уровне предоставляемого сервиса.
+                        </div>
+                        <div class="main-section__buttons">
+                            <button id="textHiddenBtn" class="btn">Подробнее</button>
+                        </div>
                     </div>
                 </div>
 
@@ -80,347 +84,104 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">И подзаголовок тоже</div>
-                <div class="page-second-section__title title">Нужно придумать заголовок</div>
-                <div class="page-second-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением
-                </div>
+                <div class="page-second-section__subtitle subtitle">Спецпредложения книники "Зубки всем"</div>
+                <div class="page-second-section__title title">Акции июля</div>
+            </div>
+            <div class="page-second-section__description description">Каждый месяц мы проводим выгодные акции для наших пациентов. Подробности акций уточняйте по телефону: <a href="tel:+74951503001">+7 (495) 150-30-01</a>
             </div>
     </section>
 
     <div class="page-stock">
 
-        <section class="page-service-section">
-            <div class="page-service-section__container container">
-
-                <div class="page-service-section__column-mob">
-
-                    <div class="accordion-service-page">
-
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-1" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Консультация и диагностика</div>
-                                    <div class="accordion-home__nav-subtitle">Консультации online и в клинике</div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
-                            </div>
-                            <div id="home-tab-1" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>1000₽</span>
-                                    </div>
-
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Ортопантомография (ОПТГ)</a></li>
-                                        <li><a href="#">Прицельный снимок</a></li>
-                                        <li><a href="#">Аксиография</a></li>
-                                        <li><a href="#">Компьютерная томография (КТ)</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor"></div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-2" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Протезирование</div>
-                                    <div class="accordion-home__nav-subtitle">Съемное протезтирование
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_red"></div>
-                            </div>
-                            <div id="home-tab-2" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>2000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor accordion-home__link-decor_red"></div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-3" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Имплантаця</div>
-                                    <div class="accordion-home__nav-subtitle">Импланты, коронки, мосты
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_lilac"></div>
-                            </div>
-                            <div id="home-tab-3" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>3000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor accordion-home__link-decor_lilac"></div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-4" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Лечение зубов, терапия</div>
-                                    <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_yellow"></div>
-                            </div>
-                            <div id="home-tab-4" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>4000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor"></div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-5" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Хирургия</div>
-                                    <div class="accordion-home__nav-subtitle">Любые хирургические операции
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_turquoise"></div>
-                            </div>
-                            <div id="home-tab-5" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>1000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor accordion-home__link-decor_blue"></div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-6" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Ортодонтия</div>
-                                    <div class="accordion-home__nav-subtitle">Любые хирургические операции
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_red"></div>
-                            </div>
-                            <div id="home-tab-6" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>2000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor accordion-home__link-decor_red"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="accordion-home">
-                            <div data-tab="home-tab-7" class="accordion-home__tab">
-                                <div class="accordion-home__nav-column">
-                                    <div class="accordion-home__nav-title">Гигиена</div>
-                                    <div class="accordion-home__nav-subtitle">Любые виды лечения зубов
-                                    </div>
-                                </div>
-                                <div class="accordion-home__strip strip strip_lilac"></div>
-                            </div>
-                            <div id="home-tab-7" class="accordion-home__content">
-
-                                <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
-
-                                    <div class="accordion-home__label">
-                                        от <span>3000₽</span>
-                                    </div>
-
-                                    <div class="accordion-home__btn-call">
-                                        <a class="btn-call" href="#">
-                                            <div class="btn-call__img"></div>
-                                            <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-home__link">
-                                    <ul>
-                                        <li><a href="#">Услуга - 1</a></li>
-                                        <li><a href="#">Услуга - 2</a></li>
-                                        <li><a href="#">Услуга - 3</a></li>
-                                        <li><a href="#">Услуга - 4</a></li>
-                                    </ul>
-                                    <div class="accordion-home__link-decor accordion-home__link-decor_lilac"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="page-service-section__column">
+        <section class="page-about-section">
+            <div class="page-about-section__container container">
+                <div class="page-about-section__column">
 
                     <div class="page-about-section__btn-wrapper">
 
-
-                        <button class="link-page active-tab" href="ortopantomografiya-optg/" onclick="toggleActiveClass(this)">
+                        <a class="btn-wrapper" href="#stock-01">
                             <div class="btn-wrapper__column">
                                 <div class="btn-wrapper__decor"></div>
                                 <div class="btn-wrapper__number">01</div>
                             </div>
                             <div class="btn-wrapper__column">
-                                <div class="btn-wrapper__title">Все акции</div>
-                                <div class="btn-wrapper__subtitle">6 акций</div>
+                                <div class="btn-wrapper__title">При установке 5 виниров – <b> 6-й дарим </b>в подарок!</div>
                             </div>
-                        </button>
+                        </a>
 
-                        <button class="link-page" href="ortopantomografiya-optg/" onclick="toggleActiveClass(this)">
+                        <a class="btn-wrapper" href="#stock-02">
                             <div class="btn-wrapper__column">
                                 <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
                                 <div class="btn-wrapper__number">02</div>
                             </div>
                             <div class="btn-wrapper__column">
-                                <div class="btn-wrapper__title">Протезирование</div>
-                                <div class="btn-wrapper__subtitle">1 акция</div>
+                                <div class="btn-wrapper__title">Профессиональное отбеливание зубов – 15000₽ <span>22000₽</span> </div>
                             </div>
-                        </button>
+                        </a>
 
-                        <button class="link-page" href="ortopantomografiya-optg/" onclick="toggleActiveClass(this)">
+                        <a class="btn-wrapper" href="#stock-03">
                             <div class="btn-wrapper__column">
                                 <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
                                 <div class="btn-wrapper__number">03</div>
                             </div>
                             <div class="btn-wrapper__column">
-                                <div class="btn-wrapper__title">Хирургия</div>
-                                <div class="btn-wrapper__subtitle">1 акция</div>
+                                <div class="btn-wrapper__title">Дарим <b>скидку 15%</b> на терапевтическое лечение при установке брекетов или элайнеров!</div>
                             </div>
-                        </button>
+                        </a>
 
-                        <button class="link-page" href="ortopantomografiya-optg/" onclick="toggleActiveClass(this)">
+                        <a class="btn-wrapper" href="#stock-04">
                             <div class="btn-wrapper__column">
                                 <div class="btn-wrapper__decor"></div>
                                 <div class="btn-wrapper__number">04</div>
                             </div>
                             <div class="btn-wrapper__column">
-                                <div class="btn-wrapper__title">Терапия</div>
-                                <div class="btn-wrapper__subtitle">1 акция</div>
+                                <div class="btn-wrapper__title">Коронка из самого прочного материала – циркония всего за 18000₽ <span>28000₽</span>!</div>
                             </div>
-                        </button>
+                        </a>
+
+                        <a class="btn-wrapper" href="#stock-05">
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
+                                <div class="btn-wrapper__number">05</div>
+                            </div>
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__title">Каждый второй имплант <b>со скидкой 50%</b>!</div>
+                            </div>
+                        </a>
+
+                        <a class="btn-wrapper" href="#stock-06">
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
+                                <div class="btn-wrapper__number">06</div>
+                            </div>
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__title">Имплантация All-on-4 на одну челюсть <b>150.000₽ </b>только в июле!</div>
+                            </div>
+                        </a>
+
+                        <a class="btn-wrapper" href="#stock-07">
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__decor"></div>
+                                <div class="btn-wrapper__number">07</div>
+                            </div>
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__title">Съемные протезы из высококачественных материалов <b>от 15000₽ за 3 сеанса</b>!</div>
+                            </div>
+                        </a>
+
+                        <a class="btn-wrapper" href="#stock-08">
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
+                                <div class="btn-wrapper__number">08</div>
+                            </div>
+                            <div class="btn-wrapper__column">
+                                <div class="btn-wrapper__title">Подарок именинникам - <b>скидка 10%</b> на услуги стоматологии!</div>
+                            </div>
+                        </a>
 
                     </div>
 
-                    <div class="page-service-section__buttons-page">
+                    <div class="page-about-section__buttons-page">
 
                         <a class="buttons-page-1" href="#">
                             <div class="buttons-page-1__img"></div>
@@ -437,6 +198,8 @@ get_header();
                             <div class="buttons-page-3__text">Гарантия на услуги</div>
                         </a>
 
+                        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+
                     </div>
 
                     <div class="page-service-section__form">
@@ -445,8 +208,8 @@ get_header();
 
                         <div class="feedback-form-laboratory">
 
-                            <div class="page-service-section__decor decor-red"></div>
-                            <div class="page-service-section__decor decor-blue"></div>
+                            <div class="page-about-section__decor-lilac decor-lilac"></div>
+                            <div class="page-about-section__decor-blue decor-blue"></div>
 
                             <div class="feedback-form-laboratory__form">
 
@@ -474,300 +237,179 @@ get_header();
                         </div>
 
                     </div>
-
-
                 </div>
 
-                <!-- Содержимое ajax -->
-                <div class="page-service-section__column">
-
-                    <div id="loader-page"></div>
-
+                <div class="page-about-section__column">
                     <div class="page-service-section__decor-wrapper">
                         <div class="page-service-section__decor-content decor-lilac"></div>
                         <div class="page-service-section__decor-content decor-yellow"></div>
                     </div>
 
-                    <section class="page-contetn__wrapper" id="content-page">
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__banner">
-                                <div class="page-content__name">Ортопантомография <br>(ОПТГ)</div>
-                                <div class="page-content__label">от <span>2 000₽</span></div>
-                                <div class="page-content__btn-call">
-                                    <a class="btn-call" href="#">
-                                        <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="page-content__text">Рентген зубов является очень популярным, безболезненным и часто проводимым обследованием в стоматологии. Особенностью диагностики зубочелюстной системы является тот факт, что значительная часть зуба находится вне зоны визуальной доступности, то есть – скрыта под десной и в челюстной кости. Для визуализации этих участков, а также внутренних тканей зуба необходима современная рентгенография. <br> <br>
-
-                                На прицельном снимке отчетливо видны отдельные зубы, повреждения корней, полости, запломбированные корневые каналы, корни, сверхкомплектные зубы, зачатки зубов, кисты и новообразования. На одном снимке визуализируется 2-3 соседних зуба, максимум 4 (в зависимости от расположения зуба на дуге). Прицельные снимки зубов отличаются высоким разрешением, обеспечивая врачу максимально корректную информацию о клинической картине на выбранном участке обследования. © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве. </div>
+                    <div class="page-about-section__chapter" id="stock-01">
+                        <div class="page-stock__title">
+                            При установке 5 виниров – 6-й дарим в подарок!
                         </div>
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Показания для рентгена в стоматологии</div>
-                            <div class="page-content__text">Прицельный рентген зуба может потребоваться перед: © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
+                        <div class="page-about-section__banner page-about-section__banner_01">
 
-                            <div class="page-content__list">
-                                <ul>
-                                    <li>Терапевтическим лечением</li>
-                                    <li>Удалением</li>
-                                </ul>
-                                <ul>
-                                    <li>Эндодонтическим лечением</li>
-                                    <li>Для диагностики кариеса, пульпита и других заболеваний</li>
-                                </ul>
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-
-                            <div class="page-content__text">Помимо ОПТГ также может потребоваться прицельный снимок перед имплантацией, особенно – одномоментной, когда зуб будет удален и восстановлен имплантов в один прием врача. Важно иметь точную информацию о расположении корней, чтобы провести максимально щадящее удаление и не повредить ткани альвеолярного отростка. © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
-                        </div>
-
-                        <div class="page-content__chapter">
-
-                            <div class="page-content__title">Показания для рентгена в стоматологии</div>
-                            <div class="page-content__banner">
-                            </div>
-                        </div>
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Преимущества прицельной рентгенографии зубов</div>
-                            <div class="page-content__text">Востребованность данного вида аппаратной диагностики определяется ее множественными достоинствами: © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
-                            <div class="page-content__column-wrapper">
-                                <div class="page-content__column">
-                                    <div class="page-content__list">
-                                        <ul>
-                                            <li>Обследование проводится абсолютно безболезненно, не вызывая даже малейшего дискомфорта, является неинвазивным;</li>
-                                            <li>обеспечивает точную информацию о состоянии интересующего врача участка челюсти;</li>
-                                            <li>не требует подготовки</li>
-                                            <li>является срочным – результат пациент (врач) получает на руки буквально через 10-15 минут после диагностики.</li>
-                                        </ul>
-                                    </div>
-                                    <div class="page-content__btn-calc">
-                                        <a class="btn-calc" href="#">
-                                            <div class="btn-calc__img"></div>
-                                            <div class="btn-calc__text">Рассчитать <br> предварительную стоимость <br> за
-                                                <span>1
-                                                    мин</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="page-content__column">
-                                    <div class="page-content__img">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-mimi-img.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">До/После</div>
-
-                            <div class="page-content__before-after" id="beforeAfterSlider">
-
-
-                                <div class="before-after">
-                                    <span id="before" class="before__btn">ДО</span>
-                                    <span id="after" class="after__btn">ПОСЛЕ</span>
-
-                                    <div class="before-after__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
-                                        <div class="before-after__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after__img">
-                                        </div>
-                                    </div>
-                                    <div class="before-after__procedure procedure">
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-                                        <div class="procedure__subtitle">процедура</div>
-                                        <div class="procedure__title">Протезирование</div>
-                                        <div class="procedure__text">Были установлены 4 импланта.</div>
-                                        <div class="procedure__prise">Стоимость: <span>150 000 ₽</span></div>
-                                        <button class="btn btn_lilac">Больше работ</button>
-                                    </div>
-                                </div>
-
-                                <div class="before-after2">
-                                    <span id="before2" class="before__btn">ДО</span>
-                                    <span id="after2" class="after__btn">ПОСЛЕ</span>
-
-                                    <div class="before-after2__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">
-                                        <div class="before-after2__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after2__img">
-                                        </div>
-                                    </div>
-                                    <div class="before-after2__procedure procedure">
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-                                        <div class="procedure__subtitle">процедура</div>
-                                        <div class="procedure__title">Имплантаця</div>
-                                        <div class="procedure__text">Были установлены 4 импланта.</div>
-                                        <div class="procedure__prise">Стоимость: <span>100 000 ₽</span></div>
-                                        <button class="btn btn_lilac">Больше работ</button>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-                            <div class="slider-arrows">
-                                <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
-                                <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
-                            </div>
-
-
 
                         </div>
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Рентген зубов во время беременности</div>
-                            <div class="page-content__text">Многие беременные женщины задаются вопросом, может ли рентген зуба причинить вред плоду. Важно понимать, что доза, необходимая для совершения снимка, составляет всего 1-2 мкВ. Это в тысячу раз меньше, чем доза, которую мы получаем от окружающих нас источников излучения в течение года. Кроме того, уровень облучения современного рентгенологического оборудования значительно ниже, чем в ранее используемых аналоговых камерах.</div>
-                            <div class="page-content__infobox">Многие беременные женщины задаются вопросом, может ли рентген зуба причинить вред плоду. Важно понимать, что доза, необходимая для совершения снимка, составляет всего 1-2 мкВ. Это в тысячу раз меньше, чем доза, которую мы получаем от окружающих нас источников излучения в течение года. Кроме того, уровень облучения современного рентгенологического оборудования значительно ниже, чем в ранее используемых аналоговых камерах.</div>
+                        <div class="page-about-section__text">Стоимость одного керамического винира в июле – 16000 ₽ с 3-х летней гарантией! <br>
+                            Стоимость композитного винира – 9000 ₽ с установкой за один день.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-02">
+                        <div class="page-stock__title">
+                            Профессиональное отбеливание зубов – 15000₽ <span>22000₽</span>
                         </div>
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">3D видео</div>
-                            <div class="page-content__banner-video">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-video.jpg" alt="">
-                                <img class="page-content__rotate" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-rotate.svg" alt="">
-                            </div>
-                        </div>
+                        <div class="page-about-section__banner page-about-section__banner_02">
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Сделать прицельный снимок зубов в ROOTT</div>
-                            <div class="page-content__text">Рентгенологические снимки зубов помогают врачу распознать проблему, поставить диагноз и провести правильное лечение. В московском МЦДИ ROOTT пациенты могут пройти рентгенографию платно на современном оборудовании в любое удобное время. Цены на прицельный снимок зуба в нашей стоматологии указаны в нашем прайсе.</div>
-                        </div>
-
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Цены</div>
-
-                            <div class="page-content__table">
-
-                                <div class="page-content__column-table">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
-                                    <p>Услуга</p>
-                                </div>
-
-                                <div class="page-content__column-table">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
-                                    <p>Стоимость</p>
-                                </div>
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним </div>
+                                </button>
                             </div>
 
-                            <table class="table-service">
-                                <tr>
-                                    <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
-                                    <td class="table-service__price">1 000₽</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
-                                    <td class="table-service__price">1 000₽</td>
-                                </tr>
-                            </table>
-
-                            <div class="table-service__btn">
-                                <a href="#" class="btn">Прайс-лист</a>
-                                <a href="#" class="btn">Акции</a>
-                            </div>
                         </div>
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Наши специалисты</div>
+                        <div class="page-about-section__text">Получите белоснежную улыбку всего за 1 час со скидкой 30%! <br> Гарантия 4 месяца. Коррекция цвета включена в стоимость.
+                        </div>
+                    </div>
 
-                            <div class="page-content__carousel">
-
-                                <div class="carousel__wrapper">
-                                    <div class="carousel__photo">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                                    </div>
-                                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                                    <button class="btn btn_entry">Записаться</button>
-                                </div>
-
-                                <div class="carousel__wrapper">
-                                    <div class="carousel__photo">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                                    </div>
-                                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                                    <button class="btn btn_entry">Записаться</button>
-                                </div>
-
-                                <div class="carousel__wrapper">
-                                    <div class="carousel__photo">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img2.jpg" alt="">
-                                    </div>
-                                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                                    <button class="btn btn_entry">Записаться</button>
-                                </div>
-
-                                <div class="carousel__wrapper">
-                                    <div class="carousel__photo">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                                    </div>
-                                    <div class="carousel__name">Мария <span>Петрова</span></div>
-                                    <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                                    <button class="btn btn_entry">Записаться</button>
-                                </div>
-
-                            </div>
-                            <a href="#" class="btn">Все специалисты</a>
+                    <div class="page-about-section__chapter" id="stock-03">
+                        <div class="page-stock__title">
+                            Дарим скидку 15% на терапевтическое лечение при установке брекетов или элайнеров!
                         </div>
 
-                        <div class="page-content__chapter">
-                            <div class="page-content__title">Отзывы</div>
-                            <div class="page-content__wrapper">
+                        <div class="page-about-section__banner page-about-section__banner_03">
 
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
-                                <div class="page-content__review-page review-page">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                                    <div class="review-page__name">Мария Петрова</div>
-                                    <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                                    <a href="#">Проверить отзыв</a>
-
-                                </div>
-
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
                             </div>
-                            <a href="#" class="btn">Все отзывы</a>
 
                         </div>
-                    </section>
+
+                        <div class="page-about-section__text">При установке брекетов или элайнеров в клинике “Зубки Всем” предоставляется скидка 15% на терапевтическое лечение. Гарантия результата 100%. <br> Стоимость установки брекетов – от 120000 ₽, стоимость установки элайнеров – от 150000 рублей.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-04">
+                        <div class="page-stock__title">
+                            Коронка из самого прочного материала – циркония всего за 18000₽ <span>28000₽</span>!
+                        </div>
+
+                        <div class="page-about-section__banner page-about-section__banner_04">
+
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="page-about-section__text">Срок установки – 5 рабочих дней. Гарантия – 4 года.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-05">
+                        <div class="page-stock__title">
+                            Каждый второй имплант со скидкой 50%!
+                        </div>
+
+                        <div class="page-about-section__banner page-about-section__banner_05">
+
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="page-about-section__text">Дарим скидку 50% на установку каждого второго импланта. <br> Срок установки – 1 день. Стоимость 1 импланта – 30000 ₽. <br> Даем пожизненную гарантию при соблюдении ряда условий.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-06">
+                        <div class="page-stock__title">
+                            Имплантация All-on-4 на одну челюсть 150.000 ₽ только в июле!
+                        </div>
+
+                        <div class="page-about-section__banner page-about-section__banner_06">
+
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="page-about-section__text">Протезирование всех зубов на одной челюсти на 4-х имплантах – 150.000 ₽. <br>
+                            Установка имплантов входит в стоимость.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-07">
+                        <div class="page-stock__title">
+                            Съемные протезы из высококачественных материалов от 15000₽ за 3 сеанса!
+                        </div>
+
+                        <div class="page-about-section__banner page-about-section__banner_07">
+
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="page-about-section__text">Протезы изготавливаются из качественных материалов: акри фри, нейлон, акрил, квадротти. <br> Гарантия – 5 лет.
+                        </div>
+                    </div>
+
+                    <div class="page-about-section__chapter" id="stock-08">
+                        <div class="page-stock__title">
+                            Подарок именинникам - скидка 10% на услуги стоматологии!
+                        </div>
+
+                        <div class="page-about-section__banner page-about-section__banner_08">
+
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="mainModal">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="page-about-section__text">Скидка именинникам 10% распространяется на все услуги стоматологии. <br> Скидка действует за 5 дней до и 5 дней после Дня Рождения.
+                        </div>
+                    </div>
+
+
+
                 </div>
-
-
-
-
 
             </div>
         </section>

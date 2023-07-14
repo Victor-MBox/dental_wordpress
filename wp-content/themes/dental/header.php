@@ -22,6 +22,79 @@
     ?>
 
 
+<!-- Скрипт переадресации меджу табами тк и ссылками моб -->
+    <script>
+        console.log(document.location.pathname);
+        console.log(window.screen.width);
+        if (window.screen.width > 769) {
+
+            if (document.location.pathname == '/vrachi/borisenko-inna-vladimirovna/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_1#1_1';
+            }
+            if (document.location.pathname == '/vrachi/zejnalov-zejnal-vilayaddinovich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_2#1_2';
+            }
+            if (document.location.pathname == '/vrachi/sarybaev-anarbek-muktarbekovich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_3#1_3';
+            }
+            if (document.location.pathname == '/vrachi/antonovskij-anton-anatolevich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_1#2_1';
+            }
+            if (document.location.pathname == '/vrachi/igonin-vasilij-valentinovich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_2#2_2';
+            }
+            if (document.location.pathname == '/vrachi/handogin-anton-olegovich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_3#2_3';
+            }
+            if (document.location.pathname == '/vrachi/zhurov-ilya-vladimirovich/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=3_1#3_1';
+            }
+            if (document.location.pathname == '/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=4_1#4_1';
+            }
+            if (document.location.pathname == '/vrachi/bajkulova-asiyat-hamitovna/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=4_2#4_2';
+            }
+            if (document.location.pathname == '/vrachi/bachulis-marina-aleksandrovna/') {
+                location.href = 'https://dental.cg-test.ru/vrachi/?a=5_1#5_1';
+            }
+        }
+
+        if (window.screen.width < 768) {
+
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_1#1_1') {
+                location.href = 'https://dental.cg-test.ru/vrachi/borisenko-inna-vladimirovna/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_2#1_2') {
+                location.href = 'https://dental.cg-test.ru/vrachi/zejnalov-zejnal-vilayaddinovich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_3#1_3') {
+                location.href = 'https://dental.cg-test.ru/vrachi/sarybaev-anarbek-muktarbekovich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_1#2_1') {
+                location.href = 'https://dental.cg-test.ru/vrachi/antonovskij-anton-anatolevich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_2#2_2') {
+                location.href = 'https://dental.cg-test.ru/vrachi/igonin-vasilij-valentinovich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_3#2_3') {
+                location.href = 'https://dental.cg-test.ru/vrachi/handogin-anton-olegovich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=3_1#3_1') {
+                location.href = 'https://dental.cg-test.ru/vrachi/zhurov-ilya-vladimirovich/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=4_1#4_1') {
+                location.href = 'https://dental.cg-test.ru/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=4_2#4_2') {
+                location.href = 'https://dental.cg-test.ru/vrachi/bajkulova-asiyat-hamitovna/';
+            }
+            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=5_1#5_1') {
+                location.href = 'https://dental.cg-test.ru/vrachi/bachulis-marina-aleksandrovna/';
+            }
+            
+        }
+    </script>
 </head>
 
 <body>
@@ -343,17 +416,21 @@
 
                             <div id="tab-5" class="accordion__content">
 
-                                <a href="/akczii/">Улыбка, которая меняет мир: виниры за 16 000 рублей</a>
+                                <a href="/akczii/#stock-01">При установке 5 виниров – подарок!</a>
 
-                                <a href="/akczii/">Гигиена полости рта за 4 500 рублей</a>
+                                <a href="/akczii/#stock-02">Профессиональное отбеливание зубов</a>
 
-                                <a href="/akczii/">Съемные протезы за 20 000 рублей</a>
+                                <a href="/akczii/#stock-03">Дарим скидку на терапевтическое лечение</a>
 
-                                <a href="/akczii/">Amazing White за 12 000 рублей</a>
+                                <a href="/akczii/#stock-04">Коронка из самого прочного материала</a>
 
-                                <a href="/akczii/">Имплантация под ключ за 35 000 рублей</a>
+                                <a href="/akczii/#stock-05">Каждый второй имплант со скидкой 50%</a>
 
-                                <a href="/akczii/">Протезирование на 4-х имплантах за 150 000 рублей</a>
+                                <a href="/akczii/#stock-06">Имплантация All-on-4 на одну челюсть</a>
+
+                                <a href="/akczii/#stock-07">Съемные протезы от 15000₽</a>
+
+                                <a href="/akczii/#stock-08">Подарок именинникам - скидка 10%</a>
 
                             </div>
                         </div>
@@ -631,35 +708,35 @@
                         <ul class="sub-nav__list sub-nav__list_name">
 
                             <li>
-                                <a class="sub-nav__link" href="#">Борисенко Инна Владимировна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=1_1#1_1">Борисенко Инна Владимировна</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Зейналов Зейнал Вилаяддинович</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=1_2#1_2">Зейналов Зейнал Вилаяддинович</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Сарыбаев Анарбек Муктарбекович</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=1_3#1_3">Сарыбаев Анарбек Муктарбекович</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Антоновский Антон Анатольевич</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=2_1#2_1">Антоновский Антон Анатольевич</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Игонин Василий Валентинович</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=2_2#2_2">Игонин Василий Валентинович</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Хандогин Антон Олегович</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=2_3#2_3">Хандогин Антон Олегович</a>
                             </li>
 
                             <li>
-                                <a class="sub-nav__link" href="#">Журов Илья Владимирович</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=3_1#3_1">Журов Илья Владимирович</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Бачулис Марина Александровна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=4_1#4_1">Бачулис Марина Александровна</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Джахбарова Рабият Магомедгаджиевна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=4_2#4_2">Джахбарова Рабият Магомедгаджиевна</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Байкулова Асият Хамитовна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=5_1#5_1">Байкулова Асият Хамитовна</a>
                             </li>
 
                         </ul>
@@ -696,22 +773,28 @@
                         <a class="nav__link" href="/akczii/">Акции</a>
                         <ul class="sub-nav__list sub-nav__list_promotion">
                             <li>
-                                <a class="sub-nav__link" href="#">Улыбка, которая меняет мир: виниры за 16 000 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-01">При установке 5 виниров – подарок!</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гигиена полости рта за 4 500 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-02">Профессиональное отбеливание зубов</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Съемные протезы за 20 000 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-03">Дарим скидку на терапевтическое лечение</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Amazing White за 12 000 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-04">Коронка из самого прочного материала</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Имплантация под ключ за 35 000 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-05">Каждый второй имплант со скидкой 50%</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Протезирование на 4-х имплантах за 150 000 рублей</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-06">Имплантация All-on-4 на одну челюсть</a>
+                            </li>
+                            <li>
+                                <a class="sub-nav__link" href="/akczii/#stock-07">Съемные протезы от 15000₽</a>
+                            </li>
+                            <li>
+                                <a class="sub-nav__link" href="/akczii/#stock-08">Подарок именинникам - скидка 10%</a>
                             </li>
                         </ul>
                     </li>

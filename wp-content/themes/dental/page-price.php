@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <div class="page">
-    <section class="page-main-section">
+    <section class="page-main-section page-main-section_about ">
 
         <div class="page-main-section__decor">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
@@ -27,13 +27,18 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
                         <div class="page-main-section__title title">Наши цены</div>
-                        <div class="page-main-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением, клиника осуществляет все виды стоматологических услуг в области терапии, ортопедии, ортодонтии, хирургии и т.п.
-                            <br> <br>
-                            Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
+                        <div class="page-main-section__description description">Зубки Всем - это стоматологическая клиника, которая предлагает широкий спектр услуг по доступным ценам. Ценообразование в данной клинике основывается на принципе максимальной прозрачности и разумности. Это означает, что пациенты всегда знают, за что именно они платят, и могут быть уверены в отсутствии скрытых или неожиданных платежей. Клиника стремится сделать высококачественную стоматологию доступной для всех слоев населения.
+                            <br><br>
+                            Кроме того, клиника дает гарантию на все виды проводимых работ. Это создает дополнительное доверие со стороны пациентов, поскольку они могут быть уверены в качестве предоставляемых услуг. Гарантия является залогом того, что в случае возникновения каких-либо проблем или неудовлетворительных результатов, клиника предпримет все необходимые меры для их устранения.
                         </div>
-                        <button class="btn">Узнать о нашем производстве</button>
+                        <div id="textHidden" class="text-hidden">
+                            Клиника "Зубки Всем" также проводит ежемесячные акции, которые делают услуги клиники еще более привлекательными.
+                        </div>
+                        <div class="main-section__buttons">
+                            <button id="textHiddenBtn" class="btn">Подробнее</button>
+                        </div>
                     </div>
                 </div>
 
@@ -80,9 +85,9 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">И подзаголовок тоже</div>
-                <div class="page-second-section__title title">Нужно придумать заголовок</div>
-                <div class="page-second-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением
+                <div class="page-second-section__subtitle subtitle">Гибкая система ценообразования</div>
+                <div class="page-second-section__title title">Цены на стоматологические услуги клиники "Зубки Всем"</div>
+                <div class="page-second-section__description description">Гибкая система ценообразования учитывает сложность процедуры, материалы и индивидуальные особенности пациента. Мы стремимся предоставить конкурентоспособные и справедливые цены, сочетая их с высоким качеством услуг.
                 </div>
             </div>
     </section>
@@ -1403,7 +1408,7 @@ get_header();
                                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-07.jpg" alt="">
 
                                         <div class="accordion-home__label">
-                                            от <span>6 000₽</span>
+                                            от <span>2 000₽</span>
                                         </div>
 
 

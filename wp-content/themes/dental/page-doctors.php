@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <div class="page">
-    <section class="page-main-section">
+    <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
@@ -26,13 +26,19 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем обычная стоматология!</div>
+                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
                         <div class="page-main-section__title title">Наши специалисты</div>
-                        <div class="page-main-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением, клиника осуществляет все виды стоматологических услуг в области терапии, ортопедии, ортодонтии, хирургии и т.п.
-                            <br> <br>
-                            Уникальность клиники заключается в том, что все виды обследования, необходимые для решения проблем пациента, можно сделать за один визит непосредственно в клинике на первичной консультации. Также в клинике есть своя стоматологическая лаборатория, что сокращает время на изготовление протезов. © Тексты, опубликованные на сайте dentalroott, защищаются законом об авторском праве.
+                        <div class="page-main-section__description description">В клинике стоматологии "Зубки всем" мы гордимся нашим высококвалифицированным и профессиональным персоналом, который состоит из опытных врачей-стоматологов. Наша команда постоянно повышает свою квалификацию, принимая участие в научных конференциях и семинарах, чтобы быть в курсе последних достижений в области стоматологии. Мы уверены, что именно благодаря нашим специалистам мы можем предлагать пациентам лучшие услуги и решения для улучшения их здоровья и красоты улыбки.
+                            <br><br>
+                            Наши врачи обладают глубокими знаниями и навыками, которые позволяют им эффективно диагностировать и лечить различные стоматологические проблемы. Они внимательно слушают каждого пациента, чтобы понять его потребности и ожидания, и затем разрабатывают индивидуальный план лечения. Врачи клиники "Зубки всем" стремятся к тому, чтобы каждый визит в нашу клинику был комфортным и безболезненным.
                         </div>
-                        <button class="btn">Узнать о нашем производстве</button>
+                        <div id="textHidden" class="text-hidden">
+                            Кроме того, мы понимаем, что для некоторых людей посещение стоматолога может вызывать тревогу или страх. Наши врачи и медицинский персонал всегда готовы поддержать пациента, обеспечивая спокойную и расслабленную атмосферу во время каждого визита. Мы уверены, что благодаря нашей заботе и профессионализму каждый пациент будет чувствовать себя в безопасности и комфорте.
+                        </div>
+                        <div class="main-section__buttons">
+                            <button id="textHiddenBtn" class="btn">Подробнее</button>
+                            <button class="btn-play" data-modal="videoModal"></button>
+                        </div>
                     </div>
                 </div>
 
@@ -79,9 +85,9 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">И подзаголовок тоже</div>
-                <div class="page-second-section__title title">Нужно придумать заголовок</div>
-                <div class="page-second-section__description description">Основная специализация клиник МЦДИ «ROOTT» и ReSmile - это восстановление зубного ряда в самых запущенных и сложных случаях, применяя последние методы в области имплантации. Наряду с основным своим направлением
+                <div class="page-second-section__subtitle subtitle">Специалисты клиники "Зубки Всем"</div>
+                <div class="page-second-section__title title">Создатели красивой и стройной улыбки</div>
+                <div class="page-second-section__description description">Врачи клиники "Зубки Всем" найдут подход к каждому пациенту и помогут обрести здоровую и красивую улыбку даже в самых запущенных случаях! Записаться на прием можно по телефону: <br> <a href="tel:+74951503001">+7 (495) 150-30-01</a>
                 </div>
             </div>
     </section>
@@ -261,8 +267,7 @@ get_header();
                 <div class="page-service-section__column">
 
                     <div class="accordion-page">
-                        <div data-tab="page-tab-1" class="accordion-page__tab">
-
+                        <div data-tab="page-tab-1" class="accordion-page__tab" id="vr1">
                             <div class="accordion-page__nav-item">
                                 <div class="accordion-page__decor"></div>
                                 <div class="accordion-page__number">01</div>
@@ -279,16 +284,16 @@ get_header();
                             <div class="page-tab__nav">
 
                                 <ul>
-                                    <li><button class="link-page active-tab" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)">Борисенко Инна Владимировна</button></li>
-                                    <li><button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)">Зейналов Зейнал Вилаяддинович</button></li>
-                                    <li><button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)">Сарыбаев Анарбек Муктарбекович</button></li>
+                                    <li><button class="link-page active-tab" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Борисенко Инна Владимировна</button></li>
+                                    <li><button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)" id="vrb1_2">Зейналов Зейнал Вилаяддинович</button></li>
+                                    <li><button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" id="vrb1_3">Сарыбаев Анарбек Муктарбекович</button></li>
                                 </ul>
                             </div>
                         </div>
 
 
                         <div class="accordion-page">
-                            <div data-tab="page-tab-3" class="accordion-page__tab">
+                            <div data-tab="page-tab-3" class="accordion-page__tab" id="vr2">
                                 <div class="accordion-page__nav-item">
                                     <div class="accordion-page__decor accordion-page__decor_lilac"></div>
                                     <div class="accordion-page__number">02</div>
@@ -305,18 +310,16 @@ get_header();
                                 <div class="page-tab__nav">
 
                                     <ul>
-                                        <li><button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)">Антоновский Антон Анатольевич</button></li>
-                                        <li><button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)">Игонин Василий Валентинович</button></li>
-                                        <li><button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)">Хандогин Антон Олегович</button></li>
+                                        <li><button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)" id="vrb2_1">Антоновский Антон Анатольевич</button></li>
+                                        <li><button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)" id="vrb2_2">Игонин Василий Валентинович</button></li>
+                                        <li><button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)" id="vrb2_3">Хандогин Антон Олегович</button></li>
                                     </ul>
-
                                 </div>
-
                             </div>
                         </div>
 
                         <div class="accordion-page">
-                            <div data-tab="page-tab-2" class="accordion-page__tab">
+                            <div data-tab="page-tab-2" class="accordion-page__tab" id="vr3">
 
                                 <div class="accordion-page__nav-item">
                                     <div class="accordion-page__decor accordion-page__decor_red"></div>
@@ -333,14 +336,14 @@ get_header();
                                 <div class="page-tab__nav">
 
                                     <ul>
-                                        <li><button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)">Журов Илья Владимирович</button></li>
+                                        <li><button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)" id="vrb3_1">Журов Илья Владимирович</button></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
                         <div class="accordion-page">
-                            <div data-tab="page-tab-5" class="accordion-page__tab">
+                            <div data-tab="page-tab-5" class="accordion-page__tab" id="vr4">
 
                                 <div class="accordion-page__nav-item">
                                     <div class="accordion-page__decor accordion-page__decor_blue"></div>
@@ -356,14 +359,14 @@ get_header();
                                 <div class="accordion-page__content-decor accordion-page__content-decor_blue"></div>
                                 <div class="page-tab__nav">
                                     <ul>
-                                        <li><button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)">Джахбарова Рабият Магомедгаджиевна</button></li>
-                                        <li><button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)">Байкулова Асият Хамитовна</button></li>
+                                        <li><button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)" id="vrb4_1">Джахбарова Рабият Магомедгаджиевна</button></li>
+                                        <li><button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)" id="vrb4_2">Байкулова Асият Хамитовна</button></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-page">
-                            <div data-tab="page-tab-6" class="accordion-page__tab">
+                            <div data-tab="page-tab-6" class="accordion-page__tab" id="vr5">
 
                                 <div class="accordion-page__nav-item">
                                     <div class="accordion-page__decor accordion-page__decor_red"></div>
@@ -379,7 +382,7 @@ get_header();
                                 <div class="accordion-page__content-decor accordion-page__content-decor_red"></div>
                                 <div class="page-tab__nav">
                                     <ul>
-                                        <li><button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)">Бачулис Марина Александровна</button></li>
+                                        <li><button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)" id="vrb5_1">Бачулис Марина Александровна</button></li>
                                     </ul>
                                 </div>
                             </div>
@@ -562,6 +565,19 @@ get_header();
 
 
 
+
+
+<script>
+    window.onload = function() {
+        var hash = document.location.hash;
+        if (hash != undefined && hash != null) {
+            var h = hash.replace("#", "");
+            const hparts = h.split("_");
+            document.getElementById("vr" + hparts[0].toString()).click();
+            setTimeout(document.getElementById("vrb" + h.toString()).click(), 500);
+        }
+    }
+</script>
 
 
 <?php

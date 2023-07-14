@@ -8,10 +8,6 @@ $(document).ready(function () {
   const pageContents = document.querySelectorAll(".accordion-page__content");
 
   if (pageTitles.length && pageContents.length) {
-    // Добавляем класс "active" к первому табу и его соответствующему контенту
-    pageTitles[0].classList.add("active");
-    pageContents[0].classList.add("active");
-    pageContents[0].style.maxHeight = pageContents[0].scrollHeight + "00px";
 
     pageTitles.forEach((item) =>
       item.addEventListener("click", () => {
