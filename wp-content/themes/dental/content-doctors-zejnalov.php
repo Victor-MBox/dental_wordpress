@@ -23,7 +23,7 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner">
+                            <div class="page-content__banner page-content__banner_zejnalov">
                                 <div class="page-content__name">Зейналов <br> Зейнал <br> Вилаяддинович</div>
                                 <div class="page-content__label">стаж <span>12 лет</span></div>
                                 <div class="page-content__label-prof"><span>Терапевт</span></div>

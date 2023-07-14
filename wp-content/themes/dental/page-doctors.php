@@ -284,7 +284,7 @@ get_header();
                             <div class="page-tab__nav">
 
                                 <ul>
-                                    <li><button class="link-page active-tab" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Борисенко Инна Владимировна</button></li>
+                                    <li><button class="link-page" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Борисенко Инна Владимировна</button></li>
                                     <li><button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)" id="vrb1_2">Зейналов Зейнал Вилаяддинович</button></li>
                                     <li><button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" id="vrb1_3">Сарыбаев Анарбек Муктарбекович</button></li>
                                 </ul>
@@ -511,55 +511,514 @@ get_header();
 
 
                                 </div>
+
+                                <button class="link-page" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Подробнее</button>
+
                                 <div class="page-content__first-decor">
                                     <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
                                 </div>
+                            </div>
 
-                                <div class="page-content__chapter">
-                                    <div class="page-content__title">Опыт, обрабование</div>
-                                    <div class="page-content__text">ФГБОУВО "Пензенский государственный университет" 2013-2019 Первичная аккредитация "Стоматология общей практики" профессиональный стандарт врач-стоматолог 2019г. <br> <br>
-                                        ГБОУ СПОРО" Ростовский базовый медицинский колледж" диплом с отличием квалификация Зубной врач 2008-2012
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_zejnalov">
+                                    <div class="page-content__name">Зейналов <br> Зейнал <br> Вилаяддинович</div>
+                                    <div class="page-content__label">стаж <span>12 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Терапевт</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Зейналу Вилаяддиновичу</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Зейналу Вилаяддиновичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="page-content__chapter">
-                                    <div class="page-content__title">Повышение квалификации</div>
-                                    <div class="page-content__text">2010 г. «Просто об эстетике» 3мESPE, доктор Карлос Фернандес Вилларес<br> <br>
-                                        2012 г. «Принципы профилактики переимплантита с использованием современных технологий» Swiss Dental Academy EMS, Дмитриева А.С.<br> <br>
-                                        2012 г. «Эффективное применение ультразвука в эндодонтии» Swiss Dental Academy EMS Дмитриева А.С.<br> <br>
-                                        2014 г. «Мир высокой эстетики в стоматологии» Tokugawa Dental -Proteco<br> <br>
-                                        2015 г. «Icon-Infiltration Concept» DMG Валлекс М , Скатова Е.А.<br> <br>
-                                        2017 г. « Восстановление безнадежных Зубов» Dentsly Sirona, Алиев Р.О.<br> <br>
-                                        2018 г. "Эстетико-функциональные реставрации, простые решения на каждый день. Композиты IDS» Dental Academy Павлов А.А. Ростов-на-Дону<br> <br>
-                                        2018 г. «Система имплантат SKY Fast&Fixed. Имплантация с немедленной нагрузкой» Bredent medical Эдуард Бреленко и Роланд Бенц Ростов-на-Дону<br> <br>
-                                        2019 г. «Orthodontic Congress» HiOHI-S , Daniela Storino, Andre Horn, Birte Melsen, Giorgio Fiorelli, Jeong-IL Kim, Paris<br> <br>
-                                        2019 г. «Временные и постоянные дискомфорты. От простого к сложному» KavoKerr Москва<br> <br>
-                                        2019 г. «Анализ ошибок и осложнений 2 класса по Блэку. Инновации в решении проблем» KavoKerr Воробьева Ю.Б.<br> <br>
-                                        2019 г. «Цифровая окклюзия и Сплинт-терапия» HiOHI-S Кочкаров П.Г. Москва<br> <br>
-                                        2020 г. «Диагностика, лечение, профилактика новой коронавирусной инфекции в первичной медико-санитарной помощи на дому» Москва ПМ и ФО МзРФ<br> <br>
-                                        2020 г. «Организация медицинской помощи при новой коронавирусной инфекции» Москва<br> <br>
-                                        2020 г. «Рентгенологические признаки некоторых патологических процессов по типу рарефикации в зубочелюстной системе» KavoKerr Фролов С. Москва<br> <br>
-                                        2021 г. «Современные концепции профилактики кариеса у детей и взрослых» Dental Academy Ванин А.В. Москва<br> <br>
-                                        2021 г. «Post & Core. 16 шагов идеальной post-эндодонтии. Ортопедический протокол для терапевтов. Подрезала А.М. Москва.
+                                <button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_sarybaev">
+                                    <div class="page-content__name">Сарыбаев <br> Анарбек <br> Муктарбекович</div>
+                                    <div class="page-content__label">стаж <span>12 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Терапевт</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Зейналу Вилаяддиновичу</span></div>
+                                        </button>
                                     </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Анарбеку Муктарбековичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
 
-                        </section>
+                                <button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" data-tab="page-tab-1">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner">
+                                    <div class="page-content__name">Антоновский <br> Антон <br> Анатольевич</div>
+                                    <div class="page-content__label">стаж <span>32 года</span></div>
+                                    <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Антону Анатольевичу</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Антону Анатольевичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)" data-tab="page-tab-2">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_igonin">
+                                    <div class="page-content__name">Игонин <br> Василий <br> Валентинович</div>
+                                    <div class="page-content__label">стаж <span>13 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Василию Валентиновичу</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Василию Валентиновичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)" data-tab="page-tab-3">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_handogin">
+                                    <div class="page-content__name">Хандогин <br> Антон <br> Олегович</div>
+                                    <div class="page-content__label">стаж <span>7 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Ортопед</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Антону Олеговичу</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Антону Олеговичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_zhurov">
+                                    <div class="page-content__name">Журов<br> Илья <br> Владимирович</div>
+                                    <div class="page-content__label">стаж <span>12 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Илье Владимировичу</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Илье Владимировичу</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_dzhahbarova">
+                                    <div class="page-content__name">Джахбарова <br> Рабият <br> Магомедгаджиевна</div>
+                                    <div class="page-content__label">стаж <span>18 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Рабият Магомедгаджиевне</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Рабият Магомедгаджиевне</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)">Подробнее</button>
+
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_bajkulova">
+                                    <div class="page-content__name">Байкулова <br> Асият <br> Хамитовна</div>
+                                    <div class="page-content__label">стаж <span>10 лет</span></div>
+                                    <div class="page-content__label-prof"><span>Гигиенист</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Асият Хамитовнае</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Асият Хамитовнае</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)">Подробнее</button>
+                            </div>
+
+                            <div class="page-content__chapter">
+                                <div class="page-content__banner page-content__banner_bachulis">
+                                    <div class="page-content__name">Бачулис <br> Марина <br> Александровна</div>
+                                    <div class="page-content__label">стаж <span>2 года</span></div>
+                                    <div class="page-content__label-prof"><span>Ортодонт, гигиенист</span></div>
+                                    <div class="page-content__btn-call">
+                                        <button class="btn-call" data-modal="mainModal">
+                                            <div class="btn-call__img"></div>
+                                            <div class="btn-call__text">Записаться на прием <br> к <span>Марине Александровне</span></div>
+                                        </button>
+                                    </div>
+
+                                    <div class="page-content__btn-accordion btn-accordion">
+                                        <div class="btn-accordion__header">
+                                            <div class="btn-accordion__img"></div>
+                                            <div class="btn-accordion__text">Задать вопрос <br> <span>Марине Александровне</span></div>
+                                        </div>
+                                        <div class="btn-accordion__content">
+
+                                            <form action="#" class="form-portfolio" id="form-2">
+                                                <div class="form-portfolio__input">
+                                                    <input type="text" name="name" placeholder="Имя" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__input phone-input">
+                                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                                </div>
+
+                                                <div class="form-portfolio__textarea">
+                                                    <textarea name="texterea" placeholder="Задать вопрос"></textarea>
+                                                </div>
+
+                                                <div class="form-about__item">
+                                                    <div class="checkbox">
+                                                        <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                        <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-portfolio__submit">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)">Подробнее</button>
+                            </div>
                     </div>
-                </div>
 
-
-
-            </div>
-        </div>
     </section>
+</div>
+</div>
 
-    <section class="page-reviews-section">
-        <div class="page-reviews-section__container container">
-            <script src="https://res.smartwidgets.ru/app.js" defer></script>
-            <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
-        </div>
-    </section>
+
+
+</div>
+</div>
+</section>
+
+<section class="page-reviews-section">
+    <div class="page-reviews-section__container container">
+        <script src="https://res.smartwidgets.ru/app.js" defer></script>
+        <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
+    </div>
+</section>
 </div>
 
 

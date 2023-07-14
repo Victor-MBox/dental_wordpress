@@ -23,8 +23,8 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner">
-                                <div class="page-content__name">Журов <br> Илья <br> Владимирович</div>
+                            <div class="page-content__banner page-content__banner_zhurov">
+                                <div class="page-content__name">Журов<br> Илья <br> Владимирович</div>
                                 <div class="page-content__label">стаж <span>12 лет</span></div>
                                 <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
                                 <div class="page-content__btn-call">

@@ -23,7 +23,7 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_borisenko">
+                            <div class="page-content__banner page-content__banner_dzhahbarova">
                                 <div class="page-content__name">Джахбарова <br> Рабият <br> Магомедгаджиевна</div>
                                 <div class="page-content__label">стаж <span>18 лет</span></div>
                                 <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>

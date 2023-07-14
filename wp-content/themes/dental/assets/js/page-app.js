@@ -117,7 +117,7 @@ $(document).ready(function () {
 
         $.ajax({
           type: "POST",
-          url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+          url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
           data: form.serialize(),
         }).done(function () {
           form.find("input").val("");
@@ -420,24 +420,6 @@ $(document).ready(function () {
   }
 });
 
-//Страница АКЦИИ / btn-accordion
-document.addEventListener("DOMContentLoaded", function () {
-  var accordionItems = document.querySelectorAll(".accordion-item");
-
-  accordionItems.forEach(function (item) {
-    var header = item.querySelector(".btn-accordion__header");
-    var content = item.querySelector(".btn-accordion__content");
-
-    header.addEventListener("click", function () {
-      if (content.style.display === "none") {
-        content.style.display = "block";
-      } else {
-        content.style.display = "none";
-      }
-    });
-  });
-});
-
 //Страница ДОКТОРА. Кнопка "ЗАДАТЬ ВОПРОС"
 function setupAccordion() {
   var accordionItem = $(".btn-accordion");
@@ -445,7 +427,17 @@ function setupAccordion() {
   var content = accordionItem.find(".btn-accordion__content");
 
   header.on("click", function () {
-    content.slideToggle();
+    var currentContent = $(this).next(".btn-accordion__content");
+    // Проверяем, активна ли текущая вкладка
+    if (currentContent.is(":visible")) {
+      // Если активна, закрываем ее
+      currentContent.slideUp();
+    } else {
+      // Если неактивна, закрываем предыдущую активную вкладку
+      content.slideUp();
+      // Затем открываем текущую вкладку
+      currentContent.slideDown();
+    }
   });
 }
 
@@ -453,3 +445,4 @@ function setupAccordion() {
 $(document).ready(function () {
   setupAccordion();
 });
+

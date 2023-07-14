@@ -512,7 +512,7 @@ $(document).ready(function () {
 
       $.ajax({
         type: "POST",
-        url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+        url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
         data: form.serialize(),
       }).done(function () {
         form.find("input").val("");
@@ -552,13 +552,13 @@ $(document).ready(function() {
 
       $.ajax({
         type: "POST",
-        url: "/dental/wp-content/themes/dental/assets/mailer/smart.php",
+        url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
         data: $(form).serialize(),
         success: function(response) {
           $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
           $(form)[0].reset(); // Очищаем поля формы
-          $("#thanksModalEmail").show(); // Показываем модальное окно после успешной отправки формы
-
+			 $(".modal__overlay, #thanksModalEmail").fadeIn();
+     
         },
         error: function() {
           $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
@@ -586,7 +586,7 @@ $(document).on("click", "[data-modal=mainModal]", function () {
 });
 
 $(document).on("click", ".modal__close, .thanks-modal__btn", function () {
-  $(".modal__overlay, #mainModal, #thanksModal").fadeOut();
+  $(".modal__overlay, #mainModal, #thanksModal, #thanksModalEmail").fadeOut();
 });
 
 

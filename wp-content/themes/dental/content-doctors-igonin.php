@@ -23,7 +23,7 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner">
+                            <div class="page-content__banner page-content__banner_igonin">
                                 <div class="page-content__name">Игонин <br> Василий <br> Валентинович</div>
                                 <div class="page-content__label">стаж <span>13 лет</span></div>
                                 <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
