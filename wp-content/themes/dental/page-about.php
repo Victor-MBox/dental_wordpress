@@ -107,7 +107,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Зуботехническая лаборатория</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">Работает с 1999 года</div>
                         </div>
                     </a>
 
@@ -118,7 +118,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">О лаборатории</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">Входит в ТОП-10 лабораторий Москвы</div>
                         </div>
                     </a>
 
@@ -129,7 +129,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Наше оборудование</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">В клинике имеется все необходимое оборудование</div>
                         </div>
                     </a>
 
@@ -140,7 +140,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Технологии</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">Используем передовые технологии</div>
                         </div>
                     </a>
 
@@ -151,7 +151,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Этапы изготовления протеза</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">4 важных этапа</div>
                         </div>
                     </a>
 
@@ -162,7 +162,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Почему важно?</div>
-                            <div class="btn-wrapper__subtitle">Текст</div>
+                            <div class="btn-wrapper__subtitle">Клиника имеет собственную зуботехническую лабораторию</div>
                         </div>
                     </a>
 
@@ -235,11 +235,9 @@ get_header();
                 <div class="page-about-section__chapter" id="start-link">
 
                     <div class="page-about-section__banner">
-                        <div class="page-about-section__label"><span>30 + </span>Квалифицированных
-                            зубных техников</div>
-                        <div class="page-about-section__label page-about-section__label_lilac"><span>15 + </span>Лет работы на базе
-                            клиники ROOTT</div>
-                        <div class="page-about-section__label page-about-section__label_yellow"><span>20 000+ </span>Изготовленных
+                        <div class="page-about-section__label"><span>12 + </span>Квалифицированных специалистов</div>
+                        <div class="page-about-section__label page-about-section__label_lilac"><span>23 + </span>лет работы на базе лаборатории АЛВАДЕНТ</div>
+                        <div class="page-about-section__label page-about-section__label_yellow"><span>20 000 + </span>Изготовленных
                             протезов</div>
                     </div>
 
@@ -375,11 +373,11 @@ get_header();
 
                 <div class="page-about-section__chapter">
                     <div class="page-about-section__quote">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/accordion-img.jpg" alt="">
-                        <div class="page-about-section__quote-text">“Каждый зубной техник проходит обучение на уровне хирурга-имплантолога. Без глубинных знаний, в том числе хирургии и строения кости, невозможно изготовить качественное изделие. <br> <br> Без людей станок сам по себе не заработает, поэтому квалифицированные зубные техники - это наша основа”
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
+                        <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
                         </div>
                         <div class="page-about-section__quote-label">
-                            <span>Меркушев <br> Юрий Вячеславович</span>
+                            <span>Замура <br> Юлия Игоревна</span>
                             Руководитель зуботехнической лаборатории
                         </div>
                     </div>

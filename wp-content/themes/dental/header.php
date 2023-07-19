@@ -22,7 +22,7 @@
     ?>
 
 
-<!-- Скрипт переадресации меджу табами тк и ссылками моб -->
+    <!-- Скрипт переадресации меджу табами тк и ссылками моб -->
     <script>
         console.log(document.location.pathname);
         console.log(window.screen.width);
@@ -92,7 +92,7 @@
             if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=5_1#5_1') {
                 location.href = 'https://dental.cg-test.ru/vrachi/bachulis-marina-aleksandrovna/';
             }
-            
+
         }
     </script>
 </head>
@@ -542,9 +542,6 @@
                             <li>
                                 <a class="sub-nav__link" href="/voprosy/">Вопросы пациентов</a>
                             </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Статьи</a>
-                            </li>
                         </ul>
                     </li>
 
@@ -729,14 +726,15 @@
                             <li>
                                 <a class="sub-nav__link" href="/vrachi/?a=3_1#3_1">Журов Илья Владимирович</a>
                             </li>
+                            
                             <li>
-                                <a class="sub-nav__link" href="/vrachi/?a=4_1#4_1">Бачулис Марина Александровна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=4_1#4_1">Джахбарова Рабият Магомедгаджиевна</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/vrachi/?a=4_2#4_2">Джахбарова Рабият Магомедгаджиевна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=4_2#4_2">Байкулова Асият Хамитовна</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/vrachi/?a=5_1#5_1">Байкулова Асият Хамитовна</a>
+                                <a class="sub-nav__link" href="/vrachi/?a=5_1#5_1">Бачулис Марина Александровна</a>
                             </li>
 
                         </ul>
@@ -801,29 +799,6 @@
 
                     <li>
                         <a class="nav__link" href="/otzyvy/">Отзывы</a>
-                        <ul class="sub-nav__list">
-                            <li>
-                                <a class="sub-nav__link" href="#">Диагностика</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Протезирование</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Терапия</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Хирургия</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Ортодонтия</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Гигиена и отбеливание</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="#">Гнатология</a>
-                            </li>
-                        </ul>
                     </li>
 
                     <li>
@@ -855,7 +830,6 @@
 
                     <li>
                         <a class="nav__link" href="/kontakty/">Контакты</a>
-
                     </li>
 
 

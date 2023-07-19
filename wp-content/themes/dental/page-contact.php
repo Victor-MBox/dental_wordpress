@@ -106,11 +106,11 @@ get_header();
     <section class="page-contact-second-section">
         <div class="container page-second-section__container">
             <div class="page-about-section__quote">
-                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/accordion-img.jpg" alt="">
-                <div class="page-about-section__quote-text">“Каждый зубной техник проходит обучение на уровне хирурга-имплантолога. Без глубинных знаний, в том числе хирургии и строения кости, невозможно изготовить качественное изделие. <br> <br> Без людей станок сам по себе не заработает, поэтому квалифицированные зубные техники - это наша основа”
+                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
+                <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
                 </div>
                 <div class="page-about-section__quote-label">
-                    <span>Меркушев <br> Юрий Вячеславович</span>
+                    <span>Замура <br> Юлия Игоревна</span>
                     Руководитель зуботехнической лаборатории
                 </div>
             </div>

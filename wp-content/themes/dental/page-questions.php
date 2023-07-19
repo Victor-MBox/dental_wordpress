@@ -85,7 +85,7 @@ get_header();
             <div class="page-second-section__name">
                 <div class="page-second-section__subtitle subtitle">Вопрос-ответ</div>
                 <div class="page-second-section__title title">Ответы на вопросы пациентов</div>
-                <div class="page-second-section__description description">Здесь мы собрали ответы на самые популярные вопросы наших пациентов. Если вы нашли ответ на свой вопрос, обращайтесь к нам по телефону: <a href="tel:+74951503001">+7 (495) 150-30-01</a>. Мы всегда готовы помочь и ответить на все ваши вопросы!
+                <div class="page-second-section__description description">Здесь мы собрали ответы на самые популярные вопросы наших пациентов. Если вы не нашли ответ на свой вопрос, обращайтесь к нам по телефону: <a href="tel:+74951503001">+7 (495) 150-30-01</a>. Мы всегда готовы помочь и ответить на все ваши вопросы!
                 </div>
             </div>
     </section>

@@ -22,7 +22,7 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner">
+                            <div class="page-content__banner page-content__banner_antonovskij">
                                 <div class="page-content__name">Антоновский <br> Антон <br> Анатольевич</div>
                                 <div class="page-content__label">стаж <span>32 года</span></div>
                                 <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>

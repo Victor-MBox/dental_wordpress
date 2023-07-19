@@ -881,6 +881,19 @@ get_header();
 
                 <div class="carousel__wrapper">
                     <div class="carousel__photo carousel__photo_03">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-010.jpg" alt="">
+                        <div class="carousel__label carousel__label_yellow">
+                            <p>Опыт</p> <span>32 года</span>
+                        </div>
+                    </div>
+                    <div class="carousel__name"><span>Антоновский</span> <br>Антон
+                        Анатольевич</div>
+                    <div class="carousel__text">Врач стоматолог: <br>ортопед, главный врач</div>
+                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                </div>
+
+                <div class="carousel__wrapper">
+                    <div class="carousel__photo carousel__photo_03">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="">
                         <div class="carousel__label carousel__label_yellow">
                             <p>Опыт</p> <span>13 лет</span>
@@ -929,7 +942,7 @@ get_header();
 
                 <div class="carousel__wrapper">
                     <div class="carousel__photo carousel__photo_03">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt=""> 
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt="">
                         <div class="carousel__label carousel__label_yellow">
                             <p>Опыт</p> <span>18 лет</span>
                         </div>

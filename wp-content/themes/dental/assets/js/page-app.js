@@ -8,7 +8,6 @@ $(document).ready(function () {
   const pageContents = document.querySelectorAll(".accordion-page__content");
 
   if (pageTitles.length && pageContents.length) {
-
     pageTitles.forEach((item) =>
       item.addEventListener("click", () => {
         const activeContent = document.querySelector("#" + item.dataset.tab);
@@ -50,6 +49,7 @@ $(document).ready(function () {
         contentPage.show("fast", function () {
           hideLoader();
           initializeSliders();
+          initializeSliders2();
           initializeBeforeAfterSliders();
           setupAccordion(); // Добавление инициализации аккордеона
           bindFormSubmit(); // Назначение обработчика отправки формы
@@ -134,6 +134,45 @@ $(document).ready(function () {
 
   /* Маска номера телефона */
   $("input[name=phone]").mask("+7 (999) 999-99-99");
+
+  function initializeSliders2() {
+    var slickCarouselServise = $("#slickCarouselServise");
+    if (
+      slickCarouselServise.length &&
+      !slickCarouselServise.hasClass("slick-initialized")
+    ) {
+      slickCarouselServise.slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    }
+  }
+
   // Функция инициализации слайдеров
   function initializeSliders() {
     var beforeAfterSlider = $("#beforeAfterSlider");
@@ -232,9 +271,22 @@ $(document).ready(function () {
     }
   }
 
-  // Инициализация слайдеров после каждого AJAX-запроса
-  $(document).ajaxComplete(function () {
-    initializeSliders();
+  // Обработчик клика на кнопку подробнее
+  $(".link-page-2").click(function () {
+    var info = $(this).attr("href") + " #content-page";
+    var sect = $(this).attr("data-sect");
+    console.log("sect=" + sect);
+    var hl = $(this).attr("data-hl");
+    console.log("hl=" + hl);
+    document.getElementById("vr" + sect).click();
+    document.getElementById("vrb" + sect + "_" + hl).click();
+    document.getElementById("content-page").scrollIntoView();
+    $("#content-page").hide("fast", function () {
+      loadContent(info);
+    });
+    $("#loader-page").fadeIn("normal");
+
+    return false;
   });
 
   // Обработчик клика на кнопку
@@ -243,6 +295,7 @@ $(document).ready(function () {
     $("#content-page").hide("fast", function () {
       loadContent(info);
     });
+
     $("#loader-page").fadeIn("normal");
 
     // Проверяем, не является ли текущая кнопка уже активной
@@ -258,8 +311,7 @@ $(document).ready(function () {
 
     return false;
   });
-
-  initializeSliders(); // Инициализация слайдеров при загрузке страницы
+  initializeSliders();
 });
 
 //Страница - О КОМПАНИИ **************************************************
@@ -446,3 +498,35 @@ $(document).ready(function () {
   setupAccordion();
 });
 
+/* *************************************************
+Карусель с докторами на странице УСЛУГИ*/
+
+$("#slickCarouselServise").slick({
+  dots: true,
+  arrows: false,
+  infinite: false,
+  speed: 300,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});

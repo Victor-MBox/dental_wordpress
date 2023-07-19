@@ -77,8 +77,10 @@
         &:nth-child(2)
             width: 32%
             margin-right: 20px
+            margin-bottom: 100px
             .page-content__title
                 margin-bottom: 15px
+                
         &:nth-child(3)
             width: 66%
     &__column-mob
@@ -122,3 +124,33 @@
             right: -90px
             top: 390px
             border-radius: 5px 5px 200% 5px
+
+    .page-content
+        &__banner
+            &_service
+                background: url(assets/img/page/price/page-services-02.jpg) center top/cover no-repeat
+        &__name
+            &_black
+                color: $black-1
+                margin-top: 20px
+        &__chapter
+            .slick-slider
+                width: 100%
+
+
+
+    .specialists-section__carousel
+        margin-bottom: 50px
+    .carousel
+        &__photo
+            width: 254px
+            height: auto
+
+        .slick-dots
+            bottom: -10px
+            left: 50%
+            transform: translateX(-50%)
+            &:hover
+                .slick-active
+                    button
+                        background: #fff

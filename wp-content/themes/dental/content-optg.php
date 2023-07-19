@@ -15,9 +15,9 @@ get_header();
             <section class="page-contetn__wrapper" id="content-page">
 
                 <div class="page-content__chapter">
-                    <div class="page-content__banner">
+                    <div class="page-content__banner page-content__banner_optg">
                         <div class="page-content__name">Ортопантомография <br>(ОПТГ)</div>
-                        <div class="page-content__label">от <span>2 000₽</span></div>
+                        <div class="page-content__label">от <span>1 500₽</span></div>
                         <div class="page-content__btn-call">
                             <button class="btn-call" data-modal="mainModal">
                                 <div class="btn-call__img"></div>
@@ -29,68 +29,88 @@ get_header();
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
                     </div>
 
-                    <div class="page-content__text">Рентген зубов является очень популярным, безболезненным и часто проводимым обследованием в стоматологии. Особенностью диагностики зубочелюстной системы является тот факт, что значительная часть зуба находится вне зоны визуальной доступности, то есть – скрыта под десной и в челюстной кости. Для визуализации этих участков, а также внутренних тканей зуба необходима современная рентгенография. <br> <br>
-
-                        На прицельном снимке отчетливо видны отдельные зубы, повреждения корней, полости, запломбированные корневые каналы, корни, сверхкомплектные зубы, зачатки зубов, кисты и новообразования. На одном снимке визуализируется 2-3 соседних зуба, максимум 4 (в зависимости от расположения зуба на дуге). Прицельные снимки зубов отличаются высоким разрешением, обеспечивая врачу максимально корректную информацию о клинической картине на выбранном участке обследования. © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве. </div>
+                    <div class="page-content__text">Панорамный снимок зубов или ортопантомограмма ― базовый диагностический метод в стоматологии и челюстно-лицевой хирургии. Обзорное круговое изображение челюстей развернуто в одну плоскость. Это дает полную и четкую картину зубного ряда верхней и нижней челюсти, височно-нижнечелюстного сустава и гайморовой пазухи.</div>
                 </div>
 
                 <div class="page-content__chapter">
-                    <div class="page-content__title">Показания для рентгена в стоматологии</div>
-                    <div class="page-content__text">Прицельный рентген зуба может потребоваться перед: © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
+                    <div class="page-content__title">Показания к проведению ОПТГ</div>
+                    <div class="page-content__text">Стоматологи рекомендуют сделать панорамный снимок зубов в следующих случаях:</div>
 
                     <div class="page-content__list">
                         <ul>
-                            <li>Терапевтическим лечением</li>
-                            <li>Удалением</li>
+                            <li style="font-weight: 300; color: #697492;">Диагностика и терапия заболеваний зубов и тканей пародонта. На ОПТГ хорошо видны кариес и пульпит, перио- и парадонтиты, прикорневые кисты и другие заболевания. Врач одномоментно оценивает состояние всех зубов пациента, их корней, каналов и пломб и вырабатывает дальнейшую тактику лечения.</li>
+                            <li style="font-weight: 300; color: #697492;">Высокоинформативна ортопантомограмма при сложном удалении зубов и особенно зубов мудрости ― «восьмерок». Визуализация положения корней в челюсти, их количество помогает в выборе эффективного и щадящего метода удаления.</li>
+                            <li style="font-weight: 300; color: #697492;">Установка имплантов ― прямое показание делать снимок зубов на ортопанотомографе. На подготовительном этапе оценивается качество костной ткани, необходимость костной пластики (синуслифтинга), выбирается протокол процедуры имплантации.</li>
+                            <li style="font-weight: 300; color: #697492;">Исправление прикуса ортодонтом тоже нуждается в проведении ортопатомографии. Врач оценивает расположение зубов и планирует их оптимальное перемещение под действием ортодонтических устройств.</li>
+                            <li style="font-weight: 300; color: #697492;">ОПТГ позволяет быстро оценить состояние челюстей и зубов при получении травмы лица и челюсти, а также после проведенного лечения.</li>
                         </ul>
-                        <ul>
-                            <li>Эндодонтическим лечением</li>
-                            <li>Для диагностики кариеса, пульпита и других заболеваний</li>
-                        </ul>
-                    </div>
-
-                    <div class="page-content__text">Помимо ОПТГ также может потребоваться прицельный снимок перед имплантацией, особенно – одномоментной, когда зуб будет удален и восстановлен имплантов в один прием врача. Важно иметь точную информацию о расположении корней, чтобы провести максимально щадящее удаление и не повредить ткани альвеолярного отростка. © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
-                </div>
-
-                <div class="page-content__chapter">
-
-                    <div class="page-content__title">Показания для рентгена в стоматологии</div>
-                    <div class="page-content__banner">
                     </div>
                 </div>
 
                 <div class="page-content__chapter">
-                    <div class="page-content__title">Преимущества прицельной рентгенографии зубов</div>
-                    <div class="page-content__text">Востребованность данного вида аппаратной диагностики определяется ее множественными достоинствами: © Тексты, опубликованные на сайте dentalroott.ru, защищаются законом об авторском праве.</div>
-                    <div class="page-content__column-wrapper">
-                        <div class="page-content__column">
-                            <div class="page-content__list">
-                                <ul>
-                                    <li>Обследование проводится абсолютно безболезненно, не вызывая даже малейшего дискомфорта, является неинвазивным;</li>
-                                    <li>обеспечивает точную информацию о состоянии интересующего врача участка челюсти;</li>
-                                    <li>не требует подготовки</li>
-                                    <li>является срочным – результат пациент (врач) получает на руки буквально через 10-15 минут после диагностики.</li>
-                                </ul>
-                            </div>
-                            <div class="page-content__btn-calc">
-                                <a class="btn-calc" href="#">
-                                    <div class="btn-calc__img"></div>
-                                    <div class="btn-calc__text">Рассчитать <br> предварительную стоимость <br> за
-                                        <span>1
-                                            мин</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="page-content__column">
-                            <div class="page-content__img">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-mimi-img.jpg" alt="">
-                            </div>
-                        </div>
+                    <div class="page-content__title">Как проводится диагностика</div>
+                    <div class="page-content__text">Пациент снимает с себя металлические предметы и украшения. Вокруг головы оборачивается насадка-сканер и снимок готов. Процесс занимает несколько секунд.
+                        Такой снимок зубов наглядно показывает глубокие структуры челюсти, он многослойный, а изображение увеличено в размере. Для врача-стоматолога это уникальная информация для оценки ситуации и планирования лечения. <br> <br>
+                        Ортопантомография является безопасным методом. Лучевая нагрузка при диагностике цифровой аппаратурой минимальна. Например, нагрузка при проведении одного снимка равна таковой при трехчасовом авиаперелете. Однако беременным женщинам без острой необходимости любое рентген-обследование лучше не делать, в целях радиационной гигиены.
                     </div>
                 </div>
 
+                <div class="page-content__chapter">
+                    <div class="page-content__title">Панорамный снимок зубов в Москве</div>
+                    <div class="page-content__banner page-content__banner_optg2">
+                    </div>
+                    <div class="page-content__text">Клиника «ЗубкиВсем» проводит диагностику на цифровом ортопантомографе последнего поколения. Мы получаем изображения высочайшего качества, а данные снимка могут обрабатываться компьютером с выбором оптимальной методики лечения. <br><br>
+                        Цены на панорамный снимок зуба у нас одни из самых недорогих в Москве. На сайте вы можете записаться на диагностику онлайн или позвонить по телефону нашим специалистам. Вовремя проведенная ОПТГ избавит вас от многих проблем с лечением зубов.
+                    </div>
+                </div>
+
+                <!-- Цены -->
+                <div class="page-content__chapter">
+                    <div class="page-content__title">Цены</div>
+
+                    <div class="page-content__table">
+
+                        <div class="page-content__column-table">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
+                            <p>Услуга</p>
+                        </div>
+
+                        <div class="page-content__column-table">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
+                            <p>Стоимость</p>
+                        </div>
+                    </div>
+
+                    <table class="table-service">
+                        <tr>
+                            <td class="table-service__name">Осмотр</td>
+                            <td class="table-service__price">Бесплатно</td>
+                        </tr>
+                        <tr>
+                            <td class="table-service__name">Фото протокол и его презентация</td>
+                            <td class="table-service__price">Бесплатно</td>
+                        </tr>
+                        <tr>
+                            <td class="table-service__name">Снимок ОПТГ</td>
+                            <td class="table-service__price">1 500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td class="table-service__name">Прицельный снимок</td>
+                            <td class="table-service__price">500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td class="table-service__name">Составление плана лечения</td>
+                            <td class="table-service__price">Бесплатно</td>
+                        </tr>
+                    </table>
+
+                    <div class="table-service__btn">
+                        <a href="/czeny/" class="btn">Прайс-лист</a>
+                        <a href="/akczii/" class="btn">Акции</a>
+                    </div>
+                </div>
+
+                <!-- До-после -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">До/После</div>
 
@@ -153,143 +173,144 @@ get_header();
 
                 </div>
 
-                <div class="page-content__chapter">
-                    <div class="page-content__title">Рентген зубов во время беременности</div>
-                    <div class="page-content__text">Многие беременные женщины задаются вопросом, может ли рентген зуба причинить вред плоду. Важно понимать, что доза, необходимая для совершения снимка, составляет всего 1-2 мкВ. Это в тысячу раз меньше, чем доза, которую мы получаем от окружающих нас источников излучения в течение года. Кроме того, уровень облучения современного рентгенологического оборудования значительно ниже, чем в ранее используемых аналоговых камерах.</div>
-                    <div class="page-content__infobox">Многие беременные женщины задаются вопросом, может ли рентген зуба причинить вред плоду. Важно понимать, что доза, необходимая для совершения снимка, составляет всего 1-2 мкВ. Это в тысячу раз меньше, чем доза, которую мы получаем от окружающих нас источников излучения в течение года. Кроме того, уровень облучения современного рентгенологического оборудования значительно ниже, чем в ранее используемых аналоговых камерах.</div>
-                </div>
-
-                <div class="page-content__chapter">
-                    <div class="page-content__title">3D видео</div>
-                    <div class="page-content__banner-video">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-video.jpg" alt="">
-                        <img class="page-content__rotate" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-rotate.svg" alt="">
-                    </div>
-                </div>
-
-                <div class="page-content__chapter">
-                    <div class="page-content__title">Сделать прицельный снимок зубов в ROOTT</div>
-                    <div class="page-content__text">Рентгенологические снимки зубов помогают врачу распознать проблему, поставить диагноз и провести правильное лечение. В московском МЦДИ ROOTT пациенты могут пройти рентгенографию платно на современном оборудовании в любое удобное время. Цены на прицельный снимок зуба в нашей стоматологии указаны в нашем прайсе.</div>
-                </div>
-
-                <div class="page-content__chapter">
-                    <div class="page-content__title">Цены</div>
-
-                    <div class="page-content__table">
-
-                        <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
-                            <p>Услуга</p>
-                        </div>
-
-                        <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
-                            <p>Стоимость</p>
-                        </div>
-                    </div>
-
-                    <table class="table-service">
-                        <tr>
-                            <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
-                            <td class="table-service__price">1 000₽</td>
-                        </tr>
-                        <tr>
-                            <td class="table-service__name">Первичная консультация и осмотр у терапевта, ортопеда, хирурга, ортодонта, имплантолога, составление плана и расчет стоимости лечения (включая всю необходимую диагностику)</td>
-                            <td class="table-service__price">1 000₽</td>
-                        </tr>
-                    </table>
-
-                    <div class="table-service__btn">
-                        <a href="#" class="btn">Прайс-лист</a>
-                        <a href="#" class="btn">Акции</a>
-                    </div>
-                </div>
-
+                <!-- Доктора -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Наши специалисты</div>
 
-                    <div class="page-content__carousel">
+                    <div class="specialists-section__carousel carousel" id="slickCarouselServise">
 
                         <div class="carousel__wrapper">
                             <div class="carousel__photo">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="">
+                                <div class="carousel__label">
+                                    <p>Опыт</p> <span>11 лет</span>
+                                </div>
                             </div>
-                            <div class="carousel__name">Мария <span>Петрова</span></div>
-                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                            <button class="btn btn_entry">Записаться</button>
+                            <div class="carousel__name"><span>Борисенко</span> <br>Инна Владимировна</div>
+                            <div class="carousel__text">Врач стоматолог: <br>терапевт, хирург</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_01">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-09.jpg" alt="">
+                                <div class="carousel__label carousel__label_red">
+                                    <p>Опыт</p> <span>12 лет</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Зейналов</span> <br>Зейнал Вилаяддинович</div>
+                            <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_02">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-04.jpg" alt="">
+                                <div class="carousel__label carousel__label_lilac">
+                                    <p>Опыт</p> <span>12 лет</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Сарыбаев</span> <br>Анарбек Муктарбекович</div>
+                            <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_03">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-010.jpg" alt="">
+                                <div class="carousel__label carousel__label_yellow">
+                                    <p>Опыт</p> <span>32 года</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Антоновский</span> <br>Антон
+                                Анатольевич</div>
+                            <div class="carousel__text">Врач стоматолог: <br>ортопед, главный врач</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_03">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="">
+                                <div class="carousel__label carousel__label_yellow">
+                                    <p>Опыт</p> <span>13 лет</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Игонин</span> <br>Василий Валентинович</div>
+                            <div class="carousel__text">Врач стоматолог: <br>ортопед, хирург</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                         </div>
 
                         <div class="carousel__wrapper">
                             <div class="carousel__photo">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-01.jpg" alt="">
+                                <div class="carousel__label">
+                                    <p>Опыт</p> <span>7 лет</span>
+                                </div>
                             </div>
-                            <div class="carousel__name">Мария <span>Петрова</span></div>
-                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                            <button class="btn btn_entry">Записаться</button>
+                            <div class="carousel__name"><span>Хандогин</span> <br>Антон Олегович</div>
+                            <div class="carousel__text">Врач стоматолог: <br>ортопед</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_01">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-03.jpg" alt="">
+                                <div class="carousel__label carousel__label_red">
+                                    <p>Опыт</p> <span>12 лет</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Журов</span> <br>Илья Владимирович</div>
+                            <div class="carousel__text">Врач стоматолог: <br>хирург имплантолог</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_02">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-05.jpg" alt="">
+                                <div class="carousel__label">
+                                    <p>Опыт</p> <span>2 года</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Бачулис</span> <br>Марина Александровна</div>
+                            <div class="carousel__text">Врач стоматолог: <br>ортодонт, гигиенист</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                        </div>
+
+                        <div class="carousel__wrapper">
+                            <div class="carousel__photo carousel__photo_03">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt="">
+                                <div class="carousel__label carousel__label_yellow">
+                                    <p>Опыт</p> <span>18 лет</span>
+                                </div>
+                            </div>
+                            <div class="carousel__name"><span>Джахбарова</span> <br>Рабият Магомедгаджиевна</div>
+                            <div class="carousel__text">Гигиенист, <br>ассистент стоматолога</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                         </div>
 
                         <div class="carousel__wrapper">
                             <div class="carousel__photo">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img2.jpg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-02.jpg" alt="">
+                                <div class="carousel__label carousel__label_lilac">
+                                    <p>Опыт</p> <span>10 лет</span>
+                                </div>
                             </div>
-                            <div class="carousel__name">Мария <span>Петрова</span></div>
-                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                            <button class="btn btn_entry">Записаться</button>
+                            <div class="carousel__name"><span>Байкулова</span> <br>Асият Хамитовна</div>
+                            <div class="carousel__text">Врач стоматолог: <br>гигиенист</div>
+                            <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
                         </div>
-
-                        <div class="carousel__wrapper">
-                            <div class="carousel__photo">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/doctor-img.jpg" alt="">
-                            </div>
-                            <div class="carousel__name">Мария <span>Петрова</span></div>
-                            <div class="carousel__text">Мария специализиурется на гигиене и протезировании.</div>
-                            <button class="btn btn_entry">Записаться</button>
-                        </div>
-
                     </div>
-                    <a href="#" class="btn">Все специалисты</a>
+
+                    <a href="/vrachi/" class="btn">Все специалисты</a>
                 </div>
 
+                <!-- Отзывы -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Отзывы</div>
-                    <div class="page-content__wrapper">
-
-                        <div class="page-content__review-page review-page">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                            <div class="review-page__name">Мария Петрова</div>
-                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                            <a href="#">Проверить отзыв</a>
-
-                        </div>
-
-                        <div class="page-content__review-page review-page">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                            <div class="review-page__name">Мария Петрова</div>
-                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                            <a href="#">Проверить отзыв</a>
-
-                        </div>
-
-                        <div class="page-content__review-page review-page">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                            <div class="review-page__name">Мария Петрова</div>
-                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                            <a href="#">Проверить отзыв</a>
-
-                        </div>
-
-                        <div class="page-content__review-page review-page">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/avatar.jpg" alt="">
-                            <div class="review-page__name">Мария Петрова</div>
-                            <div class="review-page__text">Всё прекрасно, доктор Петров сделал мне хороший имплант. Я в восторге</div>
-                            <a href="#">Проверить отзыв</a>
-
-                        </div>
-
-                    </div>
-                    <a href="#" class="btn">Все отзывы</a>
-
+                    <script src="https://res.smartwidgets.ru/app.js" defer></script>
+                    <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
                 </div>
+
             </section>
 
         </div>

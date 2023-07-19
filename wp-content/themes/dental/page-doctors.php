@@ -86,7 +86,7 @@ get_header();
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
                 <div class="page-second-section__subtitle subtitle">Специалисты клиники "Зубки Всем"</div>
-                <div class="page-second-section__title title">Создатели красивой и стройной улыбки</div>
+                <div class="page-second-section__title title">Создатели здоровой и красивой улыбки</div>
                 <div class="page-second-section__description description">Врачи клиники "Зубки Всем" найдут подход к каждому пациенту и помогут обрести здоровую и красивую улыбку даже в самых запущенных случаях! Записаться на прием можно по телефону: <br> <a href="tel:+74951503001">+7 (495) 150-30-01</a>
                 </div>
             </div>
@@ -118,7 +118,7 @@ get_header();
 
                             <div data-tab="tab1-faq-tab-2" class="faq__tab">Зейналов Зейнал Вилаяддинович</div>
                             <div id="tab1-faq-tab-2" class="faq__content">
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_zejnalov">
                                     <div class="page-content__label">стаж <span>12 лет</span></div>
                                     <div class="page-content__label-prof"><span>Терапевт</span></div>
                                     <a href="zejnalov-zejnal-vilayaddinovich/" class="btn-uncover">Подробнее</a>
@@ -127,7 +127,7 @@ get_header();
 
                             <div data-tab="tab1-faq-tab-3" class="faq__tab">Сарыбаев Анарбек Муктарбекович</div>
                             <div id="tab1-faq-tab-3" class="faq__content">
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_sarybaev">
                                     <div class="page-content__label">стаж <span>12 лет</span></div>
                                     <div class="page-content__label-prof"><span>Терапевт</span></div>
                                     <a href="sarybaev-anarbek-muktarbekovich/" class="btn-uncover">Подробнее</a>
@@ -148,7 +148,7 @@ get_header();
                             <div data-tab="tab2-faq-tab-1" class="faq__tab">Антоновский Антон Анатольевич</div>
 
                             <div id="tab2-faq-tab-1" class="faq__content">
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_antonovskij">
                                     <div class="page-content__label">стаж <span>32 года</span></div>
                                     <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
                                     <a href="antonovskij-anton-anatolevich/" class="btn-uncover">Подробнее</a>
@@ -161,7 +161,7 @@ get_header();
 
                             <div id="tab2-faq-tab-2" class="faq__content">
 
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_igonin">
                                     <div class="page-content__label">стаж <span>13 лет</span></div>
                                     <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
                                     <a href="igonin-vasilij-valentinovich/" class="btn-uncover">Подробнее</a>
@@ -174,7 +174,7 @@ get_header();
 
                             <div id="tab2-faq-tab-3" class="faq__content">
 
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_handogin">
                                     <div class="page-content__label">стаж <span>7 лет</span></div>
                                     <div class="page-content__label-prof"><span>Ортопед</span></div>
                                     <a href="handogin-anton-olegovich/" class="btn-uncover">Подробнее</a>
@@ -197,7 +197,7 @@ get_header();
 
                             <div id="tab3-faq-tab-1" class="faq__content">
 
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_zhurov">
                                     <div class="page-content__label">стаж <span>12 лет</span></div>
                                     <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
                                     <a href="zhurov-ilya-vladimirovich/" class="btn-uncover">Подробнее</a>
@@ -220,7 +220,7 @@ get_header();
 
                             <div id="tab4-faq-tab-1" class="faq__content">
 
-                                <div class="page-content__banner page-content__banner_borisenko">
+                                <div class="page-content__banner page-content__banner_dzhahbarova">
                                     <div class="page-content__label">стаж <span>18 лет</span></div>
                                     <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>
                                     <a href="dzhahbarova-rabiyat-magomedgadzhievna/" class="btn-uncover">Подробнее</a>
@@ -231,7 +231,7 @@ get_header();
 
                             <div id="tab4-faq-tab-2" class="faq__content">
 
-                                <div class="page-content__banner page-content__banner_borisenko">
+                                <div class="page-content__banner page-content__banner_bajkulova">
                                     <div class="page-content__label">стаж <span>10 лет</span></div>
                                     <div class="page-content__label-prof"><span>Гигиенист</span></div>
                                     <a href="bajkulova-asiyat-hamitovna/" class="btn-uncover">Подробнее</a>
@@ -254,7 +254,7 @@ get_header();
 
                             <div id="tab5-faq-tab-1" class="faq__content">
 
-                                <div class="page-content__banner page-content__banner_borisenko">
+                                <div class="page-content__banner page-content__banner_bachulis">
                                     <div class="page-content__label">стаж <span>2 года</span></div>
                                     <div class="page-content__label-prof"><span>Ортодонт, гигиенист</span></div>
                                     <a href="bachulis-marina-aleksandrovna/" class="btn-uncover">Подробнее</a>
@@ -512,7 +512,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Подробнее</button>
+                                <button class="link-page-2" href="borisenko-inna-vladimirovna/" data-sect="1" data-hl="1">Подробнее</button>
 
                                 <div class="page-content__first-decor">
                                     <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
@@ -566,7 +566,7 @@ get_header();
                                     </div>
                                 </div>
 
-                                <button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="zejnalov-zejnal-vilayaddinovich/" data-sect="1" data-hl="2">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -620,11 +620,11 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" data-tab="page-tab-1">Подробнее</button>
+                                <button class="link-page-2" href="sarybaev-anarbek-muktarbekovich/" data-sect="1" data-hl="3">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
-                                <div class="page-content__banner">
+                                <div class="page-content__banner page-content__banner_antonovskij">
                                     <div class="page-content__name">Антоновский <br> Антон <br> Анатольевич</div>
                                     <div class="page-content__label">стаж <span>32 года</span></div>
                                     <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
@@ -674,7 +674,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)" data-tab="page-tab-2">Подробнее</button>
+                                <button class="link-page-2" href="antonovskij-anton-anatolevich/" data-sect="2" data-hl="1">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -728,7 +728,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)" data-tab="page-tab-3">Подробнее</button>
+                                <button class="link-page-2" href="igonin-vasilij-valentinovich/" data-sect="2" data-hl="2">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -782,7 +782,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="handogin-anton-olegovich/" data-sect="2" data-hl="3">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -836,7 +836,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="zhurov-ilya-vladimirovich/" data-sect="3" data-hl="1">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -890,7 +890,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="dzhahbarova-rabiyat-magomedgadzhievna/" data-sect="4" data-hl="1">Подробнее</button>
 
                             </div>
 
@@ -945,7 +945,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="bajkulova-asiyat-hamitovna/" data-sect="4" data-hl="2">Подробнее</button>
                             </div>
 
                             <div class="page-content__chapter">
@@ -999,7 +999,7 @@ get_header();
 
                                 </div>
 
-                                <button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)">Подробнее</button>
+                                <button class="link-page-2" href="bachulis-marina-aleksandrovna/" data-sect="5" data-hl="1">Подробнее</button>
                             </div>
                     </div>
 
@@ -1015,15 +1015,12 @@ get_header();
 
 <section class="page-reviews-section">
     <div class="page-reviews-section__container container">
+        <div class="page-second-section__title title">Отзывы на независимых площадках</div>
         <script src="https://res.smartwidgets.ru/app.js" defer></script>
         <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
     </div>
 </section>
 </div>
-
-
-
-
 
 
 <script>
