@@ -152,13 +152,13 @@ get_header();
 
             <div class="main-section__absolut-btn">
                 <div class="main-section__btn-calc">
-                    <a class="btn-calc" href="#">
+                    <button class="btn-calc" data-modal="mainModal">
                         <div class="btn-calc__img"></div>
                         <div class="btn-calc__text">Рассчитать <br> предварительную стоимость <br> за
                             <span>1
                                 мин</span>
                         </div>
-                    </a>
+                    </button>
                 </div>
 
                 <div class="main-section__btn-call">
@@ -303,10 +303,10 @@ get_header();
 
                             <div class="tabs__list">
                                 <ul>
-                                    <li><a href="#" class="tabs__link">Ортопантомография (ОПТГ)</a></li>
-                                    <li><a href="#" class="tabs__link">Прицельный снимок</a></li>
-                                    <li><a href="#" class="tabs__link">Аксиография</a></li>
-                                    <li><a href="#" class="tabs__link">Компьютерная томография (КТ)</a></li>
+                                    <li><a href="/uslugi/?a=1_2#1_2" class="tabs__link">Ортопантомография (ОПТГ)</a></li>
+                                    <li><a href="/uslugi/?a=1_3#1_3" class="tabs__link">Прицельный снимок</a></li>
+                                    <li><a href="/uslugi/?a=1_4#1_4" class="tabs__link">Аксиография</a></li>
+                                    <li><a href="/uslugi/?a=1_5#1_5" class="tabs__link">Компьютерная томография (КТ)</a></li>
                                 </ul>
                             </div>
 
@@ -325,15 +325,11 @@ get_header();
                             <div class="tabs__list">
                                 <div class="tabs__list-wrapper">
                                     <ul>
-                                        <li><a href="#" class="tabs__link">Съемное протезирование</a>
+                                        <li><a href="/uslugi/?a=2_2#2_2" class="tabs__link">Съемное протезирование</a>
                                             <ul>
-                                                <li><a href="#" class="tabs__link-sub">Акриловые съемные протезы</a>
-                                                    <ul>
-                                                        <li><a href="#" class="tabs__link-sub-sub">• Полный съемный протез</a></li>
-                                                        <li><a href="#" class="tabs__link-sub-sub">• Частично съемный протез</a></li>
-                                                    </ul>
+                                                <li><a href="/uslugi/?a=2_3#2_3" class="tabs__link-sub">Акриловые съемные протезы</a>
                                                 </li>
-                                                <li><a href="#" class="tabs__link-sub">Бюгельные протезы</a></li>
+                                                <li><a href="/uslugi/?a=2_4#2_4" class="tabs__link-sub">Бюгельные протезы</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -341,12 +337,12 @@ get_header();
 
                                 <div class="tabs__list-wrapper">
                                     <ul>
-                                        <li><a href="#" class="tabs__link">Несъемное протезирование</a>
+                                        <li><a href="/uslugi/?a=2_5#2_5" class="tabs__link">Несъемное протезирование</a>
                                             <ul>
-                                                <li><a href="#" class="tabs__link-sub">Виниры</a></li>
-                                                <li><a href="#" class="tabs__link-sub">Коронки</a></li>
-                                                <li><a href="#" class="tabs__link-sub">Абатменты</a></li>
-                                                <li><a href="#" class="tabs__link-sub">Вкладки</a></li>
+                                                <li><a href="/uslugi/?a=2_6#2_6" class="tabs__link-sub">Виниры</a></li>
+                                                <li><a href="/uslugi/?a=2_7#2_7" class="tabs__link-sub">Коронки</a></li>
+                                                <li><a href="/uslugi/?a=2_8#2_8" class="tabs__link-sub">Абатменты</a></li>
+                                                <li><a href="/uslugi/?a=2_9#2_9" class="tabs__link-sub">Вкладки</a></li>
                                         </li>
                                     </ul>
                                 </div>
@@ -365,9 +361,9 @@ get_header();
 
                             <div class="tabs__list">
                                 <ul>
-                                    <li><a href="#" class="tabs__link">Световые пломбы</a></li>
-                                    <li><a href="#" class="tabs__link">Лечение зубных каналов</a></li>
-                                    <li><a href="#" class="tabs__link">Лечение кариеса</a></li>
+                                    <li><a href="/uslugi/?a=3_2#3_2" class="tabs__link">Световые пломбы</a></li>
+                                    <li><a href="/uslugi/?a=3_3#3_3" class="tabs__link">Лечение зубных каналов</a></li>
+                                    <li><a href="/uslugi/?a=3_4#3_4" class="tabs__link">Лечение кариеса</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -384,10 +380,10 @@ get_header();
                             <div class="tabs__list">
                                 <div class="tabs__list-wrapper">
                                     <ul>
-                                        <li><a href="#" class="tabs__link">Удаление зубов</a>
+                                        <li><a href="/uslugi/?a=4_2#4_2" class="tabs__link">Удаление зубов</a>
                                             <ul>
-                                                <li><a href="#" class="tabs__link-sub">Простое удаление</a></li>
-                                                <li><a href="#" class="tabs__link-sub">Сложное удаление</a></li>
+                                                <li><a href="/uslugi/?a=4_3#4_3" class="tabs__link-sub">Простое удаление</a></li>
+                                                <li><a href="/uslugi/?a=4_4#4_4" class="tabs__link-sub">Сложное удаление</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -395,17 +391,17 @@ get_header();
 
                                 <div class="tabs__list-wrapper">
                                     <ul>
-                                        <li><a href="#" class="tabs__link">Имплантация</a>
+                                        <li><a href="/uslugi/?a=4_5#4_5" class="tabs__link">Имплантация</a>
                                             <ul>
-                                                <li><a href="#" class="tabs__link-sub">Одномоментная имплантация</a></li>
-                                                <li><a href="#" class="tabs__link-sub">Двухэтапная имплантация</a></li>
+                                                <li><a href="/uslugi/?a=4_6#4_6" class="tabs__link-sub">Одномоментная имплантация</a></li>
+                                                <li><a href="/uslugi/?a=4_7#4_7" class="tabs__link-sub">Двухэтапная имплантация</a></li>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="tabs__list-wrapper">
                                     <ul>
-                                        <li><a href="#" class="tabs__link">Синус-лифтинг</a></li>
+                                        <li><a href="/uslugi/?a=4_8#4_8" class="tabs__link">Синус-лифтинг</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -423,9 +419,9 @@ get_header();
 
                             <div class="tabs__list">
                                 <ul>
-                                    <li><a href="#" class="tabs__link">Лечение брекетами</a></li>
-                                    <li><a href="#" class="tabs__link">Лечение ортодонтическими аппаратами</a></li>
-                                    <li><a href="#" class="tabs__link">Лечение элайнерами</a></li>
+                                    <li><a href="/uslugi/?a=5_2#5_2" class="tabs__link">Лечение брекетами</a></li>
+                                    <li><a href="/uslugi/?a=5_3#5_3" class="tabs__link">Лечение ортодонтическими аппаратами</a></li>
+                                    <li><a href="/uslugi/?a=5_4#5_4" class="tabs__link">Лечение элайнерами</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -442,8 +438,8 @@ get_header();
 
                             <div class="tabs__list">
                                 <ul>
-                                    <li><a href="#" class="tabs__link">Профессиональная чистка AirFlow</a></li>
-                                    <li><a href="#" class="tabs__link">Отбеливание ZOOM</a></li>
+                                    <li><a href="/uslugi/?a=6_2#6_2" class="tabs__link">Профессиональная чистка AirFlow</a></li>
+                                    <li><a href="/uslugi/?a=6_3#6_3" class="tabs__link">Отбеливание ZOOM</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -462,7 +458,7 @@ get_header();
 
                     <div class="tabs__nav">
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_1" onclick="window.location.href = '/uslugi/?a=1_1#1_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Диагностика</div>
                                 <div class="tabs__nav-subtitle">Предварительная консультация, выявление проблемы
@@ -474,7 +470,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_2" onclick="window.location.href = '/uslugi/?a=2_1#2_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Протезирование</div>
                                 <div class="tabs__nav-subtitle">Съемное и несъемное протезтирование</div>
@@ -485,7 +481,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_3" onclick="window.location.href = '/uslugi/?a=3_1#3_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Терапия</div>
                                 <div class="tabs__nav-subtitle">Любые виды лечения зубов</div>
@@ -496,7 +492,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_4" onclick="window.location.href = '/uslugi/?a=4_1#4_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Хирургия</div>
                                 <div class="tabs__nav-subtitle">Любые хирургические операции</div>
@@ -507,7 +503,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_5" onclick="window.location.href = '/uslugi/?a=5_1#5_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Ортодонтия</div>
                                 <div class="tabs__nav-subtitle">Исправление прикуса</div>
@@ -518,7 +514,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_6" onclick="window.location.href = '/uslugi/?a=6_1#6_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Гигиена и отбеливание зубов</div>
                                 <div class="tabs__nav-subtitle">Сохранить крепость и здоровье зубов</div>
@@ -529,7 +525,7 @@ get_header();
                             </div>
                         </button>
 
-                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7" onclick="window.location.href = '/uslugi/';">
+                        <button class="tabs__nav-btn" type="button" data-tab="#tab_7" onclick="window.location.href = '/uslugi/?a=7_1#7_1';">
                             <div class="tabs__nav-column">
                                 <div class="tabs__nav-title">Гнатология</div>
                                 <div class="tabs__nav-subtitle">Лечение элементов зубочелюстной системы</div>

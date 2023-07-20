@@ -92,7 +92,7 @@ get_header();
             </div>
     </section>
 
-    <section class="page-price-section">
+    <section class="page-price-section" id="psection">
         <div class="page-price-section__container container">
             <div class="page-price-section__column">
 
@@ -1498,7 +1498,20 @@ get_header();
                 </div>
     </section>
 </div>
+<script>
+	
+	   window.onload = function() {
+        var hash = document.location.hash;
+        if (hash != undefined && hash != null && hash!='') {
+            var h = hash.replace("#", "");
+	
+	var priceblock=$("div").find("[data-tab='home-tab-" + h + "']");
+ $('html,body').animate({scrollTop: $("#psection").offset().top }, 'slow');
 
+			priceblock.click();
+		}
+	   }
+		</script>
 <?php
 get_footer();
 ?>

@@ -376,6 +376,7 @@
         padding: 50px 0 20px 20px
         &__logo
             margin-bottom: 50px
+            width: 220px
         &__menu
             margin-left: -5px
         &__btn
@@ -717,6 +718,12 @@
 
 @media (max-width: 880px)
 
+    /* Главный экран СЛАЙДЕР */
+    .main-section
+        &__subtitle
+            margin-right: 0
+
+
     .portfolio-section
         &__column
             &:nth-child(1)
@@ -865,6 +872,9 @@
         right: -94%
         width: 94%
         padding: 6px 0 20px 20px
+        &__logo
+            margin-top: 30px
+            margin-bottom: 20px
         &__active
             right: 0
 
@@ -883,6 +893,7 @@
             margin-right: 0
             width: 100%
             justify-content: center
+
 
     /* Footer */
     .footer
@@ -959,12 +970,14 @@
         &__title
             font-size: 32px
             line-height: 38px
+            br
+                display: none
         &__subtitle
-            padding-right: 20%
             margin-bottom: 30px
+            padding-right: 0
         &__absolut-btn
             left: 16px
-            bottom: 28px
+            bottom: 10px
             display: block
 
         &__btn-calc
@@ -1156,6 +1169,7 @@
                 height: 95px
         &__carousel
             margin-bottom: 24px
+            
     .carousel
         &__text
             padding: 0 10px
@@ -1167,6 +1181,11 @@
             &_lilac
                 right: 16%
                 left: auto
+        .slick-dots
+            position: relative
+            li 
+                button
+                    width: 32px
 
     /* Наша лаборатория */
     .laboratory-section
@@ -1296,6 +1315,7 @@
                 .before-after, .before-after2
                     height: 386px
             .slick-dots
+                position: absolute
                 bottom: -40px
                 left: 50%
                 transform: translateX(-50%)
@@ -1595,10 +1615,8 @@
         &__btn-tel
             width: 170px
         &__logo
-            margin-bottom: 40px
             margin-top: 10px
-            img
-                width: 40%
+            width: 180px
 
     .btn
         font-size: 12px
@@ -1668,6 +1686,14 @@
     .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
         max-width: 360px
 
+    /* Карусель доктора */
+    .carousel
+        .slick-dots
+            position: relative
+            li 
+                button
+                    width: 26px
+
     /* Страница КОНТЕКТА УСЛУГИ */
     .page-content
         &__chapter
@@ -1706,6 +1732,9 @@
             width: 340px
             height: 330px
 
+        .carousel
+            height: auto
+
         .before-after #before, .before-after #after, .before-after2 #before2, .before-after2 #after2
             top: 42px
             font-size: 12px
@@ -1717,9 +1746,6 @@
             tr
                 border: none
                 border-bottom: 2px solid $btn-lilac
-            tbody
-                display: flex
-                flex-wrap: wrap
             &__name
                 padding-right: 0
                 border-right: none
@@ -1887,6 +1913,14 @@
     .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
         max-width: 300px
 
+    /* Карусель доктора */
+    .carousel
+        .slick-dots
+            position: relative
+            li 
+                button
+                    width: 22px
+
     /* СТРАНИЦА УСЛУГИ */
     .page-main-section
         margin-bottom: 50px
@@ -1915,6 +1949,8 @@
         .slick-slider
             width: 300px
             height: 300px
+        .carousel
+            height: auto
 
         .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
             max-width: 300px

@@ -32,6 +32,7 @@ const contents = document.querySelectorAll(".accordion__content");
 titles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
+	
 
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
@@ -60,7 +61,7 @@ const subcontents = document.querySelectorAll(".sub-accordion__content");
 subtitles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
-
+console.log("clicked");
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
       item.classList.remove("active");
@@ -88,7 +89,7 @@ const sub2contents = document.querySelectorAll(".sub-2-accordion__content");
 sub2titles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
-
+console.log("clicked");
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
       item.classList.remove("active");
@@ -202,13 +203,15 @@ $(document).ready(function () {
 
   if (accTitles.length && accContents.length) {
     // Добавляем класс "active" к первому табу и его соответствующему контенту
-    accTitles[0].classList.add("active");
-    accContents[0].classList.add("active");
-    accContents[0].style.maxHeight = accContents[0].scrollHeight + "0px";
+    //accTitles[0].classList.add("active");
+   // accContents[0].classList.add("active");
+   // accContents[0].style.maxHeight = accContents[0].scrollHeight + "0px";
 
     accTitles.forEach((item) =>
       item.addEventListener("click", () => {
         const activeContent = document.querySelector("#" + item.dataset.tab);
+		
+		
 
         if (activeContent.classList.contains("active")) {
           activeContent.classList.remove("active");
@@ -224,8 +227,15 @@ $(document).ready(function () {
 
           item.classList.add("active");
           activeContent.classList.add("active");
-          activeContent.style.maxHeight = activeContent.scrollHeight + "0px";
+          activeContent.style.maxHeight = activeContent.scrollHeight + "20px";
+			
         }
+	var ct =  $('#' + item.dataset.tab);
+		console.log(ct.position().top);
+					
+			$('html, body').animate({scrollTop: ct.offset().top - ct.position().top - 72}, 500);
+			
+		
       })
     );
   }

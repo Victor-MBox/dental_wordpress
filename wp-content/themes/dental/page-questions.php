@@ -92,26 +92,79 @@ get_header();
 
     <section class="page-questions-section">
         <div class="page-questions-section__container container">
-            <div class="page-questions-section__column">
 
-                <div class="page-price-section__buttons-page">
+            <div class="page-about-section__column">
 
-                    <a class="buttons-page-1" href="#">
-                        <div class="buttons-page-1__img"></div>
-                        <div class="buttons-page-1__text">Лечение в рассрочку</div>
+                <div class="page-about-section__btn-wrapper">
+
+                    <a class="btn-wrapper " href="/o-klinike/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor"></div>
+                            <div class="btn-wrapper__number">01</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">О нашей клинике</div>
+                            <div class="btn-wrapper__subtitle">Подробнее о "Зубки Всем" </div>
+                        </div>
                     </a>
 
-                    <a class="buttons-page-2" href="#">
-                        <div class="buttons-page-2__img"></div>
-                        <div class="buttons-page-2__text">Налоговый вычет</div>
+                    <a class="btn-wrapper btn-wrapper_active" href="/voprosy/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
+                            <div class="btn-wrapper__number">02</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Вопросы пациентов</div>
+                            <div class="btn-wrapper__subtitle">Ответы на вопросы пациентов</div>           
+                        </div>
                     </a>
 
-                    <a class="buttons-page-3" href="#">
-                        <div class="buttons-page-3__img"></div>
-                        <div class="buttons-page-3__text">Гарантия на услуги</div>
+                    <a class="btn-wrapper" href="/nasha-laboratoriya/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
+                            <div class="btn-wrapper__number">02</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Наша лаборатория</div>
+                            <div class="btn-wrapper__subtitle">Зуботехническая лаборатория</div>
+                        </div>
+                    </a>
+
+                    <a class="btn-wrapper " href="/lechenie-v-rassrochku/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
+                            <div class="btn-wrapper__number">03</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Лечение в рассрочку</div>
+                            <div class="btn-wrapper__subtitle">Подробная информация</div>
+                        </div>
+                    </a>
+
+                    <a class="btn-wrapper" href="/nalogovyj-vychet/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
+                            <div class="btn-wrapper__number">04</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Налоговый вычет</div>
+                            <div class="btn-wrapper__subtitle">Подробная информация</div>
+                        </div>
+                    </a>
+
+                    <a class="btn-wrapper" href="/garantiya-na-uslugi/">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
+                            <div class="btn-wrapper__number">05</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Гарантия на услуги</div>
+                            <div class="btn-wrapper__subtitle">Подробная информация</div>
+                        </div>
                     </a>
 
                 </div>
+
 
                 <div class="page-service-section__form">
                     <div class="page-content__title">Запись <br>на консультацию</div>
@@ -119,8 +172,8 @@ get_header();
 
                     <div class="feedback-form-laboratory">
 
-                        <div class="page-service-section__decor decor-red"></div>
-                        <div class="page-price-section__decor decor-lilac"></div>
+                        <div class="page-about-section__decor-lilac decor-lilac"></div>
+                        <div class="page-about-section__decor-blue decor-blue"></div>
 
                         <div class="feedback-form-laboratory__form">
 
@@ -146,6 +199,7 @@ get_header();
                             </form>
                         </div>
                     </div>
+
                 </div>
             </div>
 

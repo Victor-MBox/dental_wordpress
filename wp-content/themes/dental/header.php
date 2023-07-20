@@ -115,7 +115,7 @@
 
             <div class="burger-nav" id="burgerNav">
                 <div class="burger-nav__logo">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/main-logo.svg" alt="">
+                    <?php the_custom_logo(); ?>
                 </div>
                 <div class="burger-nav__menu menu">
 
@@ -140,8 +140,6 @@
 
                                 <a href="/voprosy/">Вопросы пациентов</a>
 
-                                <a href="/o-klinike/">Статьи</a>
-
                             </div>
                         </div>
 
@@ -157,32 +155,32 @@
                                 <div class="sub-accordion">
 
                                     <div data-tab="sub-tab-2-1" class="sub-accordion__title">
-                                        <a href="#">Диагностика</a>
+                                        <a href="/uslugi/diagnostika-i-konsultacziya/">Диагностика</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-1" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-1" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Ортопантомография (ОПТГ)</a>
+                                                <a href="/uslugi/ortopantomografiya-optg/">Ортопантомография (ОПТГ)</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Прицельный снимок</a>
+                                                <a href="/uslugi/priczelnyi-snimok/">Прицельный снимок</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-3" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Аксиография</a>
+                                                <a href="/uslugi/aksiografiya/">Аксиография</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-1-4" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Компьютерная томография (КТ)</a>
+                                                <a href="/uslugi/kompyuternaya-tomografiya-kt/">Компьютерная томография (КТ)</a>
                                             </div>
                                         </div>
                                     </div>
@@ -190,32 +188,32 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-2" class="sub-accordion__title">
-                                        <a href="/uslugi/">Протезирование</a>
+                                        <a href="/uslugi/protezirovanie/">Протезирование</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-2" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-2-1" class="sub-2-accordion__title">
-                                                <a href="#">Съемное протезирование</a>
+                                                <a href="/uslugi/semnoe-protezirovanie/">Съемное протезирование</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-1" class="sub-2-accordion__content">
-                                                <a href="/uslugi/">Акриловые съемные протезы</a>
-                                                <a href="/uslugi/">Бюгельные протезы</a>
+                                                <a href="/uslugi/akrilovye-protezy/">Акриловые съемные протезы</a>
+                                                <a href="/uslugi/byugelnye-protezy/">Бюгельные протезы</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-2-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Несъемное протезирование</a>
+                                                <a href="/uslugi/nesemnoe-protezirovanie/">Несъемное протезирование</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-2-2" class="sub-2-accordion__content">
-                                                <a href="/uslugi/">Виниры</a>
-                                                <a href="/uslugi/">Коронки</a>
-                                                <a href="/uslugi/">Абатменты</a>
-                                                <a href="/uslugi/">Вкладки</a>
+                                                <a href="/uslugi/viniry/">Виниры</a>
+                                                <a href="/uslugi/koronki/">Коронки</a>
+                                                <a href="/uslugi/abatmenty/">Абатменты</a>
+                                                <a href="/uslugi/vkladki/">Вкладки</a>
                                             </div>
                                         </div>
                                     </div>
@@ -224,26 +222,26 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-3" class="sub-accordion__title">
-                                        <a href="/uslugi/">Терапия</a>
+                                        <a href="/uslugi/terapiya/">Терапия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-3" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-1" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Световые пломбы</a>
+                                                <a href="/uslugi/svetovye-plomby/">Световые пломбы</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Лечение зубных каналов</a>
+                                                <a href="/uslugi/lechenie-zubnyh-kanalov/">Лечение зубных каналов</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-3-3" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Лечение кариеса</a>
+                                                <a href="/uslugi/lechenie-kariesa/">Лечение кариеса</a>
                                             </div>
                                         </div>
 
@@ -253,36 +251,36 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-4" class="sub-accordion__title">
-                                        <a href="/uslugi/">Хирургия</a>
+                                        <a href="/uslugi/hirurgiya/">Хирургия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-4" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-1" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Удаление зубов</a>
+                                                <a href="/uslugi/udalenie-zubov/">Удаление зубов</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-1" class="sub-2-accordion__content">
-                                                <a href="/uslugi/">Простое удаление</a>
-                                                <a href="/uslugi/">Сложное удаление</a>
+                                                <a href="/uslugi/prostoe-udalenie/">Простое удаление</a>
+                                                <a href="/uslugi/slozhnoe-udalenie/">Сложное удаление</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Имплантация</a>
+                                                <a href="/uslugi/implantacziya/">Имплантация</a>
                                                 <span></span>
                                             </div>
                                             <div id="sub-2-tab-2-4-2" class="sub-2-accordion__content">
-                                                <a href="/uslugi/">Одномоментная имплантация</a>
-                                                <a href="/uslugi/">Двухэтапная имплантация</a>
+                                                <a href="/uslugi/odnomomentnaya-implantacziya/">Одномоментная имплантация</a>
+                                                <a href="/uslugi/dvuhetapnaya-implantacziya/">Двухэтапная имплантация</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-4-3" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Синус-лифтинг</a>
+                                                <a href="/uslugi/sinus-litfing/">Синус-лифтинг</a>
                                             </div>
                                         </div>
                                     </div>
@@ -291,26 +289,26 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-5" class="sub-accordion__title">
-                                        <a href="/uslugi/">Ортодонтия</a>
+                                        <a href="/uslugi/ortodontiya/">Ортодонтия</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-5" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-1" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Лечение брекетами</a>
+                                                <a href="/uslugi/lechenie-breketami/">Лечение брекетами</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Лечение ортодонтическими аппаратами</a>
+                                                <a href="/uslugi/lechenie-ortodonticheskimi-apparatami/">Лечение ортодонтическими аппаратами</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-5-3" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Лечение элайнерами</a>
+                                                <a href="/uslugi/lechenie-elajnerami/">Лечение элайнерами</a>
                                             </div>
                                         </div>
                                     </div>
@@ -319,20 +317,20 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-6" class="sub-accordion__title">
-                                        <a href="/uslugi/">Гигиена и отбеливание зубов</a>
+                                        <a href="/uslugi/gigiena-i-otbelivanie-zubov/">Гигиена и отбеливание зубов</a>
                                         <span></span>
                                     </div>
                                     <div id="sub-tab-2-6" class="sub-accordion__content">
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-1" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Профессиональная чистка AirFlow</a>
+                                                <a href="/uslugi/professionalnaya-chistka-airflow/">Профессиональная чистка AirFlow</a>
                                             </div>
                                         </div>
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/">Отбеливание ZOOM</a>
+                                                <a href="/uslugi/otbelivanie-zoom/">Отбеливание ZOOM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -341,7 +339,7 @@
 
                                 <div class="sub-accordion">
                                     <div data-tab="sub-tab-2-7" class="sub-accordion__title">
-                                        <a href="/uslugi/">Гнатология</a>
+                                        <a href="/uslugi/gnatologiya/">Гнатология</a>
                                     </div>
                                 </div>
 
@@ -389,19 +387,21 @@
 
                             <div id="tab-4" class="accordion__content">
 
-                                <a href="/czeny/">Диагностика</a>
 
-                                <a href="/czeny/">Протезирование</a>
+                                <a href="/czeny/?a=1#1">Диагностика</a>
 
-                                <a href="/czeny/">Терапия</a>
+                                <a href="/czeny/?a=2#2">Протезирование</a>
 
-                                <a href="/czeny/">Хирургия</a>
+                                <a href="/czeny/?a=3#3">Терапия</a>
 
-                                <a href="/czeny/">Ортодонтия</a>
+                                <a href="/czeny/?a=4#4">Хирургия</a>
 
-                                <a href="/czeny/">Гигиена и отбеливание зубов</a>
+                                <a href="/czeny/?a=5#5">Имплантация</a>
 
-                                <a href="/czeny/">Гнатология</a>
+                                <a href="/czeny/?a=6#6">Ортодонтия</a>
+
+                                <a href="/czeny/?a=7#7">Гигиена и отбеливание</a>
+
 
 
                             </div>
@@ -438,26 +438,8 @@
                         <div class="accordion">
                             <div data-tab="tab-6" class="accordion__title">
                                 <a href="/otzyvy/">Отзывы</a>
-                                <span></span>
                             </div>
 
-                            <div id="tab-6" class="accordion__content">
-
-                                <a href="/otzyvy/">Диагностика</a>
-
-                                <a href="/otzyvy/">Протезирование</a>
-
-                                <a href="/otzyvy/">Терапия</a>
-
-                                <a href="/otzyvy/">Хирургия</a>
-
-                                <a href="/otzyvy/">Ортодонтия</a>
-
-                                <a href="/otzyvy/">Гигиена и отбеливание зубов</a>
-
-                                <a href="/otzyvy/">Гнатология</a>
-
-                            </div>
                         </div>
 
                         <div class="accordion">
@@ -549,153 +531,144 @@
                         <a class="nav__link" href="/uslugi/">Услуги</a>
                         <ul class="sub-nav__list">
                             <li>
-                                <a class="sub-nav__link" href="#">Диагностика</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=1_1#1_1">Диагностика</a>
                                 <ul class="sub-sub-nav__list">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Ортопантомография (ОПТГ)</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=1_2#1_2">Ортопантомография (ОПТГ)</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Прицельный снимок</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=1_3#1_3">Прицельный снимок</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Аксиография</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=1_4#1_4">Аксиография</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Компьютерная томография (КТ)</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=1_5#1_5">Компьютерная томография (КТ)</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Протезирование</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=2_1#2_1">Протезирование</a>
                                 <ul class="sub-sub-nav__list sub-sub-nav__list_column">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Съемное протезирование</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=2_2#2_2">Съемное протезирование</a>
                                         <ul class="sub-sub-sub-nav__list">
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Акриловые съемные протезы</a>
-                                                <ul class="sub4-nav__list">
-                                                    <li>
-                                                        <a class="sub4-nav__link" href="#">• Полный съемный протез
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="sub4-nav__link" href="#">• Частично съемный протез</a>
-                                                    </li>
-                                                </ul>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_3#2_3">Акриловые съемные протезы</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Бюгельные протезы</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_4#2_4">Бюгельные протезы</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Несъемное протезирование</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=2_5#2_5">Несъемное протезирование</a>
                                         <ul class="sub-sub-sub-nav__list">
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Виниры</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_6#2_6">Виниры</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Коронки</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_7#2_7">Коронки</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Абатменты</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_8#2_8">Абатменты</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Вкладки</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=2_9#2_9">Вкладки</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Терапия</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=3_1#3_1">Терапия</a>
                                 <ul class="sub-sub-nav__list">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Световые пломбы</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=3_2#3_2">Световые пломбы</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Лечение зубных каналов</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=3_3#3_3">Лечение зубных каналов</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Лечение кариеса</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=3_4#3_4">Лечение кариеса</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Хирургия</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=4_1#4_1">Хирургия</a>
                                 <ul class="sub-sub-nav__list sub-sub-nav__list_column">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Удаление зубов</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=4_2#4_2">Удаление зубов</a>
                                         <ul class="sub-sub-sub-nav__list">
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Простое удаление</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=4_3#4_3">Простое удаление</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Сложное удаление</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=4_4#4_4">Сложное удаление</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Имплантация</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=4_5#4_5">Имплантация</a>
                                         <ul class="sub-sub-sub-nav__list">
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Одномоментная имплантация</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=4_6#4_6">Одномоментная имплантация</a>
                                             </li>
                                             <li>
-                                                <a class="sub-sub-sub-nav__link" href="#">Двухэтапная имплантация</a>
+                                                <a class="sub-sub-sub-nav__link" href="/uslugi/?a=4_7#4_7">Двухэтапная имплантация</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Синус-лифтинг</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=4_8#4_8">Синус-лифтинг</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Ортодонтия</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=5_1#5_1">Ортодонтия</a>
                                 <ul class="sub-sub-nav__list">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Лечение брекетами</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=5_2#5_2">Лечение брекетами</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Лечение ортодонтическими аппаратами</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=5_3#5_3">Лечение ортодонтическими аппаратами</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Лечение элайнерами</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=5_4#5_4">Лечение элайнерами</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гигиена и отбеливание</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=6_1#6_1">Гигиена и отбеливание</a>
                                 <ul class="sub-sub-nav__list">
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Профессиональная чистка AirFlow</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=6_2#6_2">Профессиональная чистка AirFlow</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="#">Отбеливание ZOOM</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=6_3#6_3">Отбеливание ZOOM</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
-                                        <a class="btn btn_white">Все услуги</a>
+                                        <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гнатология</a>
+                                <a class="sub-nav__link" href="/uslugi/?a=7_1#7_1">Гнатология</a>
                             </li>
                         </ul>
                     </li>
@@ -726,7 +699,7 @@
                             <li>
                                 <a class="sub-nav__link" href="/vrachi/?a=3_1#3_1">Журов Илья Владимирович</a>
                             </li>
-                            
+
                             <li>
                                 <a class="sub-nav__link" href="/vrachi/?a=4_1#4_1">Джахбарова Рабият Магомедгаджиевна</a>
                             </li>
@@ -744,25 +717,25 @@
                         <a class="nav__link" href="/czeny/">Цены</a>
                         <ul class="sub-nav__list">
                             <li>
-                                <a class="sub-nav__link" href="#">Диагностика</a>
+                                <a class="sub-nav__link" href="/czeny/?a=1#1">Диагностика</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Протезирование</a>
+                                <a class="sub-nav__link" href="/czeny/?a=2#2">Протезирование</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Терапия</a>
+                                <a class="sub-nav__link" href="/czeny/?a=3#3">Терапия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Хирургия</a>
+                                <a class="sub-nav__link" href="/czeny/?a=4#4">Хирургия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Ортодонтия</a>
+                                <a class="sub-nav__link" href="/czeny/?a=5#5">Имплантация</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гигиена и отбеливание</a>
+                                <a class="sub-nav__link" href="/czeny/?a=6#6">Ортодонтия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гнатология</a>
+                                <a class="sub-nav__link" href="/czeny/?a=7#7">Гигиена и отбеливание</a>
                             </li>
                         </ul>
                     </li>
@@ -805,25 +778,25 @@
                         <a class="nav__link" href="/galereya/">Галерея</a>
                         <ul class="sub-nav__list">
                             <li>
-                                <a class="sub-nav__link" href="#">Диагностика</a>
+                                <a class="sub-nav__link" href="/galereya/">Диагностика</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Протезирование</a>
+                                <a class="sub-nav__link" href="/galereya/">Протезирование</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Терапия</a>
+                                <a class="sub-nav__link" href="/galereya/">Терапия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Хирургия</a>
+                                <a class="sub-nav__link" href="/galereya/">Хирургия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Ортодонтия</a>
+                                <a class="sub-nav__link" href="/galereya/">Ортодонтия</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гигиена и отбеливание</a>
+                                <a class="sub-nav__link" href="/galereya/">Гигиена и отбеливание</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гнатология</a>
+                                <a class="sub-nav__link" href="/galereya/">Гнатология</a>
                             </li>
                         </ul>
                     </li>

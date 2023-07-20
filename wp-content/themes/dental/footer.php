@@ -45,13 +45,13 @@
                 <div class="footer__column">
                     <div class="footer__title">Услуги</div>
                     <ul class="footer__nav-list">
-                        <li><a href="/uslugi/">Диагностика</a></li>
-                        <li><a href="/uslugi/">Протезирование</a></li>
-                        <li><a href="/uslugi/">Имплантаця</a></li>
-                        <li><a href="/uslugi/">Терапия</a></li>
-                        <li><a href="/uslugi/">Хирургия</a></li>
-                        <li><a href="/uslugi/">Ортодонтия</a></li>
-                        <li><a href="/uslugi/">Гигиена</a></li>
+                        <li><a href="/uslugi/?a=1_1#1_1">Диагностика</a></li>
+                        <li><a href="/uslugi/?a=2_1#2_1">Протезирование</a></li>
+                        <li><a href="/uslugi/?a=3_1#3_1">Терапия</a></li>
+                        <li><a href="/uslugi/?a=4_1#4_1">Хирургия</a></li>
+                        <li><a href="/uslugi/?a=5_1#5_1">Ортодонтия</a></li>
+                        <li><a href="/uslugi/?a=6_1#6_1">Гигиена</a></li>
+                        <li><a href="/uslugi/?a=7_1#7_1">Гнатология</a></li>
                     </ul>
                 </div>
 
@@ -192,7 +192,7 @@
                 <div class="modal__close modal__close_video"><span></span></div>
 
                 <div class="video-modal__wrapper">
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
