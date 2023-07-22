@@ -9,76 +9,12 @@ get_header();
 ?>
 
 <div class="page">
-    <section class="page-main-section page-main-section_about">
-
-        <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-5.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
-        </div>
-
+    <section class="page-main-section page-main-section_servise">           
         <div class="container">
-
             <div class="breadcrumbs">
                 <?php custom_breadcrumbs(); ?>
             </div>
-
-            <div class="page-main-section__container">
-                <div class="page-main-section__column">
-                    <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Наши услуги</div>
-                        <div class="page-main-section__description description">Стоматологическая клиника "Зубки всем" предлагает широкий спектр услуг, от профилактического осмотра до сложных операций. Клиника оснащена современным оборудованием, что позволяет нам предоставлять услуги на высочайшем уровне. Все наши специалисты обладают высокой квалификацией и богатым опытом, что гарантирует качество и безопасность предоставляемых услуг.
-                            <br> <br>
-                            Одним из наших основных преимуществ является собственное производство, зуботехническая лаборатория. Мы контролируем весь процесс - от производства до установки протеза. Это позволяет нам гарантировать высокое качество наших изделий и обеспечивает дополнительную гарантию для наших пациентов. Все протезы изготавливаются с использованием современных технологий и материалов, что обеспечивает их долговечность и надежность.
-
-                        </div>
-                        <div id="textHidden" class="text-hidden">
-                            Мы ценим прозрачность в наших отношениях с пациентами. Никаких скрытых платежей и услуг - вы всегда знаете, за что платите. Мы предоставляем полную информацию о стоимости услуг и всегда готовы ответить на ваши вопросы. Наша цель - обеспечить вам комфорт и уверенность в том, что вы делаете правильный выбор, обращаясь в клинику "Зубки всем".
-                        </div>
-                        <div class="main-section__buttons">
-                            <button id="textHiddenBtn" class="btn">Подробнее</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="page-main-section__column">
-                    <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="page-main-section__form">
-                    <div class="feedback-form">
-                        <div class="feedback-form__title">
-                            Записаться на консультацию
-                        </div>
-                        <div class="feedback-form__form">
-
-                            <form action="#" class="form-about" id="form-1">
-                                <div class="form-about__input">
-                                    <input type="text" name="name" placeholder="Имя" class="input">
-                                </div>
-                                <div class="form-about__input email-input">
-                                    <input type="email" name="email" placeholder="Email" class="input">
-                                </div>
-                                <div class="form-about__input phone-input">
-                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                                </div>
-                                <div class="form-about__item">
-                                    <div class="checkbox">
-                                        <input id="checkbox" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
-                                    </div>
-                                </div>
-                                <div class="form-about__submit">
-                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
         </div>
     </section>
 
@@ -575,17 +511,17 @@ get_header();
 
                 <div class="page-service-section__buttons-page">
 
-                    <a class="buttons-page-1" href="#">
+                    <a class="buttons-page-1" href="/o-klinike/lechenie-v-rassrochku/">
                         <div class="buttons-page-1__img"></div>
                         <div class="buttons-page-1__text">Лечение в рассрочку</div>
                     </a>
 
-                    <a class="buttons-page-2" href="#">
+                    <a class="buttons-page-2" href="/o-klinike/nalogovyj-vychet/">
                         <div class="buttons-page-2__img"></div>
                         <div class="buttons-page-2__text">Налоговый вычет</div>
                     </a>
 
-                    <a class="buttons-page-3" href="#">
+                    <a class="buttons-page-3" href="/o-klinike/garantiya-na-uslugi/">
                         <div class="buttons-page-3__img"></div>
                         <div class="buttons-page-3__text">Гарантия на услуги</div>
                     </a>

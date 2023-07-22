@@ -120,16 +120,16 @@
         &:hover
             background: $lilac-bg url(assets/img/icons/before-after/b-a-right-w.svg) center center/40% no-repeat
 
-/* Сдайд 1 До После */
+/* Сдайды До После */
 
-.before-after, .before-after__gallery, .before-after__img
+.before-after, .before-after__gallery, .before-after__img, .before-after2, .before-after2__gallery, .before-after2__img, .before-after3, .before-after3__gallery, .before-after3__img
     width: 793px
     height: 485px
     margin: 0
     padding: 0
     border-radius: 45px 5px 45px 5px
 
-.before-after
+.before-after, .before-after2,.before-after3
     position: relative
     p
         font-size: 40px
@@ -145,7 +145,7 @@
         max-width: initial
         display: block
         cursor: col-resize
-    &__gallery-after, .before-after__gallery-after::after
+    &__gallery-after, .before-after__gallery-after::after, .before-after2__gallery-after::after, .before-after3__gallery-after::after
         position: absolute
         top: 0
         cursor: col-resize
@@ -165,7 +165,7 @@
         height: 100%
         z-index: 20
 
-    #before, #after
+    #before, #after, #before2, #after2, #before3, #after3
         position: absolute
         z-index: 100
         border: none
@@ -187,12 +187,12 @@
         width: 72px
         height: 72px
 
-    #before
+    #before, #before2, #before3
         left: 40px
         background: $black-1
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
         border-radius: 1px 15px 15px 15px
-    #after
+    #after, #after2, #after3
         right: 40px
         background: #01B5EE
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
@@ -207,96 +207,11 @@
     .tr
         transition: 0.3s
 
-/* Сдайд 2 До После */
 
-.before-after2, .before-after2__gallery, .before-after2__img
-    width: 793px
-    height: 485px
-    margin: 0
-    padding: 0
-    border-radius: 45px 5px 45px 5px
-
-.before-after2
-    position: relative
-    p
-        font-size: 40px
-        position: absolute
-        bottom: -21px
-        left: 40%
-        z-index: 10
-    &__gallery
-        position: relative
-        display: flex
-        z-index: 1
-    &__img
-        max-width: initial
-        display: block
-        cursor: col-resize
-    &__gallery-after, .before-after2__gallery-after::after
-        position: absolute
-        top: 0
-        cursor: col-resize
-    &__gallery-after
-        left: 0
-        width: 50%
-        overflow: hidden
-    &__gallery-after::after
-        content: ''
-        width: 4px
-        background: #fff
-        border-left: 1px solid #000
-        border-right: 1px solid #000
-        box-sizing: border-box
-        position: absolute
-        right: 0
-        height: 100%
-        z-index: 20
-
-    #before2, #after2
-        position: absolute
-        z-index: 100
-        border: none
-        padding: 10px 20px
-        top: 72px
-        transform: translateY(-50%)
-        cursor: pointer
-
-        font-weight: 700
-        font-size: 16px
-        line-height: 22px
-        letter-spacing: 0.01em
-        color: #FFFFFF
-
-        display: flex
-        justify-content: center
-        align-items: center
-
-        width: 72px
-        height: 72px
-
-    #before2
-        left: 40px
-        background: $black-1
-        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
-        border-radius: 1px 15px 15px 15px
-    #after2
-        right: 40px
-        background: #01B5EE
-        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
-        border-radius: 15px 1px 15px 15px
-
-    &__procedure
-        position: absolute
-        bottom: -68px
-        left: 5%
-        z-index: 20
-
-    .tr
-        transition: 0.3s
 
 /* Карточка с описанием процедуры */
 .procedure
-    width: 230px
+    width: 564px
     background: #ffffffb5
     padding: 16px
     box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
@@ -304,6 +219,16 @@
     transition: .3s all
     &:hover
         background: #fff
+    &__row-all
+        display: flex
+    &__column
+        display: flex
+        margin-bottom: 20px
+        justify-content: space-between
+
+    &__row
+        display: flex
+
     &__img
         width: 48px
         height: 48px
@@ -313,25 +238,27 @@
         display: flex
         justify-content: center
         align-items: center
-        margin-bottom: 18px
+        margin-right: 20px
         img
             width: 12px
             height: 12px
     &__subtitle
+        width: 220px
         font-weight: 400
         font-size: 12px
         line-height: 22px
         letter-spacing: 0.08em
         text-transform: uppercase
         color: $gray-text
-        margin-bottom: 5px
+        margin-right: 10px
     &__title
+        width: 220px
         font-weight: 700
         font-size: 16px
         line-height: 22px
         letter-spacing: 0.01em
         color: $black-1
-        margin-bottom: 5px
+        margin-right: 10px
     &__text
         font-weight: 400
         font-size: 14px
@@ -339,7 +266,7 @@
         letter-spacing: 0.01em
         color: $gray-text
         opacity: 0.8
-        margin-bottom: 20px
+        width: 100%
     &__prise
         font-weight: 400
         font-size: 14px
@@ -351,8 +278,6 @@
         span
             font-weight: 700
             color: $black-1
-    .btn
-        width: 100%
 
 /* Карусель с докторами на главной странице */
 .carousel

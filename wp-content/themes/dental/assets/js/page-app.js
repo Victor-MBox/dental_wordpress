@@ -311,6 +311,31 @@ $(document).ready(function () {
 
     return false;
   });
+
+   // Обработчик клика на кнопку ПОРТФОЛИО
+   $(".btn-wrapper, .btn_lilac").click(function () {
+    var info = $(this).attr("href") + " #content-page";
+    $("#content-page").hide("fast", function () {
+      loadContent(info);
+    });
+
+    $("#loader-page").fadeIn("normal");
+
+    // Проверяем, не является ли текущая кнопка уже активной
+
+    if (!$(this).hasClass("btn-wrapper_active")) {
+      // Удаление класса "active" у предыдущей активной кнопки
+      $(".btn-wrapper.btn-wrapper_active").removeClass("btn-wrapper_active");
+
+      // Добавление класса "active" к текущей кнопке
+      $(this).addClass("btn-wrapper_active");
+      activeButton = $(this);
+    }
+
+    return false;
+  });
+
+
   initializeSliders();
 });
 
@@ -530,3 +555,23 @@ $("#slickCarouselServise").slick({
     },
   ],
 });
+
+
+//ТАБ НА СТР ГАЛЕРЕЯ
+function openTab(evt, tabName) {
+  // Получаем все элементы с классом "galerea-tab-content" и скрываем их
+  var tabcontent = document.getElementsByClassName("galerea-tab__content");
+  for (var i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+  }
+
+  // Удаляем класс "active" у всех кнопок вкладок
+  var tablinks = document.getElementsByClassName("galerea-tab__links");
+  for (var i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active");
+  }
+
+  // Показываем выбранное содержимое и добавляем класс "active" к кнопке вкладки
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.classList.add("active");
+}

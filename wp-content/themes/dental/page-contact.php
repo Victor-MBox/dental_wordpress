@@ -65,7 +65,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-03.jpg" alt="">
                     </div>
                 </div>
 

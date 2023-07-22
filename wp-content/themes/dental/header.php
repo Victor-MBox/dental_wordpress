@@ -130,15 +130,15 @@
 
                             <div id="tab-1" class="accordion__content">
 
-                                <a href="/o-klinike/">Лечение в рассрочку</a>
+                                <a href="/o-klinike/lechenie-v-rassrochku">Лечение в рассрочку</a>
 
-                                <a href="/o-klinike/">Налоговый вычет</a>
+                                <a href="/o-klinike/nalogovyj-vychet">Налоговый вычет</a>
 
-                                <a href="/o-klinike/">Гарантии на услуги</a>
+                                <a href="/o-klinike/garantiya-na-uslugi/">Гарантии на услуги</a>
 
-                                <a href="/o-klinike/">Наша лаборатория</a>
+                                <a href="/o-klinike/nasha-laboratoriya/">Наша лаборатория</a>
 
-                                <a href="/voprosy/">Вопросы пациентов</a>
+                                <a href="/o-klinike/voprosy/">Вопросы пациентов</a>
 
                             </div>
                         </div>
@@ -510,19 +510,19 @@
                         <a class="nav__link" href="/o-klinike/">О клинике</a>
                         <ul class="sub-nav__list">
                             <li>
-                                <a class="sub-nav__link" href="#">Лечение в рассрочку</a>
+                                <a class="sub-nav__link" href="/o-klinike/lechenie-v-rassrochku/">Лечение в рассрочку</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Налоговый вычет</a>
+                                <a class="sub-nav__link" href="/o-klinike/nalogovyj-vychet/">Налоговый вычет</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Гарантии на услуги</a>
+                                <a class="sub-nav__link" href="/o-klinike/garantiya-na-uslugi/">Гарантии на услуги</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="#">Наша лаборатория</a>
+                                <a class="sub-nav__link" href="/o-klinike/nasha-laboratoriya/">Наша лаборатория</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/voprosy/">Вопросы пациентов</a>
+                                <a class="sub-nav__link" href="/o-klinike/voprosy/">Вопросы пациентов</a>
                             </li>
                         </ul>
                     </li>

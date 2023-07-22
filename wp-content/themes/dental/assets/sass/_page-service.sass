@@ -5,6 +5,10 @@
     background: linear-gradient(to bottom, #E8F1FF 91%, #ffffff00 9%)
     margin-bottom: 120px
     padding-top: 155px
+    &_servise
+        min-height: 100px
+        margin-bottom: 20px
+        background: #fff
     &__container
         display: flex
     &__column
@@ -23,6 +27,7 @@
     &__img
         img
             border-radius: 45px 45px 5px 5px
+
     &__form
         position: absolute
         top: 490px
@@ -78,11 +83,27 @@
             width: 32%
             margin-right: 20px
             margin-bottom: 100px
-            .page-content__title
-                margin-bottom: 15px
-                
+            .page-content
+                &__title
+                    margin-bottom: 15px
         &:nth-child(3)
             width: 66%
+
+    .before-after, .before-after2, .before-after3
+        margin-bottom: 80px
+
+        .before-after__procedure, .before-after2__procedure, .before-after3__procedure
+            bottom: -42px
+            left: 50%
+            transform: translateX(-50%)
+
+        .procedure
+            background: #fff
+    &_galerea
+        .page-contetn__wrapper
+            margin: 0 auto
+
+        
     &__column-mob
         display: none
     &__buttons-page
@@ -137,14 +158,12 @@
             .slick-slider
                 width: 100%
 
-
-
     .specialists-section__carousel
         margin-bottom: 50px
     .slick-dots
-            bottom: -10px
-            left: 50%
-            transform: translateX(-50%)
+        bottom: -10px
+        left: 50%
+        transform: translateX(-50%)
     .carousel
         &__photo
             width: 254px

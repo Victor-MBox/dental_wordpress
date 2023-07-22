@@ -32,7 +32,6 @@ const contents = document.querySelectorAll(".accordion__content");
 titles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
-	
 
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
@@ -61,7 +60,7 @@ const subcontents = document.querySelectorAll(".sub-accordion__content");
 subtitles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
-console.log("clicked");
+    console.log("clicked");
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
       item.classList.remove("active");
@@ -89,7 +88,7 @@ const sub2contents = document.querySelectorAll(".sub-2-accordion__content");
 sub2titles.forEach((item) =>
   item.addEventListener("click", () => {
     const activeContent = document.querySelector("#" + item.dataset.tab);
-console.log("clicked");
+    console.log("clicked");
     if (activeContent.classList.contains("active")) {
       activeContent.classList.remove("active");
       item.classList.remove("active");
@@ -122,17 +121,16 @@ links.forEach((link) => {
 });
 
 // Задаем меню класс активности
-const navLinks = document.getElementsByClassName('nav__link');
+const navLinks = document.getElementsByClassName("nav__link");
 
-// Переберите ссылки и добавьте класс "nav__active" к активной ссылке
 for (let i = 0; i < navLinks.length; i++) {
-  if (navLinks[i].href === window.location.href) {
-    navLinks[i].classList.add('nav__active');
+  const linkPath = navLinks[i].pathname; // Получаем часть пути ссылки (игнорируем домен и протокол)
+  const currentPath = window.location.pathname; // Получаем текущую часть пути (игнорируем домен и протокол)
+
+  if (currentPath.startsWith(linkPath)) {
+    navLinks[i].classList.add("nav__active");
   }
 }
-
-
-
 
 /* *************************************************
 Слайдер Slick на главной станице */
@@ -204,14 +202,12 @@ $(document).ready(function () {
   if (accTitles.length && accContents.length) {
     // Добавляем класс "active" к первому табу и его соответствующему контенту
     //accTitles[0].classList.add("active");
-   // accContents[0].classList.add("active");
-   // accContents[0].style.maxHeight = accContents[0].scrollHeight + "0px";
+    // accContents[0].classList.add("active");
+    // accContents[0].style.maxHeight = accContents[0].scrollHeight + "0px";
 
     accTitles.forEach((item) =>
       item.addEventListener("click", () => {
         const activeContent = document.querySelector("#" + item.dataset.tab);
-		
-		
 
         if (activeContent.classList.contains("active")) {
           activeContent.classList.remove("active");
@@ -228,19 +224,22 @@ $(document).ready(function () {
           item.classList.add("active");
           activeContent.classList.add("active");
           activeContent.style.maxHeight = activeContent.scrollHeight + "20px";
-			
         }
-	var ct =  $('#' + item.dataset.tab);
-		console.log(ct.position().top);
-					
-			$('html, body').animate({scrollTop: ct.offset().top - ct.position().top - 72}, 500);
-			
-		
+        var ct = $("#" + item.dataset.tab);
+        console.log(ct.position().top);
+        if (
+          location.href != "https://zubkivsem.ru/o-klinike/voprosy/" &&
+          location.href != "http://localhost:8888/Dental/galereya/"
+        ) {
+          $("html, body").animate(
+            { scrollTop: ct.offset().top - ct.position().top - 72 },
+            500
+          );
+        }
       })
     );
   }
 });
-
 
 /* *************************************************
 До после - на главной странице 
@@ -341,6 +340,39 @@ $(document).ready(function () {
     after2.onclick = () => {
       galleryResize2.classList.add("tr");
       galleryResize2.style.width = "90%";
+    };
+  }
+});
+
+/* До - после 3 */
+$(document).ready(function () {
+  const gallery3 = document.querySelector(".before-after3__gallery");
+  const galleryResize3 = document.querySelector(
+    ".before-after3__gallery-after"
+  );
+  const before3 = document.querySelector("#before3");
+  const after3 = document.querySelector("#after3");
+
+  if (gallery3 && galleryResize3 && before3 && after3) {
+    gallery3.addEventListener("mousemove", (event) => {
+      let x = event.offsetX;
+      galleryResize3.classList.remove("tr");
+      galleryResize3.style.width = x + "px";
+    });
+
+    gallery3.addEventListener("mouseleave", (event) => {
+      galleryResize3.style.width = "50%";
+      galleryResize3.classList.add("tr");
+    });
+
+    before3.onclick = () => {
+      galleryResize3.classList.add("tr");
+      galleryResize3.style.width = "50px";
+    };
+
+    after3.onclick = () => {
+      galleryResize3.classList.add("tr");
+      galleryResize3.style.width = "90%";
     };
   }
 });
@@ -537,24 +569,23 @@ $(document).ready(function () {
   }
 });
 
-
-$(document).ready(function() {
+$(document).ready(function () {
   var formFooter = $("#form-footer"); // Сохраняем ссылку на форму в переменную
 
   formFooter.validate({
     rules: {
       email: {
         required: true,
-        email: true
-      }
+        email: true,
+      },
     },
     messages: {
       email: {
         required: "Введите email",
-        email: "Неправильно введен email"
-      }
+        email: "Неправильно введен email",
+      },
     },
-    submitHandler: function(form) {
+    submitHandler: function (form) {
       var $submitButton = $(form).find('input[type="submit"]');
       var originalButtonText = $submitButton.val(); // Сохраняем оригинальный текст кнопки
 
@@ -564,27 +595,22 @@ $(document).ready(function() {
         type: "POST",
         url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
         data: $(form).serialize(),
-        success: function(response) {
+        success: function (response) {
           $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
           $(form)[0].reset(); // Очищаем поля формы
-			 $(".modal__overlay, #thanksModalEmail").fadeIn();
-     
+          $(".modal__overlay, #thanksModalEmail").fadeIn();
         },
-        error: function() {
+        error: function () {
           $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
           // Обработка ошибки отправки формы
-        }
+        },
       });
-    }
+    },
   });
 
   // Дополнительные операции с формой #form-footer
   // ...
 });
-
-
-
-
 
 /* Маска номера телефона */
 $("input[name=phone]").mask("+7 (999) 999-99-99");
@@ -595,17 +621,20 @@ $(document).on("click", "[data-modal=mainModal]", function () {
   $(".modal__overlay, #mainModal").fadeIn();
 });
 
-$(document).on("click", ".modal__close, .thanks-modal__btn", function () {
-  $(".modal__overlay, #mainModal, #thanksModal, #thanksModalEmail").fadeOut();
-});
-
+$(document).on(
+  "click",
+  ".modal__close, .thanks-modal__btn, .modal__overlay-item",
+  function () {
+    $(".modal__overlay, #mainModal, #thanksModal, #thanksModalEmail").fadeOut();
+  }
+);
 
 //Видео в модальном окне
 $("[data-modal=videoModal]").on("click", function () {
   $(".modal__overlay, #videoModal").fadeIn();
 });
 
-$(".modal__close").on("click", function () {
+$(".modal__close, .modal__overlay-item").on("click", function () {
   $(".modal__overlay, #videoModal").fadeOut();
   var videoPlayer = $("#videoModal").find("iframe").get(0);
   var videoSrc = videoPlayer.src;
@@ -674,5 +703,3 @@ if (textHiddenBtn && textHidden) {
     }
   });
 }
-
-

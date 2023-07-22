@@ -42,7 +42,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-06.jpg" alt="">
                     </div>
                 </div>
 
@@ -96,17 +96,17 @@ get_header();
 
                 <div class="page-price-section__buttons-page">
 
-                    <a class="buttons-page-1" href="#">
+                    <a class="buttons-page-1" href="/o-klinike/lechenie-v-rassrochku/">
                         <div class="buttons-page-1__img"></div>
                         <div class="buttons-page-1__text">Лечение в рассрочку</div>
                     </a>
 
-                    <a class="buttons-page-2" href="#">
+                    <a class="buttons-page-2" href="/o-klinike/nalogovyj-vychet/">
                         <div class="buttons-page-2__img"></div>
                         <div class="buttons-page-2__text">Налоговый вычет</div>
                     </a>
 
-                    <a class="buttons-page-3" href="#">
+                    <a class="buttons-page-3" href="/o-klinike/garantiya-na-uslugi/">
                         <div class="buttons-page-3__img"></div>
                         <div class="buttons-page-3__text">Гарантия на услуги</div>
                     </a>

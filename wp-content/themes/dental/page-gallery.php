@@ -37,7 +37,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-02.jpg" alt="">
                     </div>
                 </div>
 
@@ -85,23 +85,92 @@ get_header();
             </div>
     </section>
 
-    <section class="page-questions-section">
-        <div class="page-questions-section__container container">
-            <div style="margin-bottom: 70px;" class="page-questions-section__column">
+    <section class="page-service-section">
+        <div class="page-service-section__container container">
 
-                <div class="page-price-section__buttons-page">
+            <div class="page-service-section__column-mob">
 
-                    <a class="buttons-page-1" href="#">
+                <div class="accordion-service-page">
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-1" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Протезирование</div>
+                                <div class="accordion-home__nav-subtitle">5 работ</div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_yellow"></div>
+                        </div>
+                        <div id="home-tab-1" class="accordion-home__content">
+
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
+
+                                <div class="accordion-home__btn-call">
+                                    <button class="btn-call" data-modal="mainModal">
+                                        <div class="btn-call__img"></div>
+                                        <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <a class="accordion-home__btn" href="#">Смотреть работы</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-service-section__column">
+
+                <div class="accordion-page">
+
+                    <button class="btn-wrapper" href="raboty-protezirovanie/" id="vr1" onclick="toggleActiveClass(this)">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor"></div>
+                            <div class="btn-wrapper__number">01</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Протезирование</div>
+                            <div class="btn-wrapper__subtitle">5 работ</div>
+                        </div>
+                    </button>
+
+                    <button class="btn-wrapper" href="diagnostika-i-konsultacziya/" id="vrb1_1" onclick="toggleActiveClass(this)">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
+                            <div class="btn-wrapper__number">02</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Имплантация</div>
+                            <div class="btn-wrapper__subtitle">2 работы</div>
+                        </div>
+                    </button>
+
+                    <button class="btn-wrapper" href="diagnostika-i-konsultacziya/" id="vrb1_1" onclick="toggleActiveClass(this)">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
+                            <div class="btn-wrapper__number">03</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Гигиена</div>
+                            <div class="btn-wrapper__subtitle">2 работы</div>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="page-service-section__buttons-page">
+
+                    <a class="buttons-page-1" href="/o-klinike/lechenie-v-rassrochku/">
                         <div class="buttons-page-1__img"></div>
                         <div class="buttons-page-1__text">Лечение в рассрочку</div>
                     </a>
 
-                    <a class="buttons-page-2" href="#">
+                    <a class="buttons-page-2" href="/o-klinike/nalogovyj-vychet/">
                         <div class="buttons-page-2__img"></div>
                         <div class="buttons-page-2__text">Налоговый вычет</div>
                     </a>
 
-                    <a class="buttons-page-3" href="#">
+                    <a class="buttons-page-3" href="/o-klinike/garantiya-na-uslugi/">
                         <div class="buttons-page-3__img"></div>
                         <div class="buttons-page-3__text">Гарантия на услуги</div>
                     </a>
@@ -115,7 +184,7 @@ get_header();
                     <div class="feedback-form-laboratory">
 
                         <div class="page-service-section__decor decor-red"></div>
-                        <div class="page-price-section__decor decor-lilac"></div>
+                        <div class="page-service-section__decor decor-blue"></div>
 
                         <div class="feedback-form-laboratory__form">
 
@@ -141,72 +210,154 @@ get_header();
                             </form>
                         </div>
                     </div>
+
                 </div>
+
+
             </div>
 
-            <div class="page-questions-section__column">
-                <div class="portfolio-section__column">
-                    <div class="portfolio-section__before-after" id="beforeAfterSlider">
+            <!-- Содержимое ajax -->
+            <div class="page-service-section__column page-service-section__column_galerea">
 
+                <div id="loader-page"></div>
 
-                        <div class="before-after">
-                            <span id="before" class="before__btn">ДО</span>
-                            <span id="after" class="after__btn">ПОСЛЕ</span>
+                <div class="page-service-section__decor-wrapper">
+                    <div class="page-service-section__decor-content decor-blue"></div>
+                    <div class="page-service-section__decor-content decor-red"></div>
+                </div>
 
-                            <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after__img">
-                                <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after__img">
-                                </div>
-                            </div>
-                            <div class="before-after__procedure procedure">
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-                                <div class="procedure__subtitle">процедура</div>
-                                <div class="procedure__title">Протезирование</div>
-                                <div class="procedure__text">Были установлены 4 импланта.</div>
-                                <div class="procedure__prise">Стоимость: <span>150 000 ₽</span></div>
-                                <button class="btn btn_lilac">Больше работ</button>
+                <section class="page-contetn__wrapper" id="content-page">
+
+                    <div class="before-after">
+                        <span id="before" class="before__btn">ДО</span>
+                        <span id="after" class="after__btn">ПОСЛЕ</span>
+
+                        <div class="before-after__gallery">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after__img">
+                            <div class="before-after__gallery-after">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after__img">
                             </div>
                         </div>
 
-                        <div class="before-after2">
-                            <span id="before2" class="before__btn">ДО</span>
-                            <span id="after2" class="after__btn">ПОСЛЕ</span>
+                        <div class="before-after__procedure procedure">
+                            <div style="margin-bottom: 0;" class="procedure__column">
+                                <div class="procedure__row-all">
 
-                            <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-before.jpg" alt="" class="before-after2__img">
-                                <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/portfolio-after.jpg" alt="" class="before-after2__img">
+                                    <div class="procedure__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                    </div>
+
+                                    <div class="procedure__row-wrapper">
+                                        <div class="procedure__row">
+                                            <div class="procedure__subtitle">Процедура</div>
+                                        </div>
+                                        <div class="procedure__row">
+                                            <div class="procedure__title">Протезирование</div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <button class="btn btn_lilac" href="raboty-protezirovanie/" id="vrb1" onclick="toggleActiveClass(this)">Смотреть все</button>
                             </div>
-                            <div class="before-after2__procedure procedure">
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-                                <div class="procedure__subtitle">процедура</div>
-                                <div class="procedure__title">Имплантаця</div>
-                                <div class="procedure__text">Были установлены 4 импланта.</div>
-                                <div class="procedure__prise">Стоимость: <span>100 000 ₽</span></div>
-                                <button class="btn btn_lilac">Больше работ</button>
+                        </div>
+                    </div>
+
+                    <div class="before-after2">
+                        <span id="before2" class="before__btn">ДО</span>
+                        <span id="after2" class="after__btn">ПОСЛЕ</span>
+
+                        <div class="before-after2__gallery">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after2__img">
+                            <div class="before-after2__gallery-after">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after2__img">
                             </div>
                         </div>
 
+                        <div class="before-after2__procedure procedure">
+                            <div style="margin-bottom: 0;" class="procedure__column">
+                                <div class="procedure__row-all">
+
+                                    <div class="procedure__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                    </div>
+
+                                    <div class="procedure__row-wrapper">
+                                        <div class="procedure__row">
+                                            <div class="procedure__subtitle">Процедура</div>
+                                        </div>
+                                        <div class="procedure__row">
+                                            <div class="procedure__title">Имплантация</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть все</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="before-after3">
+                        <span id="before3" class="before__btn">ДО</span>
+                        <span id="after3" class="after__btn">ПОСЛЕ</span>
+
+                        <div class="before-after3__gallery">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after3__img">
+                            <div class="before-after3__gallery-after">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after3__img">
+                            </div>
+                        </div>
+
+                        <div class="before-after3__procedure procedure">
+                            <div style="margin-bottom: 0;" class="procedure__column">
+                                <div class="procedure__row-all">
+
+                                    <div class="procedure__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                    </div>
+
+                                    <div class="procedure__row-wrapper">
+                                        <div class="procedure__row">
+                                            <div class="procedure__subtitle">Процедура</div>
+                                        </div>
+                                        <div class="procedure__row">
+                                            <div class="procedure__title">Гигиена</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть все</button>
+                            </div>
+                        </div>
                     </div>
 
 
-                    <div class="slider-arrows">
-                        <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
-                        <button class="slider-arrows__right" id="introSliderNext" type="button"></button>
-                    </div>
-
-                </div>                              
+                </section>
             </div>
+
+
+
         </div>
-        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
     </section>
+
+    <section class="page-reviews-section">
+        <div class="page-reviews-section__container container">
+            <div class="page-second-section__title title">Отзывы на независимых площадках</div>
+            <script src="https://res.smartwidgets.ru/app.js" defer></script>
+            <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
+        </div>
+    </section>
+                     
 </div>
+
+
+<script>
+    window.onload = function() {
+        var hash = document.location.hash;
+        if (hash != undefined && hash != null) {
+            var h = hash.replace("#", "");
+            const hparts = h.split("_");
+            document.getElementById("vr" + hparts[0].toString()).click();
+            setTimeout(document.getElementById("vrb" + h.toString()).click(), 500);
+        }
+    }
+</script>
 
 <?php
 get_footer();

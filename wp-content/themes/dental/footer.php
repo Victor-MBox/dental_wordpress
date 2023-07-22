@@ -121,7 +121,9 @@
 
     <!-- Модальные окна -->
     <div class="modal">
-        <div class="modal__overlay">
+        <div class="modal__overlay">                   
+
+            <div class="modal__overlay-item"></div>
 
             <div class="modal-form" id="mainModal">
 
@@ -188,13 +190,14 @@
             </div>
 
             <div class="video-modal" id="videoModal">
-                
+
                 <div class="modal__close modal__close_video"><span></span></div>
 
                 <div class="video-modal__wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
+
         </div>
 
 

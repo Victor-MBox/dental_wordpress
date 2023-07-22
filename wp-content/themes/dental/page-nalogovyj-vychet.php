@@ -143,7 +143,7 @@ get_header();
 
                 <div class="page-about-section__chapter" id="start-link">
 
-                    <div class="page-about-section__banner"></div>
+                    <div class="page-about-section__banner page-about-section__banner_vychet"></div>
                     <div class="page-about-section__text">Имплантация зубов зачастую недешева. Государство предоставляет налоговый вычет за лечение, способный уменьшить финансовую нагрузку. Таким образом, пациент может вернуть обратно часть уплаченных средств за последние 3 года. Клиника Зубки всем поможет собрать документы для оформления вашего права на возврат части НДФЛ.
                     </div>
 
