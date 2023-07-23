@@ -269,6 +269,36 @@ $(document).ready(function () {
         galleryResize2.style.width = "90%";
       };
     }
+
+    var gallery3 = document.querySelector(".before-after3__gallery");
+    var galleryResize3 = document.querySelector(
+      ".before-after3__gallery-after"
+    );
+    var before3 = document.querySelector("#before3");
+    var after3 = document.querySelector("#after3");
+
+    if (gallery3 && galleryResize3 && before3 && after3) {
+      gallery3.addEventListener("mousemove", function (event) {
+        var x = event.offsetX;
+        galleryResize3.classList.remove("tr");
+        galleryResize3.style.width = x + "px";
+      });
+
+      gallery3.addEventListener("mouseleave", function () {
+        galleryResize3.style.width = "50%";
+        galleryResize3.classList.add("tr");
+      });
+
+      before3.onclick = function () {
+        galleryResize3.classList.add("tr");
+        galleryResize3.style.width = "50px";
+      };
+
+      after3.onclick = function () {
+        galleryResize3.classList.add("tr");
+        galleryResize3.style.width = "90%";
+      };
+    }
   }
 
   // Обработчик клика на кнопку подробнее

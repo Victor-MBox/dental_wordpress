@@ -228,18 +228,11 @@ get_header();
 
                 <section class="page-contetn__wrapper" id="content-page">
 
-                    <div class="before-after">
-                        <span id="before" class="before__btn">ДО</span>
-                        <span id="after" class="after__btn">ПОСЛЕ</span>
-
-                        <div class="before-after__gallery">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after__img">
-                            <div class="before-after__gallery-after">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after__img">
-                            </div>
+                    <div class="page-content__chapter page-content__chapter_margin">
+                        <div class="page-content__banner page-content__banner_protezirovanie page-content__banner_protezirovanie_min">
                         </div>
 
-                        <div class="before-after__procedure procedure">
+                        <div class="page-content__procedure procedure">
                             <div style="margin-bottom: 0;" class="procedure__column">
                                 <div class="procedure__row-all">
 
@@ -256,23 +249,16 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="raboty-protezirovanie/" id="vrb1" onclick="toggleActiveClass(this)">Смотреть все</button>
+                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="before-after2">
-                        <span id="before2" class="before__btn">ДО</span>
-                        <span id="after2" class="after__btn">ПОСЛЕ</span>
-
-                        <div class="before-after2__gallery">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after2__img">
-                            <div class="before-after2__gallery-after">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after2__img">
-                            </div>
+                    <div class="page-content__chapter page-content__chapter_margin">
+                        <div class="page-content__banner page-content__banner_implantatsiya page-content__banner_implantatsiya_min">
                         </div>
 
-                        <div class="before-after2__procedure procedure">
+                        <div class="page-content__procedure procedure">
                             <div style="margin-bottom: 0;" class="procedure__column">
                                 <div class="procedure__row-all">
 
@@ -289,23 +275,16 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть все</button>
+                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="before-after3">
-                        <span id="before3" class="before__btn">ДО</span>
-                        <span id="after3" class="after__btn">ПОСЛЕ</span>
-
-                        <div class="before-after3__gallery">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after3__img">
-                            <div class="before-after3__gallery-after">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after3__img">
-                            </div>
+                    <div class="page-content__chapter page-content__chapter_margin">
+                        <div class="page-content__banner page-content__banner_kariyes page-content__banner_kariyes_min">
                         </div>
 
-                        <div class="before-after3__procedure procedure">
+                        <div class="page-content__procedure procedure">
                             <div style="margin-bottom: 0;" class="procedure__column">
                                 <div class="procedure__row-all">
 
@@ -322,11 +301,10 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть все</button>
+                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>
-
 
                 </section>
             </div>
@@ -343,7 +321,7 @@ get_header();
             <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
         </div>
     </section>
-                     
+
 </div>
 
 
