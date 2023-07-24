@@ -450,19 +450,11 @@
 
                             <div id="tab-7" class="accordion__content">
 
-                                <a href="/galereya/">Диагностика</a>
-
                                 <a href="/galereya/">Протезирование</a>
 
-                                <a href="/galereya/">Терапия</a>
+                                <a href="/galereya/">Имплантация</a>
 
-                                <a href="/galereya/">Хирургия</a>
-
-                                <a href="/galereya/">Ортодонтия</a>
-
-                                <a href="/galereya/">Гигиена и отбеливание зубов</a>
-
-                                <a href="/galereya/">Гнатология</a>
+                                <a href="/galereya/">Гигиена</a>
 
                             </div>
                         </div>
@@ -778,25 +770,13 @@
                         <a class="nav__link" href="/galereya/">Галерея</a>
                         <ul class="sub-nav__list">
                             <li>
-                                <a class="sub-nav__link" href="/galereya/">Диагностика</a>
-                            </li>
-                            <li>
                                 <a class="sub-nav__link" href="/galereya/">Протезирование</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/galereya/">Терапия</a>
+                                <a class="sub-nav__link" href="/galereya/">Имплантация</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/galereya/">Хирургия</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Ортодонтия</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Гигиена и отбеливание</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Гнатология</a>
+                                <a class="sub-nav__link" href="/galereya/">Гигиена</a>
                             </li>
                         </ul>
                     </li>

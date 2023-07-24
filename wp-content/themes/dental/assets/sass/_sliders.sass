@@ -122,14 +122,14 @@
 
 /* Сдайды До После */
 
-.before-after, .before-after__gallery, .before-after__img, .before-after2, .before-after2__gallery, .before-after2__img, .before-after3, .before-after3__gallery, .before-after3__img
+.before-after, .before-after__gallery, .before-after__img, .before-after2, .before-after2__gallery, .before-after2__img, .before-after3, .before-after3__gallery, .before-after3__img, .before-after4, .before-after4__gallery, .before-after4__img, .before-after5, .before-after5__gallery, .before-after5__img, .before-after6, .before-after6__gallery, .before-after6__img, .before-after7, .before-after7__gallery, .before-after7__img, .before-after8, .before-after8__gallery, .before-after8__img, .before-after9, .before-after9__gallery, .before-after9__img, .before-after10, .before-after10__gallery, .before-after10__img
     width: 793px
     height: 485px
     margin: 0
     padding: 0
     border-radius: 45px 5px 45px 5px
 
-.before-after, .before-after2,.before-after3
+.before-after, .before-after2,.before-after3, .before-after4, .before-after5,.before-after6, .before-after7, .before-after8,.before-after9, .before-after10
     position: relative
     p
         font-size: 40px
@@ -145,7 +145,7 @@
         max-width: initial
         display: block
         cursor: col-resize
-    &__gallery-after, .before-after__gallery-after::after, .before-after2__gallery-after::after, .before-after3__gallery-after::after
+    &__gallery-after, &__gallery-after::after
         position: absolute
         top: 0
         cursor: col-resize
@@ -165,7 +165,7 @@
         height: 100%
         z-index: 20
 
-    #before, #after, #before2, #after2, #before3, #after3
+    #before, #after, #before2, #after2, #before3, #after3, #before4, #after4, #before5, #after5, #before6, #after6, #before7, #after7, #before8, #after8, #before9, #after9, #before10, #after10
         position: absolute
         z-index: 100
         border: none
@@ -187,12 +187,12 @@
         width: 72px
         height: 72px
 
-    #before, #before2, #before3
+    #before, #before2, #before3, #before4, #before5, #before6, #before7, #before8, #before9, #before10
         left: 40px
         background: $black-1
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
         border-radius: 1px 15px 15px 15px
-    #after, #after2, #after3
+    #after, #after2, #after3, #after4, #after5, #after6, #after7, #after8, #after9, #after10
         right: 40px
         background: #01B5EE
         box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
@@ -259,6 +259,8 @@
         letter-spacing: 0.01em
         color: $black-1
         margin-right: 10px
+        &_auto
+            width: auto
     &__text
         font-weight: 400
         font-size: 14px

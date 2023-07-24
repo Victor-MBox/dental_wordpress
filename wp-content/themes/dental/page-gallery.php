@@ -135,7 +135,7 @@ get_header();
                         </div>
                     </button>
 
-                    <button class="btn-wrapper" href="diagnostika-i-konsultacziya/" id="vrb1_1" onclick="toggleActiveClass(this)">
+                    <button class="btn-wrapper" href="raboty-implantacziya/" id="vr2" onclick="toggleActiveClass(this)">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
                             <div class="btn-wrapper__number">02</div>
@@ -146,7 +146,7 @@ get_header();
                         </div>
                     </button>
 
-                    <button class="btn-wrapper" href="diagnostika-i-konsultacziya/" id="vrb1_1" onclick="toggleActiveClass(this)">
+                    <button class="btn-wrapper" href="raboty-gigiena/" id="vr3" onclick="toggleActiveClass(this)">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
                             <div class="btn-wrapper__number">03</div>
@@ -249,7 +249,7 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
+                                <button class="btn btn_lilac" href="raboty-protezirovanie/" id="vr1" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
+                                <button class="btn btn_lilac" href="raboty-implantacziya/" id="vr2" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>
@@ -301,7 +301,7 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn_lilac" href="diagnostika-i-konsultacziya/" id="vrb2_1" onclick="toggleActiveClass(this)">Смотреть работы</button>
+                                <button class="btn btn_lilac" href="raboty-gigiena/" id="vr3" onclick="toggleActiveClass(this)">Смотреть работы</button>
                             </div>
                         </div>
                     </div>

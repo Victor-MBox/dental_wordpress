@@ -377,6 +377,225 @@ $(document).ready(function () {
   }
 });
 
+//4
+$(document).ready(function () {
+  var gallery4 = document.querySelector(".before-after4__gallery");
+  var galleryResize4 = document.querySelector(".before-after4__gallery-after");
+  var before4 = document.querySelector("#before4");
+  var after4 = document.querySelector("#after4");
+
+  if (gallery4 && galleryResize4 && before4 && after4) {
+    gallery4.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize4.classList.remove("tr");
+      galleryResize4.style.width = x + "px";
+    });
+
+    gallery4.addEventListener("mouseleave", function () {
+      galleryResize4.style.width = "50%";
+      galleryResize4.classList.add("tr");
+    });
+
+    before4.onclick = function () {
+      galleryResize4.classList.add("tr");
+      galleryResize4.style.width = "50px";
+    };
+
+    after4.onclick = function () {
+      galleryResize4.classList.add("tr");
+      galleryResize4.style.width = "90%";
+    };
+  }
+});
+
+//5
+$(document).ready(function () {
+  var gallery5 = document.querySelector(".before-after5__gallery");
+  var galleryResize5 = document.querySelector(".before-after5__gallery-after");
+  var before5 = document.querySelector("#before5");
+  var after5 = document.querySelector("#after5");
+
+  if (gallery5 && galleryResize5 && before5 && after5) {
+    gallery5.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize5.classList.remove("tr");
+      galleryResize5.style.width = x + "px";
+    });
+
+    gallery5.addEventListener("mouseleave", function () {
+      galleryResize5.style.width = "50%";
+      galleryResize5.classList.add("tr");
+    });
+
+    before5.onclick = function () {
+      galleryResize5.classList.add("tr");
+      galleryResize5.style.width = "50px";
+    };
+
+    after5.onclick = function () {
+      galleryResize5.classList.add("tr");
+      galleryResize5.style.width = "90%";
+    };
+  }
+});
+
+//6
+$(document).ready(function () {
+  var gallery6 = document.querySelector(".before-after6__gallery");
+  var galleryResize6 = document.querySelector(".before-after6__gallery-after");
+  var before6 = document.querySelector("#before6");
+  var after6 = document.querySelector("#after6");
+
+  if (gallery6 && galleryResize6 && before6 && after6) {
+    gallery6.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize6.classList.remove("tr");
+      galleryResize6.style.width = x + "px";
+    });
+
+    gallery6.addEventListener("mouseleave", function () {
+      galleryResize6.style.width = "50%";
+      galleryResize6.classList.add("tr");
+    });
+
+    before6.onclick = function () {
+      galleryResize6.classList.add("tr");
+      galleryResize6.style.width = "50px";
+    };
+
+    after6.onclick = function () {
+      galleryResize6.classList.add("tr");
+      galleryResize6.style.width = "90%";
+    };
+  }
+});
+
+//7
+$(document).ready(function () {
+  var gallery7 = document.querySelector(".before-after7__gallery");
+  var galleryResize7 = document.querySelector(".before-after7__gallery-after");
+  var before7 = document.querySelector("#before7");
+  var after7 = document.querySelector("#after7");
+
+  if (gallery7 && galleryResize7 && before7 && after7) {
+    gallery7.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize7.classList.remove("tr");
+      galleryResize7.style.width = x + "px";
+    });
+
+    gallery7.addEventListener("mouseleave", function () {
+      galleryResize7.style.width = "50%";
+      galleryResize7.classList.add("tr");
+    });
+
+    before7.onclick = function () {
+      galleryResize7.classList.add("tr");
+      galleryResize7.style.width = "50px";
+    };
+
+    after7.onclick = function () {
+      galleryResize7.classList.add("tr");
+      galleryResize7.style.width = "90%";
+    };
+  }
+});
+
+//8
+$(document).ready(function () {
+  var gallery8 = document.querySelector(".before-after8__gallery");
+  var galleryResize8 = document.querySelector(".before-after8__gallery-after");
+  var before8 = document.querySelector("#before8");
+  var after8 = document.querySelector("#after8");
+
+  if (gallery8 && galleryResize8 && before8 && after8) {
+    gallery8.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize8.classList.remove("tr");
+      galleryResize8.style.width = x + "px";
+    });
+
+    gallery8.addEventListener("mouseleave", function () {
+      galleryResize8.style.width = "50%";
+      galleryResize8.classList.add("tr");
+    });
+
+    before8.onclick = function () {
+      galleryResize8.classList.add("tr");
+      galleryResize8.style.width = "50px";
+    };
+
+    after8.onclick = function () {
+      galleryResize8.classList.add("tr");
+      galleryResize8.style.width = "90%";
+    };
+  }
+});
+
+//9
+$(document).ready(function () {
+  var gallery9 = document.querySelector(".before-after9__gallery");
+  var galleryResize9 = document.querySelector(".before-after9__gallery-after");
+  var before9 = document.querySelector("#before9");
+  var after9 = document.querySelector("#after9");
+
+  if (gallery9 && galleryResize9 && before9 && after9) {
+    gallery9.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize9.classList.remove("tr");
+      galleryResize9.style.width = x + "px";
+    });
+
+    gallery9.addEventListener("mouseleave", function () {
+      galleryResize9.style.width = "50%";
+      galleryResize9.classList.add("tr");
+    });
+
+    before9.onclick = function () {
+      galleryResize9.classList.add("tr");
+      galleryResize9.style.width = "50px";
+    };
+
+    after9.onclick = function () {
+      galleryResize9.classList.add("tr");
+      galleryResize9.style.width = "90%";
+    };
+  }
+});
+
+//10
+$(document).ready(function () {
+  var gallery10 = document.querySelector(".before-after10__gallery");
+  var galleryResize10 = document.querySelector(
+    ".before-after10__gallery-after"
+  );
+  var before10 = document.querySelector("#before10");
+  var after10 = document.querySelector("#after10");
+
+  if (gallery10 && galleryResize10 && before10 && after10) {
+    gallery10.addEventListener("mousemove", function (event) {
+      var x = event.offsetX;
+      galleryResize10.classList.remove("tr");
+      galleryResize10.style.width = x + "px";
+    });
+
+    gallery10.addEventListener("mouseleave", function () {
+      galleryResize10.style.width = "50%";
+      galleryResize10.classList.add("tr");
+    });
+
+    before10.onclick = function () {
+      galleryResize10.classList.add("tr");
+      galleryResize10.style.width = "50px";
+    };
+
+    after10.onclick = function () {
+      galleryResize10.classList.add("tr");
+      galleryResize10.style.width = "90%";
+    };
+  }
+});
+
 /* *************************************************
 Карусель с докторами на главной странице */
 
@@ -554,7 +773,7 @@ $(document).ready(function () {
 
       $.ajax({
         type: "POST",
-        url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
+        url: "https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php",
         data: form.serialize(),
       }).done(function () {
         form.find("input").val("");
@@ -593,7 +812,7 @@ $(document).ready(function () {
 
       $.ajax({
         type: "POST",
-        url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
+        url: "https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php",
         data: $(form).serialize(),
         success: function (response) {
           $submitButton.val(originalButtonText); // Восстанавливаем оригинальный текст кнопки
