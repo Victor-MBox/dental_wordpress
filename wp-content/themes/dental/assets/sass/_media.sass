@@ -152,14 +152,22 @@
         textarea
             height: 128px
 
-    .before-after, .before-after2
-        &__procedure
-            bottom: -24px
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            &__procedure
+                bottom: -24px
+        .procedure
+            width: 524px
 
-    .before-after__gallery, .before-after__img,
-    .before-after2__gallery, .before-after2__img
-        width: 700px
-        height: 440px
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
+            width: 700px
+            height: 440px
 
     .slider-arrows
         bottom: 0
@@ -246,19 +254,74 @@
                 margin: 0 auto
                 img
                     width: 650px
-            .before-after, .before-after2
-                height: 526px
-                &__procedure
-                    bottom: 16px
+
             .slider-arrows
                 bottom: 16px
                 right: 5%
         &__title
             font-size: 26px
 
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 650px
+                height: 440px
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    left: 1%
+                    transform: none
+                    margin-top: -30px
+            .procedure
+                width: 80%
+
+            .slick-slider
+                width: 650px
+            .slick-list
+                overflow: visible
+
+        &__chapter-home
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 650px
+                height: 440px
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    margin-top: -30px
+            .slick-slider
+                height: 558px
+                width: 650px
+            .slick-list
+                overflow: visible
+            .slider-arrows
+                right: auto
+                left: 550px
+            .procedure
+                width: 80%
+
     .procedure
         &__img
             display: none
+
+    /* СТР УСЛУГИ до - после */
+    .page-content
+        padding-top: 148px
+        &__chapter
+            &_do-posle
+                .page-content__before-after
+                    .slick-slider
+                        width: 650px
 
     /* Страница  ЦЕНЫ*/
     .accordion-price-page
@@ -511,7 +574,7 @@
                 width: 50%
         &__form
             left: 55%
-            top: 0
+            top: 140px
         &__decor-red
             display: none
         &__decor-yellow
@@ -551,22 +614,31 @@
         textarea
             height: 80px
 
-    .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
-        max-width: 550px
-        max-height: 440px
-        width: auto
-        height: auto
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
+            max-width: 550px
+            max-height: 440px
+            width: auto
+            height: auto
 
-    .before-after__procedure, .before-after2__procedure
-        bottom: 26px
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            &__procedure
+                bottom: 26px
 
-    .procedure
-        &__img
-            display: none
-        &__title, &__subtitle
-            margin-bottom: 5px
-        &__text
-            margin-bottom: 5px
+        .procedure
+            width: 380px
+            &__img
+                display: none
+            &__title, &__subtitle
+                margin-bottom: 5px
+            &__column
+                margin-bottom: 0
 
     /* Наши специалисты */
 
@@ -716,13 +788,67 @@
         &__banner
             margin-bottom: 85px
 
+    /* Страница ГАЛЕРЕЯ */
+    .page-service-section
+        &__column_galerea
+            .procedure
+                width: 480px
+
+    .btn-wrapper, .btn-wrapper-about
+        &__number
+            font-size: 30px
+            line-height: 30px
+
+    .page-content
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 550px
+                height: 340px
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+
+            .procedure
+                &__text
+                    display: block
+
+        &__chapter-home
+
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 550px
+                height: 340px
+            .slick-slider
+                width: 550px
+                height: 400px
+            .slick-list
+                overflow: visible
+            .slider-arrows
+                right: auto
+                left: 450px
+                bottom: 10px
+            .procedure
+                width: 80%
+                &__column
+                    margin-bottom: 0
+
 @media (max-width: 880px)
 
     /* Главный экран СЛАЙДЕР */
     .main-section
         &__subtitle
             margin-right: 0
-
 
     .portfolio-section
         &__column
@@ -732,11 +858,29 @@
         textarea
             height: 50px
 
-    .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
-        max-width: 420px
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
+            max-width: 420px
 
-    .before-after__procedure, .before-after2__procedure
-        bottom: 52px
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            &__procedure
+                bottom: 120px
+
+    /* Наши услуги ГЛАВНАЯ */
+    .tabs
+        &__item
+            &:nth-child(2)
+                .tabs__btn-call
+                    bottom: 180px
+            &:nth-child(4)
+                .tabs__btn-call
+                    bottom: 190px
 
     /* СТРАНИЦА - УСЛУГИ */
     .accordion-page__tab .accordion-page__nav-title, .accordion-page__tab.active .accordion-page__nav-title
@@ -861,6 +1005,58 @@
             &__banner
                 margin-bottom: 65px
 
+    /* Страница ГАЛЕРЕЯ */
+    .page-service-section
+        &__column_galerea
+            .procedure
+                width: 440px
+
+    .page-content
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 490px
+                height: 300px
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    width: 480px
+
+        &__chapter-home
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 490px
+                height: 300px
+            .slick-slider
+                width: 490px
+                height: 420px
+            .slider-arrows
+                right: auto
+                left: 350px
+                bottom: 10px
+            .procedure
+                width: 46%
+                &__column
+                    flex-direction: column
+                &__row-all
+                    margin-bottom: 20px
+
+    .btn-wrapper
+        &__decor
+            width: 35px
+            height: 35px
+
 @media (max-width: 768px)
 
     /* Header */
@@ -893,7 +1089,6 @@
             margin-right: 0
             width: 100%
             justify-content: center
-
 
     /* Footer */
     .footer
@@ -959,7 +1154,7 @@
         background-repeat: no-repeat, no-repeat, no-repeat
         background-position: 10px 20px, 80% 40%, 50% 100%
         padding-top: 54px
-        min-height: 630px
+        min-height: 660px
         &__column
             min-height: 400px
             height: auto
@@ -984,8 +1179,7 @@
             margin-right: 0
             margin-bottom: 4px
         .slick-dots
-            display: none !important
-
+            bottom: -24px
     /* Наши Преимущества */
     .second-section
         &__column
@@ -1021,8 +1215,10 @@
         &__form
             position: relative
             left: 0
+            top: 0
             width: 100%
             z-index: 1
+
         &__decor-red
             display: block
 
@@ -1121,7 +1317,15 @@
 
         .slider-arrows
             display: none
-        .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
+
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
             max-width: 460px
             max-height: 440px
         .slick-dots
@@ -1129,20 +1333,21 @@
             left: 50%
             transform: translateX(-50%)
 
-    .before-after, .before-after2
-        &__procedure
-            position: relative
-            left: 0
-            bottom: 0
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            &__procedure
+                position: relative
+                left: 0
+                bottom: 0
+                width: auto
 
-    .procedure
-        border-radius: 1px 15px 15px 15px
-        width: 100%
-        padding: 12px
-        &__prise
-            margin-bottom: 0
-        .btn
-            display: none
+        .procedure
+            border-radius: 1px 15px 15px 15px
+            width: 100%
+            padding: 12px
+            &__prise
+                margin-bottom: 0
+            .btn
+                display: none
 
     .feedback-form-portfolio
         width: auto
@@ -1169,7 +1374,7 @@
                 height: 95px
         &__carousel
             margin-bottom: 24px
-            
+
     .carousel
         &__text
             padding: 0 10px
@@ -1183,7 +1388,7 @@
                 left: auto
         .slick-dots
             position: relative
-            li 
+            li
                 button
                     width: 32px
 
@@ -1303,7 +1508,7 @@
                         display: block
                         position: absolute
                         right: -12%
-                        bottom: 22%
+                        top: 380px
                         transform: rotate(333deg)
                     &__text
                         z-index: 1
@@ -1385,7 +1590,6 @@
             display: none
         .accordion-price-page .accordion-home__btn-call
             display: none
-        
 
     .accordion-price-page
         .accordion-home
@@ -1544,10 +1748,11 @@
                 display: none
             &:nth-child(1)
                 order: 1
-                min-width: 100%
-                min-width: none
+                width: 100%
             &:nth-child(2)
                 margin-bottom: 24px
+                width: 100%
+
 
     .faq
         &__tab
@@ -1592,6 +1797,12 @@
         &__title
             font-size: 32px
             line-height: 36px
+
+    /* Страница  УСЛУГИ*/
+    .page-content
+        &__chapter-home
+            .slick-dots
+                display: none!important
 
 @media (max-width: 480px)
     /* Header */
@@ -1649,7 +1860,7 @@
     /* Главная страница */
         /* Главный экран */
     .main-section
-        min-height: 600px
+        min-height: 620px
         &__title
             font-size: 26px
             line-height: 30px
@@ -1659,9 +1870,10 @@
             padding-right: 0
             br
                 display: none
+        .slick-dots
+            bottom: 18px
 
         /* Наши Преимущества */
-
     .second-section
         &__container
             margin-bottom: 60px
@@ -1676,21 +1888,28 @@
         .slick-dots
             bottom: 114px
 
-        #before, #after, #before2, #after2
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
+            max-width: 360px
+
+        #before, #after, #before2, #after2, #before3, #after3
             font-size: 12px
             line-height: 12px
             width: 62px
             height: 58px
             top: 42px
 
-    .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
-        max-width: 360px
-
     /* Карусель доктора */
     .carousel
         .slick-dots
             position: relative
-            li 
+            li
                 button
                     width: 26px
 
@@ -1706,8 +1925,7 @@
                         line-height: 31px
                     &__label
                         left: 5%
-                    &__first-decor
-                        bottom: 36%
+                    
         &__infobox
             padding: 85px 25px 15px 15px
             &::before
@@ -1867,7 +2085,8 @@
             line-height: 26px
         &__subtitle
             line-height: 18px
-
+        .slick-dots
+            bottom: 6px
         /* Наши Преимущества */
 
     .title
@@ -1910,14 +2129,27 @@
         .slick-dots
             bottom: 114px
 
-    .portfolio-section .before-after__gallery, .portfolio-section .before-after__img, .portfolio-section .before-after2__gallery, .portfolio-section .before-after2__img
-        max-width: 300px
+    .portfolio-section
+        .before-after__gallery, .before-after__img,
+        .before-after2__gallery, .before-after2__img,
+        .before-after3__gallery, .before-after3__img,
+        .before-after4__gallery, .before-after4__img,
+        .before-after5__gallery, .before-after5__img,
+        .before-after6__gallery, .before-after6__img,
+        .before-after7__gallery, .before-after7__img,
+        .before-after8__gallery, .before-after8__img
+            max-width: 300px
+        &__column
+            &:nth-child(1)
+                height: 348px
+        .slick-dots
+            bottom: 164px
 
     /* Карусель доктора */
     .carousel
         .slick-dots
             position: relative
-            li 
+            li
                 button
                     width: 22px
 
@@ -1938,7 +2170,7 @@
                 &__label
                     top: 160px
                 &__first-decor
-                    bottom: 52%
+                    top: 300px
         &__title
             font-size: 20px
             line-height: 22px

@@ -36,16 +36,16 @@ get_header();
                             Последний вагон из центра. <br>
                             От метро автобус № 97 - до остановки Верхняя Первомайская улица, далее 3 минуты пешком.<br>
                             Или автобусы № 257, 52, Т32, Т41 - до остановки 3-я Парковая улица, далее 15 мин. пешком.
-                            
+
                         </div>
 
                         <div id="textHidden" class="text-hidden">
-                        <b>От метро «Первомайская»:</b> <br>
+                            <b>От метро «Первомайская»:</b> <br>
                             Выход из метро к Первомайской улице. <br>
                             От метро любой трамвай или автобусы № Т22, 634, 974, 223 - до остановки 3-я Парковая улица. <br>
                             Далее 10 минут пешком. <br> <br>
 
-                        <b>От метро «Преображенская площадь»:</b> <br>
+                            <b>От метро «Преображенская площадь»:</b> <br>
                             Первый вагон из центра. <br>
                             От метро автобус № 230 - до остановки 3-я Парковая улица, далее 3 минуты пешком. <br>
                             Или автобусы № Т83, 449, 52 - до остановки Монтажная улица, далее 12 мин пешком. <br> <br>
@@ -160,17 +160,17 @@ get_header();
             <div class="page-about-section__buttons-page">
                 <div class="page-contact-fourth-section__title title">Узнайте возможности лечения ;)</div>
 
-                <a class="buttons-page-1" href="#">
+                <a class="buttons-page-1" href="/lechenie-v-rassrochku/">
                     <div class="buttons-page-1__img"></div>
                     <div class="buttons-page-1__text">Лечение в рассрочку</div>
                 </a>
 
-                <a class="buttons-page-2" href="#">
+                <a class="buttons-page-2" href="/nalogovyj-vychet/">
                     <div class="buttons-page-2__img"></div>
                     <div class="buttons-page-2__text">Налоговый вычет</div>
                 </a>
 
-                <a class="buttons-page-3" href="#">
+                <a class="buttons-page-3" href="/garantiya-na-uslugi/">
                     <div class="buttons-page-3__img"></div>
                     <div class="buttons-page-3__text">Гарантия на услуги</div>
                 </a>

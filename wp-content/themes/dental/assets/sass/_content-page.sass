@@ -5,15 +5,43 @@
         position: relative
         .slick-slider, .slick-slider img
             width: 770px
-        .before-after, .before-after2
-            height: 570px
-            &__procedure
-                bottom: 12px
         .slider-arrows
             bottom: 12px
+
+        
         &_margin
             margin-bottom: 50px
             position: relative
+
+    &__chapter-do-posle, &__chapter-home
+        margin-bottom: 35px
+        position: relative
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            height: 560px
+            margin-bottom: 0
+            &__procedure
+                position: relative
+                left: 1%
+                top: 0
+                margin-top: -90px
+                transform: none
+                background: #fff
+        .procedure
+            width: 90%
+
+    &__chapter-home
+        .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+            &__procedure
+                margin-top: -30px
+        .slick-slider
+            height: 600px
+        .slick-list
+            overflow: visible
+        .slider-arrows
+            bottom: 28px
+        .procedure
+            width: 80%
+
     &__before-after-link
         display: none
         color: #01BBF6
@@ -79,6 +107,8 @@
 
         &_khirurgiya
             background: url(assets/img/page/price/page-services-04.jpg) center /cover no-repeat
+            &_min
+                height: 260px
         &_udaleniye
             background: url(assets/img/page/servise/content-page-services-09.jpg) center /cover no-repeat
         &_udaleniye-prostoe
@@ -179,7 +209,6 @@
         &_sub
             font-size: 20px
             line-height: 21px
-        
 
     &__list
         margin-bottom: 25px
@@ -428,3 +457,4 @@
             width: 100%
             height: 200px
             border-radius: 15px
+

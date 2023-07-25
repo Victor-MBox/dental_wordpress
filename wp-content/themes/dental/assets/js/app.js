@@ -147,7 +147,7 @@ $(document).ready(function () {
       speed: 500,
       fade: true,
       autoplay: true,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 7000,
     });
   }
   // Скрытие изображения загрузки
@@ -228,14 +228,15 @@ $(document).ready(function () {
         var ct = $("#" + item.dataset.tab);
         console.log(ct.position().top);
         if (
-          location.href != "https://zubkivsem.ru/o-klinike/voprosy/" &&
-          location.href != "http://localhost:8888/Dental/galereya/"
-        ) {
-          $("html, body").animate(
-            { scrollTop: ct.offset().top - ct.position().top - 72 },
-            500
-          );
-        }
+					location.href != 'https://zubkivsem.ru/o-klinike/voprosy/' &&
+					location.href != 'https://zubkivsem.ru/galereya/' &&
+					location.href != 'https://zubkivsem.ru/vrachi/'
+				) {
+					$('html, body').animate(
+						{ scrollTop: ct.offset().top - ct.position().top - 72 },
+						500
+					)
+				}
       })
     );
   }
@@ -901,6 +902,27 @@ scrollUp.addEventListener("click", () => {
 });
 
 updateDashoffset();
+
+//Кнопка ПОДРОБНЕЕ - СКРЫТЬ - ГЛАВНАЯ СТРАНИЦА
+//====================================
+var textHiddenBtn = document.getElementById("textHiddenBtnHome");
+var textHidden = document.getElementById('textHiddenHome')
+
+if (textHiddenBtn && textHidden) {
+  textHiddenBtn.addEventListener("click", function () {
+    if (textHiddenHome.classList.contains('text-hiddenHome')) {
+			// Показываем скрытый элемент
+			textHiddenHome.classList.remove('text-hiddenHome')
+			textHiddenHome.classList.add('text-visibleHome')
+			textHiddenBtn.textContent = 'Скрыть'
+		} else {
+			// Скрываем элемент
+			textHiddenHome.classList.remove('text-visibleHome')
+			textHiddenHome.classList.add('text-hiddenHome')
+			textHiddenBtn.textContent = 'Подробнее'
+		}
+  });
+}
 
 //Кнопка ПОДРОБНЕЕ - СКРЫТЬ
 //====================================

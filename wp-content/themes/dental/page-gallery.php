@@ -131,14 +131,25 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Протезирование</div>
-                            <div class="btn-wrapper__subtitle">5 работ</div>
+                            <div class="btn-wrapper__subtitle">6 работ</div>
                         </div>
                     </button>
 
-                    <button class="btn-wrapper" href="raboty-implantacziya/" id="vr2" onclick="toggleActiveClass(this)">
+                    <button class="btn-wrapper" href="raboty-hirurgiya/" id="vr2" onclick="toggleActiveClass(this)">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_blue"></div>
                             <div class="btn-wrapper__number">02</div>
+                        </div>
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__title">Хирургия</div>
+                            <div class="btn-wrapper__subtitle">1 работа</div>
+                        </div>
+                    </button>
+
+                    <button class="btn-wrapper" href="raboty-implantacziya/" id="vr3" onclick="toggleActiveClass(this)">
+                        <div class="btn-wrapper__column">
+                            <div class="btn-wrapper__decor btn-wrapper__decor_red"></div>
+                            <div class="btn-wrapper__number">03</div>
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Имплантация</div>
@@ -146,10 +157,10 @@ get_header();
                         </div>
                     </button>
 
-                    <button class="btn-wrapper" href="raboty-gigiena/" id="vr3" onclick="toggleActiveClass(this)">
+                    <button class="btn-wrapper" href="raboty-gigiena/" id="vr4" onclick="toggleActiveClass(this)">
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__decor btn-wrapper__decor_lilac"></div>
-                            <div class="btn-wrapper__number">03</div>
+                            <div class="btn-wrapper__number">04</div>
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Гигиена</div>
@@ -255,6 +266,32 @@ get_header();
                     </div>
 
                     <div class="page-content__chapter page-content__chapter_margin">
+                        <div class="page-content__banner page-content__banner_khirurgiya page-content__banner_khirurgiya_min">
+                        </div>
+
+                        <div class="page-content__procedure procedure">
+                            <div style="margin-bottom: 0;" class="procedure__column">
+                                <div class="procedure__row-all">
+
+                                    <div class="procedure__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                    </div>
+
+                                    <div class="procedure__row-wrapper">
+                                        <div class="procedure__row">
+                                            <div class="procedure__subtitle">Процедура</div>
+                                        </div>
+                                        <div class="procedure__row">
+                                            <div class="procedure__title">Хирургия</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn_lilac" href="raboty-hirurgiya/" id="vr3" onclick="toggleActiveClass(this)">Смотреть работы</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-content__chapter page-content__chapter_margin">
                         <div class="page-content__banner page-content__banner_implantatsiya page-content__banner_implantatsiya_min">
                         </div>
 
@@ -305,6 +342,8 @@ get_header();
                             </div>
                         </div>
                     </div>
+
+
 
                 </section>
             </div>

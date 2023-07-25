@@ -31,17 +31,18 @@ get_header();
                     <!-- Содержимое вкладок -->
                     <div id="galerea-tab1" class="galerea-tab__content active">
 
-                        <div class="before-after">
-                            <span id="before" class="before__btn">ДО</span>
-                            <span id="after" class="after__btn">ПОСЛЕ</span>
+                        <div class="page-content__chapter-do-posle">
+                            <div class="before-after">
+                                <span id="before" class="before__btn">ДО</span>
+                                <span id="after" class="after__btn">ПОСЛЕ</span>
 
-                            <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-after.jpg" alt="" class="before-after__img">
-                                <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-before.jpg" alt="" class="before-after__img">
+                                <div class="before-after__gallery">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-after.jpg" alt="" class="before-after__img">
+                                    <div class="before-after__gallery-after">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-before.jpg" alt="" class="before-after__img">
+                                    </div>
                                 </div>
                             </div>
-
                             <div class="before-after__procedure procedure">
                                 <div class="procedure__column">
                                     <div class="procedure__row-all">
@@ -62,21 +63,21 @@ get_header();
                                 </div>
                                 <div class="procedure__text">Удаление зубов, костная пластика, установка имплантов, временная конструкция, постоянная конструкция</div>
                             </div>
-
                         </div>
 
-                        <div class="before-after2">
-                            <span id="before2" class="before__btn">ДО</span>
-                            <span id="after2" class="after__btn">ПОСЛЕ</span>
+                        <div class="page-content__chapter-do-posle">
+                            <div class="before-after2">
+                                <span id="before2" class="before__btn">ДО</span>
+                                <span id="after2" class="after__btn">ПОСЛЕ</span>
 
-                            <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after2__img">
-                                <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after2__img">
+                                <div class="before-after2__gallery">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after2__img">
+                                    <div class="before-after2__gallery-after">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after2__img">
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="before-after2__procedure procedure">
+                            <div class="before-after__procedure procedure">
                                 <div class="procedure__column">
                                     <div class="procedure__row-all">
 
@@ -97,7 +98,6 @@ get_header();
                                 </div>
                                 <div class="procedure__text">Установка импланта</div>
                             </div>
-
                         </div>
 
 

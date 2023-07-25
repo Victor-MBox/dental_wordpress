@@ -31,17 +31,18 @@ get_header();
                     <!-- Содержимое вкладок -->
                     <div id="galerea-tab1" class="galerea-tab__content active">
 
-                        <div class="before-after">
-                            <span id="before" class="before__btn">ДО</span>
-                            <span id="after" class="after__btn">ПОСЛЕ</span>
+                        <div class="page-content__chapter-do-posle">
+                            <div class="before-after">
+                                <span id="before" class="before__btn">ДО</span>
+                                <span id="after" class="after__btn">ПОСЛЕ</span>
 
-                            <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" class="before-after__img">
-                                <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" class="before-after__img">
+                                <div class="before-after__gallery">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" class="before-after__img">
+                                    <div class="before-after__gallery-after">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" class="before-after__img">
+                                    </div>
                                 </div>
                             </div>
-
                             <div class="before-after__procedure procedure">
                                 <div class="procedure__column">
                                     <div class="procedure__row-all">
@@ -60,24 +61,24 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-                                                                      
+
                                 <div class="procedure__text">Механическое удаление зубного камня и бактериального налета</div>
                             </div>
-
                         </div>
 
-                        <div class="before-after2">
-                            <span id="before2" class="before__btn">ДО</span>
-                            <span id="after2" class="after__btn">ПОСЛЕ</span>
+                        <div class="page-content__chapter-do-posle">
+                            <div class="before-after2">
+                                <span id="before2" class="before__btn">ДО</span>
+                                <span id="after2" class="after__btn">ПОСЛЕ</span>
 
-                            <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-after.jpg" alt="" class="before-after2__img">
-                                <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-before.jpg" alt="" class="before-after2__img">
+                                <div class="before-after2__gallery">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-after.jpg" alt="" class="before-after2__img">
+                                    <div class="before-after2__gallery-after">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-before.jpg" alt="" class="before-after2__img">
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="before-after2__procedure procedure">
+                            <div class="before-after__procedure procedure">
                                 <div class="procedure__column">
                                     <div class="procedure__row-all">
 
@@ -98,7 +99,6 @@ get_header();
                                 </div>
                                 <div class="procedure__text">Механическое удаление зубного камня и бактериального налета</div>
                             </div>
-
                         </div>
 
                     </div>
@@ -114,7 +114,7 @@ get_header();
                         <div class="galerea-tab__column">
                         </div>
                     </div>
-
+            
                 </div>
 
 
