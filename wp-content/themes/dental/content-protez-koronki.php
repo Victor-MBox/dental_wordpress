@@ -98,6 +98,13 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        Акция июля! Коронка из самого прочного материала – циркония всего за 18000 ₽ <span>28000 ₽</span>! Срок установки – 5 рабочих дней. Гарантия – 4 года.
+                    </div>
+                </div>
+
                 <!-- Цены -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Цены</div>

@@ -197,7 +197,7 @@ get_header();
                                         <span>№1</span> <br>
                                         Осмотр
                                     </div>
-                                    <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                    <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=1_1#1_1">О методе</a></div>
                                     <div class="accordion-home__price-price">Бесплатно</div>
                                 </div>
 
@@ -206,7 +206,7 @@ get_header();
                                         <span>№2</span> <br>
                                         Фото протокол и его презентация
                                     </div>
-                                    <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                    <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=1_1#1_1">О методе</a></div>
                                     <div class="accordion-home__price-price">Бесплатно</div>
                                 </div>
 
@@ -215,7 +215,7 @@ get_header();
                                         <span>№3</span> <br>
                                         Снимок ОПТГ
                                     </div>
-                                    <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                    <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=1_2#1_2">О методе</a></div>
                                     <div class="accordion-home__price-price">1 500 ₽</div>
                                 </div>
 
@@ -224,7 +224,7 @@ get_header();
                                         <span>№4</span> <br>
                                         Прицельный снимок
                                     </div>
-                                    <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                    <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=1_3#1_3">О методе</a></div>
                                     <div class="accordion-home__price-price">500 ₽</div>
                                 </div>
 
@@ -233,7 +233,7 @@ get_header();
                                         <span>№5</span> <br>
                                         Составление плана лечения
                                     </div>
-                                    <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                    <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=1_1#1_1">О методе</a></div>
                                     <div class="accordion-home__price-price">Бесплатно</div>
                                 </div>
                             </div>
@@ -281,7 +281,7 @@ get_header();
                                             <span>№1</span> <br>
                                             Оттиски
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">от 1500 ₽ <br> до 2000 ₽</div>
                                     </div>
 
@@ -290,7 +290,7 @@ get_header();
                                             <span>№2</span> <br>
                                             Определение соотношения челюстей (прикусные шаблоны)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">2 000 ₽</div>
                                     </div>
 
@@ -299,7 +299,7 @@ get_header();
                                             <span>№3</span> <br>
                                             Частично съемные микропротезы (1-3 зуба) из акрила
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_3#2_3">О методе</a></div>
                                         <div class="accordion-home__price-price">12 000 ₽</div>
                                     </div>
 
@@ -308,7 +308,7 @@ get_header();
                                             <span>№4</span> <br>
                                             Частично съемные микропротезы (1-3 зуба) из акрифри или нейлона
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_2#2_2">О методе</a></div>
                                         <div class="accordion-home__price-price">15 000 ₽</div>
                                     </div>
 
@@ -317,7 +317,7 @@ get_header();
                                             <span>№5</span> <br>
                                             Частично съемный акриловый протез
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_3#2_3">О методе</a></div>
                                         <div class="accordion-home__price-price">29 000 ₽</div>
                                     </div>
 
@@ -326,7 +326,7 @@ get_header();
                                             <span>№6</span> <br>
                                             Частично съемный акриловый протез с литой армировкой
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_3#2_3">О методе</a></div>
                                         <div class="accordion-home__price-price">40 000 ₽</div>
                                     </div>
 
@@ -335,7 +335,7 @@ get_header();
                                             <span>№7</span> <br>
                                             Полный съемный акриловый протез
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_3#2_3">О методе</a></div>
                                         <div class="accordion-home__price-price">40 000 ₽</div>
                                     </div>
 
@@ -344,7 +344,7 @@ get_header();
                                             <span>№8</span> <br>
                                             Полный съемный акриловый протез с армировкой
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_3#2_3">О методе</a></div>
                                         <div class="accordion-home__price-price">45 000 ₽</div>
                                     </div>
 
@@ -353,7 +353,7 @@ get_header();
                                             <span>№9</span> <br>
                                             Полный съемный или частично съемный протез из нейлона или акрифри
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_2#2_2">О методе</a></div>
                                         <div class="accordion-home__price-price">45 000 ₽</div>
                                     </div>
 
@@ -362,7 +362,7 @@ get_header();
                                             <span>№10</span> <br>
                                             Бюгельный протез кламмерной фиксации
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_4#2_4">О методе</a></div>
                                         <div class="accordion-home__price-price">53 000 ₽</div>
                                     </div>
 
@@ -371,7 +371,7 @@ get_header();
                                             <span>№11</span> <br>
                                             Бюгельный протез с замковыми креплениями
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_4#2_4">О методе</a></div>
                                         <div class="accordion-home__price-price">65 000 ₽</div>
                                     </div>
 
@@ -380,7 +380,7 @@ get_header();
                                             <span>№12</span> <br>
                                             Шинирующий бюгель при заболеваниях пародонта
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_4#2_4">О методе</a></div>
                                         <div class="accordion-home__price-price">60 000 ₽</div>
                                     </div>
 
@@ -394,7 +394,7 @@ get_header();
                                             <span>№1</span> <br>
                                             Оттиски
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">от 1500 ₽ <br> до 2000 ₽</div>
                                     </div>
 
@@ -403,7 +403,7 @@ get_header();
                                             <span>№2</span> <br>
                                             Определение соотношения челюстей (прикусные шаблоны)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">2 000 ₽</div>
                                     </div>
 
@@ -412,7 +412,7 @@ get_header();
                                             <span>№3</span> <br>
                                             Протезирование полным съемным акриловым протезом с опорой на имплантаты на локаторах (1 челюсть) локаторы в стоимость не входят
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_2#2_2">О методе</a></div>
                                         <div class="accordion-home__price-price">160 000 ₽</div>
                                     </div>
 
@@ -421,7 +421,7 @@ get_header();
                                             <span>№4</span> <br>
                                             Локатор (переходник имплантата и фиксирующий элемент протеза)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">18 000 ₽ <br> 1шт</div>
                                     </div>
 
@@ -430,7 +430,7 @@ get_header();
                                             <span>№5</span> <br>
                                             Протезирование полным съемным акриловым протезом с опорой на имплантаты на шаровидных абатментах (1 челюсть) абатмент в стоимость не входит (1 челюсть)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_2#2_2">О методе</a></div>
                                         <div class="accordion-home__price-price">160 000 ₽</div>
                                     </div>
 
@@ -439,7 +439,7 @@ get_header();
                                             <span>№6</span> <br>
                                             Шаровидный абатмент (переходник имплантата и фиксирующий элемент протеза)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">18 000 ₽ <br> 1шт</div>
                                     </div>
 
@@ -448,7 +448,7 @@ get_header();
                                             <span>№7</span> <br>
                                             Балочные конструкции на замках (Цельнофрезерованная балка с замками+ ответная часть балочной конструкции)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">250 000 ₽</div>
                                     </div>
 
@@ -457,7 +457,7 @@ get_header();
                                             <span>№8</span> <br>
                                             Временный протез винтовой фиксации с опорой на имплантаты с металлической основой (немедленная нагрузка) послеоперационный протез после установки 4х или 6ти имплантов
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_1#2_1">О методе</a></div>
                                         <div class="accordion-home__price-price">150 000 ₽</div>
                                     </div>
 
@@ -466,7 +466,7 @@ get_header();
                                             <span>№9</span> <br>
                                             Постоянный акриловый протез винтовой фиксации на цельно фрезерованной металлической основе которая подлежит корректировке и обновлению на протяжении многих лет
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_2#2_2">О методе</a></div>
                                         <div class="accordion-home__price-price">200 000 ₽</div>
                                     </div>
 
@@ -480,7 +480,7 @@ get_header();
                                             <span>№1</span> <br>
                                             Оттиски
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_5#2_5">О методе</a></div>
                                         <div class="accordion-home__price-price">от 1500 ₽ <br> до 2000 ₽</div>
                                     </div>
 
@@ -489,7 +489,7 @@ get_header();
                                             <span>№2</span> <br>
                                             Предварительное планирование (возможность увидеть будущую конструкцию чаще всего используют при изготовлении виниров или же при тотальном протезировании)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_5#2_5">О методе</a></div>
                                         <div class="accordion-home__price-price">3 000 ₽ <br> 1 зуб</div>
                                     </div>
 
@@ -498,7 +498,7 @@ get_header();
                                             <span>№3</span> <br>
                                             Временная коронка прямым методом(изготавливают в кресле)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">3 500 ₽</div>
                                     </div>
 
@@ -507,7 +507,7 @@ get_header();
                                             <span>№4</span> <br>
                                             Временная коронка длительного ношения (изготавливается в зуботехнической лаборатории)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">7 000 ₽</div>
                                     </div>
 
@@ -516,7 +516,7 @@ get_header();
                                             <span>№5</span> <br>
                                             Восстановление зуба металлической штифтовой вкладкой
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_9#2_9">О методе</a></div>
                                         <div class="accordion-home__price-price">6 500 ₽</div>
                                     </div>
 
@@ -525,7 +525,7 @@ get_header();
                                             <span>№6</span> <br>
                                             Восстановления зуба металлической вкладкой разборной
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_9#2_9">О методе</a></div>
                                         <div class="accordion-home__price-price">7 500 ₽</div>
                                     </div>
 
@@ -534,7 +534,7 @@ get_header();
                                             <span>№7</span> <br>
                                             Восстановления зуба вкладкой из драгосодержащего сплава серебра
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_9#2_9">О методе</a></div>
                                         <div class="accordion-home__price-price">8 000 ₽</div>
                                     </div>
 
@@ -543,7 +543,7 @@ get_header();
                                             <span>№8</span> <br>
                                             Цельнометаллическая коронка
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">11 000 ₽</div>
                                     </div>
 
@@ -552,7 +552,7 @@ get_header();
                                             <span>№9</span> <br>
                                             Металлокерамическая коронка
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">19 000 ₽</div>
                                     </div>
 
@@ -561,7 +561,7 @@ get_header();
                                             <span>№10</span> <br>
                                             Циркониевая коронка (полной анатомии)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">28 000 ₽</div>
                                     </div>
 
@@ -570,7 +570,7 @@ get_header();
                                             <span>№11</span> <br>
                                             Циркониевая коронка повышенной эстетики(индивидуализация керамическими массами)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">310 000 ₽</div>
                                     </div>
 
@@ -579,7 +579,7 @@ get_header();
                                             <span>№12</span> <br>
                                             Винир полной анатомической формы (E-max)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">19 000 ₽</div>
                                     </div>
 
@@ -588,7 +588,7 @@ get_header();
                                             <span>№13</span> <br>
                                             Винир повышенной эстетики (индивидуализация керамическими массами)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_6#2_6">О методе</a></div>
                                         <div class="accordion-home__price-price">21 000 ₽</div>
                                     </div>
 
@@ -597,7 +597,7 @@ get_header();
                                             <span>№14</span> <br>
                                             Винор на рефлекторе (практически без обточки тканей зуба)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_6#2_6">О методе</a></div>
                                         <div class="accordion-home__price-price">30 000 ₽</div>
                                     </div>
 
@@ -606,7 +606,7 @@ get_header();
                                             <span>№15</span> <br>
                                             Коронка безметалловая (E-max)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">19 000 ₽</div>
                                     </div>
 
@@ -615,7 +615,7 @@ get_header();
                                             <span>№16</span> <br>
                                             Коронка безметалловая (E-max) повышенной эстетики
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">21 000 ₽</div>
                                     </div>
 
@@ -624,7 +624,7 @@ get_header();
                                             <span>№17</span> <br>
                                             Керамические пломбы
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_9#2_9">О методе</a></div>
                                         <div class="accordion-home__price-price">19 000 ₽</div>
                                     </div>
                                 </div>
@@ -637,7 +637,7 @@ get_header();
                                             <span>№1</span> <br>
                                             Оттиски
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_5#2_5">О методе</a></div>
                                         <div class="accordion-home__price-price">от 1500 ₽ <br> до 2000 ₽</div>
                                     </div>
 
@@ -646,7 +646,7 @@ get_header();
                                             <span>№2</span> <br>
                                             Временная коронка на импланте
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">18 000 ₽</div>
                                     </div>
 
@@ -655,7 +655,7 @@ get_header();
                                             <span>№3</span> <br>
                                             Коронка винтовой фиксации из циркония (полной анатомической формы)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">28 000 ₽</div>
                                     </div>
 
@@ -664,7 +664,7 @@ get_header();
                                             <span>№4</span> <br>
                                             Коронка винтовой фиксации из циркония повышенной эстетики (индивидуализация керамическими массами)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">32 000 ₽</div>
                                     </div>
 
@@ -673,7 +673,7 @@ get_header();
                                             <span>№5</span> <br>
                                             Металлокерамическая коронка винтовой фиксации
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">25 000 ₽</div>
                                     </div>
 
@@ -682,7 +682,7 @@ get_header();
                                             <span>№6</span> <br>
                                             Коронка из циркония цементной фиксации (полной анатомии)индивидуальный абатмент в стоимость не входит
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">27 000 ₽</div>
                                     </div>
 
@@ -691,7 +691,7 @@ get_header();
                                             <span>№7</span> <br>
                                             Коронка из циркония цементной фиксации повышенной эстетики (индивидуализация керамическими массами)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_7#2_7">О методе</a></div>
                                         <div class="accordion-home__price-price">29 000 ₽</div>
                                     </div>
 
@@ -700,7 +700,7 @@ get_header();
                                             <span>№8</span> <br>
                                             Циркониевый индивидуальный абатмент (коронка в стоимость не входит)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_8#2_8">О методе</a></div>
                                         <div class="accordion-home__price-price">22 000 ₽</div>
                                     </div>
 
@@ -709,7 +709,7 @@ get_header();
                                             <span>№9</span> <br>
                                             Титановый индивидуальный абатмент (коронка в стоимость не входит)
                                         </div>
-                                        <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                        <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_8#2_8">О методе</a></div>
                                         <div class="accordion-home__price-price">18 000 ₽</div>
                                     </div>
                                 </div>
@@ -756,7 +756,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Сошлифовывание твердых тканей зуба при лечении кариеса и его осложнений (избирательная пришлифовка)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_4#3_4">О методе</a></div>
                                             <div class="accordion-home__price-price">500 ₽</div>
                                         </div>
 
@@ -765,7 +765,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Наложение временной пломбы
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_2#3_2">О методе</a></div>
                                             <div class="accordion-home__price-price">600 ₽</div>
                                         </div>
 
@@ -774,7 +774,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Поверхностный кариес (композитная пломба)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_4#3_4">О методе</a></div>
                                             <div class="accordion-home__price-price">4 000 ₽</div>
                                         </div>
 
@@ -783,7 +783,7 @@ get_header();
                                                 <span>№4</span> <br>
                                                 Средний кариес (композитная пломба)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_4#3_4">О методе</a></div>
                                             <div class="accordion-home__price-price">5 500 ₽</div>
                                         </div>
 
@@ -792,7 +792,7 @@ get_header();
                                                 <span>№5</span> <br>
                                                 Поверхностный кариес (композитная пломба)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_4#3_4">О методе</a></div>
                                             <div class="accordion-home__price-price">4 000 ₽</div>
                                         </div>
 
@@ -801,7 +801,7 @@ get_header();
                                                 <span>№6</span> <br>
                                                 Глубокий кариес (композитная пломба)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_4#3_4">О методе</a></div>
                                             <div class="accordion-home__price-price">7 000 ₽</div>
                                         </div>
 
@@ -810,7 +810,7 @@ get_header();
                                                 <span>№7</span> <br>
                                                 Восстановление зуба вкладками, виниром, полукоронкой из фотополимерного материала прямым методом (эстетическая реставрация)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_9#2_9">О методе</a></div>
                                             <div class="accordion-home__price-price">9 000 ₽</div>
                                         </div>
 
@@ -819,7 +819,7 @@ get_header();
                                                 <span>№8</span> <br>
                                                 Избирательное полирование зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_1#3_1">О методе</a></div>
                                             <div class="accordion-home__price-price">400 ₽</div>
                                         </div>
 
@@ -828,7 +828,7 @@ get_header();
                                                 <span>№9</span> <br>
                                                 Восстановление зуба пломбировочными материалами с использованием стекловолоконного штифта или стекловолоконной ленты (прямая эстетическая реставрация реставрация)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_1#3_1">О методе</a></div>
                                             <div class="accordion-home__price-price">12 500 ₽</div>
                                         </div>
 
@@ -837,7 +837,7 @@ get_header();
                                                 <span>№10</span> <br>
                                                 Восстановление зуба пломбировочными материалами с использованием штифтов из стекловолокна
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_1#3_1">О методе</a></div>
                                             <div class="accordion-home__price-price">10 000 ₽</div>
                                         </div>
 
@@ -846,7 +846,7 @@ get_header();
                                                 <span>№11</span> <br>
                                                 Трепанация зуба, искусственной коронки, снятие коронки
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_1#3_1">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
                                     </div>
@@ -859,7 +859,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Наложение девитализирующей пасты
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">500 ₽</div>
                                         </div>
 
@@ -868,7 +868,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Ультразвуковое расширение корневого канала зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">500 ₽</div>
                                         </div>
 
@@ -877,7 +877,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Инструментальная и медикаментозная обработка корневого канала (повторная)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
 
@@ -886,7 +886,7 @@ get_header();
                                                 <span>№4</span> <br>
                                                 Инструментальная и медикаментозная обработка хорошо проходимого корневого канала
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽</div>
                                         </div>
 
@@ -895,7 +895,7 @@ get_header();
                                                 <span>№5</span> <br>
                                                 Инструментальная и медикаментозная обработка плохо проходимого корневого канала
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">2 500 ₽</div>
                                         </div>
 
@@ -904,7 +904,7 @@ get_header();
                                                 <span>№6</span> <br>
                                                 Распломбировка корневого канала ранее леченного пастой
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">2 500 ₽</div>
                                         </div>
 
@@ -913,7 +913,7 @@ get_header();
                                                 <span>№7</span> <br>
                                                 Распломбировка корневого канала ранее леченного фосфат-цементом / резорцин-формальдегидным методом
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">3 000 ₽</div>
                                         </div>
 
@@ -922,7 +922,7 @@ get_header();
                                                 <span>№8</span> <br>
                                                 Постоянное пломбирование корневого канала зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">3 000 ₽</div>
                                         </div>
 
@@ -931,7 +931,7 @@ get_header();
                                                 <span>№9</span> <br>
                                                 Закрытие перфорации стенки корневого канала зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">1 500 ₽</div>
                                         </div>
 
@@ -940,7 +940,7 @@ get_header();
                                                 <span>№10</span> <br>
                                                 Временное пломбирование лекарственным препаратом “Каласепт” корневого канала
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
 
@@ -949,7 +949,7 @@ get_header();
                                                 <span>№11</span> <br>
                                                 Фиксация внутриканального штифта/вкладки
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
 
@@ -958,7 +958,7 @@ get_header();
                                                 <span>№12</span> <br>
                                                 Удаление внутриканального штифта/вкладки
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=3_3#3_3">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
                                     </div>
@@ -1004,7 +1004,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Удаления зуба постоянного не сложное
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_3#4_3">О методе</a></div>
                                             <div class="accordion-home__price-price">4 500 ₽</div>
                                         </div>
 
@@ -1013,7 +1013,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Удаления зуба сложное с разъединением корней
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_4#4_4">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
                                         </div>
 
@@ -1022,7 +1022,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Удаление сверхкомплектного зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_2#4_2">О методе</a></div>
                                             <div class="accordion-home__price-price">9 000 ₽</div>
                                         </div>
 
@@ -1031,7 +1031,7 @@ get_header();
                                                 <span>№4</span> <br>
                                                 Рецессия верхушки корня
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">7 200 ₽</div>
                                         </div>
 
@@ -1040,7 +1040,7 @@ get_header();
                                                 <span>№5</span> <br>
                                                 Резекция верхушки корня с ретроградной пломбировкой 1го канала
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">15 000 ₽</div>
                                         </div>
 
@@ -1049,7 +1049,7 @@ get_header();
                                                 <span>№6</span> <br>
                                                 Вскрытие однородного абсцесса
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 500 ₽</div>
                                         </div>
 
@@ -1058,7 +1058,7 @@ get_header();
                                                 <span>№7</span> <br>
                                                 Отсроченный кюретаж лунки удаленного зуба
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 500 ₽</div>
                                         </div>
 
@@ -1067,7 +1067,7 @@ get_header();
                                                 <span>№8</span> <br>
                                                 Коррекция объема и формы альвеолярного отростка (удаление экзостоза)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">25 000 ₽</div>
                                         </div>
 
@@ -1076,7 +1076,7 @@ get_header();
                                                 <span>№9</span> <br>
                                                 Пластика уздечки верхней губы
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">4 000 ₽</div>
                                         </div>
 
@@ -1085,7 +1085,7 @@ get_header();
                                                 <span>№10</span> <br>
                                                 Пластика уздечки нижней губы
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">4 000 ₽</div>
                                         </div>
 
@@ -1094,7 +1094,7 @@ get_header();
                                                 <span>№11</span> <br>
                                                 Пластика уздечки языка
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
                                         </div>
 
@@ -1103,7 +1103,7 @@ get_header();
                                                 <span>№12</span> <br>
                                                 Синуслифтинг закрытый
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_8#4_8">О методе</a></div>
                                             <div class="accordion-home__price-price">17 000 ₽</div>
                                         </div>
 
@@ -1112,7 +1112,7 @@ get_header();
                                                 <span>№13</span> <br>
                                                 Синуслифтинг открытый
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_8#4_8">О методе</a></div>
                                             <div class="accordion-home__price-price">30 000 ₽</div>
                                         </div>
 
@@ -1121,7 +1121,7 @@ get_header();
                                                 <span>№14</span> <br>
                                                 Вправление вывиха нижней челюсти
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">3 000 ₽</div>
                                         </div>
 
@@ -1130,7 +1130,7 @@ get_header();
                                                 <span>№15</span> <br>
                                                 Наложение повязки при операциях в полости рта,наложение послеоперационных швов
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">500 ₽</div>
                                         </div>
 
@@ -1139,7 +1139,7 @@ get_header();
                                                 <span>№16</span> <br>
                                                 Снятие шины с одной челюсти
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">Бесплатно</div>
                                         </div>
 
@@ -1148,7 +1148,7 @@ get_header();
                                                 <span>№17</span> <br>
                                                 Иссечение новообразований мягких тканей с реконструктивно-пластическим компонентом
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">10 000 ₽</div>
                                         </div>
 
@@ -1157,7 +1157,7 @@ get_header();
                                                 <span>№18</span> <br>
                                                 Иссечения свища мягких тканей
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
                                         </div>
 
@@ -1166,7 +1166,7 @@ get_header();
                                                 <span>№19</span> <br>
                                                 Иссечение поверхностного свищевого хода
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
                                         </div>
 
@@ -1175,7 +1175,7 @@ get_header();
                                                 <span>№20</span> <br>
                                                 Иссечение глубокого свищевого хода
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">6 000 ₽</div>
                                         </div>
 
@@ -1184,7 +1184,7 @@ get_header();
                                                 <span>№21</span> <br>
                                                 Вскрытие гематомы мягких тканей
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽</div>
                                         </div>
 
@@ -1193,7 +1193,7 @@ get_header();
                                                 <span>№22</span> <br>
                                                 Коагуляция кровоточащего сосуда
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽</div>
                                         </div>
 
@@ -1202,7 +1202,7 @@ get_header();
                                                 <span>№23</span> <br>
                                                 Коагуляция кровоточащего сосуда лазерная
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 500 ₽</div>
                                         </div>
 
@@ -1211,7 +1211,7 @@ get_header();
                                                 <span>№24</span> <br>
                                                 Снятие послеоперационных швов
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">500 ₽</div>
                                         </div>
 
@@ -1220,7 +1220,7 @@ get_header();
                                                 <span>№25</span> <br>
                                                 Наложение повязки при операциях в полости рта с использованием сгустка PRP
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_1#4_1">О методе</a></div>
                                             <div class="accordion-home__price-price">5 000 ₽</div>
                                         </div>
                                     </div>
@@ -1264,7 +1264,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Внутрикостная дентальная имплантация “Neo Dent” (Швейцария)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_5#4_5">О методе</a></div>
                                             <div class="accordion-home__price-price">3 500 ₽</div>
                                         </div>
 
@@ -1273,7 +1273,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Внутрикостная дентальная имплантация “Osstem” (Корея)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_5#4_5">О методе</a></div>
                                             <div class="accordion-home__price-price">30 000 ₽</div>
                                         </div>
 
@@ -1282,7 +1282,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Внутрикостная дентальная имплантация “Astra” (Швеция)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_5#4_5">О методе</a></div>
                                             <div class="accordion-home__price-price">₽</div>
                                         </div>
                                     </div>
@@ -1327,7 +1327,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Консультация
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_1#5_1">О методе</a></div>
                                             <div class="accordion-home__price-price">1 500 ₽</div>
                                         </div>
 
@@ -1336,7 +1336,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Оттиски
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_1#5_1">О методе</a></div>
                                             <div class="accordion-home__price-price">от 1500 ₽ <br> до 2000 ₽</div>
                                         </div>
 
@@ -1345,7 +1345,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Диагностические модели для анализа
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_1#5_1">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽</div>
                                         </div>
 
@@ -1354,7 +1354,7 @@ get_header();
                                                 <span>№4</span> <br>
                                                 Фотоприкол
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_1#5_1">О методе</a></div>
                                             <div class="accordion-home__price-price">Бесплатно</div>
                                         </div>
 
@@ -1363,7 +1363,7 @@ get_header();
                                                 <span>№5</span> <br>
                                                 Составления плана лечения и наглядного проекта до и после
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_1#5_1">О методе</a></div>
                                             <div class="accordion-home__price-price">10 000 ₽</div>
                                         </div>
 
@@ -1372,7 +1372,7 @@ get_header();
                                                 <span>№6</span> <br>
                                                 Брекет система (2 челюсть)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_2#5_2">О методе</a></div>
                                             <div class="accordion-home__price-price">от 220000 ₽<br> до 270000 ₽</div>
                                         </div>
 
@@ -1381,7 +1381,7 @@ get_header();
                                                 <span>№7</span> <br>
                                                 Элайнеры (2 челюсти)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=5_4#5_4">О методе</a></div>
                                             <div class="accordion-home__price-price">от 270000 ₽<br> до 300000 ₽</div>
                                         </div>
 
@@ -1426,7 +1426,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Ультразвуковое удаление наддесневых и поддесневых отложений в отложений в области зуба (2 челюсти ) + полировка пастой
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_1#6_1">О методе</a></div>
                                             <div class="accordion-home__price-price">4 500 ₽</div>
                                         </div>
 
@@ -1435,7 +1435,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Профессиональная гигиена полости рта и зубов + ”Аэр-фло”
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_2#6_2">О методе</a></div>
                                             <div class="accordion-home__price-price"> ₽</div>
                                         </div>
 
@@ -1444,7 +1444,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Запечатывание фиссур герметиком
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_1#6_1">О методе</a></div>
                                             <div class="accordion-home__price-price">1 000 ₽</div>
                                         </div>
                                     </div>
@@ -1457,7 +1457,7 @@ get_header();
                                                 <span>№1</span> <br>
                                                 Профессиональное отбеливание зубов (2 челюсти)
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_3#6_3">О методе</a></div>
                                             <div class="accordion-home__price-price">22 000 ₽</div>
                                         </div>
 
@@ -1466,7 +1466,7 @@ get_header();
                                                 <span>№2</span> <br>
                                                 Профессиональное отбеливание домашнее каповое (2 капы )
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_3#6_3">О методе</a></div>
                                             <div class="accordion-home__price-price">20 000 ₽</div>
                                         </div>
 
@@ -1475,7 +1475,7 @@ get_header();
                                                 <span>№3</span> <br>
                                                 Гель для домашнего отбеливания
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_3#6_3">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽ <br> 1 шприц</div>
                                         </div>
 
@@ -1484,7 +1484,7 @@ get_header();
                                                 <span>№4</span> <br>
                                                 Профессиональное отбеливание зубов клиническое
                                             </div>
-                                            <div class="accordion-home__price-link"><a href="#">О методе</a></div>
+                                            <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_3#6_3">О методе</a></div>
                                             <div class="accordion-home__price-price">2 000 ₽ <br> 1 зуб</div>
                                         </div>
                                     </div>
@@ -1499,19 +1499,20 @@ get_header();
     </section>
 </div>
 <script>
-	
-	   window.onload = function() {
+    window.onload = function() {
         var hash = document.location.hash;
-        if (hash != undefined && hash != null && hash!='') {
+        if (hash != undefined && hash != null && hash != '') {
             var h = hash.replace("#", "");
-	
-	var priceblock=$("div").find("[data-tab='home-tab-" + h + "']");
- $('html,body').animate({scrollTop: $("#psection").offset().top }, 'slow');
 
-			priceblock.click();
-		}
-	   }
-		</script>
+            var priceblock = $("div").find("[data-tab='home-tab-" + h + "']");
+            $('html,body').animate({
+                scrollTop: $("#psection").offset().top
+            }, 'slow');
+
+            priceblock.click();
+        }
+    }
+</script>
 <?php
 get_footer();
 ?>

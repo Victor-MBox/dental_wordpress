@@ -90,7 +90,7 @@
                             </div>
 
                             <div class="form-footer__submit">
-                                <input class="btn" type="submit" value="Подписаться">
+                                <input class="btn" type="submit" value="Подписаться" data-callback="onSubmit">
                             </div>
                         </form>
 
@@ -121,7 +121,7 @@
 
     <!-- Модальные окна -->
     <div class="modal">
-        <div class="modal__overlay">                   
+        <div class="modal__overlay">
 
             <div class="modal__overlay-item"></div>
 
@@ -151,7 +151,7 @@
                             </div>
                         </div>
                         <div class="form-modal__submit">
-                            <input class="btn btn_submit" type="submit" value="Узнать больше">
+                            <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                         </div>
                     </form>
                 </div>
@@ -194,19 +194,18 @@
                 <div class="modal__close modal__close_video"><span></span></div>
 
                 <div class="video-modal__wrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
             </div>
 
-        </div>
 
 
 
+            <?php
+            wp_footer();
+            ?>
 
-        <?php
-        wp_footer();
-        ?>
+            </body>
 
-        </body>
-
-        </html>
+            </html>

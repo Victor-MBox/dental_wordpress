@@ -59,6 +59,13 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        В июле дарим скидку 50% на установку каждого второго импланта! Срок установки – 1 день. Стоимость 1 импланта – 30000 ₽. Даем пожизненную гарантию при соблюдении ряда условий.
+                    </div>
+                </div>
+
                 <!-- Цены -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Цены</div>

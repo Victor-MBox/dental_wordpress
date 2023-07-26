@@ -72,6 +72,13 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        Профессиональное отбеливание зубов в июле – 15000 ₽! Длительность процедуры – 1 час. Гарантия 4 месяца. Коррекция цвета включена в стоимость.
+                    </div>
+                </div>
+
                 <!-- Цены -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Цены</div>

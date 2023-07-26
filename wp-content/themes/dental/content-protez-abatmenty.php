@@ -107,6 +107,13 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        Протезирование всех зубов на одной челюсти на 4-х имплантах – 150 000 ₽. Цена действительна только в июле. Установка имплантов входит в стоимость.
+                    </div>
+                </div>
+
                 <!-- Цены -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Цены</div>

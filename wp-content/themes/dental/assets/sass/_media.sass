@@ -49,6 +49,13 @@
             &:nth-child(4)
                 margin-right: 34px
 
+    .video-modal
+        width: 840px
+        height: 500px
+        &__wrapper
+            width: 840px
+            height: 500px
+
     /* Главная страница */
     /* Главный экран */
     .main-section
@@ -506,6 +513,13 @@
             img
                 margin-bottom: 5px
 
+    .video-modal
+        width: 740px
+        height: 400px
+        &__wrapper
+            width: 740px
+            height: 400px
+
     /* Главная страница */
     /* Главный экран */
     .main-section
@@ -845,6 +859,14 @@
 
 @media (max-width: 880px)
 
+    /* footer */
+    .video-modal
+        width: 640px
+        height: 360px
+        &__wrapper
+            width: 640px
+            height: 360px
+
     /* Главный экран СЛАЙДЕР */
     .main-section
         &__subtitle
@@ -1143,6 +1165,20 @@
             text-align: center
             p
                 margin-bottom: 8px
+
+    .modal
+        &__close
+            &_video 
+                span
+                    right: 50%
+                    top: -30%
+
+    .video-modal
+        width: 95%
+        height: 300px
+        &__wrapper
+            width: 95%
+            height: 300px
 
     /* Главная страница */
     .page
@@ -1753,7 +1789,6 @@
                 margin-bottom: 24px
                 width: 100%
 
-
     .faq
         &__tab
             padding: 10px
@@ -1843,15 +1878,26 @@
         &__policy p, &__policy a
             font-size: 12px
 
+    .video-modal
+        width: 95%
+        height: 200px
+        &__wrapper
+            width: 95%
+            height: 200px
+
     /* Модальные окна */
-    .modal__close
-        span
-            top: -14%
-            right: auto
-            left: 50%
-            transform: rotate(45deg) translateX(-50%)
-            &:hover
+    .modal
+        &__close
+            span
+                top: -14%
+                right: auto
+                left: 50%
                 transform: rotate(45deg) translateX(-50%)
+                &:hover
+                    transform: rotate(45deg) translateX(-50%)
+            &_video 
+                span
+                    top: -30%
 
     .thanks-modal
         &__wrapper
@@ -1925,7 +1971,7 @@
                         line-height: 31px
                     &__label
                         left: 5%
-                    
+
         &__infobox
             padding: 85px 25px 15px 15px
             &::before

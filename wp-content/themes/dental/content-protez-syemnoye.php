@@ -68,6 +68,12 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        Акция в июле! Съемные протезы от 15000 ₽ за 3 сеанса! Протезы изготавливаются из высококачественных материалов: акри фри, нейлон, акрил, квадротти. Гарантия – 5 лет.
+                    </div>
+                </div>
 
                 <!-- Цены -->
                 <div class="page-content__chapter">

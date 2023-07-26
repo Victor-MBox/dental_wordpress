@@ -9,12 +9,12 @@ get_header();
 ?>
 
 <div class="page">
-    <section class="page-main-section page-main-section_servise">           
+    <section class="page-main-section page-main-section_servise">
         <div class="container">
             <div class="breadcrumbs">
                 <?php custom_breadcrumbs(); ?>
             </div>
-        
+
         </div>
     </section>
 
@@ -36,7 +36,7 @@ get_header();
                 <div class="accordion-service-page">
 
                     <div class="accordion-home">
-                        <div data-tab="home-tab-1" class="accordion-home__tab" >
+                        <div data-tab="home-tab-1" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
                                 <div class="accordion-home__nav-title">Консультация и диагностика</div>
                                 <div class="accordion-home__nav-subtitle">Выявление проблемы</div>
@@ -365,8 +365,8 @@ get_header();
 
                                 <ul>
                                     <li><button class="link-page" href="protezirovanie/" id="vrb2_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
-                                    <li><button class="link-page" href="semnoe-protezirovanie/" id="vrb2_2"  onclick="toggleActiveClass(this)">Съемное протезирование</button></li>
-                                    <li><button class="link-page link-page_sub" href="akrilovye-protezy/"  id="vrb2_3" onclick="toggleActiveClass(this)">• Акриловые протезы</button></li>
+                                    <li><button class="link-page" href="semnoe-protezirovanie/" id="vrb2_2" onclick="toggleActiveClass(this)">Съемное протезирование</button></li>
+                                    <li><button class="link-page link-page_sub" href="akrilovye-protezy/" id="vrb2_3" onclick="toggleActiveClass(this)">• Акриловые протезы</button></li>
                                     <li><button class="link-page link-page_sub" href="byugelnye-protezy/" id="vrb2_4" onclick="toggleActiveClass(this)">• Бюгельные протезы</button></li>
                                     <li><button class="link-page" href="nesemnoe-protezirovanie/" id="vrb2_5" onclick="toggleActiveClass(this)">Несъемное протезирование</button></li>
                                     <li><button class="link-page link-page_sub" href="viniry/" id="vrb2_6" onclick="toggleActiveClass(this)">• Виниры</button></li>
@@ -397,9 +397,9 @@ get_header();
 
                                 <ul>
                                     <li><button class="link-page" href="terapiya/" id="vrb3_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
-                                    <li><button class="link-page" href="svetovye-plomby/" id="vrb3_2"  onclick="toggleActiveClass(this)">Световые пломбы</button></li>
+                                    <li><button class="link-page" href="svetovye-plomby/" id="vrb3_2" onclick="toggleActiveClass(this)">Световые пломбы</button></li>
                                     <li><button class="link-page" href="lechenie-zubnyh-kanalov/" id="vrb3_3" onclick="toggleActiveClass(this)">Лечение зубных каналов</button></li>
-                                    <li><button class="link-page" href="lechenie-kariesa/" id="vrb3_4"  onclick="toggleActiveClass(this)">Лечение кариеса</button></li>
+                                    <li><button class="link-page" href="lechenie-kariesa/" id="vrb3_4" onclick="toggleActiveClass(this)">Лечение кариеса</button></li>
                                 </ul>
 
                             </div>
@@ -423,13 +423,13 @@ get_header();
                             <div class="accordion-page__content-decor"></div>
                             <div class="page-tab__nav">
                                 <ul>
-                                    <li><button class="link-page" href="hirurgiya/" id="vrb4_1"  onclick="toggleActiveClass(this)">Общая информация</button></li>
+                                    <li><button class="link-page" href="hirurgiya/" id="vrb4_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
                                     <li><button class="link-page" href="udalenie-zubov/" id="vrb4_2" onclick="toggleActiveClass(this)">Удаление зубов</button></li>
                                     <li><button class="link-page link-page_sub" href="prostoe-udalenie/" id="vrb4_3" onclick="toggleActiveClass(this)">• Простое удаление</button></li>
                                     <li><button class="link-page link-page_sub" href="slozhnoe-udalenie/" id="vrb4_4" onclick="toggleActiveClass(this)">• Сложное удаление</button></li>
                                     <li><button class="link-page" href="implantacziya/" id="vrb4_5" onclick="toggleActiveClass(this)">Имплантация</button></li>
                                     <li><button class="link-page link-page_sub" href="odnomomentnaya-implantacziya/" id="vrb4_6" onclick="toggleActiveClass(this)">• Одномоментная имплантация</button></li>
-                                    <li><button class="link-page link-page_sub" href="dvuhetapnaya-implantacziya/ "id="vrb4_7" onclick="toggleActiveClass(this)">• Двухэтапная имплантация</button></li>
+                                    <li><button class="link-page link-page_sub" href="dvuhetapnaya-implantacziya/ " id="vrb4_7" onclick="toggleActiveClass(this)">• Двухэтапная имплантация</button></li>
                                     <li><button class="link-page" href="sinus-litfing/" id="vrb4_8" onclick="toggleActiveClass(this)">Синус-литфинг</button></li>
                                 </ul>
                             </div>
@@ -480,7 +480,7 @@ get_header();
                                 <ul>
                                     <li><button class="link-page" href="gigiena-i-otbelivanie-zubov/" id="vrb6_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
                                     <li><button class="link-page" href="professionalnaya-chistka-airflow/" id="vrb6_2" onclick="toggleActiveClass(this)">Профессиональная чистка AirFlow</button></li>
-                                    <li><button class="link-page" href="otbelivanie-zoom/" id="vrb6_3"  onclick="toggleActiveClass(this)">Отбеливание ZOOM</button></li>
+                                    <li><button class="link-page" href="otbelivanie-zoom/" id="vrb6_3" onclick="toggleActiveClass(this)">Отбеливание ZOOM</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -502,7 +502,7 @@ get_header();
                             <div class="accordion-page__content-decor accordion-page__content-decor_lilac"></div>
                             <div class="page-tab__nav">
                                 <ul>
-                                    <li><button class="link-page" href="gnatologiya/" id="vrb7_1"  onclick="toggleActiveClass(this)">Общая информация</button></li>
+                                    <li><button class="link-page" href="gnatologiya/" id="vrb7_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -528,41 +528,43 @@ get_header();
 
                 </div>
 
-                <div class="page-service-section__form">
-                    <div class="page-content__title">Запись <br>на консультацию</div>
-                    <div class="page-content__text">Обратите внимание, все наши консультации – бесплатные</div>
+                <div class="page-service-section__form-wrapper">
+                    <div class="page-service-section__form">
+                        <div class="page-content__title">Запись <br>на консультацию</div>
+                        <div class="page-content__text">Обратите внимание, все наши консультации – бесплатные</div>
 
-                    <div class="feedback-form-laboratory">
+                        <div class="feedback-form-laboratory">
 
-                        <div class="page-service-section__decor decor-red"></div>
-                        <div class="page-service-section__decor decor-blue"></div>
+                            <div class="page-service-section__decor decor-red"></div>
+                            <div class="page-service-section__decor decor-blue"></div>
 
-                        <div class="feedback-form-laboratory__form">
+                            <div class="feedback-form-laboratory__form">
 
-                            <form action="#" class="form-laboratory" id="form-3">
-                                <div class="form-laboratory__input">
-                                    <input type="text" name="name" placeholder="Имя" class="input">
-                                </div>
-                                <div class="form-laboratory__input email-input">
-                                    <input type="email" name="email" placeholder="Email" class="input">
-                                </div>
-                                <div class="form-laboratory__input phone-input">
-                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                                </div>
-                                <div class="form-about__item">
-                                    <div class="checkbox">
-                                        <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                <form action="#" class="form-laboratory" id="form-3">
+                                    <div class="form-laboratory__input">
+                                        <input type="text" name="name" placeholder="Имя" class="input">
                                     </div>
-                                </div>
-                                <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться">
-                                </div>
-                            </form>
+                                    <div class="form-laboratory__input email-input">
+                                        <input type="email" name="email" placeholder="Email" class="input">
+                                    </div>
+                                    <div class="form-laboratory__input phone-input">
+                                        <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                                    </div>
+                                    <div class="form-about__item">
+                                        <div class="checkbox">
+                                            <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
+                                            <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                        </div>
+                                    </div>
+                                    <div class="form-laboratory__submit">
+                                        <input class="btn btn_submit" type="submit" value="Записаться">
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
+                    </div>
+                </div>             
 
 
             </div>

@@ -76,6 +76,13 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Акция -->
+                <div class="page-content__chapter">
+                    <div class="page-content__infobox">
+                        Проводим терапевтическое лечение каналов пломбами без боли. Даем гарантию 18 месяцев. В течение гарантийного срока перелечиваем бесплатно!
+                    </div>
+                </div>
+
                 <!-- Цены -->
                 <div class="page-content__chapter">
                     <div class="page-content__title">Цены</div>

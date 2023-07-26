@@ -15,6 +15,7 @@
     <title><?php bloginfo('name');
             echo " | ";
             bloginfo('description'); ?></title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfY31YnAAAAADYr3dLO-65L-jUdYOEJZBAFYsCm"></script>
 
     <?php
     wp_head();

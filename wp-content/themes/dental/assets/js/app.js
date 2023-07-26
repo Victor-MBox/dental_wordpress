@@ -944,3 +944,10 @@ if (textHiddenBtn && textHidden) {
     }
   });
 }
+
+function onSubmit(token) {
+	var formIds = ['form-1', 'form-2', 'form-3', 'form-modal']
+	formIds.forEach(function (formId) {
+		document.getElementById(formId).submit()
+	})
+}
