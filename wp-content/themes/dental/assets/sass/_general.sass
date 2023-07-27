@@ -34,9 +34,12 @@ img
     margin-bottom: 20px
     color: $gray-text
     font-size: 14px
+    line-height: 20px
     #breadcrumbs
         display: flex
+        flex-wrap: wrap
         align-items: center
+
     &__home
         img
             width: 16px
@@ -44,6 +47,13 @@ img
 
     a
         color: $gray-text
+
+.grecaptcha-badge
+    display: none
+
+#lb_button-call_widjet.bot_right
+    right: auto
+    left: 50px
 
 /* Home__Главный экран */
 .main-section
@@ -321,7 +331,6 @@ img
     line-height: 22px
     letter-spacing: 0.01em
     color: $gray-text
-
 
 .list
     li

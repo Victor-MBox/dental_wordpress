@@ -1168,7 +1168,7 @@
 
     .modal
         &__close
-            &_video 
+            &_video
                 span
                     right: 50%
                     top: -30%
@@ -1499,6 +1499,8 @@
                     left: 36%
                     bottom: 4%
                     z-index: 1
+        &_servise
+            min-height: 10px
 
     .page-second-section
         margin-bottom: 32px
@@ -1584,6 +1586,47 @@
                 margin: 0 auto
         &__column-wrapper
             flex-direction: column
+
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 450px
+                height: 280px
+                margin: 0 auto
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    width: 430px
+                    left: 50%
+                    transform: translateX(-50%)
+        
+        &__chapter-home
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 450px
+                height: 300px
+            .slick-slider
+                width: 450px
+                height: 420px
+                margin: 0 auto
+            .slider-arrows
+                left: 68%
+
+        .galerea-tab
+            justify-content: space-evenly
+            &__column
+                width: 100%
 
         .btn-calc, .btn-call
             background: #fff
@@ -1895,7 +1938,7 @@
                 transform: rotate(45deg) translateX(-50%)
                 &:hover
                     transform: rotate(45deg) translateX(-50%)
-            &_video 
+            &_video
                 span
                     top: -30%
 
@@ -1981,6 +2024,42 @@
             width: 100%
         &__column-table
             display: none
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 350px
+                height: 200px
+                margin: 0 auto
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    width: 330px
+            .procedure
+                margin-top: -10px
+        
+        &__chapter-home
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 340px
+                height: 220px
+            .slick-slider
+                width: 340px
+                height: 220px
+
+            .procedure
+                width: 60%
+                
 
         .review-page
             width: 100%
@@ -1999,7 +2078,7 @@
         .carousel
             height: auto
 
-        .before-after #before, .before-after #after, .before-after2 #before2, .before-after2 #after2
+        .before-after #before, .before-after #after, .before-after2 #before2, .before-after2 #after2, .before-after3 #before3, .before-after3 #after3, .before-after4 #before4, .before-after4 #after4, .before-after5 #before5, .before-after5 #after5, .before-after6 #before6, .before-after6 #after6, .before-after7 #before7, .before-after7 #after7, .before-after8 #before8, .before-after8 #after8
             top: 42px
             font-size: 12px
             line-height: 14px
@@ -2202,6 +2281,8 @@
     /* СТРАНИЦА УСЛУГИ */
     .page-main-section
         margin-bottom: 50px
+        &_servise
+            min-height: 10px
 
     /* Страница КОНТЕКТА УСЛУГИ */
     .page-content
@@ -2224,14 +2305,37 @@
             font-weight: 700
             font-size: 14px
             line-height: 16px
+        &__chapter-do-posle
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8, .before-after__gallery, .before-after__img,
+            .before-after2__gallery, .before-after2__img,
+            .before-after3__gallery, .before-after3__img,
+            .before-after4__gallery, .before-after4__img,
+            .before-after5__gallery, .before-after5__img,
+            .before-after6__gallery, .before-after6__img,
+            .before-after7__gallery, .before-after7__img,
+            .before-after8__gallery, .before-after8__img
+                width: 290px
+                height: 190px
+            .before-after, .before-after2, .before-after3, .before-after4, .before-after5, .before-after6, .before-after7, .before-after8
+                &__procedure
+                    width: 290px
+
+        &__chapter-home
+            .procedure__title
+                font-size: 14px
+            .slider-arrows
+                left: 64%
+
         .slick-slider
             width: 300px
             height: 300px
         .carousel
             height: auto
 
-        .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img
+        .before-after__gallery, .before-after__img, .before-after2__gallery, .before-after2__img, .before-after3__gallery, .before-after3__img
             max-width: 300px
+        
+
 
         .table-service tr
             margin-bottom: 14px
@@ -2266,6 +2370,8 @@
                     &__img
                         width: 38px
                         height: 38px
+                    &__content
+                        width: 100%
             &__banner
                 margin-bottom: 120px
 

@@ -70,7 +70,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-about__submit">
-                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -115,7 +115,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper-about__column">
                             <div class="btn-wrapper-about__title">Вопросы пациентов</div>
-                            <div class="btn-wrapper-about__subtitle">Ответы на вопросы пациентов</div>           
+                            <div class="btn-wrapper-about__subtitle">Ответы на вопросы пациентов</div>
                         </div>
                     </a>
 
@@ -194,7 +194,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться">
+                                    <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>

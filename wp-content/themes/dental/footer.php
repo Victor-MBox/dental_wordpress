@@ -135,6 +135,9 @@
                 <div class="feedback-form__form">
 
                     <form action="#" class="form-modal" id="form-modal">
+
+                        <input type="hidden" name="form_name" value="Консультация">
+
                         <div class="form-modal__input">
                             <input type="text" name="name" placeholder="Имя" class="input">
                         </div>
@@ -201,7 +204,8 @@
 
 
 
-
+            <script src="//reservi.ru/4.0/812444789/"></script>
+                                     
             <?php
             wp_footer();
             ?>

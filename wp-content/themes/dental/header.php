@@ -451,11 +451,14 @@
 
                             <div id="tab-7" class="accordion__content">
 
-                                <a href="/galereya/">Протезирование</a>
+                                <a href="/galereya/raboty-protezirovanie/">Протезирование</a>
 
-                                <a href="/galereya/">Имплантация</a>
+                                <a href="/galereya/raboty-hirurgiya/">Хирургия</a>
 
-                                <a href="/galereya/">Гигиена</a>
+                                <a href="/galereya/raboty-implantacziya/">Имплантация</a>
+
+                                <a href="/galereya/raboty-gigiena/">Гигиена</a>
+
 
                             </div>
                         </div>
@@ -769,17 +772,6 @@
 
                     <li>
                         <a class="nav__link" href="/galereya/">Галерея</a>
-                        <ul class="sub-nav__list">
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Протезирование</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Имплантация</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/galereya/">Гигиена</a>
-                            </li>
-                        </ul>
                     </li>
 
                     <li>

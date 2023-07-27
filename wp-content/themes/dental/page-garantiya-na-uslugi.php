@@ -126,7 +126,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться">
+                                    <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -143,7 +143,7 @@ get_header();
 
                 <div class="page-about-section__chapter" id="start-link">
 
-                    <div class="page-about-section__banner page-about-section__banner_garantiya"></div>    
+                    <div class="page-about-section__banner page-about-section__banner_garantiya"></div>
                     <div class="page-about-section__text">Гарантия на лечение зубов в клинике «Зубки Всем» предоставляется на все виды лечения в строгом соответствии с законодательством Российской Федерации «Об охране здоровья граждан», законом «О защите прав потребителей», отраслевыми стандартами и указаниями Минздрава.
                     </div>
 

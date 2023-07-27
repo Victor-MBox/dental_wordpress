@@ -10,7 +10,7 @@ get_header();
 
 <div class="page">
 
-    <section class="page-main-section">           
+    <section class="page-main-section">
 
         <div class="page-main-section__decor">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
@@ -64,7 +64,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-about__submit">
-                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -189,7 +189,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться">
+                                    <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -210,7 +210,7 @@ get_header();
 
                 <div class="page-content__chapter">
                     <div class="page-content__title"> <b>Наши преимущества:</b> </div>
-                    
+
                     <div class="page-content__list">
                         <ul>
                             <li>собственное производство мы оснастили оборудованием последнего поколения ведущих зарубежных брендов;</li>
@@ -226,7 +226,7 @@ get_header();
 
                 <div class="page-content__chapter">
                     <div class="page-content__title"> <b>Почему работать с нами выгодно:</b> </div>
-                    
+
                     <div class="page-content__list">
                         <ul>
                             <li>наша лаборатория осуществляет полный производственный цикл;</li>
@@ -239,7 +239,7 @@ get_header();
                         </ul>
                     </div>
 
-                    <div class="page-content__text">Наша лаборатория имеет все необходимые сертификаты и документацию. На рынке В2В мы работаем профессионально и качественно.</div>                 
+                    <div class="page-content__text">Наша лаборатория имеет все необходимые сертификаты и документацию. На рынке В2В мы работаем профессионально и качественно.</div>
                 </div>
 
             </div>

@@ -23,7 +23,7 @@ get_header();
             <div class="page-second-section__name">
                 <div class="page-second-section__subtitle subtitle">Качественные услуги по доступным ценам</div>
                 <div class="page-second-section__title title">Услуги клиники "Зубки Всем"</div>
-                <div class="page-second-section__description description">Окажем качественные услуги и создадим комфортную атмосферу! Сделайте первый шаг на пути к здоровой и красивой улыбке - запишитесь на консультацию по телефону: <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+                <div class="page-second-section__description description">Окажем качественные услуги и создадим комфортную атмосферу! Сделайте первый шаг на пути к здоровой и красивой улыбке - запишитесь на консультацию по телефону: <br> <a href="tel:+74951503001">+7 (495) 150-30-01</a>
                 </div>
             </div>
     </section>
@@ -47,10 +47,6 @@ get_header();
 
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
-
-                                <div class="accordion-home__label">
-                                    от <span>0₽</span>
-                                </div>
 
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
@@ -86,10 +82,6 @@ get_header();
 
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-8.jpg" alt="">
-
-                                <div class="accordion-home__label">
-                                    от <span>1500₽</span>
-                                </div>
 
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
@@ -132,10 +124,6 @@ get_header();
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="">
 
-                                <div class="accordion-home__label">
-                                    от <span>400₽</span>
-                                </div>
-
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
                                         <div class="btn-call__img"></div>
@@ -170,10 +158,6 @@ get_header();
 
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
-
-                                <div class="accordion-home__label">
-                                    от <span>2000₽</span>
-                                </div>
 
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
@@ -214,10 +198,6 @@ get_header();
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="">
 
-                                <div class="accordion-home__label">
-                                    от <span>1500₽</span>
-                                </div>
-
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
                                         <div class="btn-call__img"></div>
@@ -253,10 +233,6 @@ get_header();
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="">
 
-                                <div class="accordion-home__label">
-                                    от <span>2000₽</span>
-                                </div>
-
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
                                         <div class="btn-call__img"></div>
@@ -289,10 +265,6 @@ get_header();
 
                             <div class="accordion-home__img-wrapper">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-013.jpg" alt="">
-
-                                <div class="accordion-home__label">
-                                    от <span>2000₽</span>
-                                </div>
 
                                 <div class="accordion-home__btn-call">
                                     <button class="btn-call" data-modal="mainModal">
@@ -541,6 +513,9 @@ get_header();
                             <div class="feedback-form-laboratory__form">
 
                                 <form action="#" class="form-laboratory" id="form-3">
+
+                                    <input type="hidden" name="form_name" value="Общая на странице Услуги">
+
                                     <div class="form-laboratory__input">
                                         <input type="text" name="name" placeholder="Имя" class="input">
                                     </div>
@@ -557,14 +532,14 @@ get_header();
                                         </div>
                                     </div>
                                     <div class="form-laboratory__submit">
-                                        <input class="btn btn_submit" type="submit" value="Записаться">
+                                        <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                     </div>
                                 </form>
                             </div>
                         </div>
 
                     </div>
-                </div>             
+                </div>
 
 
             </div>

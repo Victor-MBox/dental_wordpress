@@ -65,7 +65,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-about__submit">
-                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -96,26 +96,70 @@ get_header();
                         <div data-tab="home-tab-1" class="accordion-home__tab">
                             <div class="accordion-home__nav-column">
                                 <div class="accordion-home__nav-title">Протезирование</div>
-                                <div class="accordion-home__nav-subtitle">5 работ</div>
+                                <div class="accordion-home__nav-subtitle">7 работ</div>
                             </div>
                             <div class="accordion-home__strip strip strip_yellow"></div>
                         </div>
                         <div id="home-tab-1" class="accordion-home__content">
 
                             <div class="accordion-home__img-wrapper">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
-
-                                <div class="accordion-home__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
-                                        <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                                    </button>
-                                </div>
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-8.jpg" alt="">
                             </div>
 
-                            <a class="accordion-home__btn" href="#">Смотреть работы</a>
+                            <a class="btn btn_mob" href="/raboty-protezirovanie/">Смотреть работы</a>
 
                         </div>
+                    </div>
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-2" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Хирургия</div>
+                                <div class="accordion-home__nav-subtitle">1 работа</div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_turquoise"></div>
+                        </div>
+                        <div id="home-tab-2" class="accordion-home__content">
+
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
+                            </div>
+                            <a class="btn btn_mob" href="/raboty-hirurgiya/">Смотреть работы</a>
+                        </div>
+                    </div>
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-3" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Имплантация</div>
+                                <div class="accordion-home__nav-subtitle">2 работы</div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_red"></div>
+                        </div>
+                        <div id="home-tab-3" class="accordion-home__content">
+
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-02.jpg" alt="">
+                            </div>
+                            <a class="btn btn_mob" href="/raboty-implantacziya/">Смотреть работы</a>
+                        </div>
+                    </div>
+
+                    <div class="accordion-home">
+                        <div data-tab="home-tab-4" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title">Гигиена</div>
+                                <div class="accordion-home__nav-subtitle">1 работа</div>
+                            </div>
+                            <div class="accordion-home__strip strip strip_lilac"></div>
+                        </div>
+                        <div id="home-tab-4" class="accordion-home__content">
+
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
+                            </div>
+                            <a class="btn btn_mob" href="/raboty-gigiena/">Смотреть работы</a>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -131,7 +175,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Протезирование</div>
-                            <div class="btn-wrapper__subtitle">6 работ</div>
+                            <div class="btn-wrapper__subtitle">7 работ</div>
                         </div>
                     </button>
 
@@ -164,7 +208,7 @@ get_header();
                         </div>
                         <div class="btn-wrapper__column">
                             <div class="btn-wrapper__title">Гигиена</div>
-                            <div class="btn-wrapper__subtitle">2 работы</div>
+                            <div class="btn-wrapper__subtitle">1 работа</div>
                         </div>
                     </button>
                 </div>
@@ -216,7 +260,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться">
+                                    <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>

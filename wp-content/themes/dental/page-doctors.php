@@ -72,7 +72,7 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="form-about__submit">
-                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                 </div>
                             </form>
                         </div>
@@ -437,7 +437,7 @@ get_header();
                                         </div>
                                     </div>
                                     <div class="form-laboratory__submit">
-                                        <input class="btn btn_submit" type="submit" value="Записаться">
+                                        <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
                                     </div>
                                 </form>
                             </div>
@@ -501,7 +501,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -559,7 +559,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
                                         </div>
@@ -609,7 +609,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -663,7 +663,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -717,7 +717,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -771,7 +771,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -825,7 +825,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -879,7 +879,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -934,7 +934,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 
@@ -988,7 +988,7 @@ get_header();
                                                 </div>
 
                                                 <div class="form-portfolio__submit">
-                                                    <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                    <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                                 </div>
                                             </form>
 

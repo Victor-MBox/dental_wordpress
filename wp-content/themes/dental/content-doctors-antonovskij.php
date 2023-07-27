@@ -61,7 +61,7 @@ get_header();
                                             </div>
 
                                             <div class="form-portfolio__submit">
-                                                <input class="btn btn_submit" type="submit" value="Узнать больше">
+                                                <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                                             </div>
                                         </form>
 
