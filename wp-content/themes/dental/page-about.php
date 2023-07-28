@@ -207,10 +207,6 @@ get_header();
             </div>
 
             <div class="page-about-section__column">
-                <div class="page-service-section__decor-wrapper">
-                    <div class="page-service-section__decor-content decor-lilac"></div>
-                    <div class="page-service-section__decor-content decor-yellow"></div>
-                </div>
 
                 <div class="page-about-section__chapter" id="start-link">
 
