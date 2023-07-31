@@ -14,6 +14,7 @@ function dental_scripts() {
     wp_enqueue_script('dental_scripts', get_template_directory_uri(). '/assets/js/app.js' , array(), '3', true);
     wp_enqueue_script('dental_scripts-page', get_template_directory_uri(). '/assets/js/page-app.js' , array(), null, true);
     wp_enqueue_script('dental_scripts-forms', get_template_directory_uri() . '/assets/js/forms-app.js', array(), null, true);
+    wp_enqueue_script('dental_scripts-modals', get_template_directory_uri() . '/assets/js/modals-app.js', array(), null, true);
 };
 
 add_theme_support( 'custom-logo' ); 

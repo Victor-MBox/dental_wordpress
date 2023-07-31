@@ -157,6 +157,7 @@
                             <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
                         </div>
                     </form>
+
                 </div>
             </div>
 
@@ -202,10 +203,97 @@
 
             </div>
 
+            <!-- Модальные окна с докторами -->
+
+            <!-- Borisenko -->
+            <div class="modal-form modal-form_doctor" id="borisenkoModal">
+
+                <div class="modal__close"><span></span></div>
+
+                <div class="modal-form__column modal-form__column_img">
+
+                    <div class="modal-form__doctor">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="">
+                        <div class="modal-form__label">стаж <span>11 лет</span></div>
+                    </div>
+                </div>
+
+                <div class=" modal-form__column">
+                    <div class="modal-form__title">Записаться на прием <br>
+                        к <span>Инне Владимировне</span></div>
+
+                    <div class="feedback-form__form">
+
+                        <form action="#" class="form-modal" id="form-modalBorisenko">
+
+                            <input type="hidden" name="form_name" value="Запись на прием к Инне Владимировне">
+
+                            <div class="form-modal__input">
+                                <input type="text" name="name" placeholder="Имя" class="input">
+                            </div>
+                            <div class="form-modal__input email-input">
+                                <input type="email" name="email" placeholder="Email" class="input">
+                            </div>
+                            <div class="form-modal__input phone-input">
+                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                            </div>
+                            <div class="form-modal__item">
+                                <div class="checkbox">
+                                    <input id="checkboxModalBorisenko" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="checkboxModalBorisenko" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                </div>
+                            </div>
+                            <div class="form-modal__submit">
+                                <input class="btn btn_submit" type="submit" value="Узнать больше" data-callback="onSubmit">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- thanks-modal Borisenko -->
+            <div class="thanks-modal" id="thanksModalBorisenko">
+
+                <div class="thanks-modal__wrapper">
+
+                    <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+
+                    <div class="thanks-modal__title">Благодарим за запись <br> к <span>Инне Владимировне</span></div>
+                    <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
+
+                    <div class="thanks-modal__btn">
+                        <button>Закрыть</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- thanks-modal Borisenko Question-->
+            <div class="thanks-modal" id="thanksModalBorisenkoQuest">
+
+                <div class="thanks-modal__wrapper">
+
+                    <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+
+                    <div class="thanks-modal__title">Вы задали вопрос <br> <span>Инне Владимировне</span></div>
+                    <div class="thanks-modal__subtitle">В ближайшее время, Инна Владимировна даст на него ответ</div>
+
+                    <div class="thanks-modal__btn">
+                        <button>Закрыть</button>
+                    </div>
+                </div>
+
+            </div>                                                             
+
+
 
 
             <script src="//reservi.ru/4.0/812444789/"></script>
-                                     
+
             <?php
             wp_footer();
             ?>

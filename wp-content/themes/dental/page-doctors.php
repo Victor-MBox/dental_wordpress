@@ -57,6 +57,7 @@ get_header();
 
                             <form action="#" class="form-about" id="form-1">
                                 <input type="hidden" name="form_name" value="Общая на странице Врачи">
+
                                 <div class="form-about__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
@@ -424,6 +425,7 @@ get_header();
 
                             <form action="#" class="form-laboratory" id="form-3">
                                 <input type="hidden" name="form_name" value="Общая на странице Врачи">
+
                                 <div class="form-laboratory__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
@@ -456,11 +458,6 @@ get_header();
 
                 <div id="loader-page"></div>
 
-                <div class="page-service-section__decor-wrapper">
-                    <div class="page-service-section__decor-content decor-lilac"></div>
-                    <div class="page-service-section__decor-content decor-yellow"></div>
-                </div>
-
                 <div class="page-doctors-content">
                     <section class="page-contetn__wrapper" id="content-page">
 
@@ -470,7 +467,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>11 лет</span></div>
                                 <div class="page-content__label-prof"><span>Терапевт, хирург</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="borisenkoModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Инне Владимировне</span></div>
                                     </button>
@@ -483,7 +480,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-01">
+                                        <form action="#" class="form-portfolio" id="form-Borisenko">
 
                                             <input type="hidden" name="form_name" value="Вопрос Инне Владимировне">
 
@@ -500,9 +497,9 @@ get_header();
                                             </div>
 
                                             <div class="form-about__item">
-                                                <div class="checkbox">
-                                                    <input id="checkbox-01" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-01" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                <div class="checkbox">      
+                                                    <input id="checkbox-Borisenko" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Borisenko" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -1046,7 +1043,7 @@ get_header();
     </div>
 </section>
 </div>
-                   
+
 
 <script>
     window.onload = function() {

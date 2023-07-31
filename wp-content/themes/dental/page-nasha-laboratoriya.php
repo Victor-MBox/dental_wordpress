@@ -48,7 +48,9 @@ get_header();
                         <div class="feedback-form__form">
 
                             <form action="#" class="form-about" id="form-1">
+                                
                                 <input type="hidden" name="form_name" value="Общая на странице Наша лаборатория">
+
                                 <div class="form-about__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>

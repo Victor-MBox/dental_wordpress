@@ -110,7 +110,9 @@ get_header();
                         <div class="feedback-form-laboratory__form">
 
                             <form action="#" class="form-laboratory" id="form-3">
+
                                 <input type="hidden" name="form_name" value="Общая на странице Лечение в рассрочку">
+                                
                                 <div class="form-laboratory__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>

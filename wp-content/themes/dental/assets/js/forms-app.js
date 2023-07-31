@@ -118,35 +118,6 @@ $(document).ready(function () {
 		},
 	})
 
-	$('#form-01').validate({
-		rules: {
-			name: 'required',
-			phone: 'required',
-			email: {
-				email: true,
-			},
-			checkbox: {
-				required: true,
-			},
-		},
-		messages: {
-			name: 'Введите имя',
-			phone: 'Введите телефон',
-			email: {
-				email: 'Неправильно введен email',
-			},
-			checkbox: 'Пожалуйста, отметьте этот чекбокс',
-		},
-		submitHandler: function (form) {
-			if ($('#checkbox-01').is(':checked')) {
-				isFormValid = true
-			} else {
-				alert('Пожалуйста, дайте согласие на обработку персональных данных')
-				isFormValid = false
-			}
-		},
-	})
-
 	$('#form-02').validate({
 		rules: {
 			name: 'required',
@@ -407,6 +378,130 @@ $(document).ready(function () {
 			}
 		},
 	})
+
+	//ФОРМЫ С ДОКТОРАМИ
+
+	//Борисенко ЗАПИСЬ на прием
+	$('#form-modalBorisenko').validate({
+		rules: {
+			name: 'required',
+			phone: 'required',
+			email: {
+				email: true,
+			},
+			checkbox: {
+				required: true,
+			},
+		},
+		messages: {
+			name: 'Введите имя',
+			phone: 'Введите телефон',
+			email: {
+				email: 'Неправильно введен email',
+			},
+			checkbox: 'Пожалуйста, отметьте этот чекбокс',
+		},
+		submitHandler: function (form) {
+			if ($('#checkboxModalBorisenko').is(':checked')) {
+				isFormValid = true
+			} else {
+				alert('Пожалуйста, дайте согласие на обработку персональных данных')
+				isFormValid = false
+			}
+		},
+	})
+	if ($('#form-modalBorisenko').length) {
+		$('#form-modalBorisenko').submit(function (e) {
+			e.preventDefault()
+
+			var form = $(this)
+
+			if (!form.valid() || !isFormValid) {
+				return
+			}
+
+			var submitButton = form.find('.btn_submit')
+			var originalButtonText = submitButton.val()
+
+			submitButton.val('Отправка...').prop('disabled', true)
+
+			$.ajax({
+				type: 'POST',
+				url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php',
+				data: form.serialize(),
+			}).done(function () {
+				form.find('input').val('')
+				$('#borisenkoModal').fadeOut()
+				$('.modal__overlay, #thanksModalBorisenko').fadeIn()
+				form[0].reset()
+				submitButton.val(originalButtonText).prop('disabled', false)
+			})
+
+			return false
+		})
+	}
+	//Борисенко ВОПРОС
+	$('#form-Borisenko').validate({
+		rules: {
+			name: 'required',
+			phone: 'required',
+			email: {
+				email: true,
+			},
+			checkbox: {
+				required: true,
+			},
+		},
+		messages: {
+			name: 'Введите имя',
+			phone: 'Введите телефон',
+			email: {
+				email: 'Неправильно введен email',
+			},
+			checkbox: 'Пожалуйста, отметьте этот чекбокс',
+		},
+		submitHandler: function (form) {
+			if ($('#checkbox-Borisenko').is(':checked')) {
+				isFormValid = true
+			} else {
+				alert('Пожалуйста, дайте согласие на обработку персональных данных')
+				isFormValid = false
+			}
+		},
+	})
+	if ($('#form-Borisenko').length) {
+		$('#form-Borisenko').submit(function (e) {
+			e.preventDefault()
+
+			var form = $(this)
+
+			if (!form.valid() || !isFormValid) {
+				return
+			}
+
+			var submitButton = form.find('.btn_submit')
+			var originalButtonText = submitButton.val()
+
+			submitButton.val('Отправка...').prop('disabled', true)
+
+			$.ajax({
+				type: 'POST',
+				url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php',
+				data: form.serialize(),
+			}).done(function () {
+				form.find('input').val('')
+				$('#borisenkoModal').fadeOut()
+				$('.modal__overlay, #thanksModalBorisenkoQuest').fadeIn()
+				form[0].reset()
+				submitButton.val(originalButtonText).prop('disabled', false)
+			})
+
+			return false
+		})
+	}
+
+
+
 
 	if (
 		$(
