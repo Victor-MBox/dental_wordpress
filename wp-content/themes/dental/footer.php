@@ -119,7 +119,7 @@
     </footer>
 
 
-    <!-- Модальные окна -->
+    <!-- Модальные окна --> 
     <div class="modal">
         <div class="modal__overlay">
 
