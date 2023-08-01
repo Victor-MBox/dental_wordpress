@@ -72,19 +72,6 @@
     top: 50%
     z-index: 999
 
-    &_doctor
-        display: none
-        width: 670px
-        border-radius: 45px 45px 5px 45px
-        border: 3px solid #C39EFF
-        background: #FFF
-        box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.15)
-
-        display: flex
-
-        .form-modal__input input
-            width: 100%
-
     &__title
         font-weight: 700
         font-size: 16px
@@ -106,6 +93,16 @@
                 background: #01C9FA
 
                 margin-top: -2px
+    &__subtitle
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+        text-align: center
+        letter-spacing: 0.01em
+        color: $gray-text
+        margin-bottom: 15px
+        margin-top: -10px
+        
 
     &__column
         width: 48%
@@ -130,8 +127,8 @@
         display: flex
         flex-direction: column
         justify-content: center
-        align-items: center
 
+        text-align: center
         color: #FFF
         font-size: 12px
         font-weight: 400
@@ -145,6 +142,29 @@
         span
             font-size: 16px
             font-weight: 700
+
+.modal-form-doctor
+    display: none
+    width: 670px
+    border-radius: 45px 45px 5px 45px
+    border: 3px solid #C39EFF
+    background: #FFF
+    box-shadow: 0px 8px 15px 0px rgba(7, 0, 59, 0.15)
+
+    position: relative
+    min-height: 359px
+    padding: 25px 24px 15px
+
+    position: absolute
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    top: 50%
+    z-index: 999
+    &__wrapper
+        display: flex
+
+    .form-modal__input input
+        width: 100%
 
 .form-modal
     text-align: center

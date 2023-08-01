@@ -96,201 +96,150 @@ get_header();
                 </div>
             </div>
     </section>
+</div>
 
-    <section class="page-about-section">
-        <div class="page-about-section__container container">
-            <div class="page-about-section__column">
+<section class="page-about-section">
+    <div class="page-about-section__container container">
+        <div class="page-about-section__column">
 
-                <div class="page-about-section__btn-wrapper">
+            <div class="page-about-section__buttons-page">
 
-                    <a class="btn-wrapper-about btn-wrapper-about_active" href="/o-klinike/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor"></div>
-                            <div class="btn-wrapper-about__number">01</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">О нашей клинике</div>
-                            <div class="btn-wrapper-about__subtitle">Подробнее о "Зубки Всем" </div>
-                        </div>
-                    </a>
+                <a class="buttons-page-1" href="/o-klinike/lechenie-v-rassrochku/">
+                    <div class="buttons-page-1__img"></div>
+                    <div class="buttons-page-1__text">Лечение в рассрочку</div>
+                </a>
 
-                    <a class="btn-wrapper-about" href="/voprosy/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor btn-wrapper-about__decor_lilac"></div>
-                            <div class="btn-wrapper-about__number">02</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">Вопросы пациентов</div>
-                            <div class="btn-wrapper-about__subtitle">Ответы на вопросы пациентов</div>
-                        </div>
-                    </a>
+                <a class="buttons-page-2" href="/o-klinike/nalogovyj-vychet/">
+                    <div class="buttons-page-2__img"></div>
+                    <div class="buttons-page-2__text">Налоговый вычет</div>
+                </a>
 
-                    <a class="btn-wrapper-about" href="/nasha-laboratoriya/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor btn-wrapper-about__decor_blue"></div>
-                            <div class="btn-wrapper-about__number">02</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">Наша лаборатория</div>
-                            <div class="btn-wrapper-about__subtitle">Зуботехническая лаборатория</div>
-                        </div>
-                    </a>
+                <a class="buttons-page-3" href="/o-klinike/garantiya-na-uslugi/">
+                    <div class="buttons-page-3__img"></div>
+                    <div class="buttons-page-3__text">Гарантия на услуги</div>
+                </a>
 
-                    <a class="btn-wrapper-about" href="/lechenie-v-rassrochku/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor btn-wrapper-about__decor_red"></div>
-                            <div class="btn-wrapper-about__number">03</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">Лечение в рассрочку</div>
-                            <div class="btn-wrapper-about__subtitle">Подробная информация</div>
-                        </div>
-                    </a>
+            </div>
 
-                    <a class="btn-wrapper-about" href="/nalogovyj-vychet/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor btn-wrapper-about__decor_lilac"></div>
-                            <div class="btn-wrapper-about__number">04</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">Налоговый вычет</div>
-                            <div class="btn-wrapper-about__subtitle">Подробная информация</div>
-                        </div>
-                    </a>
 
-                    <a class="btn-wrapper-about" href="/garantiya-na-uslugi/">
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__decor btn-wrapper-about__decor_blue"></div>
-                            <div class="btn-wrapper-about__number">05</div>
-                        </div>
-                        <div class="btn-wrapper-about__column">
-                            <div class="btn-wrapper-about__title">Гарантия на услуги</div>
-                            <div class="btn-wrapper-about__subtitle">Подробная информация</div>
-                        </div>
-                    </a>
+            <div class="page-service-section__form">
+                <div class="page-content__title">Запись <br>на консультацию</div>
+                <div class="page-content__text">Обратите внимание, все наши консультации – бесплатные</div>
 
+                <div class="feedback-form-laboratory">
+
+                    <div class="page-about-section__decor-lilac decor-lilac"></div>
+                    <div class="page-about-section__decor-blue decor-blue"></div>
+
+                    <div class="feedback-form-laboratory__form">
+
+                        <form action="#" class="form-laboratory" id="form-3">
+
+                            <input type="hidden" name="form_name" value="Общая на странице О компании">
+
+                            <div class="form-laboratory__input">
+                                <input type="text" name="name" placeholder="Имя" class="input">
+                            </div>
+                            <div class="form-laboratory__input email-input">
+                                <input type="email" name="email" placeholder="Email" class="input">
+                            </div>
+                            <div class="form-laboratory__input phone-input">
+                                <input type="phone" name="phone" placeholder="Номер телефона" class="input">
+                            </div>
+                            <div class="form-about__item">
+                                <div class="checkbox">
+                                    <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                </div>
+                            </div>
+                            <div class="form-laboratory__submit">
+                                <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page-about-section__column">
+
+            <div class="page-about-section__chapter" id="start-link">
+
+                <div class="page-about-section__banner">
+                    <div class="page-about-section__label"><span>12 + </span>Квалифицированных специалистов</div>
+                    <div class="page-about-section__label page-about-section__label_lilac"><span>23 + </span>лет работы на базе лаборатории АЛВАДЕНТ</div>
+                    <div class="page-about-section__label page-about-section__label_yellow"><span>20 000 + </span>Изготовленных
+                        протезов</div>
+                </div>
+
+                <div class="page-about-section__text">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br><br>
+                    О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.<br><br>
+
+                    Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.<br><br>
+
+                    Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.<br><br>
+
+                    Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.<br><br>
+
+                    Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.<br><br>
+
+                    Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.<br><br>
+                </div>
+
+                <div class="page-about-section__slider">
+                    <div id="loader">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/ajax-loader.gif" alt="Loading..." />
+                    </div>
+
+                    <div class="page-about-section__slider-wrapper" id="aboutLaboratorySlider">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
+                    </div>
+                    <div class="slider-arrows">
+                        <button class="slider-arrows__left" id="aboutLaboratorySliderPrev" type="button"></button>
+                        <button class="slider-arrows__right" id="aboutLaboratorySliderNext" type="button"></button>
+                    </div>
+                    <div class="slider-counter">
+                        <span class="current-slide">1</span>/<span class="total-slides"></span>
+                    </div>
                 </div>
 
 
-                <div class="page-service-section__form">
-                    <div class="page-content__title">Запись <br>на консультацию</div>
-                    <div class="page-content__text">Обратите внимание, все наши консультации – бесплатные</div>
+            </div>
 
-                    <div class="feedback-form-laboratory">
-
-                        <div class="page-about-section__decor-lilac decor-lilac"></div>
-                        <div class="page-about-section__decor-blue decor-blue"></div>
-
-                        <div class="feedback-form-laboratory__form">
-
-                            <form action="#" class="form-laboratory" id="form-3">
-
-                                <input type="hidden" name="form_name" value="Общая на странице О компании">
-
-                                <div class="form-laboratory__input">
-                                    <input type="text" name="name" placeholder="Имя" class="input">
-                                </div>
-                                <div class="form-laboratory__input email-input">
-                                    <input type="email" name="email" placeholder="Email" class="input">
-                                </div>
-                                <div class="form-laboratory__input phone-input">
-                                    <input type="phone" name="phone" placeholder="Номер телефона" class="input">
-                                </div>
-                                <div class="form-about__item">
-                                    <div class="checkbox">
-                                        <input id="checkbox-3" checked type="checkbox" name="agreement" class="checkbox__input">
-                                        <label for="checkbox-3" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
-                                    </div>
-                                </div>
-                                <div class="form-laboratory__submit">
-                                    <input class="btn btn_submit" type="submit" value="Записаться" data-callback="onSubmit">
-                                </div>
-                            </form>
-                        </div>
+            <div class="page-about-section__chapter">
+                <div class="page-about-section__quote">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
+                    <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
                     </div>
-
+                    <div class="page-about-section__quote-label">
+                        <span>Замура <br> Юлия Игоревна</span>
+                        Руководитель зуботехнической лаборатории
+                    </div>
                 </div>
             </div>
 
-            <div class="page-about-section__column">
-
-                <div class="page-about-section__chapter" id="start-link">
-
-                    <div class="page-about-section__banner">
-                        <div class="page-about-section__label"><span>12 + </span>Квалифицированных специалистов</div>
-                        <div class="page-about-section__label page-about-section__label_lilac"><span>23 + </span>лет работы на базе лаборатории АЛВАДЕНТ</div>
-                        <div class="page-about-section__label page-about-section__label_yellow"><span>20 000 + </span>Изготовленных
-                            протезов</div>
-                    </div>
-
-                    <div class="page-about-section__text">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br><br>
-                        О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.<br><br>
-
-                        Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.<br><br>
-
-                        Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.<br><br>
-
-                        Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.<br><br>
-
-                        Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.<br><br>
-
-                        Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.<br><br>
-                    </div>
-
-                    <div class="page-about-section__slider">
-                        <div id="loader">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/ajax-loader.gif" alt="Loading..." />
-                        </div>
-
-                        <div class="page-about-section__slider-wrapper" id="aboutLaboratorySlider">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                        </div>
-                        <div class="slider-arrows">
-                            <button class="slider-arrows__left" id="aboutLaboratorySliderPrev" type="button"></button>
-                            <button class="slider-arrows__right" id="aboutLaboratorySliderNext" type="button"></button>
-                        </div>
-                        <div class="slider-counter">
-                            <span class="current-slide">1</span>/<span class="total-slides"></span>
-                        </div>
-                    </div>
-
-
+            <div class="page-content__chapter">
+                <div class="page-content__title">Проверьте подлинность отзывов</div>
+                <div class="rating-section__companies-rating companies-rating">
+                    <script src="https://res.smartwidgets.ru/app.js" defer></script>
+                    <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
                 </div>
-
-                <div class="page-about-section__chapter">
-                    <div class="page-about-section__quote">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
-                        <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
-                        </div>
-                        <div class="page-about-section__quote-label">
-                            <span>Замура <br> Юлия Игоревна</span>
-                            Руководитель зуботехнической лаборатории
-                        </div>
-                    </div>
-                </div>
-
-                <div class="page-content__chapter">
-                    <div class="page-content__title">Проверьте подлинность отзывов</div>
-                    <div class="rating-section__companies-rating companies-rating">
-                        <script src="https://res.smartwidgets.ru/app.js" defer></script>
-                        <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
-    </section>
-</div>
+
+    </div>
+</section>
 
 
 <?php

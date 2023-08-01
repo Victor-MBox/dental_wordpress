@@ -497,7 +497,7 @@ get_header();
                                             </div>
 
                                             <div class="form-about__item">
-                                                <div class="checkbox">      
+                                                <div class="checkbox">
                                                     <input id="checkbox-Borisenko" checked type="checkbox" name="agreement" class="checkbox__input">
                                                     <label for="checkbox-Borisenko" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
@@ -528,7 +528,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>12 лет</span></div>
                                 <div class="page-content__label-prof"><span>Терапевт</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="zejnalovModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Зейналу Вилаяддиновичу</span></div>
                                     </button>
@@ -541,7 +541,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-02">
+                                        <form action="#" class="form-portfolio" id="form-Zejnalov">
 
                                             <input type="hidden" name="form_name" value="Вопрос Зейналу Вилаяддиновичу">
 
@@ -559,8 +559,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-02" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-02" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Zejnalov" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Zejnalov" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -581,9 +581,9 @@ get_header();
                                 <div class="page-content__label">стаж <span>12 лет</span></div>
                                 <div class="page-content__label-prof"><span>Терапевт</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="sarybaevModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Зейналу Вилаяддиновичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span>Анарбеку Муктарбековичу</span></div>
                                     </button>
                                 </div>
 
@@ -594,7 +594,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-03">
+                                        <form action="#" class="form-portfolio" id="form-Sarybaev">
 
                                             <input type="hidden" name="form_name" value="Вопрос Анарбеку Муктарбековичу">
 
@@ -612,8 +612,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-03" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-03" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Sarybaev" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Sarybaev" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -638,7 +638,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>32 года</span></div>
                                 <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="antonovskijModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Антону Анатольевичу</span></div>
                                     </button>
@@ -651,7 +651,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-04">
+                                        <form action="#" class="form-portfolio" id="form-Antonovskij">
 
                                             <input type="hidden" name="form_name" value="Вопрос Антону Анатольевичу">
 
@@ -669,8 +669,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-04" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-04" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Antonovskij" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Antonovskij" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -695,7 +695,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>13 лет</span></div>
                                 <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="igoninModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Василию Валентиновичу</span></div>
                                     </button>
@@ -708,7 +708,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-05">
+                                        <form action="#" class="form-portfolio" id="form-Igonin">
 
                                             <input type="hidden" name="form_name" value="Вопрос Василию Валентиновичу">
 
@@ -726,8 +726,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-05" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-05" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Igonin" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Igonin" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -752,7 +752,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>7 лет</span></div>
                                 <div class="page-content__label-prof"><span>Ортопед</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="handoginModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Антону Олеговичу</span></div>
                                     </button>
@@ -765,7 +765,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-06">
+                                        <form action="#" class="form-portfolio" id="form-Handogin">
 
                                             <input type="hidden" name="form_name" value="Вопрос Антону Олеговичу">
 
@@ -783,8 +783,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-06" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-06" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Handogin" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Handogin" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -809,7 +809,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>12 лет</span></div>
                                 <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="zhurovModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Илье Владимировичу</span></div>
                                     </button>
@@ -822,7 +822,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-07">
+                                        <form action="#" class="form-portfolio" id="form-Zhurov">
 
                                             <input type="hidden" name="form_name" value="Вопрос Илье Владимировичу">
 
@@ -840,8 +840,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-07" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-07" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Zhurov" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Zhurov" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -866,7 +866,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>18 лет</span></div>
                                 <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="dzhahbarovaModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Рабият Магомедгаджиевне</span></div>
                                     </button>
@@ -879,7 +879,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-08">
+                                        <form action="#" class="form-portfolio" id="form-Dzhahbarova">
 
                                             <input type="hidden" name="form_name" value="Вопрос Рабият Магомедгаджиевне">
 
@@ -897,8 +897,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-08" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-08" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Dzhahbarova" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Dzhahbarova" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -924,7 +924,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>10 лет</span></div>
                                 <div class="page-content__label-prof"><span>Гигиенист</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="bajkulovaModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Асият Хамитовнае</span></div>
                                     </button>
@@ -937,7 +937,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-09">
+                                        <form action="#" class="form-portfolio" id="form-Bajkulova">
 
                                             <input type="hidden" name="form_name" value="Вопрос Асият Хамитовнае">
 
@@ -955,8 +955,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-09" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-09" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Bajkulova" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Bajkulova" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
@@ -981,7 +981,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>2 года</span></div>
                                 <div class="page-content__label-prof"><span>Ортодонт, гигиенист</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="bachulisModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Марине Александровне</span></div>
                                     </button>
@@ -994,7 +994,7 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-010">
+                                        <form action="#" class="form-portfolio" id="form-Bachulis">
 
                                             <input type="hidden" name="form_name" value="Вопрос Марине Александровне">
 
@@ -1012,8 +1012,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-010" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-010" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Bachulis" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Bachulis" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 

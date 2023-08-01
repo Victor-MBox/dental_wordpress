@@ -220,7 +220,7 @@ get_header();
                             <form action="#" class="form-laboratory" id="form-3">
 
                                 <input type="hidden" name="form_name" value="Общая на странице Акции">
-                                
+
                                 <div class="form-laboratory__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
@@ -256,7 +256,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_01">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock1Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -277,7 +277,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_02">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock2Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним </div>
                             </button>
@@ -297,7 +297,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_03">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock3Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -317,7 +317,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_04">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock4Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -337,7 +337,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_05">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock5Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -357,7 +357,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_06">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock6Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -378,7 +378,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_07">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock7Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -398,7 +398,7 @@ get_header();
                     <div class="page-about-section__banner page-about-section__banner_08">
 
                         <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="mainModal">
+                            <button class="btn-call" data-modal="stock8Modal">
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
@@ -411,13 +411,12 @@ get_header();
                 </div>
 
 
-
             </div>
 
         </div>
     </section>
 </div>
-              
+
 <?php
 get_footer();
 ?>

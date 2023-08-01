@@ -116,16 +116,16 @@ $(document).ready(function () {
         submitButton.val("Отправка...").prop("disabled", true);
 
         $.ajax({
-          type: "POST",
-          url: "https://dental.cg-test.ru/wp-content/themes/dental/assets/mailer/smart.php",
-          data: form.serialize(),
-        }).done(function () {
-          form.find("input").val("");
-          $("#mainModal").fadeOut();
-          $(".modal__overlay, #thanksModal").fadeIn();
-          form[0].reset();
-          submitButton.val(originalButtonText).prop("disabled", false);
-        });
+					type: 'POST',
+					url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php',
+					data: form.serialize(),
+				}).done(function () {
+					form.find('input').val('')
+					$('#mainModal').fadeOut()
+					$('.modal__overlay, #thanksModal').fadeIn()
+					form[0].reset()
+					submitButton.val(originalButtonText).prop('disabled', false)
+				})
 
         return false;
       });

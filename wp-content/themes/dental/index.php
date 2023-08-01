@@ -916,7 +916,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Борисенко</span> <br>Инна Владимировна</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт, хирург</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="borisenkoModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -928,7 +928,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Зейналов</span> <br>Зейнал Вилаяддинович</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="zejnalovModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -940,7 +940,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Сарыбаев</span> <br>Анарбек Муктарбекович</div>
                     <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="sarybaevModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -953,7 +953,7 @@ get_header();
                     <div class="carousel__name"><span>Антоновский</span> <br>Антон
                         Анатольевич</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортопед, главный врач</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="antonovskijModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -965,7 +965,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Игонин</span> <br>Василий Валентинович</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортопед, хирург</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="igoninModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -977,7 +977,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Хандогин</span> <br>Антон Олегович</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортопед</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="handoginModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -989,7 +989,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Журов</span> <br>Илья Владимирович</div>
                     <div class="carousel__text">Врач стоматолог: <br>хирург имплантолог</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="zhurovModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -1001,7 +1001,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Бачулис</span> <br>Марина Александровна</div>
                     <div class="carousel__text">Врач стоматолог: <br>ортодонт, гигиенист</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="bachulisModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -1013,7 +1013,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Джахбарова</span> <br>Рабият Магомедгаджиевна</div>
                     <div class="carousel__text">Гигиенист, <br>ассистент стоматолога</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="dzhahbarovaModal">Записаться</button>
                 </div>
 
                 <div class="carousel__wrapper">
@@ -1025,7 +1025,7 @@ get_header();
                     </div>
                     <div class="carousel__name"><span>Байкулова</span> <br>Асият Хамитовна</div>
                     <div class="carousel__text">Врач стоматолог: <br>гигиенист</div>
-                    <button class="btn btn_entry" data-modal="mainModal">Записаться</button>
+                    <button class="btn btn_entry" data-modal="bajkulovaModal">Записаться</button>
                 </div>
 
             </div>
@@ -1074,7 +1074,7 @@ get_header();
                         <form action="#" class="form-laboratory" id="form-3">
 
                             <input type="hidden" name="form_name" value="Общая на Главной странице">
-                            
+
                             <div class="form-laboratory__input">
                                 <input type="text" name="name" placeholder="Имя" class="input">
                             </div>

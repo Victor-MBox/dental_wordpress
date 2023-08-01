@@ -139,8 +139,6 @@
 
                                 <a href="/o-klinike/nasha-laboratoriya/">Наша лаборатория</a>
 
-                                <a href="/o-klinike/voprosy/">Вопросы пациентов</a>
-
                             </div>
                         </div>
 
@@ -437,7 +435,7 @@
                         </div>
 
                         <div class="accordion">
-                            <div data-tab="tab-6" class="accordion__title">
+                            <div class="accordion__title">
                                 <a href="/otzyvy/">Отзывы</a>
                             </div>
 
@@ -465,8 +463,14 @@
 
 
                         <div class="accordion">
-                            <div data-tab="tab-8" class="accordion__title">
+                            <div class="accordion__title">
                                 <a href="/kontakty/">Контакты</a>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <div class="accordion__title">
+                                <a href="/o-klinike/voprosy/">FAQ</a>
                             </div>
                         </div>
 
@@ -516,9 +520,6 @@
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="/o-klinike/nasha-laboratoriya/">Наша лаборатория</a>
-                            </li>
-                            <li>
-                                <a class="sub-nav__link" href="/o-klinike/voprosy/">Вопросы пациентов</a>
                             </li>
                         </ul>
                     </li>
@@ -776,6 +777,10 @@
 
                     <li>
                         <a class="nav__link" href="/kontakty/">Контакты</a>
+                    </li>
+
+                    <li>
+                        <a class="nav__link" href="/o-klinike/voprosy/">FAQ</a>
                     </li>
 
 
