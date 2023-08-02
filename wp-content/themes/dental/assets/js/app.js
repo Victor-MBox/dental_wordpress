@@ -228,7 +228,7 @@ $(document).ready(function () {
 				var ct = $('#' + item.dataset.tab)
 				console.log(ct.position().top)
 				if (
-					location.href != 'https://zubkivsem.ru/o-klinike/voprosy/' &&
+					location.href != 'https://zubkivsem.ru/voprosy/' &&
 					location.href != 'https://zubkivsem.ru/galereya/' &&
 					location.href != 'https://zubkivsem.ru/vrachi/' &&
 					location.href != 'https://zubkivsem.ru/'

@@ -45,11 +45,19 @@ $mail->setFrom('dental@p-prosto.ru', 'Сайт zubkivsem');
 $mail->addAddress('victor.matsakov7@gmail.com');
 
 $mail->Subject = 'Заявка с сайта';
+
 if ($name == '' && $phone == '') {
+    // Если поля Имя и Телефон не заполнены
     $mail->Body = '
     Пользователь подписался на акции 
     E-mail: ' . $email;
+} elseif ($name == '' && $phone != '') {
+    // Если поле Имя не заполнено, но заполнено поле Телефон
+    $mail->Body = '
+    Пользователь оставил данные 
+    Номер телефона: ' . $phone;
 } else {
+    // Если заполнены оба поля Имя и Телефон
     $mail->Body = '
     Пользователь оставил данные 
     Имя: ' . $name . ' 
@@ -58,6 +66,8 @@ if ($name == '' && $phone == '') {
     Вопрос: ' . $texterea . '
     Название формы: ' . $formName;
 }
+
+
 
 if (!$mail->send()) {
 	return false;

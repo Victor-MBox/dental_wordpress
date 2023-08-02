@@ -355,8 +355,8 @@
 .scroll-up
     background: #fff
     position: fixed
-    right: 50px
-    bottom: 50px
+    right: 30px
+    bottom: 14px
     z-index: 10
     width: 50px
     height: 50px
@@ -394,6 +394,192 @@
         stroke: $btn-lilac
         stroke-width: 4px
         transition: .2s
+
+/* Кнопка обратной связи МЕСЕНДЖЕРЫ*/
+.feedback-widget
+    position: fixed
+    right: 25px
+    bottom: 146px
+    z-index: 99
+
+    &__header
+        cursor: pointer
+        position: relative
+        z-index: 2
+        width: 60px
+        height: 60px
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+        background: #61c4f5 url(assets/img/icons/feedback-widget-01.svg) center center/100% no-repeat
+        border-radius: 50%
+        transition: all 0.2s ease-in-out
+        &:hover
+            box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+        &::after
+            content: '+'
+            opacity: 0
+            font-weight: 300
+            font-size: 60px
+            line-height: 1
+            transform: rotate(45deg)
+            transition: .3s
+        &.active
+            background: #fff
+            box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+            &::after
+                opacity: 1
+                transition: .3s
+
+    &__content
+        a
+            display: flex
+            justify-content: center
+            align-items: center
+
+            border-radius: 90px
+            position: absolute
+            top: 0
+            right: 50%
+            width: 100%
+            transform: translate(50%)
+            transition: all 0.3s ease-in-out
+        &.active
+            a
+                &:nth-child(1)
+                    transition: all .150s
+                    transform: translate(50%,-340%)
+                    &:hover
+                        &::before
+                            content: 'Viber'
+                            display: block
+
+                            padding: 5px 10px 3px
+                            position: absolute
+                            left: -50%
+                            top: 50%
+                            transform: translate(-50%, -50%)
+
+                            font-size: 13px
+                            line-height: 1
+
+                            color: #fff
+                            background: #000
+                            border-radius: 4px 4px 1px 4px
+                &:nth-child(2)
+                    transition: all .200s
+                    transform: translate(50%,-230%)
+                    &:hover
+                        &::before
+                            content: 'WhatsApp'
+                            display: block
+                            padding: 5px 10px 3px
+
+                            position: absolute
+                            left: -76%
+                            top: 50%
+                            transform: translate(-50%, -50%)
+
+                            font-size: 13px
+                            line-height: 1
+                            color: #fff
+                            background: #000
+                            border-radius: 4px 4px 1px 4px
+                &:nth-child(3)
+                    transition: all .250s
+                    transform: translate(50%,-120%)
+                    &:hover
+                        &::before
+                            content: 'Telegram'
+                            display: block
+                            padding: 5px 10px 3px
+
+                            position: absolute
+                            left: -72%
+                            top: 50%
+                            transform: translate(-50%, -50%)
+
+                            font-size: 13px
+                            line-height: 1
+                            color: #fff
+                            background: #000
+                            border-radius: 4px 4px 1px 4px
+
+/* Обратный звонок */
+.callback-widget
+    position: fixed
+    right: 25px
+    bottom: 74px
+    z-index: 99
+
+    &__header
+        cursor: pointer
+        position: relative
+        z-index: 2
+        width: 60px
+        height: 60px
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+        background: #61c4f5 url(assets/img/icons/feedback-widget-02.svg) center center/100% no-repeat
+        border-radius: 50%
+        transition: all 0.2s ease-in-out
+        &:hover
+            box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+        &::after
+            content: '+'
+            opacity: 0
+            font-weight: 300
+            font-size: 60px
+            line-height: 1
+            transform: rotate(45deg)
+            transition: .3s
+        &.active
+            background: #fff
+            box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+            &::after
+                opacity: 1
+                transition: .3s
+    &__window
+        padding: 20px
+        background: #fff
+        box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+        border-radius: 15px 15px 1px 15px
+
+        width: 285px
+
+        .form-laboratory .checkbox__label
+            color: #697492
+        .form-laboratory__input input
+            width: 100%
+
+    &__window-title
+        font-weight: 700
+        font-size: 16px
+        line-height: 18px
+        text-align: center
+        letter-spacing: 0.01em
+        color: $black-1
+        margin-bottom: 15px
+
+    &__content
+        opacity: 0
+        visibility: hidden
+
+        transition: .2s
+        transform: translate(25px, 25px)
+
+        position: absolute
+        left: -304px
+        top: -274px
+        &.active
+            visibility: visible
+            opacity: 1
+            transform: translateY(0)
 
 /* Кнопка на странице ДОКТОРА - ОБЩАЯ СТАРНИА */
 .link-page, .link-page-2
@@ -489,3 +675,10 @@
         color: $gray-text
         opacity: 0.8
         transition: .3s
+
+/* Виджет 1С */
+.phone-call_wave__stroke_widjet
+    border: 2px solid #c39df9 !important
+.lb_call-btn_widjet
+    background: #c39df9 !important
+    opacity: 1 !important

@@ -470,7 +470,7 @@
 
                         <div class="accordion">
                             <div class="accordion__title">
-                                <a href="/o-klinike/voprosy/">FAQ</a>
+                                <a href="/voprosy/">FAQ</a>
                             </div>
                         </div>
 
@@ -780,7 +780,7 @@
                     </li>
 
                     <li>
-                        <a class="nav__link" href="/o-klinike/voprosy/">FAQ</a>
+                        <a class="nav__link" href="/voprosy/">FAQ</a>
                     </li>
 
 

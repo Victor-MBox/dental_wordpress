@@ -1821,6 +1821,62 @@ $(document).ready(function () {
 			return false
 		})
 	}
+
+	// * Виджет обратной связи
+	$('#form-callback-widget').validate({
+		rules: {
+			phone: 'required',
+			checkbox: {
+				required: true,
+			},
+		},
+		messages: {
+			phone: 'Введите телефон',
+			checkbox: 'Пожалуйста, отметьте этот чекбокс',
+		},
+		submitHandler: function (form) {
+			if ($('#checkbox-callback-widget').is(':checked')) {
+				isFormValid = true
+			} else {
+				alert('Пожалуйста, дайте согласие на обработку персональных данных')
+				isFormValid = false
+			}
+		},
+	})
+	if ($('#form-callback-widget').length) {
+		$('#form-callback-widget').submit(function (e) {
+			e.preventDefault()
+
+			var form = $(this)
+
+			if (!form.valid() || !isFormValid) {
+				return
+			}
+
+			var submitButton = form.find('.btn_submit')
+			var originalButtonText = submitButton.val()
+
+			submitButton.val('Отправка...').prop('disabled', true)
+
+			$.ajax({
+				type: 'POST',
+				url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php',
+				data: form.serialize(),
+			}).done(function () {
+				form.find('input').val('')
+				$('#mainModal').fadeOut()
+				$('.modal__overlay, #thanksModal').fadeIn()
+				form[0].reset()
+				submitButton.val(originalButtonText).prop('disabled', false)
+
+				// Убираем класс активности у элементов .callback-widget__header и .callback-widget__content
+				$('.callback-widget__header').removeClass('active')
+				$('.callback-widget__content').removeClass('active')
+			})
+
+			return false
+		})
+	}
 })
 
 $(document).ready(function () {

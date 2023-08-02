@@ -1196,6 +1196,20 @@
             width: 95%
             height: 300px
 
+    /* Виджет обратной связи */
+    .feedback-widget
+        bottom: 74px
+        &__content
+            &.active
+                a
+                    &:nth-child(4)
+                        transition: all .100s
+                        transform: translate(50%,-450%)
+
+    .callback-widget
+        display: none
+
+
     /* Главная страница */
     .page
         margin-top: -63px

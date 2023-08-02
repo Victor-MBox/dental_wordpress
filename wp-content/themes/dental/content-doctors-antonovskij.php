@@ -27,7 +27,7 @@ get_header();
                                 <div class="page-content__label">стаж <span>32 года</span></div>
                                 <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="mainModal">
+                                    <button class="btn-call" data-modal="antonovskijModal">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span>Антону Анатольевичу</span></div>
                                     </button>
@@ -40,7 +40,10 @@ get_header();
                                     </div>
                                     <div class="btn-accordion__content">
 
-                                        <form action="#" class="form-portfolio" id="form-2">
+                                        <form action="#" class="form-portfolio" id="form-Antonovskij">
+
+                                            <input type="hidden" name="form_name" value="Вопрос Антону Анатольевичу">
+
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
                                             </div>
@@ -55,8 +58,8 @@ get_header();
 
                                             <div class="form-about__item">
                                                 <div class="checkbox">
-                                                    <input id="checkbox-2" checked type="checkbox" name="agreement" class="checkbox__input">
-                                                    <label for="checkbox-2" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
+                                                    <input id="checkbox-Antonovskij" checked type="checkbox" name="agreement" class="checkbox__input">
+                                                    <label for="checkbox-Antonovskij" class="checkbox__label"><span>Согласен с <a href="/policy">политикой обработки персональных данных</a></span></label>
                                                 </div>
                                             </div>
 
