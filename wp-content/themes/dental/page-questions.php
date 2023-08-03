@@ -8,7 +8,7 @@ Template Name: Вопросы
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <section class="page-main-section">
 
         <div class="page-main-section__decor">

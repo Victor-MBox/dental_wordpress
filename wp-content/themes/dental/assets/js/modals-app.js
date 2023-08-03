@@ -297,6 +297,8 @@ $(document).on(
 //Видео в модальном окне
 $('[data-modal=videoModal]').on('click', function () {
 	$('.modal__overlay, #videoModal').fadeIn()
+	// При клике на кнопку, делаем запрос на YouTube и подставляем src для iframe
+	$('#youtube-iframe').attr('src', 'https://www.youtube.com/embed/Gw2oJYOdcko')
 })
 
 $('.modal__close, .modal__overlay-item').on('click', function () {

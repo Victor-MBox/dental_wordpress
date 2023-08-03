@@ -8,7 +8,7 @@ Template Name: Доктор - Антоновский Антон Анатолье
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-doctors-content">
         <div class="page-content">
             <div class="container">

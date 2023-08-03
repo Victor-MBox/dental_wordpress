@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <!-- Page -->
-<main class="page">
+<main class="page-all">
     <!-- Главный экран -->
     <section class="main-section">
         <div class="container main-section__container">

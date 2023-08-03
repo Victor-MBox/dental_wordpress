@@ -30,68 +30,68 @@
         if (window.screen.width > 769) {
 
             if (document.location.pathname == '/vrachi/borisenko-inna-vladimirovna/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_1#1_1';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=1_1#1_1';
             }
             if (document.location.pathname == '/vrachi/zejnalov-zejnal-vilayaddinovich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_2#1_2';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=1_2#1_2';
             }
             if (document.location.pathname == '/vrachi/sarybaev-anarbek-muktarbekovich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=1_3#1_3';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=1_3#1_3';
             }
             if (document.location.pathname == '/vrachi/antonovskij-anton-anatolevich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_1#2_1';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=2_1#2_1';
             }
             if (document.location.pathname == '/vrachi/igonin-vasilij-valentinovich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_2#2_2';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=2_2#2_2';
             }
             if (document.location.pathname == '/vrachi/handogin-anton-olegovich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=2_3#2_3';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=2_3#2_3';
             }
             if (document.location.pathname == '/vrachi/zhurov-ilya-vladimirovich/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=3_1#3_1';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=3_1#3_1';
             }
             if (document.location.pathname == '/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=4_1#4_1';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=4_1#4_1';
             }
             if (document.location.pathname == '/vrachi/bajkulova-asiyat-hamitovna/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=4_2#4_2';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=4_2#4_2';
             }
             if (document.location.pathname == '/vrachi/bachulis-marina-aleksandrovna/') {
-                location.href = 'https://dental.cg-test.ru/vrachi/?a=5_1#5_1';
+                location.href = 'https://zubkivsem.ru/vrachi/?a=5_1#5_1';
             }
         }
 
         if (window.screen.width < 768) {
 
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_1#1_1') {
-                location.href = 'https://dental.cg-test.ru/vrachi/borisenko-inna-vladimirovna/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=1_1#1_1') {
+                location.href = 'https://zubkivsem.ru/vrachi/borisenko-inna-vladimirovna/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_2#1_2') {
-                location.href = 'https://dental.cg-test.ru/vrachi/zejnalov-zejnal-vilayaddinovich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=1_2#1_2') {
+                location.href = 'https://zubkivsem.ru/vrachi/zejnalov-zejnal-vilayaddinovich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=1_3#1_3') {
-                location.href = 'https://dental.cg-test.ru/vrachi/sarybaev-anarbek-muktarbekovich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=1_3#1_3') {
+                location.href = 'https://zubkivsem.ru/vrachi/sarybaev-anarbek-muktarbekovich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_1#2_1') {
-                location.href = 'https://dental.cg-test.ru/vrachi/antonovskij-anton-anatolevich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=2_1#2_1') {
+                location.href = 'https://zubkivsem.ru/vrachi/antonovskij-anton-anatolevich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_2#2_2') {
-                location.href = 'https://dental.cg-test.ru/vrachi/igonin-vasilij-valentinovich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=2_2#2_2') {
+                location.href = 'https://zubkivsem.ru/vrachi/igonin-vasilij-valentinovich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=2_3#2_3') {
-                location.href = 'https://dental.cg-test.ru/vrachi/handogin-anton-olegovich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=2_3#2_3') {
+                location.href = 'https://zubkivsem.ru/vrachi/handogin-anton-olegovich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=3_1#3_1') {
-                location.href = 'https://dental.cg-test.ru/vrachi/zhurov-ilya-vladimirovich/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=3_1#3_1') {
+                location.href = 'https://zubkivsem.ru/vrachi/zhurov-ilya-vladimirovich/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=4_1#4_1') {
-                location.href = 'https://dental.cg-test.ru/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=4_1#4_1') {
+                location.href = 'https://zubkivsem.ru/vrachi/dzhahbarova-rabiyat-magomedgadzhievna/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=4_2#4_2') {
-                location.href = 'https://dental.cg-test.ru/vrachi/bajkulova-asiyat-hamitovna/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=4_2#4_2') {
+                location.href = 'https://zubkivsem.ru/vrachi/bajkulova-asiyat-hamitovna/';
             }
-            if (document.location.href == 'https://dental.cg-test.ru/vrachi/?a=5_1#5_1') {
-                location.href = 'https://dental.cg-test.ru/vrachi/bachulis-marina-aleksandrovna/';
+            if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=5_1#5_1') {
+                location.href = 'https://zubkivsem.ru/vrachi/bachulis-marina-aleksandrovna/';
             }
 
         }
@@ -794,8 +794,31 @@
 
             <div class="header__wrapper">
 
-                <div class="header__btn-search">
-                    <button class="btn-search"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt=""></button>
+                <div class="header__btn-search search">
+
+                    <div class="search__btn">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="">
+                    </div>
+
+                    <div class="search__content">
+
+                        <div class="search__content-wrapper">
+
+                            <form method="get" action="<?php echo esc_url(home_url('/')); ?>">
+                                <input type="text" placeholder="Поиск по сайту..." name="s" class="input">
+                                <button type="submit" class="search__search">
+                                    <svg fill="#697492" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </form>
+                                          
+
+                            <button class="search__btn-close">+</button>
+
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="header__btn-tel">

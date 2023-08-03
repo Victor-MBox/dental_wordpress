@@ -8,7 +8,7 @@ Template Name: Политика
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
 
     <section class="page-politika__container container">
         <div class="page-politika__title">

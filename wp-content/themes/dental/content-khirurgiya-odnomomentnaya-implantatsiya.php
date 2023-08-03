@@ -8,14 +8,14 @@ Template Name: ХИРУРГИЯ - Одномоментная имплантац�
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-content">
         <div class="page-content__container container">
 
             <section class="page-contetn__wrapper" id="content-page">
 
                 <div class="page-content__chapter">
-                    <div class="page-content__banner page-content__banner_implantatsiya">
+                    <div class="page-content__banner page-content__banner_implantatsiya-odnomoment">
                         <div class="page-content__name">Одномоментная <br> имплантация</div>
                         <div class="page-content__label">от <span>3 500₽</span></div>
                         <div class="page-content__btn-call">

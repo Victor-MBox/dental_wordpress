@@ -8,7 +8,7 @@ Template Name: ГАЛЕРЕЯ - Хирургия
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-content">
         <div class="container">
 

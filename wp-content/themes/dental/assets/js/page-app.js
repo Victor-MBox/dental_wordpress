@@ -1452,3 +1452,30 @@ function toggleCallbackWidget() {
   // Переключение класса 'active' у элемента .callback-widget__content
   CallbackWidgetContent.classList.toggle('active');
 };
+
+//* Кнопка ПОИСКА
+function toggleSearchWidget() {
+	const SearchWidgetBtn = document.querySelector('.search__btn')
+	const SearchWidgetContent = document.querySelector('.search__content')
+
+	// Проверка, есть ли у элемента .search__content класс 'active'
+	const isActive = SearchWidgetContent.classList.contains('active')
+
+	// Если у .search__content нет класса 'active', добавляем его
+	// иначе убираем класс 'active'
+	if (!isActive) {
+		SearchWidgetContent.classList.add('active')
+	} else {
+		SearchWidgetContent.classList.remove('active')
+	}
+}
+
+// Добавляем обработчик события на элемент .search__btn
+document
+	.querySelector('.search__btn')
+	.addEventListener('click', toggleSearchWidget)
+
+// Добавляем обработчик события на элемент .search__btn-close
+document
+	.querySelector('.search__btn-close')
+	.addEventListener('click', toggleSearchWidget)

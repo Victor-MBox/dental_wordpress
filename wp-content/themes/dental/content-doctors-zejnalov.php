@@ -8,7 +8,7 @@ Template Name: Доктор - Зейналов Зейнал Вилаяддино
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-doctors-content">
         <div class="page-content">
 

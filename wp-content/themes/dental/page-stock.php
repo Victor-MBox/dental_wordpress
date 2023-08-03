@@ -8,7 +8,7 @@ Template Name: Акции
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">

@@ -8,14 +8,14 @@ Template Name: ПРОТЕЗИРОВАНИЕ - Бюгельные протезы
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-content">
         <div class="page-content__container container">
 
             <section class="page-contetn__wrapper" id="content-page">
 
                 <div class="page-content__chapter">
-                    <div class="page-content__banner page-content__banner_akrilovyye">
+                    <div class="page-content__banner page-content__banner_byugelnyye">
                         <div class="page-content__name">Бюгельные <br>протезы</div>
                         <div class="page-content__label">от <span>53 000₽</span></div>
                         <div class="page-content__btn-call">
@@ -23,7 +23,7 @@ get_header();
                                 <div class="btn-call__img"></div>
                                 <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                             </button>
-                        </div>
+                        </div>                                        
                     </div>
                     <div class="page-content__first-decor">
                         <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">

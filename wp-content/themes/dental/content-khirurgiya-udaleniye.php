@@ -8,7 +8,7 @@ Template Name: ХИРУРГИЯ - Удаление зубов
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-content">
         <div class="page-content__container container">
 

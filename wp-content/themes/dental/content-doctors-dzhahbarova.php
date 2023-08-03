@@ -8,7 +8,7 @@ Template Name: Доктор - Джахбарова Рабият Магомедг
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
     <div class="page-doctors-content">
         <div class="page-content">
 

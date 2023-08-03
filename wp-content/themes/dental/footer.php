@@ -67,20 +67,15 @@
 
             <div class="footer__column">
                 <div class="footer__title">Подписаться на наши акции</div>
-
-                <div class="footer__form">
-
+                <div class="footer__form">                                      
                     <form action="#" class="form-footer" id="form-footer">
-
                         <div class="form-footer__input email-input">
                             <input type="email" name="email" placeholder="Email" class="input">
                         </div>
-
                         <div class="form-footer__submit">
                             <input class="btn" type="submit" value="Подписаться" data-callback="onSubmit">
                         </div>
                     </form>
-
                 </div>
 
                 <p>Рейтинг на yandex.ru</p>
@@ -264,7 +259,7 @@
             <div class="modal__close modal__close_video"><span></span></div>
 
             <div class="video-modal__wrapper">
-                <iframe src="https://www.youtube.com/embed/Gw2oJYOdcko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="youtube-iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
         </div>
@@ -1421,8 +1416,7 @@
             </div>
         </div>
 
-
-
+        <!-- thanks-modal stock-->
         <div class="thanks-modal" id="thanksModalStock">
 
             <div class="thanks-modal__wrapper">
@@ -1445,7 +1439,7 @@
 
 
 <!-- 1C script -->
-<script src="//reservi.ru/4.0/812444789/"></script>
+<!-- <script src="//reservi.ru/4.0/812444789/"></script> -->
 
 <?php
 wp_footer();

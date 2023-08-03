@@ -8,7 +8,7 @@ Template Name: Налоговый вычет
 get_header();
 ?>
 
-<div class="page">
+<div class="page-all">
 
     <section style="padding-top: 150px;" class="page-second-section">
         <div class="container page-second-section__container">
