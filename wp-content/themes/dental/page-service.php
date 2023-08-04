@@ -8,7 +8,7 @@ Template Name: Услуги
 get_header();
 ?>
 
-<div class="page page_min">
+<div class="page-all page-all_min">
     <section class="page-main-section page-main-section_servise">
         <div class="container">
             <div class="breadcrumbs">

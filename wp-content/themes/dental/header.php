@@ -788,8 +788,31 @@
 
             </nav>
 
-            <div class="header__btn-search_mob">
-                <button class="btn-search btn-search_mob"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt=""></button>
+            <div class="header__btn-search_mob search-mob">
+
+                <div class="search-mob__btn">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="">
+                </div>
+
+                <div class="search-mob__content">
+
+                    <div class="search-mob__content-wrapper">
+
+                        <form method="get" action="<?php echo esc_url(home_url('/')); ?>">
+                            <input type="text" placeholder="Поиск по сайту..." name="s" class="input">
+                            <button type="submit" class="search-mob__search">
+                                <svg fill="#697492" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </form>
+
+
+                        <button class="search-mob__btn-close">+</button>                                        
+
+                    </div>
+
+                </div>
             </div>
 
             <div class="header__wrapper">
@@ -812,7 +835,7 @@
                                     </svg>
                                 </button>
                             </form>
-                                          
+
 
                             <button class="search__btn-close">+</button>
 
@@ -830,7 +853,7 @@
                 <div class="header__btn" data-modal="mainModal">
                     <button class="btn">Заказать звонок</button>
                 </div>
-            </div>
+            </div>                         
 
         </div>
 
