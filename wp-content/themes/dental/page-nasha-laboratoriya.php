@@ -8,7 +8,7 @@ Template Name: Наша лаборатория
 get_header();
 ?>
 
-<div class="page-all">
+<div class="page-all ">
 
     <section class="page-main-section">
 

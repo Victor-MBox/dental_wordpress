@@ -28,7 +28,21 @@
         console.log(document.location.pathname);
         console.log(window.screen.width);
         if (window.screen.width > 769) {
+            //* Галерея
+            if (document.location.pathname == '/galereya/raboty-protezirovanie/') {
+                location.href = 'https://zubkivsem.ru/galereya/';
+            }
+            if (document.location.pathname == '/galereya/raboty-hirurgiya/') {
+                location.href = 'https://zubkivsem.ru/galereya/';
+            }
+            if (document.location.pathname == '/galereya/raboty-implantacziya/') {
+                location.href = 'https://zubkivsem.ru/galereya/';
+            }
+            if (document.location.pathname == '/galereya/raboty-gigiena/') {
+                location.href = 'https://zubkivsem.ru/galereya/';
+            }
 
+            //*Врачи
             if (document.location.pathname == '/vrachi/borisenko-inna-vladimirovna/') {
                 location.href = 'https://zubkivsem.ru/vrachi/?a=1_1#1_1';
             }
@@ -59,10 +73,115 @@
             if (document.location.pathname == '/vrachi/bachulis-marina-aleksandrovna/') {
                 location.href = 'https://zubkivsem.ru/vrachi/?a=5_1#5_1';
             }
+
+            //* Услуги
+            if (document.location.pathname == '/uslugi/diagnostika-i-konsultacziya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=1_1#1_1';
+            }
+            if (document.location.pathname == '/uslugi/ortopantomografiya-optg/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=1_2#1_2';
+            }
+            if (document.location.pathname == '/uslugi/priczelnyi-snimok/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=1_3#1_3';
+            }
+            if (document.location.pathname == '/uslugi/aksiografiya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=1_4#1_4';
+            }
+            if (document.location.pathname == '/uslugi/kompyuternaya-tomografiya-kt/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=1_5#1_5';
+            }
+            if (document.location.pathname == '/uslugi/protezirovanie/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_1#2_1';
+            }
+            if (document.location.pathname == '/uslugi/semnoe-protezirovanie/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_2#2_2';
+            }
+            if (document.location.pathname == '/uslugi/akrilovye-protezy/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_3#2_3';
+            }
+            if (document.location.pathname == '/uslugi/byugelnye-protezy/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_4#2_4';
+            }
+            if (document.location.pathname == '/uslugi/nesemnoe-protezirovanie/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_5#2_5';
+            }
+            if (document.location.pathname == '/uslugi/viniry/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_6#2_6';
+            }
+            if (document.location.pathname == '/uslugi/koronki/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_7#2_7';
+            }
+            if (document.location.pathname == '/uslugi/abatmenty/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_8#2_8';
+            }
+            if (document.location.pathname == '/uslugi/vkladki/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=2_9#2_9';
+            }
+            if (document.location.pathname == '/uslugi/terapiya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=3_1#3_1';
+            }
+            if (document.location.pathname == '/uslugi/svetovye-plomby/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=3_2#3_2';
+            }
+            if (document.location.pathname == '/uslugi/lechenie-zubnyh-kanalov/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=3_3#3_3';
+            }
+            if (document.location.pathname == '/uslugi/lechenie-kariesa/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=3_4#3_4';
+            }
+            if (document.location.pathname == '/uslugi/hirurgiya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_1#4_1';
+            }
+            if (document.location.pathname == '/uslugi/udalenie-zubov/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_2#4_2';
+            }
+            if (document.location.pathname == '/uslugi/prostoe-udalenie/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_3#4_3';
+            }
+            if (document.location.pathname == '/uslugi/slozhnoe-udalenie/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_4#4_4';
+            }
+            if (document.location.pathname == '/uslugi/implantacziya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_5#4_5';
+            }
+            if (document.location.pathname == '/uslugi/odnomomentnaya-implantacziya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_6#4_6';
+            }
+            if (document.location.pathname == '/uslugi/dvuhetapnaya-implantacziya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_7#4_7';
+            }
+            if (document.location.pathname == '/uslugi/sinus-litfing/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=4_8#4_8';
+            }
+            if (document.location.pathname == '/uslugi/ortodontiya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=5_1#5_1';
+            }
+            if (document.location.pathname == '/uslugi/lechenie-breketami/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=5_2#5_2';
+            }
+            if (document.location.pathname == '/uslugi/lechenie-ortodonticheskimi-apparatami/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=5_3#5_3';
+            }
+            if (document.location.pathname == '/uslugi/lechenie-elajnerami/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=5_4#5_4';
+            }
+            if (document.location.pathname == '/uslugi/gigiena-i-otbelivanie-zubov/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=6_1#6_1';
+            }
+            if (document.location.pathname == '/uslugi/professionalnaya-chistka-airflow/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=6_2#6_2';
+            }
+            if (document.location.pathname == '/uslugi/otbelivanie-zoom/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=6_3#6_3';
+            }
+            if (document.location.pathname == '/uslugi/gnatologiya/') {
+                location.href = 'https://zubkivsem.ru/uslugi/?a=7_1#7_1';
+            }
+
         }
 
         if (window.screen.width < 768) {
-
+            //*Врачи
             if (document.location.href == 'https://zubkivsem.ru/vrachi/?a=1_1#1_1') {
                 location.href = 'https://zubkivsem.ru/vrachi/borisenko-inna-vladimirovna/';
             }
@@ -94,6 +213,109 @@
                 location.href = 'https://zubkivsem.ru/vrachi/bachulis-marina-aleksandrovna/';
             }
 
+            //* Услуги
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=1_1#1_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/diagnostika-i-konsultacziya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=1_2#1_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/ortopantomografiya-optg/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=1_3#1_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/priczelnyi-snimok/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=1_4#1_4') {
+                location.href = 'https://zubkivsem.ru/uslugi/aksiografiya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=1_5#1_5') {
+                location.href = 'https://zubkivsem.ru/uslugi/kompyuternaya-tomografiya-kt/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_1#2_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/protezirovanie/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_2#2_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/semnoe-protezirovanie/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_3#2_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/akrilovye-protezy/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_4#2_4') {
+                location.href = 'https://zubkivsem.ru/uslugi/byugelnye-protezy/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_5#2_5') {
+                location.href = 'https://zubkivsem.ru/uslugi/nesemnoe-protezirovanie/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_6#2_6') {
+                location.href = 'https://zubkivsem.ru/uslugi/viniry/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_7#2_7') {
+                location.href = 'https://zubkivsem.ru/uslugi/koronki/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_8#2_8') {
+                location.href = 'https://zubkivsem.ru/uslugi/abatmenty/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=2_9#2_9') {
+                location.href = 'https://zubkivsem.ru/uslugi/vkladki/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=3_1#3_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/terapiya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=3_2#3_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/svetovye-plomby/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=3_3#3_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/lechenie-zubnyh-kanalov/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=3_4#3_4') {
+                location.href = 'https://zubkivsem.ru/uslugi/lechenie-kariesa/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_1#4_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/hirurgiya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_2#4_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/udalenie-zubov/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_3#4_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/prostoe-udalenie/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_4#4_4') {
+                location.href = 'https://zubkivsem.ru/uslugi/slozhnoe-udalenie/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_5#4_5') {
+                location.href = 'https://zubkivsem.ru/uslugi/implantacziya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_6#4_6') {
+                location.href = 'https://zubkivsem.ru/uslugi/odnomomentnaya-implantacziya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_7#4_7') {
+                location.href = 'https://zubkivsem.ru/uslugi/dvuhetapnaya-implantacziya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=4_8#4_8') {
+                location.href = 'https://zubkivsem.ru/uslugi/sinus-litfing/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=5_1#5_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/ortodontiya/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=5_2#5_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/lechenie-breketami/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=5_3#5_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/lechenie-ortodonticheskimi-apparatami/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=5_4#5_4') {
+                location.href = 'https://zubkivsem.ru/uslugi/lechenie-elajnerami/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=6_1#6_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/gigiena-i-otbelivanie-zubov/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=6_2#6_2') {
+                location.href = 'https://zubkivsem.ru/uslugi/professionalnaya-chistka-airflow/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=6_3#6_3') {
+                location.href = 'https://zubkivsem.ru/uslugi/otbelivanie-zoom/';
+            }
+            if (document.location.href == 'https://zubkivsem.ru/uslugi/?a=7_1#7_1') {
+                location.href = 'https://zubkivsem.ru/uslugi/gnatologiya/';
+            }
         }
     </script>
 </head>
@@ -808,7 +1030,7 @@
                         </form>
 
 
-                        <button class="search-mob__btn-close">+</button>                                        
+                        <button class="search-mob__btn-close">+</button>
 
                     </div>
 
@@ -853,7 +1075,7 @@
                 <div class="header__btn" data-modal="mainModal">
                     <button class="btn">Заказать звонок</button>
                 </div>
-            </div>                         
+            </div>
 
         </div>
 

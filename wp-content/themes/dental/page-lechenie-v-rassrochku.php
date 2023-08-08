@@ -8,9 +8,9 @@ Template Name: Лечение в рассрочку
 get_header();
 ?>
 
-<div class="page-all">
+<div class="page-all page-all_info">
 
-    <section style="padding-top: 150px;" class="page-second-section">
+    <section class="page-second-section">
         <div class="container page-second-section__container">
 
             <div class="page-second-section__name">

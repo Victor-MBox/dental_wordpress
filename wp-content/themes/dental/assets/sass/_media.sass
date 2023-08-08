@@ -383,6 +383,11 @@
             &__btn-accordion
                 right: 15px
 
+    /* Страница поиска */
+    .search__container
+        .type-page
+            width: 31.3%
+
 @media (max-width: 1024px)
     /* Header */
     .header
@@ -397,6 +402,10 @@
             margin-right: 70px
         &__burger
             display: block
+
+    .search
+        &__content.active
+            width: 450px
 
     /* Burger */
     .burger
@@ -860,8 +869,17 @@
                 &__column
                     margin-bottom: 0
 
+    /* Страница поиска */
+    .search__container
+        .type-page
+            width: 30.6%
+
 @media (max-width: 880px)
 
+    /* Header */
+    .search
+        &__content.active
+            width: 338px
     /* footer */
     .video-modal
         width: 640px
@@ -1120,6 +1138,9 @@
             width: 100%
             justify-content: center
 
+    .search-mob__content.active
+        width: 380px
+
     /* Footer */
     .footer
         background: #E8F1FF
@@ -1183,6 +1204,7 @@
 
     .modal-form-doctor
         width: 285px
+        border-radius: 15px 15px 5px 15px
     .modal-form
         &__column
             width: 100%
@@ -1209,10 +1231,16 @@
     .callback-widget
         display: none
 
-
     /* Главная страница */
-    .page
-        margin-top: -63px
+    .page-all
+        margin-top: -64px
+        &_min
+            margin-top: -90px
+            .page-main-section
+                margin-bottom: 0
+        &_info
+            margin-top: 20px
+
     /* Главный экран */
     .main-section
         background: #E8F1FF
@@ -1382,7 +1410,10 @@
             top: -50px
 
         .slider-arrows
-            display: none
+            left: 50%
+            bottom: 30px
+            transform: translateX(-50%)
+            right: auto
 
         .before-after__gallery, .before-after__img,
         .before-after2__gallery, .before-after2__img,
@@ -1440,6 +1471,11 @@
                 height: 95px
         &__carousel
             margin-bottom: 24px
+        .slider-arrows
+            display: flex
+            bottom: 70px
+            right: auto
+            left: 190px
 
     .carousel
         &__text
@@ -1545,6 +1581,15 @@
             margin: 0 auto
             width: 100%
             margin-bottom: 80px
+
+    .page-content__chapter
+        .carousel-doctor-wrapper
+            .slider-arrows
+                display: flex
+                bottom: -34px
+                right: auto
+                left: 50%
+                transform: translateX(-50%)
 
     /* МОБИЛЬНАЯ СТРАНИЦА УСЛУГ - КОНЕЧНАЯ*/
     .page-content
@@ -1912,6 +1957,26 @@
             .slick-dots
                 display: none!important
 
+    /* Страница поиска */
+    .page-search
+        margin-top: 30px
+
+    .search__container
+        .type-page
+            width: 45.5%
+            .entry-thumbnail
+                height: 260px
+            .entry-parent
+                font-size: 16px
+                padding: 0 10px
+            .entry-title
+                font-size: 18px
+                padding: 0 10px
+            .entry-content
+                padding: 0 10px
+            .btn_entry
+                margin: 0 10px
+
 @media (max-width: 480px)
     /* Header */
     .header
@@ -1945,6 +2010,10 @@
             width: 26px
             height: 26px
             margin-right: 0
+
+    .search-mob__content.active
+        width: 300px
+
     /* Footer */
 
     .footer
@@ -2217,6 +2286,11 @@
             font-size: 24px
             line-height: 26px
 
+    /* Страница поиска */
+    .search__container
+        .type-page
+            width: 100%
+
 @media (max-width: 380px)
     /* Header */
     .accordion, .sub-accordion, .sub-2-accordion
@@ -2230,6 +2304,9 @@
     .burger-nav
         &__btn-tel
             width: 150px
+
+    .search-mob__content.active
+        width: 244px
     /* Главная страница */
         /* Главный экран */
     .main-section

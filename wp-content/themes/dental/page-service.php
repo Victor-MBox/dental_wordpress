@@ -431,8 +431,8 @@ get_header();
                             <ul>
                                 <li><button class="link-page" href="ortodontiya/" id="vrb5_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
                                 <li><button class="link-page" href="lechenie-breketami/" id="vrb5_2" onclick="toggleActiveClass(this)">Лечение брекетами</button></li>
-                                <li><button class="link-page" href="lechenie-ortodonticheskimi-apparatami/" id="vrb5_2" onclick="toggleActiveClass(this)">Лечение ортодонтическими аппаратами</button></li>
-                                <li><button class="link-page" href="lechenie-elajnerami/" id="vrb5_3" onclick="toggleActiveClass(this)">Лечение элайнерами</button></li>
+                                <li><button class="link-page" href="lechenie-ortodonticheskimi-apparatami/" id="vrb5_3" onclick="toggleActiveClass(this)">Лечение ортодонтическими аппаратами</button></li>
+                                <li><button class="link-page" href="lechenie-elajnerami/" id="vrb5_4" onclick="toggleActiveClass(this)">Лечение элайнерами</button></li>
                             </ul>
                         </div>
                     </div>

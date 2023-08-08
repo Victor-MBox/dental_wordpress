@@ -1246,69 +1246,69 @@ $(document).ready(function () {
   );
 });
 
-/* *************************************************
-Карусель ОБОРУДОВАНИЕ на страницце О КОМПАНИИ */
-$(document).ready(function () {
-  let slickCarouselEquipment = $("#slickCarouselEquipment");
+// /* *************************************************
+// Карусель ОБОРУДОВАНИЕ на страницце О КОМПАНИИ */
+// $(document).ready(function () {
+//   let slickCarouselEquipment = $("#slickCarouselEquipment");
 
-  if (slickCarouselEquipment.length) {
-    slickCarouselEquipment.slick({
-      dots: false,
-      arrows: false,
-      infinite: false,
-      speed: 300,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 5000,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1201,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 1025,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 769,
-          settings: {
-            dots: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 481,
-          settings: {
-            dots: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-  }
+//   if (slickCarouselEquipment.length) {
+//     slickCarouselEquipment.slick({
+//       dots: false,
+//       arrows: false,
+//       infinite: false,
+//       speed: 300,
+//       infinite: true,
+//       autoplay: true,
+//       autoplaySpeed: 5000,
+//       slidesToShow: 4,
+//       slidesToScroll: 1,
+//       responsive: [
+//         {
+//           breakpoint: 1201,
+//           settings: {
+//             slidesToShow: 3,
+//             slidesToScroll: 1,
+//           },
+//         },
+//         {
+//           breakpoint: 1025,
+//           settings: {
+//             slidesToShow: 2,
+//             slidesToScroll: 1,
+//           },
+//         },
+//         {
+//           breakpoint: 769,
+//           settings: {
+//             dots: true,
+//             slidesToShow: 2,
+//             slidesToScroll: 1,
+//           },
+//         },
+//         {
+//           breakpoint: 481,
+//           settings: {
+//             dots: true,
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//           },
+//         },
+//       ],
+//     });
+//   }
 
-  // Скрытие изображения загрузки
-  $("#loader").fadeOut(300);
+//   // Скрытие изображения загрузки
+//   $("#loader").fadeOut(300);
 
-  /* Навигация слайдера */
-  $("#slickCarouselEquipmentPrev").on("click", function () {
-    slickCarouselEquipment.slick("slickPrev");
-  });
+//   /* Навигация слайдера */
+//   $("#slickCarouselEquipmentPrev").on("click", function () {
+//     slickCarouselEquipment.slick("slickPrev");
+//   });
 
-  $("#slickCarouselEquipmentNext").on("click", function () {
-    slickCarouselEquipment.slick("slickNext");
-  });
-});
+//   $("#slickCarouselEquipmentNext").on("click", function () {
+//     slickCarouselEquipment.slick("slickNext");
+//   });
+// });
 
 //==========================================
 //АККОРДИН В АККОРДИОНЕ НА СТРАНИЦЕ -  FAQ
@@ -1378,35 +1378,51 @@ $(document).ready(function () {
 /* *************************************************
 Карусель с докторами на странице УСЛУГИ*/
 
-$("#slickCarouselServise").slick({
-  dots: true,
-  arrows: false,
-  infinite: false,
-  speed: 300,
-  infinite: true,
-  autoplay: true,
-  autoplaySpeed: 5000,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1025,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 769,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-});
+$('#slickCarouselServise').slick({
+	dots: true,
+	arrows: false,
+	infinite: false,
+	speed: 300,
+	infinite: true,
+	autoplay: true,
+	autoplaySpeed: 5000,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	responsive: [
+		{
+			breakpoint: 1025,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+			},
+		},
+		{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: false,
+			},
+		},
+		{
+			breakpoint: 481,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: false,
+			},
+		},
+	],
+})
+/* Навигация слайдера */
+$('#slickCarouselServisePrev').on('click', function () {
+	$('#slickCarouselServise').slick('slickPrev')
+})
+
+$('#slickCarouselServiseNext').on('click', function () {
+	$('#slickCarouselServise').slick('slickNext')
+})
 
 
 //ТАБ НА СТР ГАЛЕРЕЯ
@@ -1479,3 +1495,30 @@ document
 document
 	.querySelector('.search__btn-close')
 	.addEventListener('click', toggleSearchWidget)
+
+//* Кнопка ПОИСКА ! MOB
+function toggleSearchMobWidget() {
+	const SearchMobWidgetBtn = document.querySelector('.search-mob__btn')
+	const SearchMobWidgetContent = document.querySelector('.search-mob__content')
+
+	// Проверка, есть ли у элемента .search-mob__content класс 'active'
+	const isActive = SearchMobWidgetContent.classList.contains('active')
+
+	// Если у .search-mob__content нет класса 'active', добавляем его
+	// иначе убираем класс 'active'
+	if (!isActive) {
+		SearchMobWidgetContent.classList.add('active')
+	} else {
+		SearchMobWidgetContent.classList.remove('active')
+	}
+}
+
+// Добавляем обработчик события на элемент .search-mob__btn
+document
+	.querySelector('.search-mob__btn')
+	.addEventListener('click', toggleSearchMobWidget)
+
+// Добавляем обработчик события на элемент .search-mob__btn-close
+document
+	.querySelector('.search-mob__btn-close')
+	.addEventListener('click', toggleSearchMobWidget)

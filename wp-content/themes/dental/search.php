@@ -75,29 +75,8 @@ get_header();
                 echo '
             <div class="no-results">
             <div class="no-results__title"> Ничего не найдено </div>
-            <div class="no-results__sub-title"> Вы повторно можете воспользоваться поиском или перейти на популярные страницы: </div>
-            <div class="no-results__list"> 
-                <ul>
-                    <li>
-                        <a href="/">Главная</a>
-                    </li>
-                    <li>
-                        <a href="/uslugi/">Услуги</a>
-                    </li>
-                    <li>
-                        <a href="/vrachi/">Врачи</a>
-                    </li>
-                    <li>
-                        <a href="/akczii/">Акции</a>
-                    </li>
-                    <li>
-                        <a href="/czeny/">Цены</a>
-                    </li>
-                    <li>
-                        <a href="/kontakty/">Контакты</a>
-                    </li>
-                </ul>
-            </div>';
+            <div class="no-results__sub-title"> Вы повторно можете воспользоваться поиском или перейти на <a href="/">Главную страницу</a> </div>
+            ';
             endif;
             wp_reset_postdata();
             ?>

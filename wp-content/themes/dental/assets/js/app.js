@@ -193,7 +193,7 @@ $(document).ready(function () {
 })
 
 /* ***************************************************
-Мобильное АККОРДИОН на главной странице */
+Мобильное АККОРДЕОН на главной странице */
 //==========================================
 $(document).ready(function () {
 	const accTitles = document.querySelectorAll('.accordion-home__tab')
@@ -261,14 +261,7 @@ $(document).ready(function () {
 			swipe: false,
 			autoplay: true,
 			autoplaySpeed: 5000,
-			responsive: [
-				{
-					breakpoint: 769,
-					settings: {
-						dots: true,
-					},
-				},
-			],
+			
 		})
 	}
 
@@ -612,7 +605,6 @@ $('#slickCarousel').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
-				dots: true,
 			},
 		},
 		{
@@ -620,6 +612,7 @@ $('#slickCarousel').slick({
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 1,
+				dots: false,
 			},
 		},
 		{
@@ -627,10 +620,20 @@ $('#slickCarousel').slick({
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,
+				dots: false,
 			},
 		},
 	],
 })
+
+/* Навигация слайдера */
+$('#slickCarouselPrev').on('click', function () {
+  $('#slickCarousel').slick('slickPrev');
+});
+
+$('#slickCarouselNext').on('click', function () {
+  $('#slickCarousel').slick('slickNext');
+});
 
 
 
@@ -677,21 +680,21 @@ updateDashoffset()
 
 //Кнопка ПОДРОБНЕЕ - СКРЫТЬ - ГЛАВНАЯ СТРАНИЦА
 //====================================
-var textHiddenBtn = document.getElementById('textHiddenBtnHome')
+var textHiddenBtnHome = document.getElementById('textHiddenBtnHome')
 var textHidden = document.getElementById('textHiddenHome')
 
-if (textHiddenBtn && textHidden) {
-	textHiddenBtn.addEventListener('click', function () {
+if (textHiddenBtnHome && textHidden) {
+	textHiddenBtnHome.addEventListener('click', function () {
 		if (textHiddenHome.classList.contains('text-hiddenHome')) {
 			// Показываем скрытый элемент
 			textHiddenHome.classList.remove('text-hiddenHome')
 			textHiddenHome.classList.add('text-visibleHome')
-			textHiddenBtn.textContent = 'Скрыть'
+			textHiddenBtnHome.textContent = 'Скрыть'
 		} else {
 			// Скрываем элемент
 			textHiddenHome.classList.remove('text-visibleHome')
 			textHiddenHome.classList.add('text-hiddenHome')
-			textHiddenBtn.textContent = 'Подробнее'
+			textHiddenBtnHome.textContent = 'Подробнее'
 		}
 	})
 }

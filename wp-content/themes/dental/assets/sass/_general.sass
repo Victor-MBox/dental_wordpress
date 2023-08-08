@@ -27,6 +27,9 @@ img
     overflow: hidden
     &_min
         min-height: auto
+    &_info
+        margin-top: 0 
+        
 
 .page-search
     display: flex
@@ -512,6 +515,7 @@ img
 /* Home__specialists / Седьмая секция */
 
 .specialists-section
+    position: relative
     &__name
         text-align: center
     &__subtitle
@@ -527,10 +531,11 @@ img
         bottom: auto
         left: auto
         &:hover
-
             li.slick-active
                 button
                     background: #fff
+    .slider-arrows
+        display: none
 
 /* Home__laboratory / Восьмая секция */
 
