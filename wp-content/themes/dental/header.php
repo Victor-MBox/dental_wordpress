@@ -12,6 +12,14 @@
     <link rel="mask-icon" href="<?php echo bloginfo('template_url'); ?>/assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- ЧАТ БОТ -->
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/assets/simplechatbot/chatbot/chatbot.css">
+    <!-- FingerPrint JS -->
+    <script src="<?php echo bloginfo('template_url'); ?>/assets/simplechatbot/chatbot/fp2.js"></script>
+    <!-- ChatBot JS -->
+    <script src="<?php echo bloginfo('template_url'); ?>/assets/simplechatbot/chatbot/chatbot.js"></script>
+
     <title><?php bloginfo('name');
             echo " | ";
             bloginfo('description'); ?></title>
@@ -1080,3 +1088,7 @@
         </div>
 
     </header>
+
+
+
+    

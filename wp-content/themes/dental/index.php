@@ -152,7 +152,7 @@ get_header();
 
             <div class="main-section__absolut-btn">
                 <div class="main-section__btn-calc">
-                    <button class="btn-calc" data-modal="mainModal">
+                    <button class="btn-calc">
                         <div class="btn-calc__img"></div>
                         <div class="btn-calc__text">Рассчитать <br> предварительную стоимость <br> за
                             <span>1

@@ -67,7 +67,7 @@
 
             <div class="footer__column">
                 <div class="footer__title">Подписаться на наши акции</div>
-                <div class="footer__form">                                      
+                <div class="footer__form">
                     <form action="#" class="form-footer" id="form-footer">
                         <div class="form-footer__input email-input">
                             <input type="email" name="email" placeholder="Email" class="input">
@@ -179,6 +179,12 @@
 
 </footer>
 
+<!-- //! Кнопка для вызова окна чат-бота -->
+<div class="chatbot__container">
+    <div class="chatbot__btn">
+        <div class="shine"></div>
+    </div>
+</div>
 
 <!-- //! Модальные окна -->
 <div class="modal">

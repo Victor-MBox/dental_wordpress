@@ -16,7 +16,7 @@
         color: $gray-text
 
         margin-bottom: 15px
-    
+
     &__label
         a
             font-weight: 400
@@ -24,7 +24,7 @@
             line-height: 13px
             letter-spacing: 0.01em
             color: $gray-text
-    
+
         &_white
             a
                 color: #fff
@@ -219,8 +219,6 @@
     .checkbox
         &__label
             color: #fff
-        
-
 
 /* Форма в футере */
 
@@ -256,3 +254,47 @@
         border: 1px solid #FF5670
     .btn
         width: 100%
+
+.form-bot
+    input
+        width: 100%
+        height: 38px
+        background: #FFFFFF
+        border: 1px solid #B1B6C5
+        border-radius: 8px
+        padding: 10px 10px
+        color: $gray-text
+        font-weight: 400
+        font-size: 12px
+        line-height: 22px
+        &:active, &:hover, &:focus
+            outline: 0
+            outline-offset: 0
+            color: $black-2
+    &__input
+        margin-bottom: 10px
+    .btn_submit-bot
+        font-weight: 400
+        font-size: 14px
+        line-height: 14px
+        color: #FFFFFF
+        border: none
+        background: $btn-blue
+        border-radius: 1px 10px 10px 10px
+        transition: .3s
+        &:hover
+            color: $black-1
+            background: #fff
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+            
+    label.error
+        border: none
+        display: flex
+        margin-left: 12px
+        margin-bottom: -8px
+        font-weight: 400
+        font-size: 12px
+        line-height: 15px
+        color: #FF5670
+    .error
+        border: 1px solid #FF5670

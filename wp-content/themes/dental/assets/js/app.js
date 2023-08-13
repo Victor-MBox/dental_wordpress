@@ -721,4 +721,60 @@ if (textHiddenBtn && textHidden) {
 }
 
 
+// * Код инициализации чат-бота SimpleChatbot:
+const configChatbot = {
+	btn: '.chatbot__btn',
+	key: 'fingerprint',
+	replicas:
+		'http://localhost:8888/Dental/wp-content/themes/dental/assets/simplechatbot/data/data-1.json',
+	root: SimpleChatbot.createTemplate(),
+	url: 'http://localhost:8888/Dental/wp-content/themes/dental/assets/simplechatbot/chatbot/chatbot.php',
+}
 
+let chatbot = null
+
+let fingerprint = localStorage.getItem(configChatbot.key)
+if (!fingerprint) {
+	Fingerprint2.get(function (components) {
+		fingerprint = Fingerprint2.x64hash128(
+			components
+				.map(function (pair) {
+					return pair.value
+				})
+				.join(),
+			31
+		)
+		localStorage.setItem(configChatbot.key, fingerprint)
+	})
+}
+
+document.querySelector(configChatbot.btn).onclick = function (e) {
+	this.classList.add('d-none')
+	const $tooltip = this.querySelector('.chatbot__tooltip')
+	if ($tooltip) {
+		$tooltip.classList.add('d-none')
+	}
+	configChatbot.root.classList.toggle('chatbot_hidden')
+	if (chatbot) {
+		return
+	}
+	const request = new XMLHttpRequest()
+	request.open('GET', configChatbot.replicas, true)
+	request.responseType = 'json'
+	request.onload = function () {
+		const status = request.status
+		if (status === 200) {
+			const data = request.response
+			if (typeof data === 'string') {
+				configChatbot.replicas = JSON.parse(data)
+			} else {
+				configChatbot.replicas = data
+			}
+			chatbot = new SimpleChatbot(configChatbot)
+			chatbot.init()
+		} else {
+			console.log(status, request.response)
+		}
+	}
+	request.send()
+}

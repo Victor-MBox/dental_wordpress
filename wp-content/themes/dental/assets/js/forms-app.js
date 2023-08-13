@@ -1929,3 +1929,61 @@ function onSubmit(token) {
 		document.getElementById(formId).submit()
 	})
 }
+
+// * Форма в ЧАТ БОТЕ
+$(document).on('focus', 'input[name=phone]', function () {
+	if (!$(this).data('masked')) {
+		$(this).mask('+7 (999) 999-99-99').data('masked', true)
+	}
+})
+
+$(document).ready(function () {
+	var isFormValid = false
+
+	$('body').on('submit', '#form-bot', function (e) {
+		e.preventDefault()
+
+		var form = $(this)
+
+		form.validate({
+			rules: {
+				name: 'required',
+				phone: 'required',
+				agreement: {
+					required: true,
+				},
+			},
+			messages: {
+				name: 'Введите имя',
+				phone: 'Введите телефон',
+				agreement: 'Пожалуйста, отметьте этот чекбокс',
+			},
+		})
+
+		if (!form.valid()) {
+			return
+		}
+
+		// Проверка состояния чекбокса
+		if (!$('#checkboxBot').is(':checked')) {
+			alert('Пожалуйста, дайте согласие на обработку персональных данных')
+			return // Если чекбокс не отмечен, прерываем выполнение функции
+		}
+
+		var submitButton = form.find('.btn_submit-bot') // Обратите внимание на изменение селектора
+		var originalButtonText = submitButton.val()
+		submitButton.val('Отправка...').prop('disabled', true)
+
+		$.ajax({
+			type: 'POST',
+			url: 'http://localhost:8888/Dental/wp-content/themes/dental/assets/mailer/smart.php',
+			data: form.serialize(),
+		}).done(function () {
+			form.find('input').val('')
+			$('#mainModal').fadeOut()
+			$('.modal__overlay, #thanksModal').fadeIn()
+			form[0].reset()
+			submitButton.val(originalButtonText).prop('disabled', false) // Восстановление первоначального текста кнопки
+		})
+	})
+})
