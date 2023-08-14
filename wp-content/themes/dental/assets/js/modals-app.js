@@ -12,6 +12,19 @@ $(document).on(
 	}
 )
 
+// * БАННЕР БОТА
+$(document).on('click', '[data-modal=botModal]', function () {
+	$('.modal__overlay, #botModal').fadeIn()
+})
+
+$(document).on(
+	'click',
+	'.modal__close, .modal__overlay-item, .chatbot__btn',
+	function () {
+		$('.modal__overlay, #botModal').fadeOut()
+	}
+)
+
 //! МОД ОКНА ДОКТОРА
 //* Borisenko ЗАПИСЬ
 $(document).on('click', '[data-modal=borisenkoModal]', function () {

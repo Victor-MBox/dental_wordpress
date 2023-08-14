@@ -270,6 +270,18 @@
 
         </div>
 
+        <div class="modal-bot" id="botModal">
+
+            <div class="modal__close"><span></span></div>
+
+            <div class="modal-form__title">
+                Рассчитать предварительную стоимость Вам поможет наш ЗубкиБот 🤖
+            </div>
+
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/arrow-right2.svg" alt="">
+
+        </div>
+
         <!-- //* Модальные окна с докторами -->
         <!-- //? Borisenko -->
         <div class="modal-form-doctor" id="borisenkoModal">
