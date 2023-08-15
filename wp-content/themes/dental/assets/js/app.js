@@ -726,9 +726,9 @@ const configChatbot = {
 	btn: '.chatbot__btn',
 	key: 'fingerprint',
 	replicas:
-		'http://localhost:8888/Dental/wp-content/themes/dental/assets/simplechatbot/data/data-1.json',
+		'https://zubkivsem.ru/wp-content/themes/dental/assets/simplechatbot/data/data-1.json',
 	root: SimpleChatbot.createTemplate(),
-	url: 'http://localhost:8888/Dental/wp-content/themes/dental/assets/simplechatbot/chatbot/chatbot.php',
+	url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/simplechatbot/chatbot/chatbot.php',
 }
 
 let chatbot = null

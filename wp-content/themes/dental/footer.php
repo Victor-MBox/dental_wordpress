@@ -182,6 +182,7 @@
 <!-- //! Кнопка для вызова окна чат-бота -->
 <div class="chatbot__container">
     <div class="chatbot__btn">
+        <span></span>
         <div class="shine"></div>
     </div>
 </div>

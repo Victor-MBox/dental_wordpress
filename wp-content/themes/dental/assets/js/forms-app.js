@@ -1976,7 +1976,7 @@ $(document).ready(function () {
 
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost:8888/Dental/wp-content/themes/dental/assets/mailer/smart.php',
+			url: 'https://zubkivsem.ru/wp-content/themes/dental/assets/mailer/smart.php',
 			data: form.serialize(),
 		}).done(function () {
 			form.find('input').val('')
