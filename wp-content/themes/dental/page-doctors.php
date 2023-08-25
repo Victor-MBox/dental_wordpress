@@ -26,14 +26,13 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Наши специалисты</div>
-                        <div class="page-main-section__description description">В клинике стоматологии "Зубки всем" мы гордимся нашим высококвалифицированным и профессиональным персоналом, который состоит из опытных врачей-стоматологов. Наша команда постоянно повышает свою квалификацию, принимая участие в научных конференциях и семинарах, чтобы быть в курсе последних достижений в области стоматологии. Мы уверены, что именно благодаря нашим специалистам мы можем предлагать пациентам лучшие услуги и решения для улучшения их здоровья и красоты улыбки.
-                            <br><br>
-                            Наши врачи обладают глубокими знаниями и навыками, которые позволяют им эффективно диагностировать и лечить различные стоматологические проблемы. Они внимательно слушают каждого пациента, чтобы понять его потребности и ожидания, и затем разрабатывают индивидуальный план лечения. Врачи клиники "Зубки всем" стремятся к тому, чтобы каждый визит в нашу клинику был комфортным и безболезненным.
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('all-doctors_podzagolovok'); ?></div>
+                        <div class="page-main-section__title title"><?php the_field('all-doctors_zagolovok'); ?></div>
+                        <div class="page-main-section__description description">
+                            <?php the_field('all-doctors_tekst'); ?>
                         </div>
                         <div id="textHidden" class="text-hidden">
-                            Кроме того, мы понимаем, что для некоторых людей посещение стоматолога может вызывать тревогу или страх. Наши врачи и медицинский персонал всегда готовы поддержать пациента, обеспечивая спокойную и расслабленную атмосферу во время каждого визита. Мы уверены, что благодаря нашей заботе и профессионализму каждый пациент будет чувствовать себя в безопасности и комфорте.
+                            <?php the_field('all-doctors_skrytyj-tekst'); ?>
                         </div>
                         <div class="main-section__buttons">
                             <button id="textHiddenBtn" class="btn">Подробнее</button>
@@ -44,7 +43,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-04.jpg" alt="">
+                        <img src="<?php the_field('all-doctors_kartinka'); ?>" alt="">
                     </div>
                 </div>
 
@@ -87,9 +86,10 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">Специалисты клиники "Зубки Всем"</div>
-                <div class="page-second-section__title title">Создатели здоровой и красивой улыбки</div>
-                <div class="page-second-section__description description">Врачи клиники "Зубки Всем" найдут подход к каждому пациенту и помогут обрести здоровую и красивую улыбку даже в самых запущенных случаях! Записаться на прием можно по телефону: <br> <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+                <div class="page-second-section__subtitle subtitle"><?php the_field('2-ekran_podzagolovok'); ?></div>
+                <div class="page-second-section__title title"><?php the_field('2-ekran_zagolovok'); ?></div>
+                <div class="page-second-section__description description">
+                    <?php the_field('2-ekran_tekst'); ?>
                 </div>
             </div>
     </section>
@@ -110,29 +110,44 @@ get_header();
                         <div class="accordion-home__strip strip strip_yellow"></div>
                     </div>
                     <div id="home-tab-1" class="accordion-home__content">
-                        <div data-tab="tab1-faq-tab-1" class="faq__tab">Борисенко Инна Владимировна</div>
+                        <div data-tab="tab1-faq-tab-1" class="faq__tab"><?php the_field('all-doctors_fio'); ?></div>
                         <div id="tab1-faq-tab-1" class="faq__content">
-                            <div class="page-content__banner page-content__banner_borisenko">
-                                <div class="page-content__label">стаж <span>11 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт, хирург</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost'); ?></span></div>
                                 <a href="borisenko-inna-vladimirovna/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
 
-                        <div data-tab="tab1-faq-tab-2" class="faq__tab">Зейналов Зейнал Вилаяддинович</div>
+                        <div data-tab="tab1-faq-tab-2" class="faq__tab"><?php the_field('all-doctors_fio-2'); ?></div>
                         <div id="tab1-faq-tab-2" class="faq__content">
-                            <div class="page-content__banner page-content__banner_zejnalov">
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-2'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-2'); ?></span></div>
                                 <a href="zejnalov-zejnal-vilayaddinovich/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
 
-                        <div data-tab="tab1-faq-tab-3" class="faq__tab">Сарыбаев Анарбек Муктарбекович</div>
+                        <div data-tab="tab1-faq-tab-3" class="faq__tab"><?php the_field('all-doctors_fio-3'); ?></div>
                         <div id="tab1-faq-tab-3" class="faq__content">
-                            <div class="page-content__banner page-content__banner_sarybaev">
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-3'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-3'); ?></span></div>
                                 <a href="sarybaev-anarbek-muktarbekovich/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
@@ -148,38 +163,53 @@ get_header();
                         <div class="accordion-home__strip strip strip_red"></div>
                     </div>
                     <div id="home-tab-2" class="accordion-home__content">
-                        <div data-tab="tab2-faq-tab-1" class="faq__tab">Антоновский Антон Анатольевич</div>
+                        <div data-tab="tab2-faq-tab-1" class="faq__tab"><?php the_field('all-doctors_fio-4'); ?></div>
 
                         <div id="tab2-faq-tab-1" class="faq__content">
-                            <div class="page-content__banner page-content__banner_antonovskij">
-                                <div class="page-content__label">стаж <span>32 года</span></div>
-                                <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-4'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-4'); ?></span></div>
                                 <a href="antonovskij-anton-anatolevich/" class="btn-uncover">Подробнее</a>
 
                             </div>
 
                         </div>
 
-                        <div data-tab="tab2-faq-tab-2" class="faq__tab">Игонин Василий Валентинович</div>
+                        <div data-tab="tab2-faq-tab-2" class="faq__tab"><?php the_field('all-doctors_fio-5'); ?></div>
 
                         <div id="tab2-faq-tab-2" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_igonin">
-                                <div class="page-content__label">стаж <span>13 лет</span></div>
-                                <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-5'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-5'); ?></span></div>
                                 <a href="igonin-vasilij-valentinovich/" class="btn-uncover">Подробнее</a>
 
                             </div>
 
                         </div>
 
-                        <div data-tab="tab2-faq-tab-3" class="faq__tab">Хандогин Антон Олегович</div>
+                        <div data-tab="tab2-faq-tab-3" class="faq__tab"><?php the_field('all-doctors_fio-6'); ?></div>
 
                         <div id="tab2-faq-tab-3" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_handogin">
-                                <div class="page-content__label">стаж <span>7 лет</span></div>
-                                <div class="page-content__label-prof"><span>Ортопед</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-6'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-6'); ?></span></div>
                                 <a href="handogin-anton-olegovich/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
@@ -196,13 +226,18 @@ get_header();
                     </div>
                     <div id="home-tab-3" class="accordion-home__content">
 
-                        <div data-tab="tab3-faq-tab-1" class="faq__tab">Журов Илья Владимирович</div>
+                        <div data-tab="tab3-faq-tab-1" class="faq__tab"><?php the_field('all-doctors_fio-7'); ?></div>
 
                         <div id="tab3-faq-tab-1" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_zhurov">
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-7'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-7'); ?></span></div>
                                 <a href="zhurov-ilya-vladimirovich/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
@@ -219,24 +254,34 @@ get_header();
                     </div>
                     <div id="home-tab-4" class="accordion-home__content">
 
-                        <div data-tab="tab4-faq-tab-1" class="faq__tab">Джахбарова Рабият Магомедгаджиевна</div>
+                        <div data-tab="tab4-faq-tab-1" class="faq__tab"><?php the_field('all-doctors_fio-8'); ?></div>
 
                         <div id="tab4-faq-tab-1" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_dzhahbarova">
-                                <div class="page-content__label">стаж <span>18 лет</span></div>
-                                <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-8'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-8'); ?></span></div>
                                 <a href="dzhahbarova-rabiyat-magomedgadzhievna/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
 
-                        <div data-tab="tab4-faq-tab-2" class="faq__tab">Байкулова Асият Хамитовна</div>
+                        <div data-tab="tab4-faq-tab-2" class="faq__tab"><?php the_field('all-doctors_fio-9'); ?></div>
 
                         <div id="tab4-faq-tab-2" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_bajkulova">
-                                <div class="page-content__label">стаж <span>10 лет</span></div>
-                                <div class="page-content__label-prof"><span>Гигиенист</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-9'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-9'); ?></span></div>
                                 <a href="bajkulova-asiyat-hamitovna/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
@@ -253,13 +298,18 @@ get_header();
                     </div>
                     <div id="home-tab-5" class="accordion-home__content">
 
-                        <div data-tab="tab5-faq-tab-1" class="faq__tab">Бачулис Марина Александровна</div>
+                        <div data-tab="tab5-faq-tab-1" class="faq__tab"><?php the_field('all-doctors_fio-10'); ?></div>
 
                         <div id="tab5-faq-tab-1" class="faq__content">
 
-                            <div class="page-content__banner page-content__banner_bachulis">
-                                <div class="page-content__label">стаж <span>2 года</span></div>
-                                <div class="page-content__label-prof"><span>Ортодонт, гигиенист</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-10'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-10'); ?></span></div>
                                 <a href="bachulis-marina-aleksandrovna/" class="btn-uncover">Подробнее</a>
                             </div>
                         </div>
@@ -287,9 +337,9 @@ get_header();
                         <div class="page-tab__nav">
 
                             <ul>
-                                <li><button class="link-page" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1">Борисенко Инна Владимировна</button></li>
-                                <li><button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)" id="vrb1_2">Зейналов Зейнал Вилаяддинович</button></li>
-                                <li><button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" id="vrb1_3">Сарыбаев Анарбек Муктарбекович</button></li>
+                                <li><button class="link-page" href="borisenko-inna-vladimirovna/" onclick="toggleActiveClass(this)" id="vrb1_1"><?php the_field('all-doctors_fio'); ?></button></li>
+                                <li><button class="link-page" href="zejnalov-zejnal-vilayaddinovich/" onclick="toggleActiveClass(this)" id="vrb1_2"><?php the_field('all-doctors_fio-2'); ?></button></li>
+                                <li><button class="link-page" href="sarybaev-anarbek-muktarbekovich/" onclick="toggleActiveClass(this)" id="vrb1_3"><?php the_field('all-doctors_fio-3'); ?></button></li>
                             </ul>
                         </div>
                     </div>
@@ -313,9 +363,9 @@ get_header();
                             <div class="page-tab__nav">
 
                                 <ul>
-                                    <li><button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)" id="vrb2_1">Антоновский Антон Анатольевич</button></li>
-                                    <li><button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)" id="vrb2_2">Игонин Василий Валентинович</button></li>
-                                    <li><button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)" id="vrb2_3">Хандогин Антон Олегович</button></li>
+                                    <li><button class="link-page" href="antonovskij-anton-anatolevich/" onclick="toggleActiveClass(this)" id="vrb2_1"><?php the_field('all-doctors_fio-4'); ?></button></li>
+                                    <li><button class="link-page" href="igonin-vasilij-valentinovich/" onclick="toggleActiveClass(this)" id="vrb2_2"><?php the_field('all-doctors_fio-5'); ?></button></li>
+                                    <li><button class="link-page" href="handogin-anton-olegovich/" onclick="toggleActiveClass(this)" id="vrb2_3"><?php the_field('all-doctors_fio-6'); ?></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -339,7 +389,7 @@ get_header();
                             <div class="page-tab__nav">
 
                                 <ul>
-                                    <li><button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)" id="vrb3_1">Журов Илья Владимирович</button></li>
+                                    <li><button class="link-page" href="zhurov-ilya-vladimirovich/" onclick="toggleActiveClass(this)" id="vrb3_1"><?php the_field('all-doctors_fio-7'); ?></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -362,8 +412,8 @@ get_header();
                             <div class="accordion-page__content-decor accordion-page__content-decor_blue"></div>
                             <div class="page-tab__nav">
                                 <ul>
-                                    <li><button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)" id="vrb4_1">Джахбарова Рабият Магомедгаджиевна</button></li>
-                                    <li><button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)" id="vrb4_2">Байкулова Асият Хамитовна</button></li>
+                                    <li><button class="link-page" href="dzhahbarova-rabiyat-magomedgadzhievna/" onclick="toggleActiveClass(this)" id="vrb4_1"><?php the_field('all-doctors_fio-8'); ?></button></li>
+                                    <li><button class="link-page" href="bajkulova-asiyat-hamitovna/" onclick="toggleActiveClass(this)" id="vrb4_2"><?php the_field('all-doctors_fio-9'); ?></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -385,7 +435,7 @@ get_header();
                             <div class="accordion-page__content-decor accordion-page__content-decor_red"></div>
                             <div class="page-tab__nav">
                                 <ul>
-                                    <li><button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)" id="vrb5_1">Бачулис Марина Александровна</button></li>
+                                    <li><button class="link-page" href="bachulis-marina-aleksandrovna/" onclick="toggleActiveClass(this)" id="vrb5_1"><?php the_field('all-doctors_fio-10'); ?></button></li>
                                 </ul>
                             </div>
                         </div>
@@ -462,27 +512,32 @@ get_header();
                     <section class="page-contetn__wrapper" id="content-page">
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_borisenko">
-                                <div class="page-content__name">Борисенко <br> Инна <br> Владимировна</div>
-                                <div class="page-content__label">стаж <span>11 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт, хирург</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="borisenkoModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Инне Владимировне</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Инне Владимировне</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Borisenko">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Инне Владимировне">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -523,27 +578,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_zejnalov">
-                                <div class="page-content__name">Зейналов <br> Зейнал <br> Вилаяддинович</div>
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-2'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-2'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-2'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="zejnalovModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Зейналу Вилаяддиновичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-2'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Зейналу Вилаяддиновичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-2'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Zejnalov">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Зейналу Вилаяддиновичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-2'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -576,27 +636,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_sarybaev">
-                                <div class="page-content__name">Сарыбаев <br> Анарбек <br> Муктарбекович</div>
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Терапевт</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-3'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-3'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-3'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="sarybaevModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Анарбеку Муктарбековичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-3'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Анарбеку Муктарбековичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-3'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Sarybaev">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Анарбеку Муктарбековичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-3'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -633,27 +698,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_antonovskij">
-                                <div class="page-content__name">Антоновский <br> Антон <br> Анатольевич</div>
-                                <div class="page-content__label">стаж <span>32 года</span></div>
-                                <div class="page-content__label-prof"><span>Стоматолог-ортопед, главный врач</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-4'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-4'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-4'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="antonovskijModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Антону Анатольевичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-4'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Антону Анатольевичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-4'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Antonovskij">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Антону Анатольевичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-4'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -690,27 +760,33 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_igonin">
-                                <div class="page-content__name">Игонин <br> Василий <br> Валентинович</div>
-                                <div class="page-content__label">стаж <span>13 лет</span></div>
-                                <div class="page-content__label-prof"><span>Ортопед, хирург</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="">
+                                </div>
+
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-5'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-5'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-5'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="igoninModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Василию Валентиновичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-5'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Василию Валентиновичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-5'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Igonin">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Василию Валентиновичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-5'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -747,27 +823,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_handogin">
-                                <div class="page-content__name">Хандогин <br> Антон <br> Олегович</div>
-                                <div class="page-content__label">стаж <span>7 лет</span></div>
-                                <div class="page-content__label-prof"><span>Ортопед</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-6'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-6'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-6'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="handoginModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Антону Олеговичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-6'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Антону Олеговичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-6'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Handogin">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Антону Олеговичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-6'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -804,27 +885,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_zhurov">
-                                <div class="page-content__name">Журов<br> Илья <br> Владимирович</div>
-                                <div class="page-content__label">стаж <span>12 лет</span></div>
-                                <div class="page-content__label-prof"><span>Хирург имплантолог</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-7'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-7'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-7'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="zhurovModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Илье Владимировичу</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-7'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Илье Владимировичу</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-7'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Zhurov">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Илье Владимировичу">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-7'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -861,27 +947,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_dzhahbarova">
-                                <div class="page-content__name">Джахбарова <br> Рабият <br> Магомедгаджиевна</div>
-                                <div class="page-content__label">стаж <span>18 лет</span></div>
-                                <div class="page-content__label-prof"><span>Гигиенист, ассистент стоматолога</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-8'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-8'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-8'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="dzhahbarovaModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Рабият Магомедгаджиевне</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-8'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Рабият Магомедгаджиевне</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-8'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Dzhahbarova">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Рабият Магомедгаджиевне">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-8'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -919,27 +1010,32 @@ get_header();
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_bajkulova">
-                                <div class="page-content__name">Байкулова <br> Асият <br> Хамитовна</div>
-                                <div class="page-content__label">стаж <span>10 лет</span></div>
-                                <div class="page-content__label-prof"><span>Гигиенист</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-9'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-9'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-9'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="bajkulovaModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Асият Хамитовнае</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-9'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Асият Хамитовнае</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-9'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Bajkulova">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Асият Хамитовнае">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-9'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -969,34 +1065,38 @@ get_header();
 
                                 </div>
 
-
                             </div>
 
                             <button class="link-page-2" href="bajkulova-asiyat-hamitovna/" data-sect="4" data-hl="2">Подробнее</button>
                         </div>
 
                         <div class="page-content__chapter">
-                            <div class="page-content__banner page-content__banner_bachulis">
-                                <div class="page-content__name">Бачулис <br> Марина <br> Александровна</div>
-                                <div class="page-content__label">стаж <span>2 года</span></div>
-                                <div class="page-content__label-prof"><span>Ортодонт, гигиенист</span></div>
+                            <div class="page-content__banner">
+
+                                <div class="page-content__banner-wrapper">
+                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="">
+                                </div>
+
+                                <div class="page-content__name"><?php the_field('all-doctors_fio-10'); ?></div>
+                                <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-10'); ?></span></div>
+                                <div class="page-content__label-prof"><span><?php the_field('all-doctors_dolzhnost-10'); ?></span></div>
                                 <div class="page-content__btn-call">
                                     <button class="btn-call" data-modal="bachulisModal">
                                         <div class="btn-call__img"></div>
-                                        <div class="btn-call__text">Записаться на прием <br> к <span>Марине Александровне</span></div>
+                                        <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('all-doctors_button-10'); ?></span></div>
                                     </button>
                                 </div>
 
                                 <div class="page-content__btn-accordion btn-accordion">
                                     <div class="btn-accordion__header">
                                         <div class="btn-accordion__img"></div>
-                                        <div class="btn-accordion__text">Задать вопрос <br> <span>Марине Александровне</span></div>
+                                        <div class="btn-accordion__text">Задать вопрос <br> <span><?php the_field('all-doctors_button-10'); ?></span></div>
                                     </div>
                                     <div class="btn-accordion__content">
 
                                         <form action="#" class="form-portfolio" id="form-Bachulis">
 
-                                            <input type="hidden" name="form_name" value="Вопрос Марине Александровне">
+                                            <input type="hidden" name="form_name" value="Вопрос <?php the_field('all-doctors_button-10'); ?>">
 
                                             <div class="form-portfolio__input">
                                                 <input type="text" name="name" placeholder="Имя" class="input">

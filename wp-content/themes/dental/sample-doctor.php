@@ -87,12 +87,15 @@ get_header();
                                 <div class="page-content__text"><?php the_field('doctor_harakteristika'); ?></div>
                                 <div class="page-content__list">
                                     <ul>
-                                        <li><?php the_field('element_spiska1'); ?></li>
-                                        <li><?php the_field('element_spiska2'); ?></li>
+                                        <?php while (have_rows('doctor-list_left')) : the_row(); ?>
+                                            <li><?php the_sub_field('element_spiska-l1'); ?></li>
+                                        <?php endwhile; ?>
                                     </ul>
                                     <ul>
-                                        <li><?php the_field('element_spiska3'); ?></li>
-                                        <li><?php the_field('element_spiska4'); ?></li>
+
+                                        <?php while (have_rows('doctor-list_right')) : the_row(); ?>
+                                            <li><?php the_sub_field('element_spiska-r1'); ?></li>
+                                        <?php endwhile; ?>                                                     
                                     </ul>
                                 </div>
 
