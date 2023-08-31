@@ -26,13 +26,12 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Отзывы</div>
-                        <div class="page-main-section__description description">Стоматологический центр "Зубки всем" уделяет особое внимание отзывам своих пациентов. Мы гордимся тем, что все отзывы, опубликованные о нас, являются реальными и представляют собой честные мнения наших пациентов о полученных услугах. Наша основная цель - предоставление качественного стоматологического обслуживания, и мы ценим каждое мнение, которое помогает нам совершенствоваться и расти. <br> <br>
-                            В отзывах пациентов на независимых площадках, вы можете найти подробную информацию о различных аспектах нашей работы. От качества предоставляемых услуг и профессионализма наших врачей, до уровня комфорта в нашем центре и дружелюбного обслуживания. Мы постоянно анализируем отзывы, чтобы улучшать качество наших услуг и делать посещение нашей клиники как можно более приятным и комфортным для каждого пациента.
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('reviews-main_podzagolovok') ?></div>
+                        <div class="page-main-section__title title"><?php the_field('reviews-main_zagolovok') ?></div>
+                        <div class="page-main-section__description description"><?php the_field('reviews-main_tekst') ?>
                         </div>
                         <div id="textHidden" class="text-hidden">
-                            Важно отметить, что "Зубки всем" относится к отзывам своих пациентов с полной серьезностью и открытостью. Мы уважаем каждое мнение и стремимся быть максимально честными и прозрачными в своей работе. Ваше мнение имеет большое значение для нас, и мы благодарны за любую обратную связь, которая помогает нам становиться лучше.
+                            <?php the_field('reviews-main_skrytyj-tekst') ?>
                         </div>
                         <div class="main-section__buttons">
                             <button id="textHiddenBtn" class="btn">Подробнее</button>
@@ -42,7 +41,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-06.jpg" alt="">
+                        <img src="<?php the_field('reviews-main_kartinka') ?>" alt="">
                     </div>
                 </div>
 
@@ -54,7 +53,7 @@ get_header();
                         <div class="feedback-form__form">
 
                             <form action="#" class="form-about" id="form-1">
-                                <input type="hidden" name="form_name" value="Общая на странице Отзывы"> 
+                                <input type="hidden" name="form_name" value="Общая на странице Отзывы">
                                 <div class="form-about__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
@@ -84,9 +83,9 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">Работаем прозрачно и честно</div>
-                <div class="page-second-section__title title">Отзывы наших пациентов</div>
-                <div class="page-second-section__description description">Мы понимаем, что отзывы наших пациентов являются важным фактором принятия решения при выборе клиники. Поэтому, не скрываем отзывов наших пациентов. Они помогут больше узнать о нашей клинике, процессе лечения и результатах. Если вы уже являетесь нашим пациентом и хотите оставить отзыв, то мы всегда рады услышать ваше мнение!
+                <div class="page-second-section__subtitle subtitle"><?php the_field('rereviews-second_podzagolovok') ?></div>
+                <div class="page-second-section__title title"><?php the_field('reviews-second_zagolovok') ?></div>
+                <div class="page-second-section__description description"><?php the_field('reviews-second_text') ?>
                 </div>
             </div>
     </section>
@@ -128,7 +127,7 @@ get_header();
                             <form action="#" class="form-laboratory" id="form-3">
 
                                 <input type="hidden" name="form_name" value="Общая на странице Отзывы">
-                                
+
                                 <div class="form-laboratory__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>

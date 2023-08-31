@@ -29,7 +29,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="/o-klinike/" class="btn">Узнать больше</a>
+                            <a href="<?php the_field('btn_slide-1'); ?>" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="/uslugi/?a=2_6#2_6" class="btn">Узнать больше</a>
+                            <a href="<?php the_field('btn_slide-2'); ?>" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="/uslugi/?a=4_5#4_5" class="btn">Узнать больше</a>
+                            <a href="<?php the_field('btn_slide-3'); ?>" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="/uslugi/?a=6_3#6_3" class="btn">Узнать больше</a>
+                            <a href="<?php the_field('btn_slide-4'); ?>" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ get_header();
                         </div>
 
                         <div class="main-section__buttons">
-                            <a href="/uslugi/?a=2_7#2_7" class="btn">Узнать больше</a>
+                            <a href="<?php the_field('btn_slide-5'); ?>" class="btn">Узнать больше</a>
                             <button class="btn-play" data-modal="videoModal"></button>
                         </div>
                     </div>
@@ -175,8 +175,8 @@ get_header();
     <section class="second-section">
         <div class="container second-section__container">
             <div class="second-section__name">
-                <div class="second-section__subtitle subtitle">МЫ БОЛЬШЕ, ЧЕМ ПРОСТО СТОМАТОЛОГИЯ!</div>
-                <div class="second-section__title title">Наши Преимущества</div>
+                <div class="second-section__subtitle subtitle"><?php the_field('advantages_podzagolovok'); ?></div>
+                <div class="second-section__title title"><?php the_field('advantages_zagolovok'); ?></div>
             </div>
 
             <?php
@@ -190,21 +190,20 @@ get_header();
     <section class="about-section">
         <div class="container about-section__container">
             <div class="about-section__column">
-                <div class="about-section__subtitle subtitle">СОВРЕМЕННОЕ ОБОРУДОВАНИЕ И ТЕХНОЛОГИИ</div>
-                <div class="about-section__title title">О нашей клинике</div>
-                <div class="about-section__description description">Добро пожаловать в стоматологический центр «ЗубкиВсем» на Парковой! Наша клиника - это место, где каждый пациент может получить качественную и профессиональную помощь в уходе за своими зубами.
-                    <br> <br>
-                    Наша команда состоит из опытных и высококвалифицированных специалистов, которые используют современное методики и проверенные временем материалы. Мы предлагаем широкий спектр услуг, начиная от профилактики и лечения зубов, заканчивая имплантацией и ортодонтией.
+                <div class="about-section__subtitle subtitle"><?php the_field('home-about_podzagolovok') ?></div>
+                <div class="about-section__title title"><?php the_field('home-about_zagolovok') ?></div>
+                <div class="about-section__description description"><?php the_field('home-about_text') ?>
                 </div>
                 <div class="about-section__list list">
                     <ul>
-                        <li>Собственная зуботехническая лаборатория</li>
-                        <li>Современные методики и проверенные временем материалы</li>
+                        <?php while (have_rows('home-about_list')) : the_row(); ?>
+                            <li><?php the_sub_field('element_spiska') ?></li>
+                        <?php endwhile; ?>
                     </ul>
                 </div>
 
                 <div id="textHiddenHome" class="text-hiddenHome">
-                    <p>Руководство клиники осуществляет Бачулис Олег Евгеньевич (отец был стоматологом ортопедом), который является владельцем Зуботехнической лаборатории АЛВАДЕНТ, а также президентом Первой ассоциации зуботехнических лабораторий ПАЗЛ. Вместе с Генеральным директором Клиники и руководителем Мастерской улыбок АЛВАДЕНТ Замурой Юлией Игоревной, мы сделали полностью автономное место, где каждый пациент сможет получить качественную услугу по доступной цене. Стоматологический центр " ЗубкиВсем" на Парковой, работает под началом зуботехнической лаборатории Alvadent, которая успешно функционирует с 1999 года. На сайте alvadent.ru вы можете ознакомиться с подробной информацией о лаборатории. Мы гарантируем индивидуальный подход к каждому пациенту, высокое качество услуг и дружелюбную атмосферу в нашей клинике. Приходите к нам и убедитесь в этом сами! Наш слоган “Зубки Всем”, Мы больше чем стоматология!</p>
+                    <p><?php the_field('home-about_text-scryt') ?></p>
                 </div>
 
                 <button id="textHiddenBtnHome" class="btn">Подробнее</button>
@@ -214,7 +213,7 @@ get_header();
 
                 <div class="about-section__image">
                     <div class="about-section__decor-red decor-red"></div>
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                    <img src="<?php the_field('home-about_img') ?>" alt="">
                     <div class="about-section__decor-yellow decor-yellow"></div>
                 </div>
 
@@ -262,8 +261,8 @@ get_header();
     <section class="services-section">
         <div class="container services-section__container">
             <div class="services-section__name">
-                <div class="services-section__subtitle subtitle">ВСЁ ДЛЯ ЗДОРОВОЙ И КРАСИВОЙ УЛЫБКИ</div>
-                <div class="services-section__title title">Наши услуги</div>
+                <div class="services-section__subtitle subtitle"><?php the_field('home-service_podzagolovok') ?></div>
+                <div class="services-section__title title"><?php the_field('home-service_zagolovok') ?></div>
             </div>
             <div class="services-section__tabs">
 
@@ -682,8 +681,8 @@ get_header();
     <section class="rating-section">
         <div class="container rating-section__container">
             <div class="rating-section__name">
-                <div class="rating-section__title title">Проверьте подлинность отзывов</div>
-                <div class="rating-section__description description">Мы всегда честны с нашими пациентами, поэтому не забудьте <br> проверить рейтинг и отзывы о нашей клинике</div>
+                <div class="rating-section__title title"><?php the_field('home-reviews_zagolovok') ?></div>
+                <div class="rating-section__description description"><?php the_field('home-reviews_podzagolovok') ?></div>
             </div>
 
             <div class="rating-section__companies-rating companies-rating">
@@ -697,124 +696,17 @@ get_header();
     <section class="portfolio-section">
         <div class="container portfolio-section__container">
             <div class="portfolio-section__name">
-                <div class="portfolio-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                <div class="portfolio-section__title title">Наши работы</div>
+                <div class="portfolio-section__subtitle subtitle"><?php the_field('home-portfolio_podzagolovok') ?></div>
+                <div class="portfolio-section__title title"><?php the_field('home-portfolio_zagolovok') ?></div>
             </div>
 
             <div class="portfolio-section__wrapper">
 
                 <div class="portfolio-section__column">
-                    <div class="portfolio-section__before-after" id="beforeAfterSlider">
 
-
-                        <div class="before-after">
-                            <span id="before" class="before__btn">ДО</span>
-                            <span id="after" class="after__btn">ПОСЛЕ</span>
-
-                            <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after__img">
-                                <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after__img">
-                                </div>
-                            </div>
-
-                            <div class="before-after__procedure procedure">
-                                <div class="procedure__column">
-                                    <div class="procedure__row-all">
-
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-
-                                        <div class="procedure__row-wrapper">
-                                            <div class="procedure__row">
-                                                <div class="procedure__subtitle">Процедура</div>
-                                            </div>
-                                            <div class="procedure__row">
-                                                <div class="procedure__title">Виниры</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <a class="btn btn_lilac" href="/galereya/">Больше работ</a>
-
-                                </div>
-                                <div class="procedure__text">Были установлены виниры</div>
-                            </div>
-
-                        </div>
-
-                        <div class="before-after2">
-                            <span id="before2" class="before__btn">ДО</span>
-                            <span id="after2" class="after__btn">ПОСЛЕ</span>
-
-                            <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" class="before-after2__img">
-                                <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" class="before-after2__img">
-                                </div>
-                            </div>
-                            <div class="before-after__procedure procedure">
-                                <div class="procedure__column">
-                                    <div class="procedure__row-all">
-
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-
-                                        <div class="procedure__row-wrapper">
-                                            <div class="procedure__row">
-                                                <div class="procedure__subtitle">Процедура</div>
-                                            </div>
-                                            <div class="procedure__row">
-                                                <div class="procedure__title">Гигиена полости рта</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <a class="btn btn_lilac" href="/galereya/">Больше работ</a>
-
-                                </div>
-                                <div class="procedure__text">Механическое удаление зубного камня и бактериального налета</div>
-                            </div>
-                        </div>
-
-                        <div class="before-after3">
-                            <span id="before3" class="before__btn">ДО</span>
-                            <span id="after3" class="after__btn">ПОСЛЕ</span>
-
-                            <div class="before-after3__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after3__img">
-                                <div class="before-after3__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after3__img">
-                                </div>
-                            </div>
-                            <div class="before-after__procedure procedure">
-                                <div class="procedure__column">
-                                    <div class="procedure__row-all">
-
-                                        <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                        </div>
-
-                                        <div class="procedure__row-wrapper">
-                                            <div class="procedure__row">
-                                                <div class="procedure__subtitle">Процедура</div>
-                                            </div>
-                                            <div class="procedure__row">
-                                                <div class="procedure__title">Установка импланта</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <a class="btn btn_lilac" href="/galereya/">Больше работ</a>
-
-                                </div>
-                                <div class="procedure__text">Установка импланта</div>
-                            </div>
-                        </div>
-
-                    </div>
+                    <?php
+                    get_template_part('widget-before-after');
+                    ?>
 
                     <div class="slider-arrows">
                         <button class="slider-arrows__left" id="introSliderPrev" type="button"></button>
@@ -881,132 +773,27 @@ get_header();
     <section class="specialists-section">
         <div class="container specialists-section__container">
             <div class="specialists-section__name">
-                <div class="specialists-section__subtitle subtitle">КАЧЕСТВЕННЫЙ СЕРВИС И ИНДИВИДУАЛЬНЫЙ ПОДХОД</div>
-                <div class="specialists-section__title title">Наши специалисты</div>
+                <div class="specialists-section__subtitle subtitle"><?php the_field('home-spec_podzagolovok') ?></div>
+                <div class="specialists-section__title title"><?php the_field('home-spec_zagolovok') ?></div>
             </div>
 
             <div class="specialists-section__carousel carousel" id="slickCarousel">
 
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="">
-                        <div class="carousel__label">
-                            <p>Опыт</p> <span>11 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Борисенко</span> <br>Инна Владимировна</div>
-                    <div class="carousel__text">Врач стоматолог: <br>терапевт, хирург</div>
-                    <button class="btn btn_entry" data-modal="borisenkoModal">Записаться</button>
-                </div>
+                <?php while (have_rows('carousel_doktor', 'option')) : the_row(); ?>
 
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_01">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-09.jpg" alt="">
-                        <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>12 лет</span>
+                    <div class="carousel__wrapper">
+                        <div class="carousel__photo">
+                            <img src="<?php the_sub_field('foto') ?>" alt="">
+                            <div class="carousel__label <?php the_sub_field('czvet') ?>" alt="">
+                                <p>Опыт</p> <span><?php the_sub_field('stazh') ?></span>
+                            </div>
                         </div>
+                        <div class="carousel__name"><?php the_sub_field('fio') ?></div>
+                        <div class="carousel__text"><?php the_sub_field('dolzhnost') ?></div>
+                        <button class="btn btn_entry" data-modal="<?php the_sub_field('modal') ?>">Записаться</button>
                     </div>
-                    <div class="carousel__name"><span>Зейналов</span> <br>Зейнал Вилаяддинович</div>
-                    <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry" data-modal="zejnalovModal">Записаться</button>
-                </div>
 
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_02">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-04.jpg" alt="">
-                        <div class="carousel__label carousel__label_lilac">
-                            <p>Опыт</p> <span>12 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Сарыбаев</span> <br>Анарбек Муктарбекович</div>
-                    <div class="carousel__text">Врач стоматолог: <br>терапевт</div>
-                    <button class="btn btn_entry" data-modal="sarybaevModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_03">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-010.jpg" alt="">
-                        <div class="carousel__label carousel__label_yellow">
-                            <p>Опыт</p> <span>32 года</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Антоновский</span> <br>Антон
-                        Анатольевич</div>
-                    <div class="carousel__text">Врач стоматолог: <br>ортопед, главный врач</div>
-                    <button class="btn btn_entry" data-modal="antonovskijModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_03">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="">
-                        <div class="carousel__label carousel__label_yellow">
-                            <p>Опыт</p> <span>13 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Игонин</span> <br>Василий Валентинович</div>
-                    <div class="carousel__text">Врач стоматолог: <br>ортопед, хирург</div>
-                    <button class="btn btn_entry" data-modal="igoninModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-01.jpg" alt="">
-                        <div class="carousel__label">
-                            <p>Опыт</p> <span>7 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Хандогин</span> <br>Антон Олегович</div>
-                    <div class="carousel__text">Врач стоматолог: <br>ортопед</div>
-                    <button class="btn btn_entry" data-modal="handoginModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_01">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-03.jpg" alt="">
-                        <div class="carousel__label carousel__label_red">
-                            <p>Опыт</p> <span>12 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Журов</span> <br>Илья Владимирович</div>
-                    <div class="carousel__text">Врач стоматолог: <br>хирург имплантолог</div>
-                    <button class="btn btn_entry" data-modal="zhurovModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_02">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-05.jpg" alt="">
-                        <div class="carousel__label">
-                            <p>Опыт</p> <span>2 года</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Бачулис</span> <br>Марина Александровна</div>
-                    <div class="carousel__text">Врач стоматолог: <br>ортодонт, гигиенист</div>
-                    <button class="btn btn_entry" data-modal="bachulisModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo carousel__photo_03">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt="">
-                        <div class="carousel__label carousel__label_yellow">
-                            <p>Опыт</p> <span>18 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Джахбарова</span> <br>Рабият Магомедгаджиевна</div>
-                    <div class="carousel__text">Гигиенист, <br>ассистент стоматолога</div>
-                    <button class="btn btn_entry" data-modal="dzhahbarovaModal">Записаться</button>
-                </div>
-
-                <div class="carousel__wrapper">
-                    <div class="carousel__photo">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-02.jpg" alt="">
-                        <div class="carousel__label carousel__label_lilac">
-                            <p>Опыт</p> <span>10 лет</span>
-                        </div>
-                    </div>
-                    <div class="carousel__name"><span>Байкулова</span> <br>Асият Хамитовна</div>
-                    <div class="carousel__text">Врач стоматолог: <br>гигиенист</div>
-                    <button class="btn btn_entry" data-modal="bajkulovaModal">Записаться</button>
-                </div>
+                <?php endwhile; ?>
 
             </div>
 
@@ -1016,7 +803,7 @@ get_header();
             </div>
 
             <div class="specialists-section__buttons">
-                <a href="/vrachi/" class="btn">Все спеиалисты</a>
+                <a href="/vrachi/" class="btn">Все специалисты</a>
                 <div class="specialists-section__decor-red decor-red"></div>
             </div>
 
@@ -1027,14 +814,17 @@ get_header();
     <section class="laboratory-section">
         <div class="container laboratory-section__container">
             <div class="laboratory-section__column">
-                <div class="laboratory-section__subtitle subtitle">СОБСТВЕННАЯ ЗУБОТЕХНИЧЕСКАЯ ЛАБОРАТОРИЯ</div>
-                <div class="laboratory-section__title title">Наша лаборатория</div>
-                <div class="laboratory-section__description description">Зуботехническая лаборатория Мастерская улыбок АЛВАДЕНТ создана в 1999 году, входит в топ 10 лабораторий Москвы. Нет текучки. Лаборатория полного цикла. Контроль качества на каждом участке осуществляют старшие техники отделения. Специалисты из всех областей зубного протезирования (съемное отделение, несъемное отделение, ортодонтическое отделение, Cad/cam и 3D отделение, литейное отделение с применением драг сплавов)
+                <div class="laboratory-section__subtitle subtitle"><?php the_field('home-lab_podzagolovok') ?></div>
+                <div class="laboratory-section__title title"><?php the_field('home-lab_zagolovok') ?></div>
+                <div class="laboratory-section__description description"><?php the_field('home-lab_text') ?>
                 </div>
                 <div class="laboratory-section__list list">
                     <ul>
-                        <li>Основана в 1999 году</li>
-                        <li>Контроль качества на каждом участке</li>
+
+                        <?php while (have_rows('home-lab_list')) : the_row(); ?>
+                            <li><?php the_sub_field('element_spiska') ?></li>
+                        <?php endwhile; ?>
+
                     </ul>
                 </div>
             </div>
@@ -1042,7 +832,7 @@ get_header();
             <div class="laboratory-section__column">
                 <div class="laboratory-section__image">
                     <div class="laboratory-section__decor-red decor-red"></div>
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-about.jpg" alt="">
+                    <img src="<?php the_field('home-lab_img') ?>" alt="">                                  
                     <div class="laboratory-section__decor-yellow decor-yellow"></div>
 
                 </div>

@@ -711,9 +711,9 @@
                 <div class="burger-nav__btn">
 
                     <div class="burger-nav__btn-tel">
-                        <a class="btn-tel btn-tel_burger" href="tel:<?php the_field('header_phone', 2); ?>">
+                        <a class="btn-tel btn-tel_burger" href="tel:<?php the_field('header_telefon', 'option'); ?>">
                             <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt=""></div>
-                            <?php the_field('header_phone', 2); ?>
+                            <?php the_field('header_telefon', 'option'); ?>
                         </a>
                     </div>
 
@@ -1075,9 +1075,9 @@
                 </div>
 
                 <div class="header__btn-tel">
-                    <a class="btn-tel" href="tel:<?php the_field('header_phone', 2); ?>">
+                    <a class="btn-tel" href="tel:<?php the_field('header_telefon', 'option'); ?>">
                         <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt=""></div>
-                        <?php the_field('header_phone', 2); ?>
+                        <?php the_field('header_telefon', 'option'); ?>
                     </a>
                 </div>
                 <div class="header__btn" data-modal="mainModal">

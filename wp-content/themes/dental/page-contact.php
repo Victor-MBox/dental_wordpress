@@ -26,35 +26,13 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Как до нас добраться?</div>
-                        <div class="page-main-section__description description"><b>От метро «Измайловская»:</b> <br>
-                            Первый вагон из центра, выход к улице 3-я Парковая.<br>
-                            От метро автобус № 97 - до остановки Верхняя Первомайская улица, далее 3 минуты пешком. <br>
-                            Или автобус № Т51 - до остановки 1-я Прядильная, далее 5 мин пешком. <br><br>
-                            <b>От метро «Щёлковская»:</b> <br>
-                            Последний вагон из центра. <br>
-                            От метро автобус № 97 - до остановки Верхняя Первомайская улица, далее 3 минуты пешком.<br>
-                            Или автобусы № 257, 52, Т32, Т41 - до остановки 3-я Парковая улица, далее 15 мин. пешком.
-
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('kontakty-main_podzagolovok') ?></div>
+                        <div class="page-main-section__title title"><?php the_field('kontakty-main_zagolovok') ?></div>
+                        <div class="page-main-section__description description"><?php the_field('kontakty-main_tekst') ?>
                         </div>
 
                         <div id="textHidden" class="text-hidden">
-                            <b>От метро «Первомайская»:</b> <br>
-                            Выход из метро к Первомайской улице. <br>
-                            От метро любой трамвай или автобусы № Т22, 634, 974, 223 - до остановки 3-я Парковая улица. <br>
-                            Далее 10 минут пешком. <br> <br>
-
-                            <b>От метро «Преображенская площадь»:</b> <br>
-                            Первый вагон из центра. <br>
-                            От метро автобус № 230 - до остановки 3-я Парковая улица, далее 3 минуты пешком. <br>
-                            Или автобусы № Т83, 449, 52 - до остановки Монтажная улица, далее 12 мин пешком. <br> <br>
-
-                            <b>От метро «Черкизовская»:</b> <br>
-                            Автобус № 230, 52, 716, Т32, Т41, Т83 - до остановки Монтажная улица, далее 12 минут пешком. <br>
-                            Или автобус № 34К - до остановки Школа, далее 8 мин пешком. <br>
-                            Или автобус № 974 - до остановки 3-я Парковая улица, далее 4 мин пешком.
-
+                            <?php the_field('kontakty-main_tekst-hidden') ?>
                         </div>
                         <div class="main-section__buttons">
                             <button id="textHiddenBtn" class="btn">Подробнее</button>
@@ -65,7 +43,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-03.jpg" alt="">
+                        <img src="<?php the_field('kontakty-main_kartinka') ?>" alt="">
                     </div>
                 </div>
 
@@ -109,12 +87,12 @@ get_header();
     <section class="page-contact-second-section">
         <div class="container page-second-section__container">
             <div class="page-about-section__quote">
-                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
-                <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
+                <img src="<?php the_field('kontakty-ruk_foto') ?>" alt="">
+                <div class="page-about-section__quote-text">“<?php the_field('kontakty-ruk_pas') ?>”
                 </div>
                 <div class="page-about-section__quote-label">
-                    <span>Замура <br> Юлия Игоревна</span>
-                    Руководитель зуботехнической лаборатории
+                    <span><?php the_field('kontakty-ruk_fio') ?></span>
+                    <?php the_field('kontakty-ruk_post') ?>
                 </div>
             </div>
             <div class="page-second-section__decor">
@@ -132,14 +110,13 @@ get_header();
                 </div>
                 <div class="page-contact-third-section__title">Контакты</div>
                 <div class="page-contact-third-section__phone">
-                    <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+                    <a href="tel:+74951503001"><?php the_field('kontakty-kontakt_telefon') ?></a>
                 </div>
-                <div class="page-contact-third-section__map">Москва, 3-я Парковая ул, 41А</div>
-                <div class="page-contact-third-section__time">Пн-Сб 10:00-20:00</div>
+                <div class="page-contact-third-section__map"><?php the_field('kontakty-kontakt_adress') ?></div>
+                <div class="page-contact-third-section__time"><?php the_field('kontakty-kontakt_time') ?></div>
             </div>
             <div class="page-contact-third-section__column">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d9b363750c72220ff7e4284c5d40110f449c1cd9f5f73a33665048a7afab7c9&amp;width=100%25&amp;height=342&amp;lang=ru_RU&amp;scroll=true"></script>
-
+                <?php the_field('kontakty-kontakt_karta') ?>
                 <div class="page-contact-third-section__decor-content decor-lilac"></div>
 
             </div>
@@ -150,8 +127,8 @@ get_header();
     <section class="page-contact-fourth-section">
         <div class="page-contact-fourth-section__container container">
             <div class="page-contact-fourth-section__name">
-                <div class="page-contact-fourth-section__title title">Проверьте подлинность отзывов</div>
-                <div class="page-contact-fourth-section__description description">Мы всегда честны с нашими пациентами, поэтому не забудьте проверить рейтинг и отзывы о нашей клинике
+                <div class="page-contact-fourth-section__title title"><?php the_field('kontakty-reviews_zagolovok') ?></div>
+                <div class="page-contact-fourth-section__description description"><?php the_field('kontakty-reviews_podzagolovok') ?>
                 </div>
             </div>
 

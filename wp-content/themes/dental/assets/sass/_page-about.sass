@@ -35,20 +35,18 @@
         a
             margin-bottom: 2px
 
-
-
 /* Правая колонка контента */
 .page-about-section
     &__banner
         height: 342px
         width: 100%
-        border-radius: 5px 45px 45px 45px
-        background: url(assets/img/page/page-banner.jpg) center top/cover no-repeat
         margin-bottom: 50px
 
         display: flex
         align-items: flex-end
-        padding-left: 35px
+        position: relative
+        padding-left: 35px 
+        border-radius: 5px 45px 45px 45px
         &_laboratoriya
             background: url(assets/img/page/servise/content-page-services-06.jpg) center /cover no-repeat
         &_garantiya
@@ -57,6 +55,12 @@
             background: url(assets/img/page/about/about-02.jpg) center /cover no-repeat
         &_vychet
             background: url(assets/img/page/about/about-03.jpg) center /cover no-repeat
+        .page-content__banner-wrapper
+            position: absolute
+            left: 0
+            top: 0
+        img
+            border-radius: 5px 45px 45px 45px
 
     &__column
         &:first-child

@@ -82,6 +82,38 @@ function enable_tags_for_pages()
 }
 add_action('init', 'enable_tags_for_pages');
 
+// Новый раздел в меню ДО/ПОСЛЕ
+if (function_exists('acf_add_options_page')) {
 
+  acf_add_options_page(array(
+    'page_title'   => 'До/после',
+    'menu_title'  => 'До/после',
+    'menu_slug'   => 'before-after',
+    'capability'  => 'edit_posts',
+    'redirect'    => false,
+    'icon_url'      => 'dashicons-image-flip-horizontal'
+  ));
+}
 
-                       
+// Новый раздел в меню КАРУСЕЛЬ С ДОКТОРАМИ
+if (function_exists('acf_add_options_page')) {
+
+  acf_add_options_page(array(
+    'page_title'   => 'Карусель с докторами',
+    'menu_title'  => 'Карусель с докторами',
+    'menu_slug'   => 'carousel-doctors',
+    'capability'  => 'edit_posts',
+    'redirect'    => false,
+    'icon_url'      => 'dashicons-groups'
+  ));                       
+}
+
+// * Добавляем разрешение на загрузку .csv
+function add_file_types_to_uploads($file_types)
+{
+  $new_filetypes = array();
+  $new_filetypes['svg'] = 'image/svg+xml';
+  $file_types = array_merge($file_types, $new_filetypes);
+  return $file_types;
+}
+add_action('upload_mimes', 'add_file_types_to_uploads');

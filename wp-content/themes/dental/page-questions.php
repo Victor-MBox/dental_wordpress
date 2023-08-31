@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <div class="page-all">
-    <section class="page-main-section">
+    <section class="page-main-section page-main-section_about"> 
 
         <div class="page-main-section__decor">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">

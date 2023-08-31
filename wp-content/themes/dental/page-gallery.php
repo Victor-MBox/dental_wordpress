@@ -26,18 +26,16 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Наши работы</div>
-                        <div class="page-main-section__description description">Наша галерея работ демонстрирует высокий уровень профессионализма и мастерства нашей команды. Пациенты доверяют нам свое здоровье, а мы, в свою очередь, делаем все возможное, чтобы оправдать это доверие. Все снимки до и после лечения опубликованы с разрешения наших пациентов, что подчеркивает прозрачность и открытость нашей работы. <br> <br>
-                            В нашей команде работают только опытные врачи, которые заботятся о здоровье своих пациентов. Наша команда врачей постоянно обновляет свои знания и навыки, чтобы предоставлять самые современные и эффективные методы лечения. Мы гордимся тем, что наши врачи обладают глубокими знаниями и богатым опытом, что позволяет им предоставлять нашим пациентам безопасную и качественную медицинскую помощь.<br> <br>
-                            Кроме того, наличие собственной зуботехнической лаборатории позволяет нам гарантировать контроль качества на каждом участке и обеспечивает высокие стандарты, принятые в нашем стоматологическом центре.
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('gallery-main_podzagolovok') ?></div>
+                        <div class="page-main-section__title title"><?php the_field('gallery-main_zagolovok') ?></div>
+                        <div class="page-main-section__description description"><?php the_field('gallery-main_tekst') ?>
                         </div>
                     </div>
                 </div>
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-02.jpg" alt="">
+                        <img src="<?php the_field('gallery-main_izobrazhenie') ?>" alt="">
                     </div>
                 </div>
 
@@ -50,7 +48,7 @@ get_header();
 
                             <form action="#" class="form-about" id="form-1">
                                 <input type="hidden" name="form_name" value="Общая на странице Галерея">
-                                
+
                                 <div class="form-about__input">
                                     <input type="text" name="name" placeholder="Имя" class="input">
                                 </div>
@@ -80,14 +78,14 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">Убедитесь в качестве наших услуг сами</div>
-                <div class="page-second-section__title title">Работы специалистов клиники "Зубки Всем"</div>
-                <div class="page-second-section__description description">Мы с гордостью предоставляем вам примеры наших работ, которые демонстрируют высокий профессионализм нашей команды! Здесь вы найдете фотографии клинический случаев, с которыми мы успешно справились. Если у вас есть вопросы - обращайтесь по телефону: <br> <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+                <div class="page-second-section__subtitle subtitle"><?php the_field('gallery-second_podzagolovok') ?></div>
+                <div class="page-second-section__title title"><?php the_field('gallery-second_zagolovok') ?></div>
+                <div class="page-second-section__description description"><?php the_field('gallery-second_text') ?>
                 </div>
             </div>
     </section>
 </div>
-                                              
+
 
 <section class="page-service-section">
     <div class="page-service-section__container container">
@@ -96,75 +94,29 @@ get_header();
 
             <div class="accordion-service-page">
 
-                <div class="accordion-home">
-                    <div data-tab="home-tab-1" class="accordion-home__tab">
-                        <div class="accordion-home__nav-column">
-                            <div class="accordion-home__nav-title">Протезирование</div>
-                            <div class="accordion-home__nav-subtitle">7 работ</div>
+                <?php while (have_rows('gallery-mob_banner')) : the_row(); ?>
+
+                    <div class="accordion-home">
+                        <div data-tab="<?php the_sub_field('id-tab') ?>" class="accordion-home__tab">
+                            <div class="accordion-home__nav-column">
+                                <div class="accordion-home__nav-title"><?php the_sub_field('procedura') ?></div>
+                                <div class="accordion-home__nav-subtitle"><?php the_sub_field('kolichestvo') ?></div>
+                            </div>
+                            <div class="accordion-home__strip strip <?php the_sub_field('color') ?>"></div>
                         </div>
-                        <div class="accordion-home__strip strip strip_yellow"></div>
-                    </div>
-                    <div id="home-tab-1" class="accordion-home__content">
+                        <div id="<?php the_sub_field('id-tab') ?>" class="accordion-home__content">
 
-                        <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-8.jpg" alt="">
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
+                            </div>
+
+                            <a class="btn btn_mob" href="<?php the_sub_field('ssylka') ?>">Смотреть работы</a>
+
                         </div>
-
-                        <a class="btn btn_mob" href="/raboty-protezirovanie/">Смотреть работы</a>
-
                     </div>
-                </div>
 
-                <div class="accordion-home">
-                    <div data-tab="home-tab-2" class="accordion-home__tab">
-                        <div class="accordion-home__nav-column">
-                            <div class="accordion-home__nav-title">Хирургия</div>
-                            <div class="accordion-home__nav-subtitle">1 работа</div>
-                        </div>
-                        <div class="accordion-home__strip strip strip_turquoise"></div>
-                    </div>
-                    <div id="home-tab-2" class="accordion-home__content">
+                <?php endwhile; ?>
 
-                        <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
-                        </div>
-                        <a class="btn btn_mob" href="/raboty-hirurgiya/">Смотреть работы</a>
-                    </div>
-                </div>
-
-                <div class="accordion-home">
-                    <div data-tab="home-tab-3" class="accordion-home__tab">
-                        <div class="accordion-home__nav-column">
-                            <div class="accordion-home__nav-title">Имплантация</div>
-                            <div class="accordion-home__nav-subtitle">2 работы</div>
-                        </div>
-                        <div class="accordion-home__strip strip strip_red"></div>
-                    </div>
-                    <div id="home-tab-3" class="accordion-home__content">
-
-                        <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-02.jpg" alt="">
-                        </div>
-                        <a class="btn btn_mob" href="/raboty-implantacziya/">Смотреть работы</a>
-                    </div>
-                </div>
-
-                <div class="accordion-home">
-                    <div data-tab="home-tab-4" class="accordion-home__tab">
-                        <div class="accordion-home__nav-column">
-                            <div class="accordion-home__nav-title">Гигиена</div>
-                            <div class="accordion-home__nav-subtitle">1 работа</div>
-                        </div>
-                        <div class="accordion-home__strip strip strip_lilac"></div>
-                    </div>
-                    <div id="home-tab-4" class="accordion-home__content">
-
-                        <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
-                        </div>
-                        <a class="btn btn_mob" href="/raboty-gigiena/">Смотреть работы</a>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -289,110 +241,39 @@ get_header();
 
             <section class="page-contetn__wrapper" id="content-page">
 
-                <div class="page-content__chapter page-content__chapter_margin">
-                    <div class="page-content__banner page-content__banner_protezirovanie page-content__banner_protezirovanie_min">
-                    </div>
 
-                    <div class="page-content__procedure procedure">
-                        <div style="margin-bottom: 0;" class="procedure__column">
-                            <div class="procedure__row-all">
+                <?php while (have_rows('gallery_banner')) : the_row(); ?>
 
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-
-                                <div class="procedure__row-wrapper">
-                                    <div class="procedure__row">
-                                        <div class="procedure__subtitle">Процедура</div>
-                                    </div>
-                                    <div class="procedure__row">
-                                        <div class="procedure__title">Протезирование</div>
-                                    </div>
-                                </div>
+                    <div class="page-content__chapter page-content__chapter_margin">
+                        <div class="page-content__banner page-content__banner_galerea">
+                            <div class="page-content__banner-wrapper">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
                             </div>
-                            <button class="btn btn_lilac" href="raboty-protezirovanie/" id="vr1" onclick="toggleActiveClass(this)">Смотреть работы</button>
+                        </div>
+
+                        <div class="page-content__procedure procedure">
+                            <div style="margin-bottom: 0;" class="procedure__column">
+                                <div class="procedure__row-all">
+
+                                    <div class="procedure__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                    </div>
+
+                                    <div class="procedure__row-wrapper">
+                                        <div class="procedure__row">
+                                            <div class="procedure__subtitle">Процедура</div>
+                                        </div>
+                                        <div class="procedure__row">
+                                            <div class="procedure__title"><?php the_sub_field('proczedura') ?></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn_lilac" <?php the_sub_field('dejstviya_knopki') ?>>Смотреть работы</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="page-content__chapter page-content__chapter_margin">
-                    <div class="page-content__banner page-content__banner_khirurgiya page-content__banner_khirurgiya_min">
-                    </div>
-
-                    <div class="page-content__procedure procedure">
-                        <div style="margin-bottom: 0;" class="procedure__column">
-                            <div class="procedure__row-all">
-
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-
-                                <div class="procedure__row-wrapper">
-                                    <div class="procedure__row">
-                                        <div class="procedure__subtitle">Процедура</div>
-                                    </div>
-                                    <div class="procedure__row">
-                                        <div class="procedure__title">Хирургия</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="btn btn_lilac" href="raboty-hirurgiya/" id="vr3" onclick="toggleActiveClass(this)">Смотреть работы</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="page-content__chapter page-content__chapter_margin">
-                    <div class="page-content__banner page-content__banner_implantatsiya page-content__banner_implantatsiya_min">
-                    </div>
-
-                    <div class="page-content__procedure procedure">
-                        <div style="margin-bottom: 0;" class="procedure__column">
-                            <div class="procedure__row-all">
-
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-
-                                <div class="procedure__row-wrapper">
-                                    <div class="procedure__row">
-                                        <div class="procedure__subtitle">Процедура</div>
-                                    </div>
-                                    <div class="procedure__row">
-                                        <div class="procedure__title">Имплантация</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="btn btn_lilac" href="raboty-implantacziya/" id="vr2" onclick="toggleActiveClass(this)">Смотреть работы</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="page-content__chapter page-content__chapter_margin">
-                    <div class="page-content__banner page-content__banner_kariyes page-content__banner_kariyes_min">
-                    </div>
-
-                    <div class="page-content__procedure procedure">
-                        <div style="margin-bottom: 0;" class="procedure__column">
-                            <div class="procedure__row-all">
-
-                                <div class="procedure__img">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
-                                </div>
-
-                                <div class="procedure__row-wrapper">
-                                    <div class="procedure__row">
-                                        <div class="procedure__subtitle">Процедура</div>
-                                    </div>
-                                    <div class="procedure__row">
-                                        <div class="procedure__title">Гигиена</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="btn btn_lilac" href="raboty-gigiena/" id="vr3" onclick="toggleActiveClass(this)">Смотреть работы</button>
-                        </div>
-                    </div>
-                </div>
-
+                <?php endwhile; ?>
 
 
             </section>

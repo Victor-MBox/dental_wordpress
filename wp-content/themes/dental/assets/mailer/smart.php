@@ -42,7 +42,8 @@ $mail->Port = 465;
 // От кого письмо
 $mail->setFrom('dental@p-prosto.ru', 'Сайт zubkivsem');
 // Кому отправить
-$mail->addAddress('victor.matsakov7@gmail.com');
+$email_address = get_field('adres_pochty_dlya_zayavok', 'option');
+$mail->addAddress('$email_address');
 
 $mail->Subject = 'Заявка с сайта';
 

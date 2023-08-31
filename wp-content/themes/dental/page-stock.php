@@ -26,14 +26,12 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">Наши акции</div>
-                        <div class="page-main-section__description description">Мы рады предложить вам уникальную возможность воспользоваться нашими ежемесячными акциями, которые предусматривают специальные условия и скидки на различные виды стоматологических услуг. Это отличная возможность не только сохранить здоровье и красоту вашей улыбки, но и существенно сэкономить.
-                            <br> <br>
-                            Наша клиника "Зубки всем" стремится сделать высококачественные стоматологические услуги доступными для каждого. Мы предлагаем разумные цены, которые позволяют широким слоям населения получить профессиональную помощь и уход за своим здоровьем. Никаких скрытых платежей или неожиданных дополнительных расходов - все условия прозрачны и понятны.
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('stocks-main_podzagolovok') ?></div>
+                        <div class="page-main-section__title title"><?php the_field('stocks-main_zagolovok') ?></div>
+                        <div class="page-main-section__description description"><?php the_field('stocks-main_tekst') ?>
                         </div>
                         <div id="textHidden" class="text-hidden">
-                            Важно отметить, что мы предоставляем гарантию на все проведенные нами работы. Это подтверждает нашу ответственность и стремление к безупречному качеству предоставляемых услуг. Обращаясь в клинику "Зубки всем", вы можете быть уверены в профессионализме наших специалистов и высоком уровне предоставляемого сервиса.
+                            <?php the_field('stocks-main_tekst-hidden') ?>
                         </div>
                         <div class="main-section__buttons">
                             <button id="textHiddenBtn" class="btn">Подробнее</button>
@@ -43,7 +41,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-10.jpg" alt="">
+                        <img src="<?php the_field('stocks-main_izobrazhenie') ?>" alt="">
                     </div>
                 </div>
 
@@ -87,13 +85,13 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">Спецпредложения книники "Зубки всем"</div>
-                <div class="page-second-section__title title">Акции июля</div>
+                <div class="page-second-section__subtitle subtitle"><?php the_field('stocks-second_podzagolovok') ?></div>
+                <div class="page-second-section__title title"><?php the_field('stocks-second_zagolovok') ?></div>
             </div>
-            <div class="page-second-section__description description">Каждый месяц мы проводим выгодные акции для наших пациентов. Подробности акций уточняйте по телефону: <a href="tel:+74951503001">+7 (495) 150-30-01</a>
+            <div class="page-second-section__description description"><?php the_field('stocks-second_text') ?>
             </div>
     </section>
-</div>
+</div>                                        
 
 <div class="page-stock">
 
@@ -248,167 +246,32 @@ get_header();
 
             <div class="page-about-section__column">
 
-                <div class="page-about-section__chapter" id="stock-01">
-                    <div class="page-stock__title">
-                        При установке 5 виниров – 6-й дарим в подарок!
-                    </div>
+                <?php while (have_rows('stocks_banner')) : the_row(); ?>
 
-                    <div class="page-about-section__banner page-about-section__banner_01">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock1Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
+                    <div class="page-about-section__chapter" id="<?php the_sub_field('yakor') ?>">
+                        <div class="page-stock__title">
+                            <?php the_sub_field('zagolovok') ?>
                         </div>
 
-                    </div>
+                        <div class="page-about-section__banner">
 
-                    <div class="page-about-section__text">Стоимость одного керамического винира в июле – 16000 ₽ с 3-х летней гарантией! <br>
-                        Стоимость композитного винира – 9000 ₽ с установкой за один день.
-                    </div>
-                </div>
+                            <div class="accordion-home__img-wrapper">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
+                            </div>
 
-                <div class="page-about-section__chapter" id="stock-02">
-                    <div class="page-stock__title">
-                        Профессиональное отбеливание зубов – 15000₽ <span>22000₽</span>
-                    </div>
+                            <div class="page-stock__btn-call">
+                                <button class="btn-call" data-modal="<?php the_sub_field('modal') ?>">
+                                    <div class="btn-call__img"></div>
+                                    <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
+                                </button>
+                            </div>
 
-                    <div class="page-about-section__banner page-about-section__banner_02">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock2Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним </div>
-                            </button>
                         </div>
 
-                    </div>
-
-                    <div class="page-about-section__text">Получите белоснежную улыбку всего за 1 час со скидкой 30%! <br> Гарантия 4 месяца. Коррекция цвета включена в стоимость.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-03">
-                    <div class="page-stock__title">
-                        Дарим скидку 15% на терапевтическое лечение при установке брекетов или элайнеров!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_03">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock3Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
+                        <div class="page-about-section__text"><?php the_sub_field('opisanie') ?>
                         </div>
-
                     </div>
-
-                    <div class="page-about-section__text">При установке брекетов или элайнеров в клинике “Зубки Всем” предоставляется скидка 15% на терапевтическое лечение. Гарантия результата 100%. <br> Стоимость установки брекетов – от 120.000₽, стоимость установки элайнеров – от 150.000₽.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-04">
-                    <div class="page-stock__title">
-                        Коронка из самого прочного материала – циркония всего за 18000₽ <span>28000₽</span>!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_04">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock4Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
-                        </div>
-
-                    </div>
-
-                    <div class="page-about-section__text">Срок установки – 5 рабочих дней. Гарантия – 4 года.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-05">
-                    <div class="page-stock__title">
-                        Каждый второй имплант со скидкой 50%!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_05">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock5Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
-                        </div>
-
-                    </div>
-
-                    <div class="page-about-section__text">Дарим скидку 50% на установку каждого второго импланта. <br> Срок установки – 1 день. Стоимость 1 импланта – 30000₽. <br> Даем пожизненную гарантию при соблюдении ряда условий.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-06">
-                    <div class="page-stock__title">
-                        Имплантация All-on-4 на одну челюсть 150.000₽ только в июле!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_06">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock6Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
-                        </div>
-
-                    </div>
-
-                    <div class="page-about-section__text">Протезирование всех зубов на одной челюсти на 4-х имплантах – 150.000₽. <br>
-                        Установка имплантов входит в стоимость.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-07">
-                    <div class="page-stock__title">
-                        Съемные протезы из высококачественных материалов от 15000₽ за 3 сеанса!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_07">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock7Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
-                        </div>
-
-                    </div>
-
-                    <div class="page-about-section__text">Протезы изготавливаются из качественных материалов: акри фри, нейлон, акрил, квадротти. <br> Гарантия – 5 лет.
-                    </div>
-                </div>
-
-                <div class="page-about-section__chapter" id="stock-08">
-                    <div class="page-stock__title">
-                        Подарок именинникам - скидка 10% на услуги стоматологии!
-                    </div>
-
-                    <div class="page-about-section__banner page-about-section__banner_08">
-
-                        <div class="page-stock__btn-call">
-                            <button class="btn-call" data-modal="stock8Modal">
-                                <div class="btn-call__img"></div>
-                                <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
-                            </button>
-                        </div>
-
-                    </div>
-
-                    <div class="page-about-section__text">Скидка именинникам 10% распространяется на все услуги стоматологии. <br> Скидка действует за 5 дней до и 5 дней после Дня Рождения.
-                    </div>
-                </div>
+                <?php endwhile; ?>
 
 
             </div>

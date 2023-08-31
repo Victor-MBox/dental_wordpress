@@ -602,7 +602,7 @@ get_header();
                                 <div class="accordion-home__price-item">
                                     <div class="accordion-home__price-name">
                                         <span>№14</span> <br>
-                                        Винор на рефлекторе (практически без обточки тканей зуба)
+                                        Винир на рефлекторе (практически без обточки тканей зуба)
                                     </div>
                                     <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=2_6#2_6">О методе</a></div>
                                     <div class="accordion-home__price-price">30 000 ₽</div>
@@ -1290,7 +1290,7 @@ get_header();
                                             Внутрикостная дентальная имплантация “Astra” (Швеция)
                                         </div>
                                         <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_5#4_5">О методе</a></div>
-                                        <div class="accordion-home__price-price">₽</div>
+                                        <div class="accordion-home__price-price">39 900 ₽</div>
                                     </div>
                                 </div>
 

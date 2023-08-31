@@ -26,15 +26,13 @@ get_header();
             <div class="page-main-section__container">
                 <div class="page-main-section__column">
                     <div class="page-main-section__name">
-                        <div class="page-main-section__subtitle subtitle">Мы – больше чем просто стоматология!</div>
-                        <div class="page-main-section__title title">О нашей клинике</div>
-                        <div class="page-main-section__description description">Стоматологическая клиника "Зубки всем" предлагает высококачественные услуги в области стоматологии, используя в своей работе современное оборудование и новейшие технологии. Одним из главных преимуществ клиники является наличие собственного производства, что позволяет контролировать все этапы работы, начиная от создания материалов и заканчивая непосредственно лечением. Это гарантирует высокое качество предоставляемых услуг и исключает возможность использования некачественных материалов.
-                            <br> <br>
-                            Важным аспектом работы клиники "Зубки всем" является прозрачность ценообразования. В нашей клинике отсутствуют скрытые платежи и непредвиденные дополнительные расходы. При этом цены в клинике остаются разумными, что делает высококачественную стоматологию доступной для широкого круга пациентов.
+                        <div class="page-main-section__subtitle subtitle"><?php the_field('about-main_podzagolovok') ?></div>
+                        <div class="page-main-section__title title"><?php the_field('about-main_zagolovok') ?></div>
+                        <div class="page-main-section__description description"><?php the_field('about-main_tekst') ?>
                         </div>
 
                         <div id="textHidden" class="text-hidden">
-                            Особое внимание в "Зубки всем" уделяется квалификации врачей. В нашей команде работают только опытные специалисты, регулярно повышающие свою квалификацию и следующие за последними новинками в области стоматологии. Благодаря этому пациенты могут быть уверены, что их здоровье находится в надежных руках.
+                            <?php the_field('about-main_tekst-hidden') ?>
                         </div>
                         <div class="main-section__buttons">
                             <button id="textHiddenBtn" class="btn">Подробнее</button>
@@ -46,7 +44,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-05.jpg" alt="">
+                        <img src="<?php the_field('about-main_izobrazhenie') ?>" alt="">
                     </div>
                 </div>
 
@@ -90,9 +88,9 @@ get_header();
     <section class="page-second-section">
         <div class="container page-second-section__container">
             <div class="page-second-section__name">
-                <div class="page-second-section__subtitle subtitle">Мы больше, чем просто стоматология!</div>
-                <div class="page-second-section__title title">О нашей клинике</div>
-                <div class="page-second-section__description description">Клиника "Зубки Всем" - место, где забота о здоровье вашей улыбки становится нашим главным приоритетом! Мы обеспечим вас высококвалифицированными услугами, сделаем посещение максимально комфортным и поможем в вопросах достижения безупречной улыбки!
+                <div class="page-second-section__subtitle subtitle"><?php the_field('about-second_podzagolovok') ?></div>
+                <div class="page-second-section__title title"><?php the_field('about-second_zagolovok') ?></div>
+                <div class="page-second-section__description description"><?php the_field('about-second_text') ?>
                 </div>
             </div>
     </section>
@@ -167,24 +165,17 @@ get_header();
             <div class="page-about-section__chapter" id="start-link">
 
                 <div class="page-about-section__banner">
-                    <div class="page-about-section__label"><span>12 + </span>Квалифицированных специалистов</div>
-                    <div class="page-about-section__label page-about-section__label_lilac"><span>23 + </span>лет работы на базе лаборатории АЛВАДЕНТ</div>
-                    <div class="page-about-section__label page-about-section__label_yellow"><span>20 000 + </span>Изготовленных
-                        протезов</div>
+
+                    <div class="page-content__banner-wrapper">
+                        <img src="<?php the_field('about-content_izobrazhenie') ?>" alt="">
+                    </div>
+
+                    <div class="page-about-section__label"><span><?php the_field('about-content_yarlyk_1') ?> </span><?php the_field('about-content_yarlyk_1_tekst') ?></div>
+                    <div class="page-about-section__label page-about-section__label_lilac"><span><?php the_field('about-content_yarlyk_2') ?></span><?php the_field('about-content_yarlyk_2_tekst') ?></div>
+                    <div class="page-about-section__label page-about-section__label_yellow"><span><?php the_field('about-content_yarlyk_3') ?> </span><?php the_field('about-content_yarlyk_3_tekst') ?></div>
                 </div>
 
-                <div class="page-about-section__text">Московская клиника «Зубки. Всем» поможет решить любые проблемы с вашими зубами. Мы используем наработки ведущих мировых центров стоматологии, чтобы сделать улыбку наших пациентов ослепительной. <br><br>
-                    О компании «Зубки Всем» можно уверенно сказать, что здесь работает сплоченная команда профессионалов, влюбленная в свое дело. Самые сложные случаи, благодаря высокой квалификации наших стоматологов-терапевтов, хирургов, ортопедов и ортодонтов решаются быстро, качественно, с максимальным комфортом для пациента.<br><br>
-
-                    Для точной диагностики у нас имеется высокотехнологичное оборудование – цифровые томографы, ортопантомографы и радиовизиографы. Полную диагностику можно пройти за одно обращение в клинику.<br><br>
-
-                    Компания имеет собственную зуботехническую лабораторию АЛВАДЕНТ, оснащенную по последнему слову стоматологической науки. Передовая аппаратура позволяет быстро и качественно моделировать и изготовлять любые типы протезов, имплантов, ортодонтических конструкций.<br><br>
-
-                    Качество стоматологического материала и успешная работа наших врачей позволяют предоставлять пациентам гарантию на оказанные услуги.<br><br>
-
-                    Каждый пациент для нас ,прежде всего, личность. Приоритетом для врача клиники является индивидуальный подход и забота о безопасности для здоровья пациентов. Для вас мы создали программу лояльности, предоставляем скидки и бонусы, регулярно проводим акции.<br><br>
-
-                    Чтобы убедиться в высоком уровне компании Зубки всем стоит просто прийти на прием, и вы сразу почувствуете, что очутились в надежных, заботливых руках настоящих профессионалов.<br><br>
+                <div class="page-about-section__text"><?php the_field('about-content_osnovnoj-tekst') ?>
                 </div>
 
                 <div class="page-about-section__slider">
@@ -193,16 +184,12 @@ get_header();
                     </div>
 
                     <div class="page-about-section__slider-wrapper" id="aboutLaboratorySlider">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-01.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-03.jpg" alt="">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/slider/about-slider-02.jpg" alt="">
+
+                        <?php while (have_rows('about-content_slajdy')) : the_row(); ?>
+                            <img src="<?php the_sub_field('slajd') ?>" alt="">
+                        <?php endwhile; ?>
+
+
                     </div>
                     <div class="slider-arrows">
                         <button class="slider-arrows__left" id="aboutLaboratorySliderPrev" type="button"></button>
