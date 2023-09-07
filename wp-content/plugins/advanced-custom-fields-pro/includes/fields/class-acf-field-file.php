@@ -137,7 +137,7 @@ if ( ! class_exists( 'acf_field_file' ) ) :
 			?>
 	<div class="show-if-value file-wrap">
 		<div class="file-icon">
-			<img data-name="icon" src="<?php echo esc_url( $o['icon'] ); ?>" alt=""/>
+			<img data-name="icon" src="<?php echo esc_url( $o['icon'] ); ?>" alt="" loading="lazy"/>
 		</div>
 		<div class="file-info">
 			<p>

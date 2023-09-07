@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about"> 
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-3.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-3.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -42,7 +42,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-img.jpg" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -479,7 +479,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
     </section>
 
 

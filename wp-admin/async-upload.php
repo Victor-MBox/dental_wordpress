@@ -54,7 +54,7 @@ if ( isset( $_REQUEST['attachment_id'] ) && (int) $_REQUEST['attachment_id'] && 
 					<?php
 					$thumb_url = wp_get_attachment_image_src( $id, 'thumbnail', true );
 					if ( $thumb_url ) {
-						echo '<img class="pinkynail" src="' . esc_url( $thumb_url[0] ) . '" alt="" />';
+						echo '<img class="pinkynail" src="' . esc_url( $thumb_url[0] ) . '" alt="" loading="lazy" />';
 					}
 
 					// Title shouldn't ever be empty, but use filename just in case.

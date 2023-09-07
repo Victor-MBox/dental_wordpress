@@ -18,9 +18,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                         </div>
 
                         <div class="main-section__content">
@@ -36,7 +36,7 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-1'); ?>" alt="">
+                        <img class="main-section__img" src="<?php the_field('img_slide-1'); ?>" alt="" loading="lazy">
 
                     </div>
                 </div>
@@ -45,9 +45,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                         </div>
 
                         <div class="main-section__content">
@@ -63,7 +63,7 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-2'); ?>" alt="">
+                        <img class="main-section__img" src="<?php the_field('img_slide-2'); ?>" alt="" loading="lazy">
 
                     </div>
                 </div>
@@ -72,9 +72,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                         </div>
 
                         <div class="main-section__content">
@@ -90,7 +90,7 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-3'); ?>" alt="">
+                        <img class="main-section__img" src="<?php the_field('img_slide-3'); ?>" alt="" loading="lazy">
 
                     </div>
                 </div>
@@ -99,9 +99,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                         </div>
 
                         <div class="main-section__content">
@@ -117,7 +117,7 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-4'); ?>" alt="">
+                        <img class="main-section__img" src="<?php the_field('img_slide-4'); ?>" alt="" loading="lazy">
 
                     </div>
                 </div>
@@ -126,9 +126,9 @@ get_header();
 
                     <div class="main-section__column">
                         <div class="main-section__social social">
-                            <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                         </div>
 
                         <div class="main-section__content">
@@ -144,7 +144,7 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-5'); ?>" alt="">
+                        <img class="main-section__img" src="<?php the_field('img_slide-5'); ?>" alt="" loading="lazy">
 
                     </div>
                 </div>
@@ -213,7 +213,7 @@ get_header();
 
                 <div class="about-section__image">
                     <div class="about-section__decor-red decor-red"></div>
-                    <img src="<?php the_field('home-about_img') ?>" alt="">
+                    <img src="<?php the_field('home-about_img') ?>" alt="" loading="lazy">
                     <div class="about-section__decor-yellow decor-yellow"></div>
                 </div>
 
@@ -275,7 +275,7 @@ get_header();
 
                     <div class="tabs__content">
                         <div class="tabs__item" id="tab_1">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="" loading="lazy">
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
@@ -295,7 +295,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_2">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="" loading="lazy">
 
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -332,7 +332,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_3">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="" loading="lazy">
 
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -351,7 +351,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_4">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="" loading="lazy">
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
                                     <div class="btn-call__img"></div>
@@ -390,7 +390,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_5">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="" loading="lazy">
 
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -409,7 +409,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_6">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="" loading="lazy">
 
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -427,7 +427,7 @@ get_header();
                         </div>
 
                         <div class="tabs__item" id="tab_7">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="" loading="lazy">
 
                             <div class="tabs__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -533,7 +533,7 @@ get_header();
                         </div>
                         <div id="home-tab-1" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-01.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-calc">
                                 <button class="btn-call" data-modal="mainModal">
@@ -555,7 +555,7 @@ get_header();
                         </div>
                         <div id="home-tab-2" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-02.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -576,7 +576,7 @@ get_header();
                         </div>
                         <div id="home-tab-3" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-03.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-calc">
                                 <button class="btn-call" data-modal="mainModal">
@@ -597,7 +597,7 @@ get_header();
                         </div>
                         <div id="home-tab-4" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-04.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -618,7 +618,7 @@ get_header();
                         </div>
                         <div id="home-tab-5" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-05.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-calc">
                                 <button class="btn-call" data-modal="mainModal">
@@ -639,7 +639,7 @@ get_header();
                         </div>
                         <div id="home-tab-6" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services-06.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -660,7 +660,7 @@ get_header();
                         </div>
                         <div id="home-tab-7" class="accordion-home__content">
 
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/home-services.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-calc">
                                 <button class="btn-call" data-modal="mainModal">
@@ -783,8 +783,8 @@ get_header();
 
                     <div class="carousel__wrapper">
                         <div class="carousel__photo">
-                            <img src="<?php the_sub_field('foto') ?>" alt="">
-                            <div class="carousel__label <?php the_sub_field('czvet') ?>" alt="">
+                            <img src="<?php the_sub_field('foto') ?>" alt="" loading="lazy">
+                            <div class="carousel__label <?php the_sub_field('czvet') ?>" alt="" loading="lazy">
                                 <p>Опыт</p> <span><?php the_sub_field('stazh') ?></span>
                             </div>
                         </div>
@@ -832,7 +832,7 @@ get_header();
             <div class="laboratory-section__column">
                 <div class="laboratory-section__image">
                     <div class="laboratory-section__decor-red decor-red"></div>
-                    <img src="<?php the_field('home-lab_img') ?>" alt="">                                  
+                    <img src="<?php the_field('home-lab_img') ?>" alt="" loading="lazy">                                  
                     <div class="laboratory-section__decor-yellow decor-yellow"></div>
 
                 </div>
@@ -872,7 +872,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="laboratory-section__decor-footer"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/bg/footer.svg" alt=""></div>
+            <div class="laboratory-section__decor-footer"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/bg/footer.svg" alt="" loading="lazy"></div>
         </div>
     </section>
 </main>

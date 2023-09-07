@@ -481,7 +481,7 @@ if ( ! class_exists( 'acf_field_gallery' ) ) :
 						<input type="hidden" name="<?php echo esc_attr( $field['name'] ); ?>[]" value="<?php echo esc_attr( $a_id ); ?>" />
 						<div class="margin">
 							<div class="thumbnail">
-								<img src="<?php echo esc_url( $a_thumbnail['url'] ); ?>" alt="" />
+								<img src="<?php echo esc_url( $a_thumbnail['url'] ); ?>" alt="" loading="lazy" />
 							</div>
 							<?php if ( $a_type !== 'image' ) : ?>
 								<div class="filename"><?php echo acf_get_truncated( $a_filename, 30 ); ?></div>	

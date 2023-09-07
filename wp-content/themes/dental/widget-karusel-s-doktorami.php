@@ -5,8 +5,8 @@
 
             <div class="carousel__wrapper">
                 <div class="carousel__photo">
-                    <img src="<?php the_sub_field('foto') ?>" alt="">
-                    <div class="carousel__label <?php the_sub_field('czvet') ?>" alt="">
+                    <img src="<?php the_sub_field('foto') ?>" alt="" loading="lazy">
+                    <div class="carousel__label <?php the_sub_field('czvet') ?>" alt="" loading="lazy">
                         <p>Опыт</p> <span><?php the_sub_field('stazh') ?></span>
                     </div>
                 </div>

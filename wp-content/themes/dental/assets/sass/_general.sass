@@ -29,6 +29,9 @@ img
         min-height: auto
     &_info
         margin-top: 0
+    &_laboratoria
+        .page-main-section_about__form
+            top: 400px
 
 .page-search
     display: flex
@@ -64,6 +67,8 @@ img
     right: auto !important
     left: 50px
 
+
+
 /* Home__Главный экран */
 .main-section
     min-height: 798px
@@ -85,6 +90,7 @@ img
             width: 56.39%
         &:last-child
             width: 43.61%
+            padding: 0 2%
     &__social
         margin-bottom: 25px
     &__title
@@ -139,34 +145,18 @@ img
         margin-right: 10px
         width: 24px
         height: 24px
-        background: #fff
         border-radius: 90px
         display: flex
         align-items: center
         justify-content: center
-        border: 1px solid #fff
         transition: .3s
-        &:nth-child(2)
-            img
-                height: 12px
-                width: 14px
-        &:nth-child(3)
-            img
-                height: 14px
-                width: 16px
         img
-            height: 10px
-            width: 12px
+            width: 24px
+            height: 24px
+
         &:hover
-            background: none
-            border: 1px solid #B4B9C8
-    &_nav
-        a
-            background: #01BCF8
-            border: 1px solid #01BCF8
-            &:hover
-                background: #01BCF8
-                border: 1px solid #B4B9C8
+            transform: translateY(-2px)
+
 
 /* Home__Вторая секция */
 .second-section

@@ -2780,7 +2780,7 @@ function wp_underscore_playlist_templates() {
 	?>
 <script type="text/html" id="tmpl-wp-playlist-current-item">
 	<# if ( data.thumb && data.thumb.src ) { #>
-		<img src="{{ data.thumb.src }}" alt="" />
+		<img src="{{ data.thumb.src }}" alt="" loading="lazy" />
 	<# } #>
 	<div class="wp-playlist-caption">
 		<span class="wp-playlist-item-meta wp-playlist-item-title">
@@ -5622,7 +5622,7 @@ function wp_get_loading_optimization_attributes( $tag_name, $attr, $context ) {
 	};
 	// Closure to increase media count for images with certain minimum threshold, mostly used for header images.
 	$maybe_increase_content_media_count = static function() use ( $attr ) {
-		/** This filter is documented in wp-admin/includes/media.php */
+		/** This filter is documented in wp-includes/media.php */
 		$wp_min_priority_img_pixels = apply_filters( 'wp_min_priority_img_pixels', 50000 );
 		// Images with a certain minimum size in the header of the page are also counted towards the threshold.
 		if ( $wp_min_priority_img_pixels <= $attr['width'] * $attr['height'] ) {

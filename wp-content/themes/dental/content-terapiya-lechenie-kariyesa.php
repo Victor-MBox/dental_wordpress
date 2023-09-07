@@ -26,7 +26,7 @@ get_header();
                         </div>
                     </div>
                     <div class="page-content__first-decor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
                     </div>
 
                     <div class="page-content__text">Кариес переводится как «гниение». Твердая ткань зуба разрушается под действием бактерий. Если вовремя не провести лечение кариеса ― начнется пульпит или периодонтит, в итоге можно лишиться зуба. Устойчивость к болезни зависит от соблюдения гигиены полости рта, состава микрофлоры, количества потребляемых сладостей, анатомического строения зубов, общего иммунитета. Пролечив кариес в начальной стадии, вы сохраните зуб «живым», не придется прибегать к его депульпации и последующему протезированию.
@@ -110,12 +110,12 @@ get_header();
                     <div class="page-content__table">
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="" loading="lazy">
                             <p>Услуга</p>
                         </div>
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="" loading="lazy">
                             <p>Стоимость</p>
                         </div>
                     </div>
@@ -160,9 +160,9 @@ get_header();
                             <span id="after" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" loading="lazy" class="before-after__img">
                                 <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" loading="lazy" class="before-after__img">
                                 </div>
                             </div>
 
@@ -171,7 +171,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">
@@ -197,9 +197,9 @@ get_header();
                             <span id="after2" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" class="before-after2__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" loading="lazy" class="before-after2__img">
                                 <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" class="before-after2__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" loading="lazy" class="before-after2__img">
                                 </div>
                             </div>
                             <div class="before-after__procedure procedure">
@@ -207,7 +207,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">
@@ -232,9 +232,9 @@ get_header();
                             <span id="after3" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after3__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after3__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" loading="lazy" class="before-after3__img">
                                 <div class="before-after3__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after3__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" loading="lazy" class="before-after3__img">
                                 </div>
                             </div>
                             <div class="before-after__procedure procedure">
@@ -242,7 +242,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">

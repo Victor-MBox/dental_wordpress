@@ -50,7 +50,7 @@ get_header();
                     <div id="home-tab-1" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -66,7 +66,6 @@ get_header();
                                 <li><a href="ortopantomografiya-optg/">Ортопантомография (ОПТГ)</a></li>
                                 <li><a href="priczelnyi-snimok/">Прицельный снимок</a></li>
                                 <li><a href="aksiografiya/">Аксиография</a></li>
-                                <li><a href="kompyuternaya-tomografiya-kt/">Компьютерная томография (КТ)</a></li>
                             </ul>
                             <div class="accordion-home__link-decor"></div>
 
@@ -85,7 +84,7 @@ get_header();
                     <div id="home-tab-2" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-8.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-8.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -126,7 +125,7 @@ get_header();
                     <div id="home-tab-3" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -161,7 +160,7 @@ get_header();
                     <div id="home-tab-4" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -200,7 +199,7 @@ get_header();
                     <div id="home-tab-5" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -235,7 +234,7 @@ get_header();
                     <div id="home-tab-6" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-05.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -268,7 +267,7 @@ get_header();
                     <div id="home-tab-7" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-013.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/servise/content-page-services-013.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__btn-call">
                                 <button class="btn-call" data-modal="mainModal">
@@ -316,7 +315,7 @@ get_header();
                             <li><button class="link-page" href="ortopantomografiya-optg/" id="vrb1_2" onclick="toggleActiveClass(this)">Ортопантомография (ОПТГ)</button></li>
                             <li><button class="link-page" href="priczelnyi-snimok/" id="vrb1_3" onclick="toggleActiveClass(this)">Прицельный снимок</button></li>
                             <li><button class="link-page" href="aksiografiya/" id="vrb1_4" onclick="toggleActiveClass(this)">Аксиография</button></li>
-                            <li><button class="link-page" href="kompyuternaya-tomografiya-kt/" id="vrb1_5" onclick="toggleActiveClass(this)">Компьютерная томография (КТ)</button></li>
+                            
                         </ul>
 
                     </div>

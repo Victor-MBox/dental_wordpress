@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about ">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-3.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-3.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -44,7 +44,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-07.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/page-07.jpg" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@ get_header();
                     <div class="buttons-page-3__text">Гарантия на услуги</div>
                 </a>
 
-                <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
 
             </div>
 
@@ -183,7 +183,7 @@ get_header();
                     <div id="home-tab-1" class="accordion-home__content">
 
                         <div class="accordion-home__img-wrapper">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-01.jpg" alt="" loading="lazy">
 
                             <div class="accordion-home__label">
                                 от <span>0₽</span>
@@ -265,7 +265,7 @@ get_header();
                         <div id="home-tab-2" class="accordion-home__content">
 
                             <div class="accordion-home__img-wrapper">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-02.jpg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-02.jpg" alt="" loading="lazy">
 
                                 <div class="accordion-home__label">
                                     от <span>1 500₽</span>
@@ -740,7 +740,7 @@ get_header();
                             <div id="home-tab-3" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-03.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-03.jpg" alt="" loading="lazy">
 
                                     <div class="accordion-home__label">
                                         от <span>400₽</span>
@@ -990,7 +990,7 @@ get_header();
                             <div id="home-tab-4" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-04.jpg" alt="" loading="lazy">
 
                                     <div class="accordion-home__label">
                                         от <span>2000₽</span>
@@ -1251,7 +1251,7 @@ get_header();
                             <div id="home-tab-5" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-05.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-05.jpg" alt="" loading="lazy">
 
                                     <div class="accordion-home__label">
                                         от <span>3500₽</span>
@@ -1290,7 +1290,7 @@ get_header();
                                             Внутрикостная дентальная имплантация “Astra” (Швеция)
                                         </div>
                                         <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=4_5#4_5">О методе</a></div>
-                                        <div class="accordion-home__price-price">39 900 ₽</div>
+                                        <div class="accordion-home__price-price">60 000 ₽</div>
                                     </div>
                                 </div>
 
@@ -1313,7 +1313,7 @@ get_header();
                             <div id="home-tab-6" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-06.jpg" alt="" loading="lazy">
 
                                     <div class="accordion-home__label">
                                         от <span>1500₽</span>
@@ -1412,7 +1412,7 @@ get_header();
                             <div id="home-tab-7" class="accordion-home__content">
 
                                 <div class="accordion-home__img-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-07.jpg" alt="">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/price/page-services-07.jpg" alt="" loading="lazy">
 
                                     <div class="accordion-home__label">
                                         от <span>2 000₽</span>
@@ -1443,7 +1443,7 @@ get_header();
                                             Профессиональная гигиена полости рта и зубов + ”Аэр-фло”
                                         </div>
                                         <div class="accordion-home__price-link"><a href="https://zubkivsem.ru/uslugi/?a=6_2#6_2">О методе</a></div>
-                                        <div class="accordion-home__price-price"> ₽</div>
+                                        <div class="accordion-home__price-price">4 500 ₽</div>
                                     </div>
 
                                     <div class="accordion-home__price-item">

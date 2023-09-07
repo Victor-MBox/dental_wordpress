@@ -10,9 +10,9 @@
                 </div>
                 <div class="footer__description"><?php the_field('footer_tekst', 'option'); ?></div>
                 <div class="footer__social social">
-                    <a href="https://telegram.im/@zubkivsem1" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
-                    <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
-                    <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                    <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                    <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                    <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
 
                 <p>Рейтинг на yandex.ru</p>
                 <div class="footer__rating">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/stars.svg" alt="">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/stars.svg" alt="" loading="lazy">
                     <p>277 Оценок</p>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                     <path d="M25 0a25 25 0 100 50 25 25 0 000-50zm1.03 38.37c-2.42 0-4.8-.6-6.9-1.76l-7.67 2 2.05-7.45a14.3 14.3 0 01-1.93-7.2c0-7.92 6.49-14.38 14.45-14.38a14.4 14.4 0 110 28.79z" fill="#27D061"></path>
                 </svg>
             </a>
-            <a target="_blank" href="https://telegram.im/@zubkivsem1">
+            <a target="_blank" href="https://t.me/zubkivsem">
                 <svg class="t-sociallinks__svg" width="50px" height="50px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z" fill="#1d98dc"></path>
                 </svg>
@@ -235,7 +235,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> на консультацию ;)</div>
                 <div class="thanks-modal__subtitle">Наши специалисты свяжутся <br> с вами в самое ближайшее время</div>
@@ -251,7 +251,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> на наши акции ;)</div>
                 <div class="thanks-modal__subtitle">Теперь вы будете вкурсе новостей <br> клиники и проходящих акциях</div>
@@ -281,7 +281,7 @@
                 Рассчитать предварительную стоимость Вам поможет наш ЗубкиБот 🤖
             </div>
 
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/arrow-right2.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/arrow-right2.svg" alt="" loading="lazy">
 
         </div>
 
@@ -295,7 +295,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-08.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>11 лет</span></div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Инне Владимировне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -358,7 +358,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Инне Владимировне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Инна Владимировна даст на него ответ</div>
@@ -379,7 +379,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-09.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-09.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>12 лет</span></div>
                     </div>
                 </div>
@@ -425,7 +425,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Зейналу Вилаяддиновичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -442,7 +442,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Зейналу Вилаяддиновичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Зейнал Вилаяддинович даст на него ответ</div>
@@ -463,7 +463,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-04.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-04.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>12 лет</span></div>
                     </div>
                 </div>
@@ -509,7 +509,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Анарбеку Муктарбековичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -526,7 +526,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Анарбеку Муктарбековичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Анарбек Муктарбекович даст на него ответ</div>
@@ -547,7 +547,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-010.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-010.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>32 года</span></div>
                     </div>
                 </div>
@@ -593,7 +593,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Антону Анатольевичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -610,7 +610,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Антону Анатольевичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Антон Анатольевич даст на него ответ</div>
@@ -631,7 +631,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-06.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>13 лет</span></div>
                     </div>
                 </div>
@@ -677,7 +677,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Василию Валентиновичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -694,7 +694,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Василию Валентиновичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Василий Валентинович даст на него ответ</div>
@@ -715,7 +715,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-01.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-01.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>7 лет</span></div>
                     </div>
                 </div>
@@ -761,7 +761,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Антону Олеговичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -778,7 +778,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Антону Олеговичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Антон Олегович даст на него ответ</div>
@@ -799,7 +799,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-03.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-03.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>12 лет</span></div>
                     </div>
                 </div>
@@ -845,7 +845,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Илье Владимировичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -862,7 +862,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Илье Владимировичу</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Илья Владимирович даст на него ответ</div>
@@ -883,7 +883,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-07.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>18 лет</span></div>
                     </div>
                 </div>
@@ -929,7 +929,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Рабият Магомедгаджиевне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -946,7 +946,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Рабият Магомедгаджиевне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Рабият Магомедгаджиевна даст на него ответ</div>
@@ -966,7 +966,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-02.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-02.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>10 лет</span></div>
                     </div>
                 </div>
@@ -1012,7 +1012,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Асият Хамитовна</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -1029,7 +1029,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Асият Хамитовна</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Асият Хамитовна даст на него ответ</div>
@@ -1049,7 +1049,7 @@
                 <div class="modal-form__column modal-form__column_img">
 
                     <div class="modal-form__doctor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-05.jpg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/doctors/doc-05.jpg" alt="" loading="lazy">
                         <div class="modal-form__label">стаж <span>2 года</span></div>
                     </div>
                 </div>
@@ -1095,7 +1095,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> к <span>Марине Александровне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
@@ -1112,7 +1112,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Вы задали вопрос <br> <span>Марине Александровне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Марина Александровна даст на него ответ</div>
@@ -1442,7 +1442,7 @@
 
             <div class="thanks-modal__wrapper">
 
-                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt=""></div>
+                <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
                 <div class="thanks-modal__title">Благодарим за запись <br> на консультацию ;)</div>
                 <div class="thanks-modal__subtitle">Наши специалисты свяжутся с вами в самое ближайшее время и подробно проинформируют по проходящим акциям</div>
@@ -1461,7 +1461,7 @@
 
 <!-- 1C script -->
 <!-- <script src="//reservi.ru/4.0/812444789/"></script> -->
-
+<div class="uwaw-footer" style="display: none !important;">Content</div>                            
 <?php
 wp_footer();
 ?>

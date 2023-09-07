@@ -387,7 +387,7 @@ SimpleChatbot.resetTemplate = function() {
     return;
   }
   $root.innerHTML =
-		'<div class="chatbot__title"><span class="chatbot__close"></span><span class="chatbot__title-name"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/bot-avatar.jpeg" alt=""> ЗубкиБот</span><span class="chatbot__reset"></span></div><div class="chatbot__wrapper"><div class="chatbot__items"></div></div><div class="chatbot__footer"><input class="chatbot__input" type="text" disabled><button class="chatbot__submit" type="button" disabled></button></div> <div class="chatbot__footer-developer"><a href="https://creators-group.ru/"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/icons/poweredBy.svg" alt=""> Powered by <span> Creators Group</span></a></div>'
+		'<div class="chatbot__title"><span class="chatbot__close"></span><span class="chatbot__title-name"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/bot-avatar.jpeg" alt="" loading="lazy"> ЗубкиБот</span><span class="chatbot__reset"></span></div><div class="chatbot__wrapper"><div class="chatbot__items"></div></div><div class="chatbot__footer"><input class="chatbot__input" type="text" disabled><button class="chatbot__submit" type="button" disabled></button></div> <div class="chatbot__footer-developer"><a href="https://creators-group.ru/"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/icons/poweredBy.svg" alt="" loading="lazy"> Powered by <span> Creators Group</span></a></div>'
 };
 
 // основной шаблон чат-бота
@@ -399,7 +399,7 @@ SimpleChatbot.createTemplate = function() {
   const $fragment = document.createElement('div');
   $fragment.className = 'chatbot chatbot_hidden';
   $fragment.innerHTML =
-		'<div class="chatbot__title"><span class="chatbot__close"></span><span class="chatbot__title-name"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/bot-avatar.jpeg" alt=""> ЗубкиБот</span><span class="chatbot__reset"></span></div><div class="chatbot__wrapper"><div class="chatbot__items"></div></div><div class="chatbot__footer"><input class="chatbot__input" placeholder="" type="text" disabled><button class="chatbot__submit" type="button" disabled></button></div> <div class="chatbot__footer-developer"><a href="https://creators-group.ru/"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/icons/poweredBy.svg" alt=""> Powered by <span> Creators Group</span></a></div>'
+		'<div class="chatbot__title"><span class="chatbot__close"></span><span class="chatbot__title-name"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/bot-avatar.jpeg" alt="" loading="lazy"> ЗубкиБот</span><span class="chatbot__reset"></span></div><div class="chatbot__wrapper"><div class="chatbot__items"></div></div><div class="chatbot__footer"><input class="chatbot__input" placeholder="" type="text" disabled><button class="chatbot__submit" type="button" disabled></button></div> <div class="chatbot__footer-developer"><a href="https://creators-group.ru/"><img src="https://zubkivsem.ru/wp-content/themes/dental/assets/img/icons/poweredBy.svg" alt="" loading="lazy"> Powered by <span> Creators Group</span></a></div>'
   document.body.appendChild($fragment);
   return document.querySelector('.chatbot');
 };

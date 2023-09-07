@@ -157,6 +157,11 @@ $(document).ready(function () {
 /* *************************************************
 ТАб УСЛУГИ на главной странице */
 $(document).ready(function () {
+	if (window.matchMedia('(max-width: 768px)').matches) {
+		// Если ширина экрана 768px или меньше (обычно это мобильные устройства), прекращаем выполнение скрипта
+		return
+	}
+
 	const tabsBtn = document.querySelectorAll('.tabs__nav-btn')
 	const tabsItems = document.querySelectorAll('.tabs__item')
 
@@ -191,6 +196,7 @@ $(document).ready(function () {
 			.dispatchEvent(new Event('mouseenter'))
 	}
 })
+
 
 /* ***************************************************
 Мобильное АККОРДЕОН на главной странице */

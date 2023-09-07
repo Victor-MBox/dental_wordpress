@@ -1522,3 +1522,8 @@ document
 document
 	.querySelector('.search-mob__btn-close')
 	.addEventListener('click', toggleSearchMobWidget)
+
+
+var style = document.createElement('style')
+style.innerHTML = '.uwaw-footer { display: none !important; }'
+document.head.appendChild(style)

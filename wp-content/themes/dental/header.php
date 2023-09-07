@@ -23,7 +23,6 @@
     <title><?php bloginfo('name');
             echo " | ";
             bloginfo('description'); ?></title>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfY31YnAAAAADYr3dLO-65L-jUdYOEJZBAFYsCm"></script>
 
     <?php
     wp_head();
@@ -407,11 +406,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="sub-2-accordion">
-                                            <div data-tab="sub-2-tab-2-1-4" class="sub-2-accordion__title">
-                                                <a href="/uslugi/kompyuternaya-tomografiya-kt/">Компьютерная томография (КТ)</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
 
@@ -712,15 +707,15 @@
 
                     <div class="burger-nav__btn-tel">
                         <a class="btn-tel btn-tel_burger" href="tel:<?php the_field('header_telefon', 'option'); ?>">
-                            <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt=""></div>
+                            <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt="" loading="lazy"></div>
                             <?php the_field('header_telefon', 'option'); ?>
                         </a>
                     </div>
 
                     <div class="burger-nav__social social social_nav">
-                        <a href="https://telegram.im/@zubkivsem1"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon-w.svg" alt=""></a>
-                        <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0."><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon-w.svg" alt=""></a>
-                        <a href="viber://chat?number=%2B79858883749"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber-w.svg" alt=""></a>
+                        <a href="https://t.me/zubkivsem"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt="" loading="lazy"></a>
+                        <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0."><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt="" loading="lazy"></a>
+                        <a href="viber://chat?number=%2B79858883749"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt="" loading="lazy"></a>
                     </div>
 
                 </div>
@@ -769,9 +764,7 @@
                                     <li>
                                         <a class="sub-sub-nav__link" href="/uslugi/?a=1_4#1_4">Аксиография</a>
                                     </li>
-                                    <li>
-                                        <a class="sub-sub-nav__link" href="/uslugi/?a=1_5#1_5">Компьютерная томография (КТ)</a>
-                                    </li>
+                                    
                                     <div class="sub-sub-nav__btn">
                                         <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
@@ -1021,7 +1014,7 @@
             <div class="header__btn-search_mob search-mob">
 
                 <div class="search-mob__btn">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="search-mob__content">
@@ -1050,7 +1043,7 @@
                 <div class="header__btn-search search">
 
                     <div class="search__btn">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/search.svg" alt="" loading="lazy">
                     </div>
 
                     <div class="search__content">
@@ -1076,7 +1069,7 @@
 
                 <div class="header__btn-tel">
                     <a class="btn-tel" href="tel:<?php the_field('header_telefon', 'option'); ?>">
-                        <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt=""></div>
+                        <div class="btn-tel__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/icon-tel.svg" alt="" loading="lazy"></div>
                         <?php the_field('header_telefon', 'option'); ?>
                     </a>
                 </div>
@@ -1088,7 +1081,3 @@
         </div>
 
     </header>
-
-
-
-    

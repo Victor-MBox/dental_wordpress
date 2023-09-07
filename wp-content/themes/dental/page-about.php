@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -44,7 +44,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('about-main_izobrazhenie') ?>" alt="">
+                        <img src="<?php the_field('about-main_izobrazhenie') ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -167,7 +167,7 @@ get_header();
                 <div class="page-about-section__banner">
 
                     <div class="page-content__banner-wrapper">
-                        <img src="<?php the_field('about-content_izobrazhenie') ?>" alt="">
+                        <img src="<?php the_field('about-content_izobrazhenie') ?>" alt="" loading="lazy">
                     </div>
 
                     <div class="page-about-section__label"><span><?php the_field('about-content_yarlyk_1') ?> </span><?php the_field('about-content_yarlyk_1_tekst') ?></div>
@@ -186,7 +186,7 @@ get_header();
                     <div class="page-about-section__slider-wrapper" id="aboutLaboratorySlider">
 
                         <?php while (have_rows('about-content_slajdy')) : the_row(); ?>
-                            <img src="<?php the_sub_field('slajd') ?>" alt="">
+                            <img src="<?php the_sub_field('slajd') ?>" alt="" loading="lazy">
                         <?php endwhile; ?>
 
 
@@ -205,12 +205,12 @@ get_header();
 
             <div class="page-about-section__chapter">
                 <div class="page-about-section__quote">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/about/yuliya-igorevna.jpeg" alt="" loading="lazy">
                     <div class="page-about-section__quote-text">“Мы не просто делаем зубы, мы помогаем людям обрести уверенность и повысить свой уровень жизни!”
                     </div>
                     <div class="page-about-section__quote-label">
                         <span>Замура <br> Юлия Игоревна</span>
-                        Руководитель зуботехнической лаборатории
+                        Генеральный Директор
                     </div>
                 </div>
             </div>

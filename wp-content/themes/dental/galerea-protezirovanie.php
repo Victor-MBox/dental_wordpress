@@ -44,9 +44,9 @@ get_header();
                                     <span id="after" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-03-after.jpg" alt="" class="before-after__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-03-after.jpg" alt="" loading="lazy" class="before-after__img">
                                         <div class="before-after__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-03-before.jpg" alt="" class="before-after__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-03-before.jpg" alt="" loading="lazy" class="before-after__img">
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -82,9 +82,9 @@ get_header();
                                     <span id="after2" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after2__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-02-after.jpg" alt="" class="before-after2__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-02-after.jpg" alt="" loading="lazy" class="before-after2__img">
                                         <div class="before-after2__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-02-before.jpg" alt="" class="before-after2__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-02-before.jpg" alt="" loading="lazy" class="before-after2__img">
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -119,9 +119,9 @@ get_header();
                                     <span id="after3" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after3__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-05-after.jpg" alt="" class="before-after3__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-05-after.jpg" alt="" loading="lazy" class="before-after3__img">
                                         <div class="before-after3__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-05-before.jpg" alt="" class="before-after3__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-05-before.jpg" alt="" loading="lazy" class="before-after3__img">
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -155,9 +155,9 @@ get_header();
                                     <span id="after4" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after4__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-06-after.jpg" alt="" class="before-after4__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-06-after.jpg" alt="" loading="lazy" class="before-after4__img">
                                         <div class="before-after4__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-06-before.jpg" alt="" class="before-after4__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-06-before.jpg" alt="" loading="lazy" class="before-after4__img">
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -191,9 +191,9 @@ get_header();
                                     <span id="after5" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after5__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after5__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" loading="lazy" class="before-after5__img">
                                         <div class="before-after5__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after5__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" loading="lazy" class="before-after5__img">
                                         </div>
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -227,9 +227,9 @@ get_header();
                                     <span id="after6" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after6__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-07-after.jpg" alt="" class="before-after6__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-07-after.jpg" alt="" loading="lazy" class="before-after6__img">
                                         <div class="before-after6__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-07-before.jpg" alt="" class="before-after6__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-07-before.jpg" alt="" loading="lazy" class="before-after6__img">
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +238,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -262,9 +262,9 @@ get_header();
                                     <span id="after7" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after7__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-after.jpg" alt="" class="before-after7__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-after.jpg" alt="" loading="lazy" class="before-after7__img">
                                         <div class="before-after7__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-before.jpg" alt="" class="before-after7__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-11-before.jpg" alt="" loading="lazy" class="before-after7__img">
                                         </div>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">

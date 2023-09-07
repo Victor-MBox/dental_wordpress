@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -43,7 +43,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('kontakty-main_kartinka') ?>" alt="">
+                        <img src="<?php the_field('kontakty-main_kartinka') ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -87,7 +87,7 @@ get_header();
     <section class="page-contact-second-section">
         <div class="container page-second-section__container">
             <div class="page-about-section__quote">
-                <img src="<?php the_field('kontakty-ruk_foto') ?>" alt="">
+                <img src="<?php the_field('kontakty-ruk_foto') ?>" alt="" loading="lazy">
                 <div class="page-about-section__quote-text">“<?php the_field('kontakty-ruk_pas') ?>”
                 </div>
                 <div class="page-about-section__quote-label">
@@ -96,7 +96,7 @@ get_header();
                 </div>
             </div>
             <div class="page-second-section__decor">
-                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-10.svg" alt="">
+                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-10.svg" alt="" loading="lazy">
             </div>
         </div>
     </section>
@@ -106,7 +106,7 @@ get_header();
 
             <div class="page-contact-third-section__column">
                 <div class="page-contact-third-section__info">
-                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/contacts/contact-info.svg" alt="">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/contacts/contact-info.svg" alt="" loading="lazy">
                 </div>
                 <div class="page-contact-third-section__title">Контакты</div>
                 <div class="page-contact-third-section__phone">
@@ -159,7 +159,7 @@ get_header();
 
         </div>
         <div class="page-contact-fourth-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="" loading="lazy">
         </div>
 
 

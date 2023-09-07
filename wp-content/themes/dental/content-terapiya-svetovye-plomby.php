@@ -26,7 +26,7 @@ get_header();
                         </div>
                     </div>
                     <div class="page-content__first-decor">
-                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
                     </div>
 
                     <div class="page-content__text">Пломбирование кариозных полостей ― заключительный этап лечения зуба. Выбрав световые пломбы, вы получаете прочность, долговечность и высокий эстетический результат.
@@ -42,32 +42,32 @@ get_header();
 
                     <div class="page-about-section__advantages-wrapper">
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-01.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-01.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">эстетичность ― большая палитра оттенков позволят идеально подобрать цвет, подходящий к своей эмали</div>
                         </div>
 
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-02.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-02.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">герметичность – высокая степень прилегания к стенкам исключает проникновение бактерий</div>
                         </div>
 
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-03.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-03.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">минимальная усадка предотвращает возникновение участков кариеса на границе пломбы и тканей зуба</div>
                         </div>
 
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-04.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-04.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">высокая прочность при любой жевательной нагрузке</div>
                         </div>
 
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-05.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-05.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">долговечность до 10-15 лет</div>
                         </div>
 
                         <div class="page-about-section__advantages">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-06.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/about/ic-about-06.svg" alt="" loading="lazy">
                             <div class="page-about-section__advantages-text">безопасность для здоровья – материал нетоксичный, гипоаллергенный</div>
                         </div>
                     </div>
@@ -121,12 +121,12 @@ get_header();
                     <div class="page-content__table">
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="" loading="lazy">
                             <p>Услуга</p>
                         </div>
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="" loading="lazy">
                             <p>Стоимость</p>
                         </div>
                     </div>
@@ -171,9 +171,9 @@ get_header();
                             <span id="after" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" class="before-after__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-after.jpg" alt="" loading="lazy" class="before-after__img">
                                 <div class="before-after__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" class="before-after__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-08-before.jpg" alt="" loading="lazy" class="before-after__img">
                                 </div>
                             </div>
 
@@ -182,7 +182,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">
@@ -208,9 +208,9 @@ get_header();
                             <span id="after2" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after2__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" class="before-after2__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-after.jpg" alt="" loading="lazy" class="before-after2__img">
                                 <div class="before-after2__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" class="before-after2__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-09-before.jpg" alt="" loading="lazy" class="before-after2__img">
                                 </div>
                             </div>
                             <div class="before-after__procedure procedure">
@@ -218,7 +218,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">
@@ -243,9 +243,9 @@ get_header();
                             <span id="after3" class="after__btn">ПОСЛЕ</span>
 
                             <div class="before-after3__gallery">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after3__img">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" loading="lazy" class="before-after3__img">
                                 <div class="before-after3__gallery-after">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after3__img">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" loading="lazy" class="before-after3__img">
                                 </div>
                             </div>
                             <div class="before-after__procedure procedure">
@@ -253,7 +253,7 @@ get_header();
                                     <div class="procedure__row-all">
 
                                         <div class="procedure__img">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                         </div>
 
                                         <div class="procedure__row-wrapper">

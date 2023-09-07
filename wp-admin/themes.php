@@ -388,7 +388,7 @@ foreach ( $themes as $theme ) :
 <div class="theme<?php echo $active_class; ?>">
 	<?php if ( ! empty( $theme['screenshot'][0] ) ) { ?>
 		<div class="theme-screenshot">
-			<img src="<?php echo esc_url( $theme['screenshot'][0] . '?ver=' . $theme['version'] ); ?>" alt="" />
+			<img src="<?php echo esc_url( $theme['screenshot'][0] . '?ver=' . $theme['version'] ); ?>" alt="" loading="lazy" />
 		</div>
 	<?php } else { ?>
 		<div class="theme-screenshot blank"></div>
@@ -740,7 +740,7 @@ function wp_theme_auto_update_setting_template() {
 <script id="tmpl-theme" type="text/template">
 	<# if ( data.screenshot[0] ) { #>
 		<div class="theme-screenshot">
-			<img src="{{ data.screenshot[0] }}?ver={{ data.version }}" alt="" />
+			<img src="{{ data.screenshot[0] }}?ver={{ data.version }}" alt="" loading="lazy" />
 		</div>
 	<# } else { #>
 		<div class="theme-screenshot blank"></div>
@@ -961,7 +961,7 @@ function wp_theme_auto_update_setting_template() {
 		<div class="theme-about wp-clearfix">
 			<div class="theme-screenshots">
 			<# if ( data.screenshot[0] ) { #>
-				<div class="screenshot"><img src="{{ data.screenshot[0] }}?ver={{ data.version }}" alt="" /></div>
+				<div class="screenshot"><img src="{{ data.screenshot[0] }}?ver={{ data.version }}" alt="" loading="lazy" /></div>
 			<# } else { #>
 				<div class="screenshot blank"></div>
 			<# } #>

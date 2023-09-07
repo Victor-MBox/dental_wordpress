@@ -1923,12 +1923,12 @@ $(document).ready(function () {
 $('input[name=phone]').mask('+7 (999) 999-99-99')
 
 //reCAPTCHA
-function onSubmit(token) {
-	var formIds = ['form-1', 'form-2', 'form-3', 'form-modal']
-	formIds.forEach(function (formId) {
-		document.getElementById(formId).submit()
-	})
-}
+// function onSubmit(token) {
+// 	var formIds = ['form-1', 'form-2', 'form-3', 'form-modal']
+// 	formIds.forEach(function (formId) {
+// 		document.getElementById(formId).submit()
+// 	})
+// }
 
 // * Форма в ЧАТ БОТЕ
 $(document).on('focus', 'input[name=phone]', function () {

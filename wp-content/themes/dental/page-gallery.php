@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-9.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-9.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -35,7 +35,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('gallery-main_izobrazhenie') ?>" alt="">
+                        <img src="<?php the_field('gallery-main_izobrazhenie') ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@ get_header();
                         <div id="<?php the_sub_field('id-tab') ?>" class="accordion-home__content">
 
                             <div class="accordion-home__img-wrapper">
-                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="" loading="lazy">
                             </div>
 
                             <a class="btn btn_mob" href="<?php the_sub_field('ssylka') ?>">Смотреть работы</a>
@@ -247,7 +247,7 @@ get_header();
                     <div class="page-content__chapter page-content__chapter_margin">
                         <div class="page-content__banner page-content__banner_galerea">
                             <div class="page-content__banner-wrapper">
-                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="" loading="lazy">
                             </div>
                         </div>
 
@@ -256,7 +256,7 @@ get_header();
                                 <div class="procedure__row-all">
 
                                     <div class="procedure__img">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                     </div>
 
                                     <div class="procedure__row-wrapper">

@@ -1479,7 +1479,7 @@
 				'<input type="hidden" value="' + attachment.id + '" name="' + this.getInputName() + '[]">',
 				'<div class="margin" title="">',
 					'<div class="thumbnail">',
-						'<img src="" alt="">',
+						'<img src="" alt="" loading="lazy">',
 					'</div>',
 					'<div class="filename"></div>',
 				'</div>',

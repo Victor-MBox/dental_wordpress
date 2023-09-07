@@ -25,14 +25,14 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('banner-doktor_photo'); ?>" alt="">
+                                    <img src="<?php the_field('banner-doktor_photo'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('banner-doktor_fio'); ?></div>
                                 <div class="page-content__label">стаж <span><?php the_field('banner-doktor_stazh'); ?></span></div>
                                 <div class="page-content__label-prof"><span><?php the_field('banner-doktor_dolzhnost'); ?></span></div>
                                 <div class="page-content__btn-call">
-                                    <button class="btn-call" data-modal="antonovskijModal">
+                                    <button class="btn-call" data-modal="<?php the_field('id_modalnogo_okna'); ?>">
                                         <div class="btn-call__img"></div>
                                         <div class="btn-call__text">Записаться на прием <br> к <span><?php the_field('banner-doktor_zadat-vopros'); ?></span></div>
                                     </button>
@@ -80,25 +80,11 @@ get_header();
 
                             </div>
                             <div class="page-content__first-decor">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
                             </div>
 
                             <div class="page-content__chapter">
                                 <div class="page-content__text"><?php the_field('doctor_harakteristika'); ?></div>
-                                <div class="page-content__list">
-                                    <ul>
-                                        <?php while (have_rows('doctor-list_left')) : the_row(); ?>
-                                            <li><?php the_sub_field('element_spiska-l1'); ?></li>
-                                        <?php endwhile; ?>
-                                    </ul>
-                                    <ul>
-
-                                        <?php while (have_rows('doctor-list_right')) : the_row(); ?>
-                                            <li><?php the_sub_field('element_spiska-r1'); ?></li>
-                                        <?php endwhile; ?>                                                     
-                                    </ul>
-                                </div>
-
                             </div>
                         </div>
 

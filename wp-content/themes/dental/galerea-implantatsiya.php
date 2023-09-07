@@ -43,9 +43,9 @@ get_header();
                                     <span id="after" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-after.jpg" alt="" class="before-after__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-after.jpg" alt="" loading="lazy" class="before-after__img">
                                         <div class="before-after__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-before.jpg" alt="" class="before-after__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-01-before.jpg" alt="" loading="lazy" class="before-after__img">
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">
@@ -77,9 +77,9 @@ get_header();
                                     <span id="after2" class="after__btn">ПОСЛЕ</span>
 
                                     <div class="before-after2__gallery">
-                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" class="before-after2__img">
+                                        <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-after.jpg" alt="" loading="lazy" class="before-after2__img">
                                         <div class="before-after2__gallery-after">
-                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" class="before-after2__img">
+                                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/page/before-after/portfolio-10-before.jpg" alt="" loading="lazy" class="before-after2__img">
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ get_header();
                                         <div class="procedure__row-all">
 
                                             <div class="procedure__img">
-                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="">
+                                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/procedure__img.svg" alt="" loading="lazy">
                                             </div>
 
                                             <div class="procedure__row-wrapper">

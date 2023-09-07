@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-6.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -41,7 +41,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('stocks-main_izobrazhenie') ?>" alt="">
+                        <img src="<?php the_field('stocks-main_izobrazhenie') ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -200,7 +200,7 @@ get_header();
                         <div class="buttons-page-3__text">Гарантия на услуги</div>
                     </a>
 
-                    <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                    <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
 
                 </div>
 
@@ -256,7 +256,7 @@ get_header();
                         <div class="page-about-section__banner">
 
                             <div class="accordion-home__img-wrapper">
-                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="">
+                                <img src="<?php the_sub_field('izobrazhenie') ?>" alt="" loading="lazy">
                             </div>
 
                             <div class="page-stock__btn-call">

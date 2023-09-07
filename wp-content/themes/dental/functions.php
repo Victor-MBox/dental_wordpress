@@ -117,3 +117,18 @@ function add_file_types_to_uploads($file_types)
   return $file_types;
 }
 add_action('upload_mimes', 'add_file_types_to_uploads');
+
+
+
+function mytheme_widgets_init()
+{
+  register_sidebar(array(
+    'name'          => 'Боковая панель 1',
+    'id'            => 'sidebar-1',
+    'before_widget' => '<section id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h2 class="widget-title">',
+    'after_title'   => '</h2>',
+  ));
+}
+add_action('widgets_init', 'mytheme_widgets_init');

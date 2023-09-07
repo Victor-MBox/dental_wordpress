@@ -34,12 +34,12 @@ get_header();
                     <div class="page-content__table">
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price.svg" alt="" loading="lazy">
                             <p>Услуга</p>
                         </div>
 
                         <div class="page-content__column-table">
-                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="">
+                            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-price-2.svg" alt="" loading="lazy">
                             <p>Стоимость</p>
                         </div>
                     </div>

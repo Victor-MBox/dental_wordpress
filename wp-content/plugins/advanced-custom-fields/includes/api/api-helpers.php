@@ -3824,7 +3824,7 @@ function acf_get_post_thumbnail( $post = null, $size = 'thumbnail' ) {
 	}
 
 	// html
-	$data['html'] = '<img src="' . $data['url'] . '" alt="" />';
+	$data['html'] = '<img src="' . $data['url'] . '" alt="" loading="lazy" />';
 
 	// return
 	return $data;

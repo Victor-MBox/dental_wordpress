@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-9.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-9.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -41,7 +41,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('reviews-main_kartinka') ?>" alt="">
+                        <img src="<?php the_field('reviews-main_kartinka') ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -157,7 +157,7 @@ get_header();
                 <div class="sw-app" data-app="0f2bd5f81a4db98242a326d90cf8b5c5"></div>
             </div>
         </div>
-        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+        <img class="page-price-section__buttons-decor" src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
     </section>
 </div>
 

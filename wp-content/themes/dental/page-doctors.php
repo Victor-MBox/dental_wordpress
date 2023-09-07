@@ -12,9 +12,9 @@ get_header();
     <section class="page-main-section page-main-section_about">
 
         <div class="page-main-section__decor">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="">
-            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-7.svg" alt="">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-2.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-8.svg" alt="" loading="lazy">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-7.svg" alt="" loading="lazy">
         </div>
 
         <div class="container">
@@ -43,7 +43,7 @@ get_header();
 
                 <div class="page-main-section__column">
                     <div class="page-main-section__img">
-                        <img src="<?php the_field('all-doctors_kartinka'); ?>" alt="">
+                        <img src="<?php the_field('all-doctors_kartinka'); ?>" alt="" loading="lazy">
                     </div>
                 </div>
 
@@ -115,7 +115,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh'); ?></span></div>
@@ -129,7 +129,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-2'); ?></span></div>
@@ -143,7 +143,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-3'); ?></span></div>
@@ -169,7 +169,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-4'); ?></span></div>
@@ -187,7 +187,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-5'); ?></span></div>
@@ -205,7 +205,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-6'); ?></span></div>
@@ -233,7 +233,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-7'); ?></span></div>
@@ -261,7 +261,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-8'); ?></span></div>
@@ -277,7 +277,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-9'); ?></span></div>
@@ -305,7 +305,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__label">стаж <span><?php the_field('all-doctors_stazh-10'); ?></span></div>
@@ -515,7 +515,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio'); ?></div>
@@ -573,7 +573,7 @@ get_header();
                             <button class="link-page-2" href="borisenko-inna-vladimirovna/" data-sect="1" data-hl="1">Подробнее</button>
 
                             <div class="page-content__first-decor">
-                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="">
+                                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/page/page-decor-4.svg" alt="" loading="lazy">
                             </div>
                         </div>
 
@@ -581,7 +581,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-2'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-2'); ?></div>
@@ -639,7 +639,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-3'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-3'); ?></div>
@@ -701,7 +701,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-4'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-4'); ?></div>
@@ -763,7 +763,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-5'); ?>" alt="" loading="lazy">
                                 </div>
 
 
@@ -826,7 +826,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-6'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-6'); ?></div>
@@ -888,7 +888,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-7'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-7'); ?></div>
@@ -950,7 +950,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-8'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-8'); ?></div>
@@ -1013,7 +1013,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-9'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-9'); ?></div>
@@ -1074,7 +1074,7 @@ get_header();
                             <div class="page-content__banner">
 
                                 <div class="page-content__banner-wrapper">
-                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="">
+                                    <img src="<?php the_field('all-doctors_foto-10'); ?>" alt="" loading="lazy">
                                 </div>
 
                                 <div class="page-content__name"><?php the_field('all-doctors_fio-10'); ?></div>

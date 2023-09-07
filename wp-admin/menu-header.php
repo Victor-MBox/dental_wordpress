@@ -123,7 +123,7 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		 * as special cases.
 		 */
 		if ( ! empty( $item[6] ) ) {
-			$img = '<img src="' . esc_url( $item[6] ) . '" alt="" />';
+			$img = '<img src="' . esc_url( $item[6] ) . '" alt="" loading="lazy" />';
 
 			if ( 'none' === $item[6] || 'div' === $item[6] ) {
 				$img = '<br />';
