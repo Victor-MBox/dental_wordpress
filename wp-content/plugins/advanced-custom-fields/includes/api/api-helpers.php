@@ -1050,11 +1050,6 @@ function acf_get_terms( $args ) {
 		)
 	);
 
-	// parameters changed in version 4.5
-	if ( acf_version_compare( 'wp', '<', '4.5' ) ) {
-		return get_terms( $args['taxonomy'], $args );
-	}
-
 	// return
 	return get_terms( $args );
 }
@@ -3824,7 +3819,7 @@ function acf_get_post_thumbnail( $post = null, $size = 'thumbnail' ) {
 	}
 
 	// html
-	$data['html'] = '<img src="' . $data['url'] . '" alt="" loading="lazy" />';
+	$data['html'] = '<img src="' . $data['url'] . '" alt="" />';
 
 	// return
 	return $data;

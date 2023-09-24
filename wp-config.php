@@ -1,4 +1,6 @@
 <?php
+define( 'WP_CACHE', false ); // Added by WP Rocket
+
 /**
  * Основные параметры WordPress.
  *
@@ -20,13 +22,13 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'dental' );
+define( 'DB_NAME', 'dental-new' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'dental_Admin' );
+define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', 'g@Hk8$Czg@Hk8$Cz' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Имя сервера базы данных */
 define( 'DB_HOST', 'localhost' );

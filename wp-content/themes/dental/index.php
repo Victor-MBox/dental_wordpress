@@ -9,7 +9,36 @@ get_header();
         <div class="container main-section__container">
 
             <div id="loader">
-                <img src="<?php echo bloginfo('template_url'); ?>/assets/img/ajax-loader.gif" alt="Loading..." />
+
+                <div class="main-section__slide">
+
+                    <div class="main-section__column">
+                        <div class="main-section__social social">
+                            <a href="https://t.me/zubkivsem" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/tg_icon.svg" alt=""></a>
+                            <a href="https://wa.me/79858883749?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%2C%20%D1%8F%20%D0%BA%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/ws_icon.svg" alt=""></a>
+                            <a href="viber://chat?number=%2B79858883749" target="blank"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/soc/viber.svg" alt=""></a>
+                        </div>
+
+                        <div class="main-section__content">
+                            <h1 class="main-section__title"> <?php the_field('title_slide-1'); ?> </h1>
+                            <p class="main-section__subtitle"> <?php the_field('subtitle_slide-1'); ?> </p>
+                        </div>
+
+                        <div class="main-section__buttons">
+                            <a href="<?php the_field('btn_slide-1'); ?>" class="btn">Узнать больше</a>
+                            <button class="btn-play" data-modal="videoModal"></button>
+                        </div>
+                    </div>
+
+                    <div class="main-section__column">
+
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-1'); ?>" alt="">
+
+                        <div class="main-section__img-mob"></div>
+
+                    </div>
+                </div>
+
             </div>
 
             <div class="main-section__slick-slider" id="slickSlider">
@@ -36,7 +65,9 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-1'); ?>" alt="" loading="lazy">
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-1'); ?>" alt="" loading="lazy">
+
+                        <div class="main-section__img-mob"></div>
 
                     </div>
                 </div>
@@ -63,7 +94,9 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-2'); ?>" alt="" loading="lazy">
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-2'); ?>" alt="" loading="lazy">
+
+                        <div class="main-section__img-mob main-section__img-mob_sl2"></div>
 
                     </div>
                 </div>
@@ -90,7 +123,9 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-3'); ?>" alt="" loading="lazy">
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-3'); ?>" alt="" loading="lazy">
+
+                        <div class="main-section__img-mob main-section__img-mob_sl3"></div>
 
                     </div>
                 </div>
@@ -117,7 +152,9 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-4'); ?>" alt="" loading="lazy">
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-4'); ?>" alt="" loading="lazy">
+
+                        <div class="main-section__img-mob main-section__img-mob_sl4"></div>
 
                     </div>
                 </div>
@@ -144,7 +181,11 @@ get_header();
 
                     <div class="main-section__column">
 
-                        <img class="main-section__img" src="<?php the_field('img_slide-5'); ?>" alt="" loading="lazy">
+                        <img class="main-section__img" src="<?php the_field('img_slide-pk-5'); ?>" alt="" loading="lazy">
+
+                        <div class="main-section__img-mob main-section__img-mob_sl5"></div>
+
+
 
                     </div>
                 </div>
@@ -404,6 +445,7 @@ get_header();
                                     <li><a href="/uslugi/?a=5_2#5_2" class="tabs__link">Лечение брекетами</a></li>
                                     <li><a href="/uslugi/?a=5_3#5_3" class="tabs__link">Лечение ортодонтическими аппаратами</a></li>
                                     <li><a href="/uslugi/?a=5_4#5_4" class="tabs__link">Лечение элайнерами</a></li>
+                                    <li><a href="/uslugi/?a=5_5#5_5" class="tabs__link">Невидимые элайнеры</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -421,7 +463,7 @@ get_header();
                             <div class="tabs__list">
                                 <ul>
                                     <li><a href="/uslugi/?a=6_2#6_2" class="tabs__link">Профессиональная чистка AirFlow</a></li>
-                                    <li><a href="/uslugi/?a=6_3#6_3" class="tabs__link">Отбеливание ZOOM</a></li>
+                                    <li><a href="/uslugi/?a=6_3#6_3" class="tabs__link">Отбеливание</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -668,7 +710,7 @@ get_header();
                                     <div class="btn-call__text">Оставьте номер телефона <br>мы вам перезвоним</div>
                                 </button>
                             </div>
-                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>
+                            <a class="accordion-home__btn" href="/uslugi/">Узнать больше</a>               
                         </div>
                     </div>
                 </div>
@@ -832,7 +874,7 @@ get_header();
             <div class="laboratory-section__column">
                 <div class="laboratory-section__image">
                     <div class="laboratory-section__decor-red decor-red"></div>
-                    <img src="<?php the_field('home-lab_img') ?>" alt="" loading="lazy">                                  
+                    <img src="<?php the_field('home-lab_img') ?>" alt="" loading="lazy">
                     <div class="laboratory-section__decor-yellow decor-yellow"></div>
 
                 </div>

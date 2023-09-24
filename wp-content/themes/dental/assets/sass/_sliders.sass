@@ -1,8 +1,11 @@
 /* Slick slider Главный экран на главной */
 .main-section
     &__slick-slider
+        opacity: 0
+        transition: .5s
         display: none
     &__slick-slider.slick-initialized
+        opacity: 1
         display: block
 
     .slick-initialized .slick-slide

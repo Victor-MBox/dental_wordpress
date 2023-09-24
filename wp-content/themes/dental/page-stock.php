@@ -107,7 +107,7 @@ get_header();
                             <div class="btn-wrapper__number">01</div>
                         </div>
                         <div class="btn-wrapper__column">
-                            <div class="btn-wrapper__title">При установке 5 виниров – <b> 6-й дарим </b>в подарок!</div>
+                            <div class="btn-wrapper__title">При установке 6 виниров – <b> один дарим </b>в подарок!</div>
                         </div>
                     </a>
 
@@ -147,7 +147,7 @@ get_header();
                             <div class="btn-wrapper__number">05</div>
                         </div>
                         <div class="btn-wrapper__column">
-                            <div class="btn-wrapper__title">Каждый второй имплант <b>со скидкой 50%</b>!</div>
+                            <div class="btn-wrapper__title">Имплантация «под ключ».</div>
                         </div>
                     </a>
 
@@ -157,7 +157,7 @@ get_header();
                             <div class="btn-wrapper__number">06</div>
                         </div>
                         <div class="btn-wrapper__column">
-                            <div class="btn-wrapper__title">Имплантация All-on-4 на одну челюсть <b>150.000₽ </b>только в июле!</div>
+                            <div class="btn-wrapper__title">Имплантация All-on-4 на одну челюсть <b>150.000₽ </b>только в сентябре!</div>
                         </div>
                     </a>
 

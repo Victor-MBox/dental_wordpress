@@ -1107,6 +1107,12 @@
 
 @media (max-width: 768px)
 
+    #loader
+        position: absolute
+        left: 0
+        top: 78px
+        margin: 0 15px
+
     /* Header */
     .burger
         right: 26px
@@ -1244,36 +1250,75 @@
     /* Главный экран */
     .main-section
         background: #E8F1FF
-        background-image: url(assets/img/bg/main-section-bg-1.svg), url(assets/img/bg/main-section-bg-2.svg), url(assets/img/bg/main-section-bg-3.svg)
-        background-repeat: no-repeat, no-repeat, no-repeat
-        background-position: 10px 20px, 80% 40%, 50% 100%
-        padding-top: 54px
-        min-height: 660px
+        padding-top: 34px
+        min-height: 970px
+        &__container
+            position: static
+        &__slide
+            flex-direction: column
+        &__subtitle
+            display: none
+        &__buttons
+            position: absolute
+            bottom: -66px
+            left: 0
         &__column
             min-height: 400px
             height: auto
             &:first-child
+                min-height: auto
+                height: 226px
                 width: 100%
+                position: static
+                order: 1
+                margin-top: -366px
+                z-index: 2
             &:last-child
-                display: none
+                min-height: 300px
+                width: 110%
+                margin-left: -30px
+
+                img
+                    margin: 0 auto
         &__title
-            font-size: 32px
-            line-height: 38px
+            font-size: 26px
+            line-height: 28px
+            padding: 10px
+            background: #ffffffd9
+            border-radius: 20px
+            box-shadow: 0px 8px 15px rgba(7, 0, 59, 0.1)
+
             br
                 display: none
+
         &__subtitle
             margin-bottom: 30px
             padding-right: 0
+        &__img
+            display: none!important
+        &__img-mob
+            display: block !important
+            width: 106%
+            background: url(https://zubkivsem.ru/wp-content/webp-express/webp-images/uploads/2023/09/sl-mb-01.jpg.webp) center top/cover no-repeat;
+            min-height: 890px
+            &_sl2
+                background: url(https://zubkivsem.ru/wp-content/webp-express/webp-images/uploads/2023/09/sl-mb-02.jpg.webp) center top/cover no-repeat;
+            &_sl3
+                background: url(https://zubkivsem.ru/wp-content/webp-express/webp-images/uploads/2023/09/sl-mb-03.jpg.webp) center top/cover no-repeat;
+            &_sl4
+                background: url(https://zubkivsem.ru/wp-content/webp-express/webp-images/uploads/2023/09/sl-mb-04.jpg.webp) center top/cover no-repeat;
+            &_sl5
+                background: url(https://zubkivsem.ru/wp-content/webp-express/webp-images/uploads/2023/09/sl-mb-05.jpg.webp) center top/cover no-repeat;
+
         &__absolut-btn
             left: 16px
-            bottom: 10px
-            display: block
+            bottom: 2px
 
         &__btn-calc
-            margin-right: 0
+            margin-right: 12px
             margin-bottom: 4px
         .slick-dots
-            bottom: -24px
+            bottom: -10px
     /* Наши Преимущества */
     .second-section
         &__column
@@ -2054,18 +2099,17 @@
     /* Главная страница */
         /* Главный экран */
     .main-section
-        min-height: 620px
+        min-height: 800px
         &__title
-            font-size: 26px
-            line-height: 30px
-            br
-                display: none
-        &__subtitle
-            padding-right: 0
-            br
-                display: none
-        .slick-dots
-            bottom: 18px
+            font-size: 24px
+            line-height: 26px
+        &__img-mob
+            min-height: 530px
+        &__column:first-child
+            margin-top: -234px
+        &__absolut-btn
+            display: block
+            bottom: 0px
 
         /* Наши Преимущества */
     .second-section
@@ -2316,14 +2360,15 @@
     /* Главная страница */
         /* Главный экран */
     .main-section
-        min-height: 630px
         &__title
-            font-size: 24px
-            line-height: 26px
+            font-size: 22px
+            line-height: 24px
         &__subtitle
             line-height: 18px
+        &__buttons
+            bottom: -70px
         .slick-dots
-            bottom: 6px
+            bottom: -6px
         /* Наши Преимущества */
 
     .title

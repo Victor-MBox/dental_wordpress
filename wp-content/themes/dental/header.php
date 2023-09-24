@@ -329,6 +329,34 @@
 
 <body>
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(93524967, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/93524967" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
     <!-- Header -->
     <header class="header">
         <div class="main-overlay" id="mainOverlay" onclick="removeClasses()"></div>
@@ -406,7 +434,7 @@
                                             </div>
                                         </div>
 
-                                        
+
                                     </div>
                                 </div>
 
@@ -535,6 +563,12 @@
                                                 <a href="/uslugi/lechenie-elajnerami/">Лечение элайнерами</a>
                                             </div>
                                         </div>
+
+                                        <div class="sub-2-accordion">
+                                            <div data-tab="sub-2-tab-2-5-4" class="sub-2-accordion__title">
+                                                <a href="/uslugi/nevidimye-elajnery/">Невидимые элайнеры</a>
+                                            </div>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -554,7 +588,7 @@
 
                                         <div class="sub-2-accordion">
                                             <div data-tab="sub-2-tab-2-6-2" class="sub-2-accordion__title">
-                                                <a href="/uslugi/otbelivanie-zoom/">Отбеливание ZOOM</a>
+                                                <a href="/uslugi/otbelivanie-zoom/">Отбеливание</a>
                                             </div>
                                         </div>
                                     </div>
@@ -640,7 +674,7 @@
 
                             <div id="tab-5" class="accordion__content">
 
-                                <a href="/akczii/#stock-01">При установке 5 виниров – подарок!</a>
+                                <a href="/akczii/#stock-01">При установке 6 виниров – подарок!</a>
 
                                 <a href="/akczii/#stock-02">Профессиональное отбеливание зубов</a>
 
@@ -648,7 +682,7 @@
 
                                 <a href="/akczii/#stock-04">Коронка из самого прочного материала</a>
 
-                                <a href="/akczii/#stock-05">Каждый второй имплант со скидкой 50%</a>
+                                <a href="/akczii/#stock-05">Имплантация «под ключ»</a>
 
                                 <a href="/akczii/#stock-06">Имплантация All-on-4 на одну челюсть</a>
 
@@ -764,7 +798,7 @@
                                     <li>
                                         <a class="sub-sub-nav__link" href="/uslugi/?a=1_4#1_4">Аксиография</a>
                                     </li>
-                                    
+
                                     <div class="sub-sub-nav__btn">
                                         <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
@@ -868,6 +902,9 @@
                                     <li>
                                         <a class="sub-sub-nav__link" href="/uslugi/?a=5_4#5_4">Лечение элайнерами</a>
                                     </li>
+                                    <li>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=5_5#5_5">Невидимые элайнеры</a>
+                                    </li>
                                     <div class="sub-sub-nav__btn">
                                         <a class="btn btn_white" href="/uslugi/">Все услуги</a>
                                     </div>
@@ -880,7 +917,7 @@
                                         <a class="sub-sub-nav__link" href="/uslugi/?a=6_2#6_2">Профессиональная чистка AirFlow</a>
                                     </li>
                                     <li>
-                                        <a class="sub-sub-nav__link" href="/uslugi/?a=6_3#6_3">Отбеливание ZOOM</a>
+                                        <a class="sub-sub-nav__link" href="/uslugi/?a=6_3#6_3">Отбеливание</a>
                                     </li>
                                     <div class="sub-sub-nav__btn">
                                         <a class="btn btn_white" href="/uslugi/">Все услуги</a>
@@ -964,7 +1001,7 @@
                         <a class="nav__link" href="/akczii/">Акции</a>
                         <ul class="sub-nav__list sub-nav__list_promotion">
                             <li>
-                                <a class="sub-nav__link" href="/akczii/#stock-01">При установке 5 виниров – подарок!</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-01">При установке 6 виниров – подарок!</a>
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="/akczii/#stock-02">Профессиональное отбеливание зубов</a>
@@ -976,7 +1013,7 @@
                                 <a class="sub-nav__link" href="/akczii/#stock-04">Коронка из самого прочного материала</a>
                             </li>
                             <li>
-                                <a class="sub-nav__link" href="/akczii/#stock-05">Каждый второй имплант со скидкой 50%</a>
+                                <a class="sub-nav__link" href="/akczii/#stock-05">Имплантация «под ключ»</a>
                             </li>
                             <li>
                                 <a class="sub-nav__link" href="/akczii/#stock-06">Имплантация All-on-4 на одну челюсть</a>

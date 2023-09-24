@@ -973,13 +973,13 @@
 
                 <div class=" modal-form__column">
                     <div class="modal-form__title">Записаться на прием <br>
-                        к <span>Асият Хамитовна</span></div>
+                        к <span>Асият Хамитовне</span></div>
 
                     <div class="feedback-form__form">
 
                         <form action="#" class="form-modal" id="form-modalBajkulova">
 
-                            <input type="hidden" name="form_name" value="Запись на прием к Асият Хамитовна">
+                            <input type="hidden" name="form_name" value="Запись на прием к Асият Хамитовне">
 
                             <div class="form-modal__input">
                                 <input type="text" name="name" placeholder="Имя" class="input">
@@ -1014,7 +1014,7 @@
 
                 <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
-                <div class="thanks-modal__title">Благодарим за запись <br> к <span>Асият Хамитовна</span></div>
+                <div class="thanks-modal__title">Благодарим за запись <br> к <span>Асият Хамитовне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время мы свяжемся с вами для уточнения деталей записи </div>
 
                 <div class="thanks-modal__btn">
@@ -1031,7 +1031,7 @@
 
                 <div class="thanks-modal__img"><img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/heart.svg" alt="" loading="lazy"></div>
 
-                <div class="thanks-modal__title">Вы задали вопрос <br> <span>Асият Хамитовна</span></div>
+                <div class="thanks-modal__title">Вы задали вопрос <br> <span>Асият Хамитовне</span></div>
                 <div class="thanks-modal__subtitle">В ближайшее время, Асият Хамитовна даст на него ответ</div>
                 <div class="thanks-modal__btn">
                     <button>Закрыть</button>
@@ -1289,7 +1289,7 @@
             <div class="modal-form__title">
                 Записаться на консультацию
             </div>
-            <div class="modal-form__subtitle">Каждый второй имплант со скидкой 50%!</div>
+            <div class="modal-form__subtitle">Имплантация «под ключ»</div>
 
             <div class="feedback-form__form">
 

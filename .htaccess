@@ -1,4 +1,3 @@
-
 # BEGIN WordPress
 # Директивы (строки) между `BEGIN WordPress` и `END WordPress`
 # созданы автоматически и подлежат изменению только через фильтры WordPress.
@@ -6,11 +5,14 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /Dental/
+RewriteBase /Dental_last/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Dental/index.php [L]
+RewriteRule . /Dental_last/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN WebP Express
+# WebP Express has placed its rules in your wp-content dir. Go there.
+# END WebP Express

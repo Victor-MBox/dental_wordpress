@@ -215,6 +215,7 @@ get_header();
                                 <li><a href="lechenie-breketami/">Лечение брекетами</a></li>
                                 <li><a href="lechenie-ortodonticheskimi-apparatami/">Лечение ортодонтическими аппаратами</a></li>
                                 <li><a href="lechenie-elajnerami/">Лечение элайнерами</a></li>
+                                <li><a href="nevidimye-elajnery/">Невидимые элайнеры</a></li>
                             </ul>
                             <div class="accordion-home__link-decor accordion-home__link-decor_blue"></div>
 
@@ -248,7 +249,7 @@ get_header();
                             <ul>
                                 <li><a href="gigiena-i-otbelivanie-zubov/">Общая информация</a></li>
                                 <li><a href="professionalnaya-chistka-airflow/">Профессиональная чистка AirFlow</a></li>
-                                <li><a href="otbelivanie-zoom/">Отбеливание ZOOM</a></li>
+                                <li><a href="otbelivanie-zoom/">Отбеливание</a></li>
                             </ul>
                             <div class="accordion-home__link-decor accordion-home__link-decor_red"></div>
                         </div>
@@ -315,7 +316,7 @@ get_header();
                             <li><button class="link-page" href="ortopantomografiya-optg/" id="vrb1_2" onclick="toggleActiveClass(this)">Ортопантомография (ОПТГ)</button></li>
                             <li><button class="link-page" href="priczelnyi-snimok/" id="vrb1_3" onclick="toggleActiveClass(this)">Прицельный снимок</button></li>
                             <li><button class="link-page" href="aksiografiya/" id="vrb1_4" onclick="toggleActiveClass(this)">Аксиография</button></li>
-                            
+
                         </ul>
 
                     </div>
@@ -432,8 +433,9 @@ get_header();
                                 <li><button class="link-page" href="lechenie-breketami/" id="vrb5_2" onclick="toggleActiveClass(this)">Лечение брекетами</button></li>
                                 <li><button class="link-page" href="lechenie-ortodonticheskimi-apparatami/" id="vrb5_3" onclick="toggleActiveClass(this)">Лечение ортодонтическими аппаратами</button></li>
                                 <li><button class="link-page" href="lechenie-elajnerami/" id="vrb5_4" onclick="toggleActiveClass(this)">Лечение элайнерами</button></li>
+                                <li><button class="link-page" href="nevidimye-elajnery/" id="vrb5_5" onclick="toggleActiveClass(this)">Невидимые элайнеры</button></li>
                             </ul>
-                        </div>
+                        </div>                      
                     </div>
                 </div>
                 <div class="accordion-page">
@@ -455,7 +457,7 @@ get_header();
                             <ul>
                                 <li><button class="link-page" href="gigiena-i-otbelivanie-zubov/" id="vrb6_1" onclick="toggleActiveClass(this)">Общая информация</button></li>
                                 <li><button class="link-page" href="professionalnaya-chistka-airflow/" id="vrb6_2" onclick="toggleActiveClass(this)">Профессиональная чистка AirFlow</button></li>
-                                <li><button class="link-page" href="otbelivanie-zoom/" id="vrb6_3" onclick="toggleActiveClass(this)">Отбеливание ZOOM</button></li>
+                                <li><button class="link-page" href="otbelivanie-zoom/" id="vrb6_3" onclick="toggleActiveClass(this)">Отбеливание</button></li>
                             </ul>
                         </div>
                     </div>
@@ -589,8 +591,8 @@ get_header();
 
                     <div class="page-content__title">Наши специалисты</div>
 
-                    <?php 
-                    get_template_part('widget-karusel-s-doktorami'); 
+                    <?php
+                    get_template_part('widget-karusel-s-doktorami');
                     ?>
 
                     <a href="/vrachi/" class="btn">Все специалисты</a>
